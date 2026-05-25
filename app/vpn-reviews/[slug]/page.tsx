@@ -5,6 +5,7 @@ import { getProvider, providers } from '@/content/providers'
 import CTABox from '@/components/CTABox'
 import ProviderLogo from '@/components/ProviderLogo'
 import JsonLd from '@/components/JsonLd'
+import { Check, X, ChevronRight } from 'lucide-react'
 
 export async function generateStaticParams() {
   return providers.map((p) => ({ slug: p.slug }))
@@ -132,12 +133,12 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
       <div className="grid sm:grid-cols-2 gap-4 my-8">
         <div className="bg-green-50 rounded-2xl p-5">
           <h3 className="font-bold text-green-800 mb-3 flex items-center gap-2">
-            <span className="text-green-500">✓</span> Voordelen
+            <Check className="w-4 h-4 text-green-500" strokeWidth={2.5} /> Voordelen
           </h3>
           <ul className="space-y-2">
             {p.voordelen.map((v) => (
               <li key={v} className="text-sm text-green-700 flex items-start gap-2">
-                <span className="text-green-400 mt-0.5 flex-shrink-0">✓</span>
+                <Check className="w-3.5 h-3.5 text-green-400 mt-0.5 flex-shrink-0" strokeWidth={2.5} />
                 {v}
               </li>
             ))}
@@ -145,12 +146,12 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
         </div>
         <div className="bg-red-50 rounded-2xl p-5">
           <h3 className="font-bold text-red-800 mb-3 flex items-center gap-2">
-            <span className="text-red-400">✗</span> Nadelen
+            <X className="w-4 h-4 text-red-400" strokeWidth={2.5} /> Nadelen
           </h3>
           <ul className="space-y-2">
             {p.nadelen.map((n) => (
               <li key={n} className="text-sm text-red-700 flex items-start gap-2">
-                <span className="text-red-400 mt-0.5 flex-shrink-0">✗</span>
+                <X className="w-3.5 h-3.5 text-red-400 mt-0.5 flex-shrink-0" strokeWidth={2.5} />
                 {n}
               </li>
             ))}
@@ -176,7 +177,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
       </div>
       {p.prijzen.gratisPeriode && (
         <p className="text-sm text-gray-500 mb-8 flex items-center gap-2">
-          <span className="text-green-500">✓</span> {p.prijzen.gratisPeriode}
+          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={2.5} /> {p.prijzen.gratisPeriode}
         </p>
       )}
 
@@ -186,21 +187,32 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
         <table className="w-full text-sm">
           <tbody>
             {[
-              { label: 'Geen-logs beleid', value: p.features.noLogs ? '✓ Ja' : '✗ Nee', ok: p.features.noLogs },
-              { label: 'Kill switch', value: p.features.killSwitch ? '✓ Ja' : '✗ Nee', ok: p.features.killSwitch },
-              { label: 'Split tunneling', value: p.features.splitTunneling ? '✓ Ja' : '✗ Nee', ok: p.features.splitTunneling },
-              { label: 'Aantal apparaten', value: p.features.aantalApparaten === 'onbeperkt' ? '∞ Onbeperkt' : `${p.features.aantalApparaten} tegelijk`, ok: true },
-              { label: 'Servers', value: `${p.features.aantalServers.toLocaleString('nl')}+`, ok: true },
-              { label: 'Landen', value: `${p.features.aantalLanden} landen`, ok: true },
-              { label: 'Werkt met Netflix', value: p.features.werktMetNetflix ? '✓ Ja' : '✗ Nee', ok: p.features.werktMetNetflix },
-              { label: 'P2P / Torrenten', value: p.features.werktMetTorrenten ? '✓ Toegestaan' : '✗ Niet toegestaan', ok: p.features.werktMetTorrenten },
-              { label: 'Protocollen', value: p.features.protocols.join(', '), ok: true },
-              { label: 'Hoofdkantoor', value: p.features.hoofdkantoor, ok: true },
-              { label: 'Opgericht', value: String(p.features.opgericht), ok: true },
-            ].map(({ label, value, ok }, i) => (
+              { label: 'Geen-logs beleid', bool: true, ok: p.features.noLogs },
+              { label: 'Kill switch', bool: true, ok: p.features.killSwitch },
+              { label: 'Split tunneling', bool: true, ok: p.features.splitTunneling },
+              { label: 'Aantal apparaten', text: p.features.aantalApparaten === 'onbeperkt' ? '∞ Onbeperkt' : `${p.features.aantalApparaten} tegelijk` },
+              { label: 'Servers', text: `${p.features.aantalServers.toLocaleString('nl')}+` },
+              { label: 'Landen', text: `${p.features.aantalLanden} landen` },
+              { label: 'Werkt met Netflix', bool: true, ok: p.features.werktMetNetflix },
+              { label: 'P2P / Torrenten', bool: true, ok: p.features.werktMetTorrenten },
+              { label: 'Protocollen', text: p.features.protocols.join(', ') },
+              { label: 'Hoofdkantoor', text: p.features.hoofdkantoor },
+              { label: 'Opgericht', text: String(p.features.opgericht) },
+            ].map(({ label, bool, ok, text }, i) => (
               <tr key={label} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                 <td className="px-5 py-3 text-gray-500 font-medium w-1/2">{label}</td>
-                <td className={`px-5 py-3 font-semibold ${ok ? 'text-gray-800' : 'text-red-500'}`}>{value}</td>
+                <td className="px-5 py-3">
+                  {bool ? (
+                    <span className={`flex items-center gap-1.5 font-semibold ${ok ? 'text-green-600' : 'text-red-500'}`}>
+                      {ok
+                        ? <Check className="w-4 h-4" strokeWidth={2.5} />
+                        : <X className="w-4 h-4" strokeWidth={2.5} />}
+                      {ok ? 'Ja' : 'Nee'}
+                    </span>
+                  ) : (
+                    <span className="text-gray-700 font-medium">{text}</span>
+                  )}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -224,9 +236,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
             </div>
             <div className="flex items-center gap-3">
               <span className="text-sm font-bold text-blue-600">{alt.scores.overall}/10</span>
-              <svg className="w-4 h-4 text-gray-300 group-hover:text-blue-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
+              <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-blue-500 transition-colors" />
             </div>
           </Link>
         ))}

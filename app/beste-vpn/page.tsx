@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { providers } from '@/content/providers'
 import VPNCard from '@/components/VPNCard'
+import { Film, Tv, Download, Gamepad2, Gift, Tag } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Beste VPN Nederland 2026 | Volledige Vergelijking',
@@ -9,12 +10,12 @@ export const metadata: Metadata = {
 }
 
 const usecases = [
-  { href: '/beste-vpn/voor-netflix', emoji: '🎬', label: 'Netflix' },
-  { href: '/beste-vpn/voor-streaming', emoji: '📺', label: 'Streaming' },
-  { href: '/beste-vpn/voor-torrenten', emoji: '⬇️', label: 'Torrenten' },
-  { href: '/beste-vpn/voor-gaming', emoji: '🎮', label: 'Gaming' },
-  { href: '/beste-vpn/gratis', emoji: '🆓', label: 'Gratis' },
-  { href: '/beste-vpn/goedkoop', emoji: '💰', label: 'Goedkoopst' },
+  { href: '/beste-vpn/voor-netflix', Icon: Film, label: 'Netflix' },
+  { href: '/beste-vpn/voor-streaming', Icon: Tv, label: 'Streaming' },
+  { href: '/beste-vpn/voor-torrenten', Icon: Download, label: 'Torrenten' },
+  { href: '/beste-vpn/voor-gaming', Icon: Gamepad2, label: 'Gaming' },
+  { href: '/beste-vpn/gratis', Icon: Gift, label: 'Gratis' },
+  { href: '/beste-vpn/goedkoop', Icon: Tag, label: 'Goedkoopst' },
 ]
 
 export default function BesteVPNPage() {
@@ -35,13 +36,13 @@ export default function BesteVPNPage() {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-wrap justify-center gap-2">
             <span className="text-sm text-gray-400 self-center mr-2">Filter op:</span>
-            {usecases.map(({ href, emoji, label }) => (
+            {usecases.map(({ href, Icon, label }) => (
               <Link
                 key={href}
                 href={href}
                 className="flex items-center gap-1.5 px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-600 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 transition-all"
               >
-                <span>{emoji}</span> {label}
+                <Icon className="w-3.5 h-3.5" /> {label}
               </Link>
             ))}
           </div>

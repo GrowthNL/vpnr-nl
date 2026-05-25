@@ -1,10 +1,31 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { providers } from '@/content/providers'
+import {
+  Star, Zap, ShieldCheck, ThumbsUp, Tag, Euro, Smartphone,
+  Server, MapPin, Film, Download, EyeOff, Power, Scissors,
+  Building2, CalendarCheck, Check, X,
+} from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'VPN Vergelijken 2026 | Zet VPN\'s Naast Elkaar',
+  title: "VPN Vergelijken 2026 | Zet VPN's Naast Elkaar",
   description: 'Vergelijk VPN-diensten op alle kenmerken: prijs, snelheid, beveiliging, servers en meer. Vind de beste VPN voor jouw situatie.',
+}
+
+function LabelCell({ Icon, label }: { Icon: React.ElementType; label: string }) {
+  return (
+    <span className="flex items-center gap-1.5 text-gray-500 font-medium text-xs">
+      <Icon className="w-3.5 h-3.5 text-blue-400 flex-shrink-0" />
+      {label}
+    </span>
+  )
+}
+
+function Yes() {
+  return <Check className="w-4 h-4 text-green-500 mx-auto" strokeWidth={2.5} />
+}
+function No() {
+  return <X className="w-4 h-4 text-red-400 mx-auto" strokeWidth={2.5} />
 }
 
 export default function VergelijkenPage() {
@@ -33,25 +54,76 @@ export default function VergelijkenPage() {
             </thead>
             <tbody>
               {([
-                { label: '⭐ Totaalscore', render: (p: typeof providers[0]) => <span className="font-black text-blue-600 text-base">{p.scores.overall}/10</span> },
-                { label: '⚡ Snelheid', render: (p: typeof providers[0]) => `${p.scores.snelheid}/10` },
-                { label: '🔒 Beveiliging', render: (p: typeof providers[0]) => `${p.scores.beveiliging}/10` },
-                { label: '😊 Gebruiksgemak', render: (p: typeof providers[0]) => `${p.scores.gebruiksgemak}/10` },
-                { label: '💰 Prijs/kwaliteit', render: (p: typeof providers[0]) => `${p.scores.prijsKwaliteit}/10` },
-                { label: '💶 Prijs per maand', render: (p: typeof providers[0]) => <span className="font-bold">€{p.prijzen.tweeJaar ?? p.prijzen.jaarlijks}</span> },
-                { label: '📱 Apparaten', render: (p: typeof providers[0]) => p.features.aantalApparaten === 'onbeperkt' ? <span className="font-bold text-green-600">Onbeperkt</span> : String(p.features.aantalApparaten) },
-                { label: '🌍 Servers', render: (p: typeof providers[0]) => `${p.features.aantalServers.toLocaleString('nl')}+` },
-                { label: '📍 Landen', render: (p: typeof providers[0]) => String(p.features.aantalLanden) },
-                { label: '🎬 Netflix', render: (p: typeof providers[0]) => p.features.werktMetNetflix ? <span className="text-green-600 font-bold text-base">✓</span> : <span className="text-red-400 text-base">✗</span> },
-                { label: '⬇️ P2P/Torrenten', render: (p: typeof providers[0]) => p.features.werktMetTorrenten ? <span className="text-green-600 font-bold text-base">✓</span> : <span className="text-red-400 text-base">✗</span> },
-                { label: '📋 No-logs', render: (p: typeof providers[0]) => p.features.noLogs ? <span className="text-green-600 font-bold text-base">✓</span> : <span className="text-red-400 text-base">✗</span> },
-                { label: '🔌 Kill switch', render: (p: typeof providers[0]) => p.features.killSwitch ? <span className="text-green-600 font-bold text-base">✓</span> : <span className="text-red-400 text-base">✗</span> },
-                { label: '✂️ Split tunneling', render: (p: typeof providers[0]) => p.features.splitTunneling ? <span className="text-green-600 font-bold text-base">✓</span> : <span className="text-red-400 text-base">✗</span> },
-                { label: '🏛️ Hoofdkantoor', render: (p: typeof providers[0]) => p.features.hoofdkantoor },
-                { label: '📅 Garantie', render: (p: typeof providers[0]) => p.prijzen.gratisPeriode ?? '—' },
-              ] as { label: string; render: (p: typeof providers[0]) => React.ReactNode }[]).map(({ label, render }, i) => (
-                <tr key={label} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                  <td className="px-5 py-3.5 text-gray-500 font-medium text-xs">{label}</td>
+                {
+                  label: <LabelCell Icon={Star} label="Totaalscore" />,
+                  render: (p: typeof providers[0]) => <span className="font-black text-blue-600 text-base">{p.scores.overall}/10</span>,
+                },
+                {
+                  label: <LabelCell Icon={Zap} label="Snelheid" />,
+                  render: (p: typeof providers[0]) => `${p.scores.snelheid}/10`,
+                },
+                {
+                  label: <LabelCell Icon={ShieldCheck} label="Beveiliging" />,
+                  render: (p: typeof providers[0]) => `${p.scores.beveiliging}/10`,
+                },
+                {
+                  label: <LabelCell Icon={ThumbsUp} label="Gebruiksgemak" />,
+                  render: (p: typeof providers[0]) => `${p.scores.gebruiksgemak}/10`,
+                },
+                {
+                  label: <LabelCell Icon={Tag} label="Prijs/kwaliteit" />,
+                  render: (p: typeof providers[0]) => `${p.scores.prijsKwaliteit}/10`,
+                },
+                {
+                  label: <LabelCell Icon={Euro} label="Prijs/maand" />,
+                  render: (p: typeof providers[0]) => <span className="font-bold">€{p.prijzen.tweeJaar ?? p.prijzen.jaarlijks}</span>,
+                },
+                {
+                  label: <LabelCell Icon={Smartphone} label="Apparaten" />,
+                  render: (p: typeof providers[0]) =>
+                    p.features.aantalApparaten === 'onbeperkt'
+                      ? <span className="font-bold text-green-600">Onbeperkt</span>
+                      : String(p.features.aantalApparaten),
+                },
+                {
+                  label: <LabelCell Icon={Server} label="Servers" />,
+                  render: (p: typeof providers[0]) => `${p.features.aantalServers.toLocaleString('nl')}+`,
+                },
+                {
+                  label: <LabelCell Icon={MapPin} label="Landen" />,
+                  render: (p: typeof providers[0]) => String(p.features.aantalLanden),
+                },
+                {
+                  label: <LabelCell Icon={Film} label="Netflix" />,
+                  render: (p: typeof providers[0]) => p.features.werktMetNetflix ? <Yes /> : <No />,
+                },
+                {
+                  label: <LabelCell Icon={Download} label="P2P/Torrenten" />,
+                  render: (p: typeof providers[0]) => p.features.werktMetTorrenten ? <Yes /> : <No />,
+                },
+                {
+                  label: <LabelCell Icon={EyeOff} label="No-logs" />,
+                  render: (p: typeof providers[0]) => p.features.noLogs ? <Yes /> : <No />,
+                },
+                {
+                  label: <LabelCell Icon={Power} label="Kill switch" />,
+                  render: (p: typeof providers[0]) => p.features.killSwitch ? <Yes /> : <No />,
+                },
+                {
+                  label: <LabelCell Icon={Scissors} label="Split tunneling" />,
+                  render: (p: typeof providers[0]) => p.features.splitTunneling ? <Yes /> : <No />,
+                },
+                {
+                  label: <LabelCell Icon={Building2} label="Hoofdkantoor" />,
+                  render: (p: typeof providers[0]) => p.features.hoofdkantoor,
+                },
+                {
+                  label: <LabelCell Icon={CalendarCheck} label="Garantie" />,
+                  render: (p: typeof providers[0]) => p.prijzen.gratisPeriode ?? '—',
+                },
+              ] as { label: React.ReactNode; render: (p: typeof providers[0]) => React.ReactNode }[]).map(({ label, render }, i) => (
+                <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-5 py-3.5">{label}</td>
                   {providers.map((p) => (
                     <td key={p.slug} className="px-4 py-3.5 text-center text-gray-700 text-sm">{render(p)}</td>
                   ))}

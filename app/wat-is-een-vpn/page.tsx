@@ -3,6 +3,10 @@ import Link from 'next/link'
 import JsonLd from '@/components/JsonLd'
 import ProviderLogo from '@/components/ProviderLogo'
 import { providers } from '@/content/providers'
+import {
+  ShieldCheck, Wifi, Globe, Download, Tag, Home,
+  Zap, Activity, TrendingDown, Check, X, ChevronRight,
+} from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Wat is een VPN? Complete Uitleg 2026 | vpnr.nl',
@@ -235,38 +239,40 @@ export default function WatIsEenVPNPage() {
             <div className="grid sm:grid-cols-2 gap-4 mb-6">
               {[
                 {
-                  icon: '🔒',
+                  Icon: ShieldCheck,
                   title: 'Online privacy',
                   desc: 'Je internetprovider (KPN, Ziggo, T-Mobile) registreert al je surfgedrag. Met een VPN kunnen ze alleen zien dat je verbonden bent met een VPN — niet welke sites je bezoekt.',
                 },
                 {
-                  icon: '📶',
+                  Icon: Wifi,
                   title: 'Veiligheid op openbare wifi',
                   desc: 'Op het wifi-netwerk van een café, hotel of luchthaven kunnen kwaadwillenden je onversleuteld verkeer onderscheppen. Een VPN maakt dat onmogelijk.',
                 },
                 {
-                  icon: '🌍',
+                  Icon: Globe,
                   title: 'Geo-geblokkeerde content',
                   desc: 'Bepaalde Netflix-catalogi, BBC iPlayer en andere diensten zijn alleen beschikbaar in specifieke landen. Een VPN laat je een server kiezen in dat land.',
                 },
                 {
-                  icon: '⬇️',
+                  Icon: Download,
                   title: 'Anoniem torrenten',
                   desc: 'Bij torrenten is je IP-adres zichtbaar voor alle deelnemers in de swarm. Een VPN maskeert je IP en beschermt je identiteit.',
                 },
                 {
-                  icon: '💰',
+                  Icon: Tag,
                   title: 'Betere prijzen',
                   desc: 'Vluchten, hotels en software zijn soms goedkoper als je ze via een VPN uit een ander land boekt. Prijsdiscriminatie op basis van locatie is wijdverbreid.',
                 },
                 {
-                  icon: '🏠',
+                  Icon: Home,
                   title: 'Veilig thuiswerken',
-                  desc: 'Veel bedrijven vereisen een VPN-verbinding voor toegang tot interne systemen. Zakelijke VPN\'s werken op hetzelfde principe als consumentenVPN\'s.',
+                  desc: "Veel bedrijven vereisen een VPN-verbinding voor toegang tot interne systemen. Zakelijke VPN's werken op hetzelfde principe als consumentenVPN's.",
                 },
-              ].map(({ icon, title, desc }) => (
+              ].map(({ Icon, title, desc }) => (
                 <div key={title} className="bg-white card-main rounded-xl p-5">
-                  <div className="text-2xl mb-2">{icon}</div>
+                  <div className="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center mb-3">
+                    <Icon className="w-5 h-5 text-blue-600" />
+                  </div>
                   <h3 className="font-bold text-gray-900 mb-1.5">{title}</h3>
                   <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
                 </div>
@@ -307,17 +313,27 @@ export default function WatIsEenVPNPage() {
                 </thead>
                 <tbody>
                   {[
-                    { name: 'WireGuard', speed: '⚡ Zeer snel', security: '🔒 Uitstekend', use: 'Beste keuze voor de meeste gebruikers' },
-                    { name: 'OpenVPN', speed: '🟡 Goed', security: '🔒 Uitstekend', use: 'Bewezen betrouwbaar, router-support' },
-                    { name: 'IKEv2/IPSec', speed: '⚡ Snel', security: '🔒 Goed', use: 'Sterk op mobiel bij wisselend netwerk' },
-                    { name: 'L2TP/IPSec', speed: '🔴 Traag', security: '🟡 Matig', use: 'Verouderd, vermijd indien mogelijk' },
-                    { name: 'NordLynx', speed: '⚡ Snelst', security: '🔒 Uitstekend', use: 'NordVPN-eigen, gebouwd op WireGuard' },
-                    { name: 'Lightway', speed: '⚡ Zeer snel', security: '🔒 Uitstekend', use: 'ExpressVPN-eigen protocol' },
-                  ].map(({ name, speed, security, use }, i) => (
+                    { name: 'WireGuard', speedLabel: 'Zeer snel', speedClass: 'text-green-600', SpeedIcon: Zap, secLabel: 'Uitstekend', secClass: 'text-green-600', use: 'Beste keuze voor de meeste gebruikers' },
+                    { name: 'OpenVPN', speedLabel: 'Goed', speedClass: 'text-amber-500', SpeedIcon: Activity, secLabel: 'Uitstekend', secClass: 'text-green-600', use: 'Bewezen betrouwbaar, router-support' },
+                    { name: 'IKEv2/IPSec', speedLabel: 'Snel', speedClass: 'text-green-600', SpeedIcon: Zap, secLabel: 'Goed', secClass: 'text-blue-600', use: 'Sterk op mobiel bij wisselend netwerk' },
+                    { name: 'L2TP/IPSec', speedLabel: 'Traag', speedClass: 'text-red-500', SpeedIcon: TrendingDown, secLabel: 'Matig', secClass: 'text-amber-500', use: 'Verouderd, vermijd indien mogelijk' },
+                    { name: 'NordLynx', speedLabel: 'Snelst', speedClass: 'text-green-600', SpeedIcon: Zap, secLabel: 'Uitstekend', secClass: 'text-green-600', use: 'NordVPN-eigen, gebouwd op WireGuard' },
+                    { name: 'Lightway', speedLabel: 'Zeer snel', speedClass: 'text-green-600', SpeedIcon: Zap, secLabel: 'Uitstekend', secClass: 'text-green-600', use: 'ExpressVPN-eigen protocol' },
+                  ].map(({ name, speedLabel, speedClass, SpeedIcon, secLabel, secClass, use }, i) => (
                     <tr key={name} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}>
                       <td className="px-5 py-3 font-bold text-gray-900">{name}</td>
-                      <td className="px-5 py-3 text-gray-600">{speed}</td>
-                      <td className="px-5 py-3 text-gray-600">{security}</td>
+                      <td className="px-5 py-3">
+                        <span className={`flex items-center gap-1 font-medium text-xs ${speedClass}`}>
+                          <SpeedIcon className="w-3.5 h-3.5" />
+                          {speedLabel}
+                        </span>
+                      </td>
+                      <td className="px-5 py-3">
+                        <span className={`flex items-center gap-1 font-medium text-xs ${secClass}`}>
+                          <ShieldCheck className="w-3.5 h-3.5" />
+                          {secLabel}
+                        </span>
+                      </td>
                       <td className="px-5 py-3 text-gray-500 text-xs">{use}</td>
                     </tr>
                   ))}
@@ -348,7 +364,7 @@ export default function WatIsEenVPNPage() {
                     'Geen of zwakke versleuteling',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2">
-                      <span className="text-red-400 flex-shrink-0 mt-0.5">✗</span>
+                      <X className="w-3.5 h-3.5 text-red-400 flex-shrink-0 mt-0.5" strokeWidth={2.5} />
                       {item}
                     </li>
                   ))}
@@ -367,7 +383,7 @@ export default function WatIsEenVPNPage() {
                     'AES-256 versleuteling + WireGuard',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2">
-                      <span className="text-green-500 flex-shrink-0 mt-0.5">✓</span>
+                      <Check className="w-3.5 h-3.5 text-green-500 flex-shrink-0 mt-0.5" strokeWidth={2.5} />
                       {item}
                     </li>
                   ))}
@@ -542,8 +558,8 @@ export default function WatIsEenVPNPage() {
                 { href: '/beste-vpn/voor-torrenten', label: 'Beste VPN voor torrenten' },
                 { href: '/beste-vpn/goedkoop', label: 'Goedkoopste VPN van 2026' },
               ].map(({ href, label }) => (
-                <Link key={href} href={href} className="text-blue-600 hover:underline py-1 flex items-center gap-1">
-                  <span className="text-blue-300">→</span> {label}
+                <Link key={href} href={href} className="text-blue-600 hover:underline py-1 flex items-center gap-1.5">
+                  <ChevronRight className="w-3.5 h-3.5 text-blue-300 flex-shrink-0" /> {label}
                 </Link>
               ))}
             </div>

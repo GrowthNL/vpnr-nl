@@ -4,6 +4,10 @@ import VPNLogoMarquee from '@/components/VPNLogoMarquee'
 import IPBanner from '@/components/IPBanner'
 import JsonLd from '@/components/JsonLd'
 import { providers } from '@/content/providers'
+import {
+  Film, Tv, Download, Gamepad2, Gift, Tag,
+  ShieldCheck, Wifi, Globe, ChevronRight,
+} from 'lucide-react'
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -155,26 +159,26 @@ export default function HomePage() {
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { href: '/beste-vpn/voor-netflix', emoji: '🎬', title: 'Beste VPN voor Netflix', desc: 'Toegang tot buitenlandse Netflix-catalogi' },
-              { href: '/beste-vpn/voor-streaming', emoji: '📺', title: 'Beste VPN voor Streaming', desc: 'Disney+, HBO Max, BBC iPlayer en meer' },
-              { href: '/beste-vpn/voor-torrenten', emoji: '⬇️', title: 'Beste VPN voor Torrenten', desc: 'Veilig en anoniem torrenten' },
-              { href: '/beste-vpn/voor-gaming', emoji: '🎮', title: 'Beste VPN voor Gaming', desc: 'Lagere ping, betere verbinding' },
-              { href: '/beste-vpn/gratis', emoji: '🆓', title: 'Beste Gratis VPN', desc: 'Gratis opties zonder addertjes' },
-              { href: '/beste-vpn/goedkoop', emoji: '💰', title: 'Goedkoopste VPN', desc: 'Kwaliteit voor de laagste prijs' },
-            ].map(({ href, emoji, title, desc }) => (
+              { href: '/beste-vpn/voor-netflix', Icon: Film, title: 'Beste VPN voor Netflix', desc: 'Toegang tot buitenlandse Netflix-catalogi' },
+              { href: '/beste-vpn/voor-streaming', Icon: Tv, title: 'Beste VPN voor Streaming', desc: 'Disney+, HBO Max, BBC iPlayer en meer' },
+              { href: '/beste-vpn/voor-torrenten', Icon: Download, title: 'Beste VPN voor Torrenten', desc: 'Veilig en anoniem torrenten' },
+              { href: '/beste-vpn/voor-gaming', Icon: Gamepad2, title: 'Beste VPN voor Gaming', desc: 'Lagere ping, betere verbinding' },
+              { href: '/beste-vpn/gratis', Icon: Gift, title: 'Beste Gratis VPN', desc: 'Gratis opties zonder addertjes' },
+              { href: '/beste-vpn/goedkoop', Icon: Tag, title: 'Goedkoopste VPN', desc: 'Kwaliteit voor de laagste prijs' },
+            ].map(({ href, Icon, title, desc }) => (
               <Link
                 key={href}
                 href={href}
                 className="flex items-start gap-4 p-5 rounded-2xl border border-gray-100 bg-gray-50 hover:bg-blue-50 hover:border-blue-200 transition-all group"
               >
-                <span className="text-2xl flex-shrink-0">{emoji}</span>
-                <div>
+                <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-blue-200 transition-colors">
+                  <Icon className="w-5 h-5 text-blue-600" />
+                </div>
+                <div className="flex-1 min-w-0">
                   <div className="font-semibold text-gray-800 group-hover:text-blue-700 transition-colors text-sm">{title}</div>
                   <div className="text-xs text-gray-400 mt-1">{desc}</div>
                 </div>
-                <svg className="w-4 h-4 ml-auto text-gray-300 group-hover:text-blue-500 transition-colors flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+                <ChevronRight className="w-4 h-4 ml-auto text-gray-300 group-hover:text-blue-500 transition-colors flex-shrink-0 mt-0.5" />
               </Link>
             ))}
           </div>
@@ -187,13 +191,15 @@ export default function HomePage() {
           <h2 className="text-3xl font-black text-gray-900 text-center mb-12">Waarom heb je een VPN nodig?</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {[
-              { icon: '🔒', title: 'Privacy beschermen', desc: 'Jouw provider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt je verkeer volledig.' },
-              { icon: '📶', title: 'Veilig op openbare WiFi', desc: 'In hotels, cafés en luchthavens zijn netwerken onbeveiligd. Een VPN beschermt je wachtwoorden en bankgegevens.' },
-              { icon: '🌍', title: 'Geo-blokkades omzeilen', desc: 'Toegang tot content die alleen beschikbaar is in andere landen — Netflix US, BBC iPlayer, Peacock en meer.' },
-              { icon: '⬇️', title: 'Anoniem downloaden', desc: 'Torrenten zonder dat jouw IP-adres zichtbaar is voor derden of rechthouders.' },
-            ].map(({ icon, title, desc }) => (
+              { Icon: ShieldCheck, title: 'Privacy beschermen', desc: 'Jouw provider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt je verkeer volledig.' },
+              { Icon: Wifi, title: 'Veilig op openbare WiFi', desc: 'In hotels, cafés en luchthavens zijn netwerken onbeveiligd. Een VPN beschermt je wachtwoorden en bankgegevens.' },
+              { Icon: Globe, title: 'Geo-blokkades omzeilen', desc: 'Toegang tot content die alleen beschikbaar is in andere landen — Netflix US, BBC iPlayer, Peacock en meer.' },
+              { Icon: Download, title: 'Anoniem downloaden', desc: 'Torrenten zonder dat jouw IP-adres zichtbaar is voor derden of rechthouders.' },
+            ].map(({ Icon, title, desc }) => (
               <div key={title} className="card-main bg-white rounded-2xl p-6">
-                <div className="text-2xl mb-3">{icon}</div>
+                <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-4">
+                  <Icon className="w-5 h-5 text-blue-600" />
+                </div>
                 <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
               </div>

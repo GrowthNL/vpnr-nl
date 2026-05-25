@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usecases, getUseCase } from '@/content/usecases'
 import { getProvider } from '@/content/providers'
 import VPNCard from '@/components/VPNCard'
+import { Check } from 'lucide-react'
 
 export async function generateStaticParams() {
   return usecases.map((u) => ({ usecase: u.slug }))
@@ -44,7 +45,7 @@ export default async function UseCasePage({ params }: { params: Promise<{ usecas
       {/* Key feature */}
       <section className="bg-white border-b border-gray-100 py-4 px-4">
         <div className="max-w-4xl mx-auto flex items-center gap-2 text-sm text-gray-500">
-          <span className="text-green-500 font-bold">✓</span>
+          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={2.5} />
           <span>Waar op te letten: <strong className="text-gray-700">{u.keyFeature}</strong></span>
         </div>
       </section>
