@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import VPNCard from '@/components/VPNCard'
+import VPNLogoMarquee from '@/components/VPNLogoMarquee'
+import IPBanner from '@/components/IPBanner'
 import { providers } from '@/content/providers'
 
 export default function HomePage() {
@@ -7,56 +9,76 @@ export default function HomePage() {
 
   return (
     <>
+      <IPBanner />
+
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block bg-blue-600/50 text-blue-200 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-            Bijgewerkt mei 2025 · Onafhankelijke vergelijking
+      <section className="hero-glow relative overflow-hidden py-24 px-4">
+        {/* Decoratieve glow bollen */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-20 right-0 w-[400px] h-[400px] bg-blue-600/5 rounded-full blur-3xl pointer-events-none" />
+
+        <div className="relative max-w-4xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-white/60 text-xs font-medium px-4 py-2 rounded-full mb-8 backdrop-blur-sm">
+            <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
+            Bijgewerkt mei 2025 · Onafhankelijk getest
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
-            De beste VPN voor Nederland
+
+          <h1 className="text-5xl md:text-6xl font-black leading-[1.05] tracking-tight mb-6 text-white">
+            Vind de{' '}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-300">
+              beste VPN
+            </span>
+            <br />voor Nederland
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-            Wij testen en vergelijken alle populaire VPN-diensten zodat jij niet hoeft te gokken.
-            Veilig internetten, streamen en torrenten — voor elke behoefte de juiste keuze.
+
+          <p className="text-white/50 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+            Wij vergelijken alle populaire VPN-diensten op snelheid, beveiliging en prijs.
+            Vind de juiste keuze voor streaming, privacy of torrenten.
           </p>
+
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/beste-vpn"
-              className="bg-white text-blue-800 font-bold px-8 py-3.5 rounded-xl hover:bg-blue-50 transition-colors"
+              className="btn-shimmer text-white font-bold px-8 py-4 rounded-2xl text-base hover:scale-105 transition-transform shadow-xl shadow-blue-500/20"
             >
               Vergelijk alle VPN&apos;s
             </Link>
             <Link
               href="/wat-is-een-vpn"
-              className="border border-blue-400 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-blue-700/50 transition-colors"
+              className="border border-white/10 text-white/70 hover:text-white font-semibold px-8 py-4 rounded-2xl text-base hover:bg-white/5 transition-all"
             >
               Wat is een VPN?
             </Link>
           </div>
+
+          {/* Stats */}
+          <div className="flex flex-wrap justify-center gap-8 mt-14 pt-10 border-t border-white/5">
+            {[
+              { value: '20+', label: 'VPN\'s getest' },
+              { value: '100%', label: 'Onafhankelijk' },
+              { value: '2025', label: 'Actuele data' },
+              { value: '€2,49', label: 'Goedkoopste VPN' },
+            ].map(({ value, label }) => (
+              <div key={label} className="text-center">
+                <div className="text-2xl font-black text-white stat-number">{value}</div>
+                <div className="text-xs text-white/30 mt-0.5">{label}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Trust bar */}
-      <section className="bg-white border-b border-gray-100 py-4 px-4">
-        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-          {['100% onafhankelijk', 'Dagelijks bijgewerkt', 'Getest door experts', 'Geen verborgen agenda'].map((item) => (
-            <div key={item} className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
-              </svg>
-              {item}
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* VPN Logo Marquee */}
+      <VPNLogoMarquee />
 
       {/* Top 3 VPN's */}
-      <section className="py-16 px-4">
+      <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Beste VPN&apos;s van 2025</h2>
-            <p className="text-gray-500 max-w-xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-black text-white mb-3">
+              Beste VPN&apos;s van 2025
+            </h2>
+            <p className="text-white/40 max-w-lg mx-auto">
               Onze top 3 op basis van snelheid, beveiliging, prijs en gebruiksgemak.
             </p>
           </div>
@@ -70,10 +92,10 @@ export default function HomePage() {
               />
             ))}
           </div>
-          <div className="text-center mt-8">
+          <div className="text-center mt-10">
             <Link
               href="/beste-vpn"
-              className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:underline"
+              className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-semibold transition-colors"
             >
               Bekijk alle VPN-vergelijkingen
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -85,13 +107,15 @@ export default function HomePage() {
       </section>
 
       {/* Use cases */}
-      <section className="bg-white py-16 px-4">
+      <section className="py-20 px-4 border-y border-white/5 bg-white/[0.01]">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Beste VPN voor jouw situatie</h2>
+          <h2 className="text-3xl font-black text-white text-center mb-12">
+            Beste VPN voor jouw situatie
+          </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { href: '/beste-vpn/voor-netflix', emoji: '🎬', title: 'Beste VPN voor Netflix', desc: 'Toegang tot buitenlandse Netflix-catalogi' },
-              { href: '/beste-vpn/voor-streaming', emoji: '📺', title: 'Beste VPN voor Streaming', desc: 'Disney+, HBO, BBC iPlayer en meer' },
+              { href: '/beste-vpn/voor-streaming', emoji: '📺', title: 'Beste VPN voor Streaming', desc: 'Disney+, HBO Max, BBC iPlayer en meer' },
               { href: '/beste-vpn/voor-torrenten', emoji: '⬇️', title: 'Beste VPN voor Torrenten', desc: 'Veilig en anoniem torrenten' },
               { href: '/beste-vpn/voor-gaming', emoji: '🎮', title: 'Beste VPN voor Gaming', desc: 'Lagere ping, betere verbinding' },
               { href: '/beste-vpn/gratis', emoji: '🆓', title: 'Beste Gratis VPN', desc: 'Gratis opties zonder addertjes' },
@@ -100,13 +124,16 @@ export default function HomePage() {
               <Link
                 key={href}
                 href={href}
-                className="flex items-start gap-4 p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
+                className="flex items-start gap-4 p-5 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-500/20 transition-all group"
               >
                 <span className="text-2xl flex-shrink-0">{emoji}</span>
                 <div>
-                  <div className="font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">{title}</div>
-                  <div className="text-sm text-gray-500 mt-0.5">{desc}</div>
+                  <div className="font-semibold text-white/80 group-hover:text-white transition-colors text-sm">{title}</div>
+                  <div className="text-xs text-white/30 mt-1">{desc}</div>
                 </div>
+                <svg className="w-4 h-4 ml-auto text-white/20 group-hover:text-blue-400 transition-colors flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </Link>
             ))}
           </div>
@@ -114,56 +141,52 @@ export default function HomePage() {
       </section>
 
       {/* Waarom VPN */}
-      <section className="py-16 px-4 bg-gray-50">
+      <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Waarom heb je een VPN nodig?</h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <h2 className="text-3xl font-black text-white text-center mb-12">Waarom heb je een VPN nodig?</h2>
+          <div className="grid md:grid-cols-2 gap-4">
             {[
-              { title: 'Privacy beschermen', desc: 'Jouw internetprovider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt je verkeer volledig.' },
-              { title: 'Veilig op openbare WiFi', desc: 'In hotels, cafés en luchthavens zijn netwerken onbeveiligd. Een VPN beschermt je wachtwoorden en bankgegevens.' },
-              { title: 'Geo-blokkades omzeilen', desc: 'Toegang tot content die alleen beschikbaar is in andere landen — Netflix US, BBC iPlayer, Peacock en meer.' },
-              { title: 'Anoniem downloaden', desc: 'Torrenten zonder dat jouw IP-adres zichtbaar is voor derden of rechthouders.' },
-            ].map(({ title, desc }) => (
-              <div key={title} className="bg-white rounded-xl p-6 border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              { icon: '🔒', title: 'Privacy beschermen', desc: 'Jouw provider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt je verkeer volledig.' },
+              { icon: '📶', title: 'Veilig op openbare WiFi', desc: 'In hotels, cafés en luchthavens zijn netwerken onbeveiligd. Een VPN beschermt je wachtwoorden en bankgegevens.' },
+              { icon: '🌍', title: 'Geo-blokkades omzeilen', desc: 'Toegang tot content die alleen beschikbaar is in andere landen — Netflix US, BBC iPlayer, Peacock en meer.' },
+              { icon: '⬇️', title: 'Anoniem downloaden', desc: 'Torrenten zonder dat jouw IP-adres zichtbaar is voor derden of rechthouders.' },
+            ].map(({ icon, title, desc }) => (
+              <div key={title} className="card-glow bg-[#0d1b3e]/40 rounded-2xl p-6">
+                <div className="text-2xl mb-3">{icon}</div>
+                <h3 className="font-bold text-white mb-2">{title}</h3>
+                <p className="text-white/40 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
-          </div>
-          <div className="text-center mt-8">
-            <Link href="/wat-is-een-vpn" className="text-blue-700 font-semibold hover:underline">
-              Alles over VPN&apos;s →
-            </Link>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="bg-white py-16 px-4">
+      <section className="py-20 px-4 border-t border-white/5">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Veelgestelde vragen</h2>
-          <div className="space-y-4">
+          <h2 className="text-3xl font-black text-white text-center mb-12">Veelgestelde vragen</h2>
+          <div className="space-y-3">
             {[
               {
                 q: 'Welke VPN is het beste in Nederland?',
-                a: 'NordVPN scoort het hoogst in onze tests: snelste verbinding, sterkste beveiliging en werkt betrouwbaar met Netflix. Surfshark is het beste alternatief voor wie op budget let of meerdere apparaten wil beschermen.',
+                a: 'NordVPN scoort het hoogst in onze tests: snelste verbinding, sterkste beveiliging en werkt betrouwbaar met Netflix. Surfshark is het beste alternatief voor wie op budget let.',
               },
               {
                 q: 'Is een VPN legaal in Nederland?',
-                a: 'Ja, het gebruik van een VPN is volledig legaal in Nederland. Je mag een VPN gebruiken voor privacy, streaming en beveiliging. Illegale activiteiten via een VPN blijven uiteraard verboden.',
+                a: 'Ja, het gebruik van een VPN is volledig legaal in Nederland. Je mag een VPN gebruiken voor privacy, streaming en beveiliging. Illegale activiteiten blijven uiteraard verboden.',
               },
               {
                 q: 'Wat kost een goede VPN per maand?',
-                a: "Een betrouwbare VPN kost tussen €2,50 en €5 per maand bij een abonnement van 1–2 jaar. Surfshark begint al bij €2,49/maand, NordVPN bij €3,39/maand. Vermijd gratis VPN's — die verdienen geld aan jouw data.",
+                a: "Een betrouwbare VPN kost tussen €2,49 en €5 per maand bij een abonnement van 1–2 jaar. Surfshark begint al bij €2,49/maand, NordVPN bij €3,39/maand.",
               },
               {
                 q: 'Werkt een VPN met Netflix?',
-                a: 'Niet alle VPN\'s werken even goed met Netflix. NordVPN, Surfshark en ExpressVPN zijn de meest betrouwbare keuzes voor Netflix. Ze bieden toegang tot meerdere Netflix-catalogi, waaronder Netflix US.',
+                a: 'NordVPN, Surfshark en ExpressVPN werken het meest betrouwbaar met Netflix. Ze bieden toegang tot meerdere Netflix-catalogi, waaronder Netflix US.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-gray-100 rounded-xl p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">{q}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{a}</p>
+              <div key={q} className="card-glow bg-[#0d1b3e]/40 rounded-2xl p-6">
+                <h3 className="font-semibold text-white mb-2">{q}</h3>
+                <p className="text-white/40 text-sm leading-relaxed">{a}</p>
               </div>
             ))}
           </div>
