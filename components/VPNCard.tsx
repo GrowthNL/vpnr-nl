@@ -21,22 +21,17 @@ export default function VPNCard({ provider, rank, featured = false }: Props) {
         </div>
       )}
 
-      <div className="flex items-start justify-between gap-4 mb-5 mt-2">
-        <div className="flex items-center gap-3">
-          {rank && !featured && (
-            <span className="text-3xl font-black text-gray-100">#{rank}</span>
-          )}
-          <div>
-            <ProviderLogo slug={provider.slug} naam={provider.naam} iconSize={28} showName nameSize="text-base" className="mb-1" />
-            <p className="text-xs text-gray-400 mt-0.5">{provider.tagline}</p>
+      <div className="mb-5 mt-2">
+        <div className="flex items-center justify-between gap-2 mb-1.5">
+          <ProviderLogo slug={provider.slug} naam={provider.naam} iconSize={28} showName nameSize="text-base" />
+          <div className="flex-shrink-0 text-right leading-none">
+            <span className={`text-3xl font-black ${featured ? 'text-blue-600' : 'text-gray-800'}`}>
+              {provider.scores.overall.toFixed(1)}
+            </span>
+            <span className="text-xs text-gray-400">/10</span>
           </div>
         </div>
-        <div className="text-right flex-shrink-0">
-          <div className={`text-3xl font-black ${featured ? 'text-blue-600' : 'text-gray-800'}`}>
-            {provider.scores.overall.toFixed(1)}
-          </div>
-          <div className="text-xs text-gray-400">/10</div>
-        </div>
+        <p className="text-xs text-gray-400 leading-relaxed">{provider.tagline}</p>
       </div>
 
       {/* Score bars */}
