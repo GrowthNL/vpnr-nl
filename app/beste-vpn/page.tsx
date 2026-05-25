@@ -350,7 +350,7 @@ export default function BesteVPNPage() {
 
       {/* SEO tekst */}
       <section className="py-16 px-4 bg-white border-t border-gray-100">
-        <div className="max-w-3xl mx-auto prose prose-gray prose-sm max-w-none">
+        <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-black text-gray-900 mb-4">VPN vergelijken: alles wat je moet weten</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             Een <strong>VPN (Virtual Private Network)</strong> versleutelt je internetverbinding en verbergt je IP-adres. Dit beschermt je privacy online, geeft toegang tot geblokkeerde content en beveiligt je verbinding op openbare wifi-netwerken. Met miljoenen gebruikers in Nederland is een VPN in 2026 geen luxe meer, maar een basisbeveiligingstool.
