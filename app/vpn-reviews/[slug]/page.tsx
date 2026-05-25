@@ -90,7 +90,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
         <div className="flex items-start justify-between gap-4 mb-4">
           <div>
             <div className="mb-3">
-              <ProviderLogo slug={p.slug} naam={p.naam} width={160} height={38} />
+              <ProviderLogo slug={p.slug} naam={p.naam} iconSize={48} />
             </div>
             <h1 className="text-4xl font-black text-gray-900 mb-2">{p.naam} Review 2026</h1>
             <p className="text-gray-500 text-lg">{p.tagline}</p>
@@ -219,7 +219,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
             className="flex items-center justify-between bg-white card-main rounded-xl p-4 hover:shadow-md transition-all group"
           >
             <div className="flex items-center gap-3">
-              <ProviderLogo slug={alt.slug} naam={alt.naam} width={90} height={22} />
+              <ProviderLogo slug={alt.slug} naam={alt.naam} iconSize={28} showName nameSize="text-sm" />
               <span className="text-sm text-gray-400">— {alt.tagline}</span>
             </div>
             <div className="flex items-center gap-3">

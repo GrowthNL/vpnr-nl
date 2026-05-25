@@ -392,7 +392,7 @@ export default function WatIsEenVPNPage() {
                 <div key={p.slug} className={`bg-white rounded-2xl p-5 flex items-center gap-5 ${i === 0 ? 'card-featured' : 'card-main'}`}>
                   <div className="flex-shrink-0">
                     <div className="text-2xl font-black text-gray-100 mb-1">#{i + 1}</div>
-                    <ProviderLogo slug={p.slug} naam={p.naam} width={100} height={24} />
+                    <ProviderLogo slug={p.slug} naam={p.naam} iconSize={28} showName nameSize="text-sm" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm text-gray-500">{p.tagline}</p>

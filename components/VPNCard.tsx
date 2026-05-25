@@ -27,7 +27,7 @@ export default function VPNCard({ provider, rank, featured = false }: Props) {
             <span className="text-3xl font-black text-gray-100">#{rank}</span>
           )}
           <div>
-            <ProviderLogo slug={provider.slug} naam={provider.naam} width={110} height={26} className="mb-1" />
+            <ProviderLogo slug={provider.slug} naam={provider.naam} iconSize={28} showName nameSize="text-base" className="mb-1" />
             <p className="text-xs text-gray-400 mt-0.5">{provider.tagline}</p>
           </div>
         </div>

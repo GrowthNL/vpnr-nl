@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" fill="none">
-  <rect width="180" height="40" rx="6" fill="#003F7E"/>
-  <!-- Shield mark -->
-  <path d="M12 7l-6 2.5v5.5c0 3.8 2.5 7.3 6 8.5 3.5-1.2 6-4.7 6-8.5V9.5L12 7z" fill="#4687FF"/>
-  <path d="M9.5 16l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- NordVPN text -->
-  <text x="28" y="26" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="white" letter-spacing="0.5">NordVPN</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <rect width="40" height="40" rx="9" fill="#003F7E"/>
+  <!-- Outer shield -->
+  <path d="M20 7 L30 11.5 L30 20 C30 26 26 30.5 20 33 C14 30.5 10 26 10 20 L10 11.5 Z"
+        fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- Inner shield filled -->
+  <path d="M20 12.5 L26 16 L26 20 C26 24 23.3 27 20 28.8 C16.7 27 14 24 14 20 L14 16 Z"
+        fill="#4687FF"/>
 </svg>

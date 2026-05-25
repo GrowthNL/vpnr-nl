@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" fill="none">
-  <rect width="180" height="40" rx="6" fill="#1B2B44"/>
-  <!-- Shark fin mark -->
-  <path d="M10 28 Q14 10 18 16 Q20 20 22 16 Q24 8 28 28" fill="none" stroke="#1DB4C8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Surfshark text -->
-  <text x="36" y="26" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="700" font-size="15" fill="white" letter-spacing="0.3">Surfshark</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <rect width="40" height="40" rx="9" fill="#1B2B44"/>
+  <!-- Wave / fin mark -->
+  <path d="M7 27 Q11 27 13 21 Q15 15 20 13 Q25 11 27 16 Q29 21 32 21 Q35 21 35 25"
+        fill="none" stroke="#1DB4C8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Baseline -->
+  <line x1="7" y1="31" x2="35" y2="31" stroke="#1DB4C8" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
 </svg>

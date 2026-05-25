@@ -1,17 +1,17 @@
-import Image from 'next/image'
+import ProviderLogo from '@/components/ProviderLogo'
 
-const loggedProviders = [
-  { slug: 'nordvpn', name: 'NordVPN', hasLogo: true },
-  { slug: 'surfshark', name: 'Surfshark', hasLogo: true },
-  { slug: 'expressvpn', name: 'ExpressVPN', hasLogo: true },
-  { slug: 'cyberghost', name: 'CyberGhost', hasLogo: true },
-  { slug: 'protonvpn', name: 'ProtonVPN', hasLogo: false, color: '#6D4AFF' },
-  { slug: 'pia', name: 'Private Internet Access', hasLogo: false, color: '#4DB848' },
-  { slug: 'mullvad', name: 'Mullvad', hasLogo: false, color: '#E8A000' },
-  { slug: 'ipvanish', name: 'IPVanish', hasLogo: false, color: '#008AFF' },
+const vpnProviders = [
+  { slug: 'nordvpn', name: 'NordVPN' },
+  { slug: 'surfshark', name: 'Surfshark' },
+  { slug: 'expressvpn', name: 'ExpressVPN' },
+  { slug: 'cyberghost', name: 'CyberGhost' },
+  { slug: 'protonvpn', name: 'ProtonVPN' },
+  { slug: 'pia', name: 'Private Internet Access' },
+  { slug: 'mullvad', name: 'Mullvad' },
+  { slug: 'ipvanish', name: 'IPVanish' },
 ]
 
-const items = [...loggedProviders, ...loggedProviders]
+const items = [...vpnProviders, ...vpnProviders]
 
 export default function VPNLogoMarquee() {
   return (
@@ -20,32 +20,16 @@ export default function VPNLogoMarquee() {
         Wij vergelijken de beste VPN-providers
       </p>
       <div className="relative">
-        <div className="marquee-track flex gap-6 w-max items-center">
+        <div className="marquee-track flex gap-5 w-max items-center">
           {items.map((provider, i) => (
             <div
               key={i}
-              className="flex items-center justify-center px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm flex-shrink-0 h-10"
+              className="flex items-center gap-2.5 px-4 py-2.5 rounded-full bg-white border border-gray-200 shadow-sm flex-shrink-0"
             >
-              {provider.hasLogo ? (
-                <Image
-                  src={`/logos/${provider.slug}.svg`}
-                  alt={`${provider.name} logo`}
-                  width={90}
-                  height={22}
-                  className="object-contain"
-                  unoptimized
-                />
-              ) : (
-                <div className="flex items-center gap-2">
-                  <span
-                    className="w-2.5 h-2.5 rounded-full flex-shrink-0"
-                    style={{ backgroundColor: provider.color }}
-                  />
-                  <span className="text-gray-600 font-medium text-sm whitespace-nowrap">
-                    {provider.name}
-                  </span>
-                </div>
-              )}
+              <ProviderLogo slug={provider.slug} naam={provider.name} iconSize={22} />
+              <span className="text-gray-700 font-medium text-sm whitespace-nowrap">
+                {provider.name}
+              </span>
             </div>
           ))}
         </div>
