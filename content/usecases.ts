@@ -65,7 +65,7 @@ export const usecases: UseCase[] = [
     metaTitle: 'Beste VPN voor Torrenten 2026 | Veilig & Anoniem P2P',
     metaDescription: 'Beste VPN voor torrenten en P2P in 2026. Verberg je IP-adres, vermijd DMCA-brieven en torrent veilig. Onze top 3.',
     icon: '⬇️',
-    intro: 'Torrenten zonder VPN betekent dat je IP-adres zichtbaar is voor iedereen in de swarm — inclusief advocatenkantoren die namens rechthebbenden boetes uitsturen. Een VPN verbergt je echte IP-adres en beschermt je privacy.',
+    intro: 'Torrenten zonder VPN betekent dat je IP-adres zichtbaar is voor iedereen in de swarm, inclusief advocatenkantoren die namens rechthebbenden boetes uitsturen. Een VPN verbergt je echte IP-adres en beschermt je privacy.',
     topProviders: ['nordvpn', 'surfshark', 'cyberghost'],
     keyFeature: 'P2P-toegestaan servers, geen logs, kill switch',
     sections: [
@@ -95,7 +95,7 @@ export const usecases: UseCase[] = [
     sections: [
       {
         heading: 'Verhoogt een VPN je ping?',
-        text: 'Ja, een VPN voegt altijd enige latency toe doordat je verkeer via een extra server gaat. Maar met een server dicht bij jou in de buurt is het verschil minimaal — vaak minder dan 5-10ms. NordVPN en ExpressVPN hebben servers in Amsterdam en Frankfurt voor minimale ping.',
+        text: 'Ja, een VPN voegt altijd enige latency toe doordat je verkeer via een extra server gaat. Maar met een server dicht bij jou in de buurt is het verschil minimaal, vaak minder dan 5-10ms. NordVPN en ExpressVPN hebben servers in Amsterdam en Frankfurt voor minimale ping.',
       },
       {
         heading: 'Games eerder spelen met een VPN',
@@ -119,7 +119,7 @@ export const usecases: UseCase[] = [
     sections: [
       {
         heading: 'Zijn gratis VPN\'s veilig?',
-        text: 'De meeste gratis VPN\'s verdienen geld door je data te verkopen aan adverteerders. Een bekende studie toonde aan dat 38% van de gratis VPN-apps malware bevatten. Kies altijd voor een VPN met een duidelijk verdienmodel — dat is een betaald abonnement.',
+        text: 'De meeste gratis VPN\'s verdienen geld door je data te verkopen aan adverteerders. Een bekende studie toonde aan dat 38% van de gratis VPN-apps malware bevatten. Kies altijd voor een VPN met een duidelijk verdienmodel, dat is een betaald abonnement.',
       },
       {
         heading: 'Welke gratis VPN\'s zijn legitiem?',

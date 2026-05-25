@@ -26,7 +26,7 @@ export default function AffiliateDisclosurePage() {
           Deze commissies helpen ons de site te onderhouden en gratis toegankelijk te houden voor iedereen. De hoogte van de commissie heeft <strong className="text-gray-800">geen enkele invloed</strong> op onze beoordelingen, rankings of aanbevelingen. Wij beoordelen elke VPN-provider objectief op basis van onze eigen tests.
         </p>
         <p>
-          Affiliate links zijn herkenbaar doordat ze je doorsturen naar de website van de betreffende VPN-provider. Je betaalt nooit meer dan de normale prijs — soms zelfs minder via onze exclusieve kortingen.
+          Affiliate links zijn herkenbaar doordat ze je doorsturen naar de website van de betreffende VPN-provider. Je betaalt nooit meer dan de normale prijs, soms zelfs minder via onze exclusieve kortingen.
         </p>
         <p>
           Heeft u vragen over onze affiliate relaties? Neem dan contact op via onze{' '}

@@ -26,7 +26,7 @@ export default function IPBanner() {
           <span className="text-red-200">
             <span className="font-semibold text-white">Je IP-adres is zichtbaar:</span>{' '}
             <span className="font-mono text-red-300">{ip}</span>
-            {' '}— Je verbinding is <span className="font-semibold text-red-400">niet beveiligd</span>
+            {' '}· Je verbinding is <span className="font-semibold text-red-400">niet beveiligd</span>
           </span>
         </div>
         <Link

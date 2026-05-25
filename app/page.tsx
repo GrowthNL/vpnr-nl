@@ -193,7 +193,7 @@ export default function HomePage() {
             {[
               { Icon: ShieldCheck, title: 'Privacy beschermen', desc: 'Jouw provider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt je verkeer volledig.' },
               { Icon: Wifi, title: 'Veilig op openbare WiFi', desc: 'In hotels, cafés en luchthavens zijn netwerken onbeveiligd. Een VPN beschermt je wachtwoorden en bankgegevens.' },
-              { Icon: Globe, title: 'Geo-blokkades omzeilen', desc: 'Toegang tot content die alleen beschikbaar is in andere landen — Netflix US, BBC iPlayer, Peacock en meer.' },
+              { Icon: Globe, title: 'Geo-blokkades omzeilen', desc: 'Toegang tot content die alleen beschikbaar is in andere landen, Netflix US, BBC iPlayer, Peacock en meer.' },
               { Icon: Download, title: 'Anoniem downloaden', desc: 'Torrenten zonder dat jouw IP-adres zichtbaar is voor derden of rechthouders.' },
             ].map(({ Icon, title, desc }) => (
               <div key={title} className="card-main bg-white rounded-2xl p-6">

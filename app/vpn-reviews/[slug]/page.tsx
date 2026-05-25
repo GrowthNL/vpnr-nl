@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: `Lees onze uitgebreide ${p.naam} review. Score: ${p.scores.overall}/10. Vanaf €${p.prijzen.tweeJaar ?? p.prijzen.jaarlijks}/maand. ${p.prijzen.gratisPeriode}.`,
     alternates: { canonical: `https://vpnr.nl/vpn-reviews/${slug}` },
     openGraph: {
-      title: `${p.naam} Review 2026 — Score ${p.scores.overall}/10`,
+      title: `${p.naam} Review 2026, Score ${p.scores.overall}/10`,
       description: `Onze eerlijke ${p.naam} review: snelheid, beveiliging, prijs en gebruiksgemak getest. Lees of ${p.naam} de beste VPN is voor jou.`,
       url: `https://vpnr.nl/vpn-reviews/${slug}`,
       type: 'article',
@@ -232,7 +232,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
           >
             <div className="flex items-center gap-3">
               <ProviderLogo slug={alt.slug} naam={alt.naam} iconSize={28} showName nameSize="text-sm" />
-              <span className="text-sm text-gray-400">— {alt.tagline}</span>
+              <span className="text-sm text-gray-400">{alt.tagline}</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-sm font-bold text-blue-600">{alt.scores.overall}/10</span>

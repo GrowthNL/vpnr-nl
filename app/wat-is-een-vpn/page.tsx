@@ -119,7 +119,7 @@ const toc = [
   { id: 'protocollen', label: 'VPN-protocollen uitgelegd' },
   { id: 'gratis-vs-betaald', label: 'Gratis vs betaalde VPN' },
   { id: 'kiezen', label: 'Welke VPN kiezen?' },
-  { id: 'instellen', label: 'VPN instellen — stappenplan' },
+  { id: 'instellen', label: 'VPN instellen, stappenplan' },
   { id: 'faq', label: 'Veelgestelde vragen' },
 ]
 
@@ -139,7 +139,7 @@ export default function WatIsEenVPNPage() {
       </nav>
 
       <div className="lg:flex gap-12">
-        {/* Sidebar — Table of Contents */}
+        {/* Sidebar, Table of Contents */}
         <aside className="hidden lg:block w-56 flex-shrink-0">
           <div className="sticky top-24 card-main bg-white rounded-2xl p-5">
             <p className="text-xs font-bold text-gray-400 uppercase tracking-wide mb-3">Inhoud</p>
@@ -171,11 +171,11 @@ export default function WatIsEenVPNPage() {
             </p>
           </header>
 
-          {/* Snel antwoord — GEO-friendly direct answer box */}
+          {/* Snel antwoord, GEO-friendly direct answer box */}
           <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6 mb-10">
             <p className="text-xs font-bold text-blue-600 uppercase tracking-wide mb-2">Kort antwoord</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              Een VPN is een beveiligde tunnel tussen jouw apparaat en het internet. Het verbergt je echte IP-adres, versleutelt al je data en beschermt je privacy — thuis, op openbare wifi en bij geo-geblokkeerde content. Een betrouwbare VPN kost €2–5 per maand.
+              Een VPN is een beveiligde tunnel tussen jouw apparaat en het internet. Het verbergt je echte IP-adres, versleutelt al je data en beschermt je privacy, thuis, op openbare wifi en bij geo-geblokkeerde content. Een betrouwbare VPN kost €2–5 per maand.
             </p>
           </div>
 
@@ -186,7 +186,7 @@ export default function WatIsEenVPNPage() {
               VPN staat voor <strong>Virtual Private Network</strong>. Het is een technologie die een beveiligde, versleutelde verbinding (een "tunnel") maakt tussen jouw apparaat en een VPN-server, voordat data het publieke internet op gaat.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Normaal verbindt jouw laptop, telefoon of tablet direct met websites en diensten. Elke site ziet dan jouw echte IP-adres — een uniek nummer dat gekoppeld is aan jouw locatie en internetprovider. Je provider zelf ziet ook precies welke sites je bezoekt en wanneer.
+              Normaal verbindt jouw laptop, telefoon of tablet direct met websites en diensten. Elke site ziet dan jouw echte IP-adres, een uniek nummer dat gekoppeld is aan jouw locatie en internetprovider. Je provider zelf ziet ook precies welke sites je bezoekt en wanneer.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Met een VPN gaat al je verkeer via een tussenstop: de VPN-server. Websites zien het IP van die server, niet het jouwe. Je provider ziet wel dat je verbonden bent met een VPN-server, maar niet welke sites je daarna bezoekt.
@@ -202,7 +202,7 @@ export default function WatIsEenVPNPage() {
 
             <ol className="space-y-4 mb-6">
               {[
-                { nr: '1', title: 'Versleuteling', desc: 'Jouw apparaat versleutelt alle uitgaande data met AES-256 — dezelfde standaard die banken en overheden gebruiken.' },
+                { nr: '1', title: 'Versleuteling', desc: 'Jouw apparaat versleutelt alle uitgaande data met AES-256, dezelfde standaard die banken en overheden gebruiken.' },
                 { nr: '2', title: 'Tunneling', desc: 'De versleutelde data wordt via een veilige tunnel naar de VPN-server gestuurd. Niemand onderweg kan de inhoud lezen.' },
                 { nr: '3', title: 'IP-masking', desc: 'De VPN-server stuurt de data door naar de bestemming (bijv. een website). Die site ziet het IP-adres van de server, niet het jouwe.' },
                 { nr: '4', title: 'Antwoord terug', desc: 'De website stuurt het antwoord naar de VPN-server. Die versleutelt het opnieuw en stuurt het terug naar jouw apparaat.' },
@@ -241,7 +241,7 @@ export default function WatIsEenVPNPage() {
                 {
                   Icon: ShieldCheck,
                   title: 'Online privacy',
-                  desc: 'Je internetprovider (KPN, Ziggo, T-Mobile) registreert al je surfgedrag. Met een VPN kunnen ze alleen zien dat je verbonden bent met een VPN — niet welke sites je bezoekt.',
+                  desc: 'Je internetprovider (KPN, Ziggo, T-Mobile) registreert al je surfgedrag. Met een VPN kunnen ze alleen zien dat je verbonden bent met een VPN, niet welke sites je bezoekt.',
                 },
                 {
                   Icon: Wifi,
@@ -290,7 +290,7 @@ export default function WatIsEenVPNPage() {
               </p>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Belangrijk: een VPN maakt illegale activiteiten niet legaal. Het downloaden van auteursrechtelijk beschermd materiaal, fraude of hacking blijft verboden — met of zonder VPN. De meeste betrouwbare VPN-aanbieders hanteren een strict no-logs beleid en bewaren geen gebruiksdata, maar kunnen bij ernstige misdrijven soms toch worden gedwongen te voldoen aan rechtelijke bevelen.
+              Belangrijk: een VPN maakt illegale activiteiten niet legaal. Het downloaden van auteursrechtelijk beschermd materiaal, fraude of hacking blijft verboden, met of zonder VPN. De meeste betrouwbare VPN-aanbieders hanteren een strict no-logs beleid en bewaren geen gebruiksdata, maar kunnen bij ernstige misdrijven soms toch worden gedwongen te voldoen aan rechtelijke bevelen.
             </p>
           </section>
 
@@ -347,12 +347,12 @@ export default function WatIsEenVPNPage() {
           <section id="gratis-vs-betaald" className="mb-12 scroll-mt-24">
             <h2 className="text-3xl font-black text-gray-900 mb-4">Gratis VPN vs betaalde VPN</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Er zijn honderden gratis VPN-apps beschikbaar. Maar <strong>gratis betekent niet kosteloos</strong> — de kosten worden betaald met jouw data. Hier is het echte verschil:
+              Er zijn honderden gratis VPN-apps beschikbaar. Maar <strong>gratis betekent niet kosteloos</strong>, de kosten worden betaald met jouw data. Hier is het echte verschil:
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-4">
               <div className="bg-red-50 rounded-2xl p-5 border border-red-100">
-                <h3 className="font-bold text-red-800 mb-3">Gratis VPN — de echte kosten</h3>
+                <h3 className="font-bold text-red-800 mb-3">Gratis VPN, de echte kosten</h3>
                 <ul className="space-y-2 text-sm text-red-700">
                   {[
                     'Verkoopt jouw browsedata aan adverteerders',
@@ -371,7 +371,7 @@ export default function WatIsEenVPNPage() {
                 </ul>
               </div>
               <div className="bg-green-50 rounded-2xl p-5 border border-green-100">
-                <h3 className="font-bold text-green-800 mb-3">Betaalde VPN — €2–5/maand</h3>
+                <h3 className="font-bold text-green-800 mb-3">Betaalde VPN, €2–5/maand</h3>
                 <ul className="space-y-2 text-sm text-green-700">
                   {[
                     'Strict no-logs beleid (onafhankelijk geauditeerd)',
@@ -446,10 +446,10 @@ export default function WatIsEenVPNPage() {
             <div className="bg-blue-50 rounded-2xl p-5">
               <p className="font-semibold text-gray-900 mb-1">Keuze op basis van gebruik:</p>
               <ul className="text-sm text-gray-600 space-y-1.5">
-                <li><strong>Beste al-in-één:</strong> NordVPN — snelst, veiligst, werkt overal</li>
-                <li><strong>Beste budget:</strong> Surfshark — onbeperkte apparaten, laagste prijs</li>
-                <li><strong>Beste voor streaming:</strong> ExpressVPN — meest servers, snelst voor Netflix</li>
-                <li><strong>Gezinnen / meerdere apparaten:</strong> Surfshark — onbeperkte verbindingen</li>
+                <li><strong>Beste al-in-één:</strong> NordVPN, snelst, veiligst, werkt overal</li>
+                <li><strong>Beste budget:</strong> Surfshark, onbeperkte apparaten, laagste prijs</li>
+                <li><strong>Beste voor streaming:</strong> ExpressVPN, meest servers, snelst voor Netflix</li>
+                <li><strong>Gezinnen / meerdere apparaten:</strong> Surfshark, onbeperkte verbindingen</li>
               </ul>
             </div>
 
@@ -462,7 +462,7 @@ export default function WatIsEenVPNPage() {
 
           {/* Section 8 */}
           <section id="instellen" className="mb-12 scroll-mt-24">
-            <h2 className="text-3xl font-black text-gray-900 mb-4">VPN instellen — stappenplan</h2>
+            <h2 className="text-3xl font-black text-gray-900 mb-4">VPN instellen, stappenplan</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Een VPN instellen duurt minder dan 5 minuten. Hier is het stap-voor-stap proces:
             </p>
@@ -508,7 +508,7 @@ export default function WatIsEenVPNPage() {
             </ol>
           </section>
 
-          {/* Section 9 — FAQ */}
+          {/* Section 9, FAQ */}
           <section id="faq" className="mb-12 scroll-mt-24">
             <h2 className="text-3xl font-black text-gray-900 mb-6">Veelgestelde vragen over VPN</h2>
             <div className="space-y-4">
@@ -527,7 +527,7 @@ export default function WatIsEenVPNPage() {
                 },
                 {
                   q: 'Kan ik een VPN gebruiken op meerdere apparaten?',
-                  a: 'Dat hangt af van de provider. NordVPN staat 10 gelijktijdige verbindingen toe. Surfshark biedt onbeperkte apparaten. Je kunt ook een VPN instellen op je router — dan zijn alle apparaten thuis automatisch beveiligd.',
+                  a: 'Dat hangt af van de provider. NordVPN staat 10 gelijktijdige verbindingen toe. Surfshark biedt onbeperkte apparaten. Je kunt ook een VPN instellen op je router, dan zijn alle apparaten thuis automatisch beveiligd.',
                 },
                 {
                   q: 'Is een VPN hetzelfde als een proxy?',
@@ -551,9 +551,9 @@ export default function WatIsEenVPNPage() {
             <p className="font-bold text-gray-900 mb-3">Verder lezen</p>
             <div className="grid sm:grid-cols-2 gap-2 text-sm">
               {[
-                { href: '/beste-vpn', label: 'Beste VPN Nederland 2026 — Volledige gids' },
-                { href: '/vpn-vergelijken', label: 'VPN vergelijken — Alle features op een rij' },
-                { href: '/vpn-reviews', label: 'VPN Reviews — NordVPN, Surfshark, ExpressVPN' },
+                { href: '/beste-vpn', label: 'Beste VPN Nederland 2026, Volledige gids' },
+                { href: '/vpn-vergelijken', label: 'VPN vergelijken, Alle features op een rij' },
+                { href: '/vpn-reviews', label: 'VPN Reviews, NordVPN, Surfshark, ExpressVPN' },
                 { href: '/beste-vpn/voor-netflix', label: 'Beste VPN voor Netflix in 2026' },
                 { href: '/beste-vpn/voor-torrenten', label: 'Beste VPN voor torrenten' },
                 { href: '/beste-vpn/goedkoop', label: 'Goedkoopste VPN van 2026' },

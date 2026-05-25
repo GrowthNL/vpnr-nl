@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between gap-2 text-xs text-gray-600">
-          <p>© {new Date().getFullYear()} vpnr.nl — Alle rechten voorbehouden</p>
+          <p>© {new Date().getFullYear()} vpnr.nl, Alle rechten voorbehouden</p>
           <p>vpnr.nl ontvangt commissie via affiliate links. Dit heeft geen invloed op onze beoordelingen.</p>
         </div>
       </div>

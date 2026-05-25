@@ -38,7 +38,7 @@ const surfshark: VPNProvider = {
   },
 
   voordelen: [
-    'Onbeperkt aantal apparaten — ideaal voor gezinnen',
+    'Onbeperkt aantal apparaten, ideaal voor gezinnen',
     'Goedkoopste serieuze VPN op de markt',
     'CleanWeb blokkeert advertenties en malware',
     'Hoofdkantoor in Nederland (EU-wetgeving)',

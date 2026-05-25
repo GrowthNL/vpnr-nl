@@ -206,7 +206,7 @@ export default function VergelijkenPage() {
                 </td>
                 {providers.map((p, ci) => (
                   <td key={p.slug} className={`px-4 py-3.5 text-center text-gray-600 text-xs ${ci === 0 ? 'bg-blue-50/30' : ''}`}>
-                    {p.prijzen.gratisPeriode ?? '—'}
+                    {p.prijzen.gratisPeriode ?? 'n.v.t.'}
                   </td>
                 ))}
               </tr>

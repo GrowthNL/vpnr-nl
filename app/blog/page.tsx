@@ -5,7 +5,7 @@ import { Clock, Calendar, ChevronRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'VPN Blog 2026 | Tips, Gidsen & Nieuws over Privacy | vpnr.nl',
-  description: 'Lees onze VPN-gidsen, tips en nieuws. Alles over online privacy, VPN-protocollen, streaming en digitale beveiliging — helder en eerlijk geschreven.',
+  description: 'Lees onze VPN-gidsen, tips en nieuws. Alles over online privacy, VPN-protocollen, streaming en digitale beveiliging, helder en eerlijk geschreven.',
   alternates: { canonical: 'https://vpnr.nl/blog' },
 }
 
@@ -27,7 +27,7 @@ export default function BlogPage() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-black mb-4">VPN Blog</h1>
           <p className="text-blue-100 text-lg max-w-2xl">
-            Tips, gidsen en uitleg over VPN, online privacy en digitale beveiliging — helder en eerlijk geschreven door experts.
+            Tips, gidsen en uitleg over VPN, online privacy en digitale beveiliging, helder en eerlijk geschreven door experts.
           </p>
         </div>
       </section>

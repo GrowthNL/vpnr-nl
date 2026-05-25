@@ -216,7 +216,7 @@ export default async function BlogPostPage({
                   {section.heading}
                 </h2>
 
-                {/* Body paragraphs — content is developer-authored, safe to use dangerouslySetInnerHTML */}
+                {/* Body paragraphs, content is developer-authored, safe to use dangerouslySetInnerHTML */}
                 <div className="space-y-4 text-gray-600 leading-relaxed mb-5">
                   {section.body.map((para, j) => (
                     <p key={j} dangerouslySetInnerHTML={{ __html: para }} />

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Over ons | vpnr.nl',
-  description: 'Over vpnr.nl — onafhankelijke VPN-vergelijking voor de Nederlandse markt.',
+  description: 'Over vpnr.nl, onafhankelijke VPN-vergelijking voor de Nederlandse markt.',
 }
 
 export default function OverOnsPage() {
