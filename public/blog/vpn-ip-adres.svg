@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Large shield -->
+  <path d="M378 98 L598 38 L818 98 L818 338 Q818 490 598 572 Q378 490 378 338 Z" fill="rgba(99,102,241,0.08)" stroke="rgba(99,102,241,0.35)" stroke-width="2"/>
+  <!-- Eye shape -->
+  <path d="M438 308 Q598 196 758 308 Q598 420 438 308 Z" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2.5"/>
+  <circle cx="598" cy="308" r="36" fill="rgba(99,102,241,0.45)"/>
+  <circle cx="598" cy="308" r="16" fill="rgba(148,163,184,0.28)"/>
+  <!-- Strikethrough (hidden = private) -->
+  <line x1="488" y1="208" x2="712" y2="410" stroke="rgba(239,68,68,0.65)" stroke-width="5" stroke-linecap="round"/>
+  <!-- IP address blocks (right) -->
+  <rect x="900" y="198" width="220" height="40" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="916" y="214" width="80" height="8" rx="4" fill="rgba(148,163,184,0.25)"/>
+  <rect x="1002" y="214" width="50" height="8" rx="4" fill="rgba(148,163,184,0.18)"/>
+  <rect x="900" y="252" width="220" height="40" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="916" y="268" width="90" height="8" rx="4" fill="rgba(148,163,184,0.2)"/>
+  <rect x="900" y="306" width="220" height="40" rx="8" fill="rgba(99,102,241,0.15)" stroke="rgba(99,102,241,0.4)" stroke-width="1"/>
+  <rect x="916" y="322" width="110" height="8" rx="4" fill="rgba(99,102,241,0.6)"/>
+  <!-- Dashed arrow from IP blocks to shield -->
+  <path d="M900 322 Q860 320 820 325" fill="none" stroke="rgba(99,102,241,0.4)" stroke-width="2" stroke-dasharray="7,5"/>
+  <!-- Left bg circle -->
+  <circle cx="140" cy="315" r="190" fill="none" stroke="rgba(99,102,241,0.04)" stroke-width="50"/>
+</svg>

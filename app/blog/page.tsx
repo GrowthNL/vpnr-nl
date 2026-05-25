@@ -1,94 +1,160 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { posts } from '@/content/posts'
+import { Clock, Calendar, ChevronRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'VPN Blog | Nieuws, Tips & Guides',
-  description: 'Lees onze VPN-gidsen, nieuws en tips. Alles over online privacy, beveiliging en het omzeilen van geo-blokkades.',
+  title: 'VPN Blog 2026 | Tips, Gidsen & Nieuws over Privacy | vpnr.nl',
+  description: 'Lees onze VPN-gidsen, tips en nieuws. Alles over online privacy, VPN-protocollen, streaming en digitale beveiliging — helder en eerlijk geschreven.',
+  alternates: { canonical: 'https://vpnr.nl/blog' },
 }
 
-const posts = [
-  {
-    slug: 'vpn-buitenland-gebruiken',
-    title: 'VPN gebruiken in het buitenland: alles wat je moet weten',
-    excerpt: 'Op vakantie of zakenreis? Zo gebruik je een VPN om veilig te internetten en je favoriete Nederlandse sites te bereiken vanuit het buitenland.',
-    category: 'Gids',
-    date: '15 mei 2026',
-    readTime: '5 min',
-  },
-  {
-    slug: 'netflix-vpn-werkt-niet',
-    title: 'Netflix VPN werkt niet meer? Dit zijn de oplossingen',
-    excerpt: 'Netflix heeft zijn VPN-detectie aangescherpt. Wij leggen uit waarom sommige VPN\'s niet meer werken en welke alternatieven je hebt.',
-    category: 'Tips',
-    date: '12 mei 2026',
-    readTime: '4 min',
-  },
-  {
-    slug: 'vpn-protocol-vergelijking',
-    title: 'WireGuard vs OpenVPN vs IKEv2: welk protocol is het beste?',
-    excerpt: 'Een overzicht van de meest gebruikte VPN-protocollen: wat zijn de verschillen in snelheid, veiligheid en compatibiliteit?',
-    category: 'Uitleg',
-    date: '8 mei 2026',
-    readTime: '7 min',
-  },
-  {
-    slug: 'vpn-ip-adres-verbergen',
-    title: 'Hoe verberg je je IP-adres? De complete gids voor 2026',
-    excerpt: 'Je IP-adres zegt veel over jou. Leer hoe je het verbergt met een VPN en waarom dit belangrijk is voor je privacy.',
-    category: 'Privacy',
-    date: '3 mei 2026',
-    readTime: '6 min',
-  },
-  {
-    slug: 'goedkoopste-vpn-deals',
-    title: 'De goedkoopste VPN-deals van mei 2026',
-    excerpt: 'Een overzicht van de beste VPN-aanbiedingen deze maand. Bespaar tot 85% met onze verzamelde deals.',
-    category: 'Deals',
-    date: '1 mei 2026',
-    readTime: '3 min',
-  },
-]
-
-const categoryColors: Record<string, string> = {
-  Gids: 'bg-blue-100 text-blue-700',
-  Tips: 'bg-green-100 text-green-700',
-  Uitleg: 'bg-purple-100 text-purple-700',
-  Privacy: 'bg-orange-100 text-orange-700',
-  Deals: 'bg-red-100 text-red-700',
+const categoryPillColor: Record<string, string> = {
+  Gids: 'bg-blue-500',
+  Tips: 'bg-green-500',
+  Uitleg: 'bg-purple-500',
+  Privacy: 'bg-orange-500',
+  Deals: 'bg-emerald-500',
 }
 
 export default function BlogPage() {
+  const [featured, ...rest] = posts
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16">
-      <div className="mb-12">
-        <h1 className="text-4xl font-black text-gray-900 mb-3">VPN Blog</h1>
-        <p className="text-gray-500">Tips, nieuws en uitleg over VPN, privacy en online beveiliging.</p>
-      </div>
-      <div className="space-y-5">
-        {posts.map((post) => (
+    <>
+      {/* ── HERO ── */}
+      <section className="hero-glow text-white py-16 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-black mb-4">VPN Blog</h1>
+          <p className="text-blue-100 text-lg max-w-2xl">
+            Tips, gidsen en uitleg over VPN, online privacy en digitale beveiliging — helder en eerlijk geschreven door experts.
+          </p>
+        </div>
+      </section>
+
+      {/* ── FEATURED POST ── */}
+      <section className="py-12 px-4 bg-white border-b border-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-xs font-bold text-blue-600 uppercase tracking-widest">Uitgelicht artikel</span>
+            <div className="flex-1 h-px bg-gray-100" />
+          </div>
           <Link
-            key={post.slug}
-            href={`/blog/${post.slug}`}
-            className="flex gap-5 bg-white card-main rounded-2xl p-6 hover:shadow-md transition-all group"
+            href={`/blog/${featured.slug}`}
+            className="group grid md:grid-cols-2 bg-white card-main rounded-2xl overflow-hidden hover:shadow-xl transition-all"
           >
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 mb-2">
-                <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full ${categoryColors[post.category] ?? 'bg-gray-100 text-gray-600'}`}>
-                  {post.category}
-                </span>
-                <span className="text-xs text-gray-400">{post.date}</span>
-                <span className="text-xs text-gray-400">· {post.readTime}</span>
-              </div>
-              <h2 className="text-lg font-bold text-gray-900 group-hover:text-blue-700 transition-colors mb-1">{post.title}</h2>
-              <p className="text-sm text-gray-500 line-clamp-2">{post.excerpt}</p>
+            {/* Image side */}
+            <div className="relative h-60 md:h-full min-h-[240px] overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={featured.image}
+                alt={featured.imageAlt}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              <span className={`absolute top-5 left-5 text-white text-xs font-bold px-3 py-1 rounded-full ${categoryPillColor[featured.category] ?? 'bg-gray-600'}`}>
+                {featured.category}
+              </span>
             </div>
-            <svg className="w-5 h-5 text-gray-300 group-hover:text-blue-500 transition-colors flex-shrink-0 self-center" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
+            {/* Content side */}
+            <div className="p-8 flex flex-col justify-center">
+              <h2 className="text-2xl lg:text-3xl font-black text-gray-900 mb-4 group-hover:text-blue-700 transition-colors leading-snug">
+                {featured.title}
+              </h2>
+              <p className="text-gray-500 leading-relaxed mb-6 line-clamp-3">
+                {featured.excerpt}
+              </p>
+              <div className="flex items-center gap-4 text-xs text-gray-400 mb-6">
+                <span className="flex items-center gap-1.5">
+                  <Calendar className="w-3.5 h-3.5" />
+                  {featured.date}
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Clock className="w-3.5 h-3.5" />
+                  {featured.readTime} leestijd
+                </span>
+              </div>
+              <span className="inline-flex items-center gap-2 text-blue-600 font-bold text-sm group-hover:gap-3 transition-all">
+                Lees het volledige artikel
+                <ChevronRight className="w-4 h-4" />
+              </span>
+            </div>
           </Link>
-        ))}
-      </div>
-      <p className="text-center text-gray-400 text-sm mt-10">Meer artikelen volgen binnenkort.</p>
-    </div>
+        </div>
+      </section>
+
+      {/* ── ALL POSTS GRID ── */}
+      <section className="py-14 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-black text-gray-900 mb-8">Alle artikelen</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {rest.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group bg-white card-main rounded-2xl overflow-hidden hover:shadow-lg transition-all flex flex-col"
+              >
+                {/* Thumbnail */}
+                <div className="relative h-44 overflow-hidden flex-shrink-0">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={post.image}
+                    alt={post.imageAlt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <span className={`absolute bottom-3 left-3 text-white text-xs font-bold px-2.5 py-0.5 rounded-full ${categoryPillColor[post.category] ?? 'bg-gray-600'}`}>
+                    {post.category}
+                  </span>
+                </div>
+                {/* Content */}
+                <div className="p-5 flex flex-col flex-1">
+                  <h3 className="font-bold text-gray-900 leading-snug mb-2 group-hover:text-blue-700 transition-colors line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 leading-relaxed mb-4 line-clamp-2">
+                    {post.excerpt}
+                  </p>
+                  <div className="flex items-center justify-between mt-auto">
+                    <div className="flex items-center gap-3 text-xs text-gray-400">
+                      <span>{post.date}</span>
+                      <span>·</span>
+                      <span>{post.readTime}</span>
+                    </div>
+                    <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-blue-500 transition-colors" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── BOTTOM CTA ── */}
+      <section className="py-14 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-2xl font-black text-gray-900 mb-3">
+            Welke VPN past bij jou?
+          </h2>
+          <p className="text-gray-500 mb-6">
+            Vergelijk alle VPN-providers naast elkaar op prijs, snelheid en features. Vind de beste keuze voor jouw situatie in 2026.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link
+              href="/vpn-vergelijken"
+              className="btn-shimmer text-white font-bold px-6 py-3 rounded-xl"
+            >
+              VPN&apos;s vergelijken →
+            </Link>
+            <Link
+              href="/beste-vpn"
+              className="bg-gray-100 text-gray-700 hover:bg-gray-200 font-bold px-6 py-3 rounded-xl transition-colors"
+            >
+              Beste VPN 2026
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
