@@ -2,13 +2,54 @@ import Link from 'next/link'
 import VPNCard from '@/components/VPNCard'
 import VPNLogoMarquee from '@/components/VPNLogoMarquee'
 import IPBanner from '@/components/IPBanner'
+import JsonLd from '@/components/JsonLd'
 import { providers } from '@/content/providers'
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Welke VPN is het beste in Nederland?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'NordVPN scoort het hoogst in onze tests: snelste verbinding, sterkste beveiliging en werkt betrouwbaar met Netflix. Surfshark is het beste alternatief voor wie op budget let.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is een VPN legaal in Nederland?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Ja, het gebruik van een VPN is volledig legaal in Nederland. Je mag een VPN gebruiken voor privacy, streaming en beveiliging. Illegale activiteiten blijven uiteraard verboden.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Wat kost een goede VPN per maand?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Een betrouwbare VPN kost tussen €2,49 en €5 per maand bij een abonnement van 1–2 jaar. Surfshark begint al bij €2,49/maand, NordVPN bij €3,39/maand.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Werkt een VPN met Netflix?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'NordVPN, Surfshark en ExpressVPN werken het meest betrouwbaar met Netflix. Ze bieden toegang tot meerdere Netflix-catalogi, waaronder Netflix US.',
+      },
+    },
+  ],
+}
 
 export default function HomePage() {
   const top3 = providers.slice(0, 3)
 
   return (
     <>
+      <JsonLd data={faqSchema} />
       <IPBanner />
 
       {/* Hero */}

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { VPNProvider } from '@/content/providers/types'
+import ProviderLogo from '@/components/ProviderLogo'
 
 interface Props {
   provider: VPNProvider
@@ -26,7 +27,7 @@ export default function VPNCard({ provider, rank, featured = false }: Props) {
             <span className="text-3xl font-black text-gray-100">#{rank}</span>
           )}
           <div>
-            <h3 className="text-lg font-bold text-gray-900">{provider.naam}</h3>
+            <ProviderLogo slug={provider.slug} naam={provider.naam} width={110} height={26} className="mb-1" />
             <p className="text-xs text-gray-400 mt-0.5">{provider.tagline}</p>
           </div>
         </div>

@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getProvider, providers } from '@/content/providers'
 import CTABox from '@/components/CTABox'
+import ProviderLogo from '@/components/ProviderLogo'
+import JsonLd from '@/components/JsonLd'
 
 export async function generateStaticParams() {
   return providers.map((p) => ({ slug: p.slug }))
@@ -15,6 +17,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${p.naam} Review 2026 | Eerlijk Getest`,
     description: `Lees onze uitgebreide ${p.naam} review. Score: ${p.scores.overall}/10. Vanaf €${p.prijzen.tweeJaar ?? p.prijzen.jaarlijks}/maand. ${p.prijzen.gratisPeriode}.`,
+    alternates: { canonical: `https://vpnr.nl/vpn-reviews/${slug}` },
+    openGraph: {
+      title: `${p.naam} Review 2026 — Score ${p.scores.overall}/10`,
+      description: `Onze eerlijke ${p.naam} review: snelheid, beveiliging, prijs en gebruiksgemak getest. Lees of ${p.naam} de beste VPN is voor jou.`,
+      url: `https://vpnr.nl/vpn-reviews/${slug}`,
+      type: 'article',
+    },
   }
 }
 
@@ -25,8 +34,48 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
 
   const otherProviders = providers.filter((x) => x.slug !== p.slug).slice(0, 3)
 
+  const reviewSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    name: `${p.naam} Review 2026`,
+    reviewBody: p.verdict,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: p.scores.overall,
+      bestRating: 10,
+      worstRating: 0,
+    },
+    author: { '@type': 'Organization', name: 'vpnr.nl' },
+    publisher: { '@type': 'Organization', name: 'vpnr.nl', url: 'https://vpnr.nl' },
+    itemReviewed: {
+      '@type': 'SoftwareApplication',
+      name: p.naam,
+      applicationCategory: 'SecurityApplication',
+      operatingSystem: 'Windows, macOS, iOS, Android, Linux',
+      offers: {
+        '@type': 'Offer',
+        price: p.prijzen.tweeJaar ?? p.prijzen.jaarlijks,
+        priceCurrency: 'EUR',
+        url: p.affiliateLink,
+      },
+    },
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://vpnr.nl' },
+      { '@type': 'ListItem', position: 2, name: 'VPN Reviews', item: 'https://vpnr.nl/vpn-reviews' },
+      { '@type': 'ListItem', position: 3, name: `${p.naam} Review`, item: `https://vpnr.nl/vpn-reviews/${p.slug}` },
+    ],
+  }
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
+      <JsonLd data={reviewSchema} />
+      <JsonLd data={breadcrumbSchema} />
+
       {/* Breadcrumb */}
       <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2">
         <Link href="/" className="hover:text-blue-600">Home</Link>
@@ -40,6 +89,9 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
       <div className="mb-8">
         <div className="flex items-start justify-between gap-4 mb-4">
           <div>
+            <div className="mb-3">
+              <ProviderLogo slug={p.slug} naam={p.naam} width={160} height={38} />
+            </div>
             <h1 className="text-4xl font-black text-gray-900 mb-2">{p.naam} Review 2026</h1>
             <p className="text-gray-500 text-lg">{p.tagline}</p>
           </div>
@@ -166,9 +218,9 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
             href={`/vpn-reviews/${alt.slug}`}
             className="flex items-center justify-between bg-white card-main rounded-xl p-4 hover:shadow-md transition-all group"
           >
-            <div>
-              <span className="font-bold text-gray-800 group-hover:text-blue-700 transition-colors">{alt.naam}</span>
-              <span className="text-sm text-gray-400 ml-2">— {alt.tagline}</span>
+            <div className="flex items-center gap-3">
+              <ProviderLogo slug={alt.slug} naam={alt.naam} width={90} height={22} />
+              <span className="text-sm text-gray-400">— {alt.tagline}</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-sm font-bold text-blue-600">{alt.scores.overall}/10</span>
