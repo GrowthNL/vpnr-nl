@@ -8,7 +8,7 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Beste VPN Nederland 2025 | Vergelijk & Bespaar | vpnr.nl',
+    default: 'Beste VPN Nederland 2026 | Vergelijk & Bespaar | vpnr.nl',
     template: '%s | vpnr.nl',
   },
   description:
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="nl" className={`${geist.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-[#060d1f]">
+      <body className="min-h-full flex flex-col bg-white">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

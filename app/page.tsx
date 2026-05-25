@@ -20,7 +20,7 @@ export default function HomePage() {
         <div className="relative max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-white/60 text-xs font-medium px-4 py-2 rounded-full mb-8 backdrop-blur-sm">
             <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-            Bijgewerkt mei 2025 · Onafhankelijk getest
+            Bijgewerkt mei 2026 · Onafhankelijk getest
           </div>
 
           <h1 className="text-5xl md:text-6xl font-black leading-[1.05] tracking-tight mb-6 text-white">
@@ -56,7 +56,7 @@ export default function HomePage() {
             {[
               { value: '20+', label: 'VPN\'s getest' },
               { value: '100%', label: 'Onafhankelijk' },
-              { value: '2025', label: 'Actuele data' },
+              { value: '2026', label: 'Actuele data' },
               { value: '€2,49', label: 'Goedkoopste VPN' },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
@@ -72,13 +72,13 @@ export default function HomePage() {
       <VPNLogoMarquee />
 
       {/* Top 3 VPN's */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-black text-white mb-3">
-              Beste VPN&apos;s van 2025
+            <h2 className="text-3xl font-black text-gray-900 mb-3">
+              Beste VPN&apos;s van 2026
             </h2>
-            <p className="text-white/40 max-w-lg mx-auto">
+            <p className="text-gray-500 max-w-lg mx-auto">
               Onze top 3 op basis van snelheid, beveiliging, prijs en gebruiksgemak.
             </p>
           </div>
@@ -95,7 +95,7 @@ export default function HomePage() {
           <div className="text-center mt-10">
             <Link
               href="/beste-vpn"
-              className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
             >
               Bekijk alle VPN-vergelijkingen
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -107,9 +107,9 @@ export default function HomePage() {
       </section>
 
       {/* Use cases */}
-      <section className="py-20 px-4 border-y border-white/5 bg-white/[0.01]">
+      <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-black text-white text-center mb-12">
+          <h2 className="text-3xl font-black text-gray-900 text-center mb-12">
             Beste VPN voor jouw situatie
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -124,14 +124,14 @@ export default function HomePage() {
               <Link
                 key={href}
                 href={href}
-                className="flex items-start gap-4 p-5 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-500/20 transition-all group"
+                className="flex items-start gap-4 p-5 rounded-2xl border border-gray-100 bg-gray-50 hover:bg-blue-50 hover:border-blue-200 transition-all group"
               >
                 <span className="text-2xl flex-shrink-0">{emoji}</span>
                 <div>
-                  <div className="font-semibold text-white/80 group-hover:text-white transition-colors text-sm">{title}</div>
-                  <div className="text-xs text-white/30 mt-1">{desc}</div>
+                  <div className="font-semibold text-gray-800 group-hover:text-blue-700 transition-colors text-sm">{title}</div>
+                  <div className="text-xs text-gray-400 mt-1">{desc}</div>
                 </div>
-                <svg className="w-4 h-4 ml-auto text-white/20 group-hover:text-blue-400 transition-colors flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 ml-auto text-gray-300 group-hover:text-blue-500 transition-colors flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </Link>
@@ -141,9 +141,9 @@ export default function HomePage() {
       </section>
 
       {/* Waarom VPN */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-black text-white text-center mb-12">Waarom heb je een VPN nodig?</h2>
+          <h2 className="text-3xl font-black text-gray-900 text-center mb-12">Waarom heb je een VPN nodig?</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {[
               { icon: '🔒', title: 'Privacy beschermen', desc: 'Jouw provider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt je verkeer volledig.' },
@@ -151,10 +151,10 @@ export default function HomePage() {
               { icon: '🌍', title: 'Geo-blokkades omzeilen', desc: 'Toegang tot content die alleen beschikbaar is in andere landen — Netflix US, BBC iPlayer, Peacock en meer.' },
               { icon: '⬇️', title: 'Anoniem downloaden', desc: 'Torrenten zonder dat jouw IP-adres zichtbaar is voor derden of rechthouders.' },
             ].map(({ icon, title, desc }) => (
-              <div key={title} className="card-glow bg-[#0d1b3e]/40 rounded-2xl p-6">
+              <div key={title} className="card-main bg-white rounded-2xl p-6">
                 <div className="text-2xl mb-3">{icon}</div>
-                <h3 className="font-bold text-white mb-2">{title}</h3>
-                <p className="text-white/40 text-sm leading-relaxed">{desc}</p>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
@@ -162,9 +162,9 @@ export default function HomePage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 border-t border-white/5">
+      <section className="py-20 px-4 bg-white border-t border-gray-100">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-black text-white text-center mb-12">Veelgestelde vragen</h2>
+          <h2 className="text-3xl font-black text-gray-900 text-center mb-12">Veelgestelde vragen</h2>
           <div className="space-y-3">
             {[
               {
@@ -184,9 +184,9 @@ export default function HomePage() {
                 a: 'NordVPN, Surfshark en ExpressVPN werken het meest betrouwbaar met Netflix. Ze bieden toegang tot meerdere Netflix-catalogi, waaronder Netflix US.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="card-glow bg-[#0d1b3e]/40 rounded-2xl p-6">
-                <h3 className="font-semibold text-white mb-2">{q}</h3>
-                <p className="text-white/40 text-sm leading-relaxed">{a}</p>
+              <div key={q} className="card-main bg-white rounded-2xl p-6">
+                <h3 className="font-semibold text-gray-900 mb-2">{q}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{a}</p>
               </div>
             ))}
           </div>

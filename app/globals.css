@@ -1,35 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #060d1f;
-  --bg-card: #0d1b3e;
-  --bg-card-hover: #112248;
-  --blue-glow: #4687ff;
-  --blue-accent: #6e9fff;
-  --green-accent: #22d3a5;
+  --bg-primary: #ffffff;
+  --blue-main: #1a56db;
+  --blue-dark: #1e429f;
+  --blue-light: #ebf2ff;
 }
 
 @theme inline {
-  --color-background: var(--bg-primary);
-  --color-foreground: #f0f4ff;
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
   --font-sans: var(--font-geist-sans);
 }
 
 body {
-  background: var(--bg-primary);
-  color: #f0f4ff;
+  background: #ffffff;
+  color: #0f172a;
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
 html { scroll-behavior: smooth; }
 
-/* Glow orb achtergrond */
+/* Hero gradient */
 .hero-glow {
   background:
-    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(70, 135, 255, 0.25) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 40% at 80% 50%, rgba(110, 159, 255, 0.1) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 50% at 20% 80%, rgba(34, 211, 165, 0.08) 0%, transparent 60%),
-    #060d1f;
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(70, 135, 255, 0.3) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 80% 60%, rgba(110, 159, 255, 0.15) 0%, transparent 60%),
+    #1e3a8a;
 }
 
 /* Shimmer button */
@@ -38,12 +35,12 @@ html { scroll-behavior: smooth; }
   100% { background-position: 200% center; }
 }
 .btn-shimmer {
-  background: linear-gradient(90deg, #4687ff, #6e9fff, #4687ff);
+  background: linear-gradient(90deg, #1d4ed8, #3b82f6, #1d4ed8);
   background-size: 200% auto;
   animation: shimmer 3s linear infinite;
 }
 
-/* Marquee scroll */
+/* Marquee */
 @keyframes marquee {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -51,40 +48,21 @@ html { scroll-behavior: smooth; }
 .marquee-track {
   animation: marquee 28s linear infinite;
 }
-.marquee-track:hover {
-  animation-play-state: paused;
+.marquee-track:hover { animation-play-state: paused; }
+
+/* Card stijl */
+.card-main {
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+}
+.card-featured {
+  border: 2px solid #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59,130,246,0.08), 0 4px 24px rgba(59,130,246,0.12);
 }
 
-/* Card glow border */
-.card-glow {
-  border: 1px solid rgba(70, 135, 255, 0.2);
-  box-shadow: 0 0 30px rgba(70, 135, 255, 0.06), inset 0 1px 0 rgba(255,255,255,0.05);
-}
-.card-glow-featured {
-  border: 1px solid rgba(70, 135, 255, 0.5);
-  box-shadow: 0 0 40px rgba(70, 135, 255, 0.15), inset 0 1px 0 rgba(255,255,255,0.08);
-}
-
-/* Number ticker */
-@keyframes countUp {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.stat-number {
-  animation: countUp 0.6s ease forwards;
-}
-
-/* IP Banner pulse */
+/* IP banner pulse */
 @keyframes pulse-red {
   0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
-  50% { box-shadow: 0 0 0 8px rgba(239, 68, 68, 0); }
+  50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
 }
-.ip-pulse {
-  animation: pulse-red 2s infinite;
-}
-
-/* Beam border animatie voor featured card */
-@keyframes beam {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+.ip-pulse { animation: pulse-red 2s infinite; }
