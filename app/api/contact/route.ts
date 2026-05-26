@@ -65,7 +65,7 @@ export async function POST(req: Request) {
       from: `"vpnr.nl Contact" <${sender}>`,
       to: recipient,
       replyTo: `"${name}" <${email}>`,
-      subject: `[vpnr.nl] ${subject ?? 'Contactformulier'} — ${name}`,
+      subject: `Contactformulier vpnr.nl: ${subject ?? 'Bericht'} van ${name}`,
       text: [
         `Naam:      ${name}`,
         `E-mail:    ${email}`,
