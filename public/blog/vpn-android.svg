@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <linearGradient id="phoneGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(16,185,129,0.2)"/>
+      <stop offset="100%" stop-color="rgba(5,150,105,0.1)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Background glow -->
+  <circle cx="600" cy="315" r="280" fill="rgba(16,185,129,0.04)"/>
+  <circle cx="600" cy="315" r="200" fill="rgba(16,185,129,0.06)"/>
+
+  <!-- Phone body -->
+  <rect x="450" y="105" width="300" height="490" rx="36" fill="url(#phoneGrad)" stroke="rgba(16,185,129,0.5)" stroke-width="2.5"/>
+  <!-- Phone inner border -->
+  <rect x="458" y="113" width="284" height="474" rx="30" fill="none" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+
+  <!-- Camera dot -->
+  <circle cx="600" cy="138" r="14" fill="rgba(5,150,105,0.4)" stroke="rgba(16,185,129,0.5)" stroke-width="1.5"/>
+  <circle cx="600" cy="138" r="7" fill="rgba(0,0,0,0.6)"/>
+  <circle cx="596" cy="134" r="2.5" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Screen area -->
+  <rect x="466" y="160" width="268" height="390" rx="6" fill="rgba(0,0,0,0.4)"/>
+
+  <!-- Screen content: Shield -->
+  <path d="M600 210 L665 233 L665 328 Q665 378 600 400 Q535 378 535 328 L535 233 Z"
+        fill="rgba(16,185,129,0.18)" stroke="rgba(16,185,129,0.65)" stroke-width="2"/>
+  <!-- Checkmark inside shield -->
+  <polyline points="557,315 585,343 643,282" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- "VPN" label under shield -->
+  <rect x="558" y="415" width="84" height="26" rx="13" fill="rgba(16,185,129,0.25)" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+  <text x="600" y="433" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="rgba(52,211,153,0.95)" letter-spacing="2">VPN</text>
+
+  <!-- Home indicator -->
+  <rect x="562" y="562" width="76" height="7" rx="3.5" fill="rgba(16,185,129,0.4)"/>
+
+  <!-- Side buttons -->
+  <rect x="748" y="220" width="8" height="55" rx="4" fill="rgba(16,185,129,0.35)"/>
+  <rect x="444" y="210" width="8" height="40" rx="4" fill="rgba(16,185,129,0.35)"/>
+  <rect x="444" y="260" width="8" height="40" rx="4" fill="rgba(16,185,129,0.35)"/>
+
+  <!-- Android robot antennae (subtle, top-left) -->
+  <line x1="310" y1="180" x2="360" y2="155" stroke="rgba(16,185,129,0.3)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="360" cy="155" r="6" fill="rgba(16,185,129,0.35)"/>
+  <line x1="310" y1="215" x2="355" y2="200" stroke="rgba(16,185,129,0.25)" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="355" cy="200" r="4" fill="rgba(16,185,129,0.3)"/>
+
+  <!-- Floating lock icon (top right) -->
+  <circle cx="870" cy="200" r="38" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.3)" stroke-width="1.5"/>
+  <rect x="854" y="204" width="32" height="26" rx="4" fill="rgba(16,185,129,0.3)" stroke="rgba(16,185,129,0.6)" stroke-width="1.5"/>
+  <path d="M862 204 L862 192 Q862 180 870 180 Q878 180 878 192 L878 204" fill="none" stroke="rgba(16,185,129,0.6)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="870" cy="216" r="5" fill="rgba(52,211,153,0.8)"/>
+
+  <!-- Decorative dots -->
+  <circle cx="200" cy="400" r="5" fill="rgba(16,185,129,0.3)"/>
+  <circle cx="170" cy="340" r="3.5" fill="rgba(16,185,129,0.25)"/>
+  <circle cx="1000" cy="460" r="4" fill="rgba(16,185,129,0.3)"/>
+  <circle cx="1040" cy="390" r="3" fill="rgba(16,185,129,0.2)"/>
+  <circle cx="350" cy="490" r="3" fill="rgba(16,185,129,0.2)"/>
+</svg>

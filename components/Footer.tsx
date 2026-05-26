@@ -18,9 +18,6 @@ export default function Footer() {
               <a href="mailto:info@growthmedia.nl" className="hover:text-gray-400 transition-colors block">
                 info@growthmedia.nl
               </a>
-              <a href="tel:+31654208613" className="hover:text-gray-400 transition-colors block">
-                +31 6 54 20 86 13
-              </a>
               <p className="pt-1">KvK: 67106366</p>
             </div>
           </div>

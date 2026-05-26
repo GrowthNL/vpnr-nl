@@ -497,6 +497,445 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['vpn-buitenland-gebruiken', 'netflix-vpn-werkt-niet', 'vpn-protocol-vergelijking'],
     tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting'],
   },
+
+  // ─── POST 6: Wat is een VPN ───────────────────────────────────────────────
+  {
+    slug: 'wat-is-een-vpn',
+    title: 'Wat is een VPN? Complete uitleg voor beginners (2026)',
+    metaTitle: 'Wat is een VPN? Uitleg, Werking & Waarom je het Nodig Hebt | vpnr.nl',
+    metaDescription: 'Wat is een VPN en hoe werkt het? Complete uitleg voor beginners: versleuteling, IP-adres verbergen, no-logs beleid en welke VPN het beste is als je net begint.',
+    excerpt: 'Elke dag surfen miljoenen Nederlanders op het internet zonder te beseffen dat hun data wordt bijgehouden. Een VPN is de meest gebruikte tool om jezelf online te beschermen — maar wat is het precies?',
+    category: 'Uitleg',
+    date: '20 mei 2026',
+    dateISO: '2026-05-20',
+    updatedISO: '2026-05-26',
+    readTime: '8 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/wat-is-een-vpn.svg',
+    imageAlt: 'Wat is een VPN - laptop verbonden via versleutelde tunnel met internet',
+    intro: 'Elke dag gebruiken miljoenen Nederlanders het internet zonder te beseffen dat hun internetprovider, adverteerders en soms zelfs hackers kunnen meekijken. Een VPN (Virtual Private Network) is het meest gebruikte hulpmiddel om jezelf online te beschermen — maar wat is het precies, hoe werkt het en heb jij het echt nodig? In deze gids leggen we alles uit in gewone taal, zonder technisch jargon.',
+    sections: [
+      {
+        heading: 'Wat is een VPN in het kort?',
+        body: [
+          'Een VPN, voluit <strong>Virtual Private Network</strong>, is een dienst die je internetverbinding versleutelt en je echte IP-adres verbergt door je internetverkeer via een server op een andere locatie te sturen. Websites en apps zien dan het IP-adres van de VPN-server, niet jouw echte IP-adres.',
+          'Een goede analogie: stel je voor dat het internet een snelweg is. Normaal rijd je in een doorzichtige auto — iedereen kan zien wie je bent en waar je naartoe gaat. Met een VPN rijd je in een gepantserde, getinte auto door een privétunnel. Niemand buiten de tunnel kan meekijken.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'VPN staat voor',
+          text: 'Virtual Private Network — een versleuteld privénetwerk via een openbare verbinding. Oorspronkelijk gebruikt door bedrijven voor veilig thuiswerken, nu de standaard privacytool voor consumenten.',
+        },
+      },
+      {
+        heading: 'Hoe werkt een VPN technisch?',
+        body: [
+          'Wanneer je een VPN inschakelt, loopt al je internetverkeer via een versleutelde tunnel naar een VPN-server. Die server stuurt jouw verzoeken vervolgens door naar het internet. Websites zien alleen het IP-adres van de VPN-server, niet jouw eigen adres of locatie.',
+          'De versleuteling werkt via <strong>AES-256</strong> — dezelfde encryptiestandaard die banken, overheden en het militair gebruiken. Het zou een moderne supercomputer meer dan een miljard jaar kosten om dit te kraken. Bovenop de encryptie zorgt een <strong>no-logs beleid</strong> ervoor dat ook de VPN-aanbieder zelf niet bijhoudt welke sites jij bezoekt.',
+        ],
+        table: {
+          headers: ['Zonder VPN', 'Met VPN'],
+          rows: [
+            ['Je echte IP-adres is zichtbaar voor elke website', 'Websites zien het IP van de VPN-server'],
+            ['Je ISP ziet alle sites die je bezoekt', 'ISP ziet alleen versleuteld dataverkeer'],
+            ['Hackers op openbaar wifi kunnen meekijken', 'Verkeer is volledig versleuteld en onleesbaar'],
+            ['Advertentienetwerken tracken je IP-adres', 'VPN-IP is moeilijk te koppelen aan jouw persoon'],
+            ['Je locatie is zichtbaar voor elke website', 'Websites zien de locatie van de VPN-server'],
+          ],
+        },
+      },
+      {
+        heading: 'Waarom zou je een VPN gebruiken?',
+        body: [
+          '<strong>1. Privacy van je internetprovider</strong> — Je ISP (KPN, Ziggo, T-Mobile) kan alles zien wat je online doet: welke sites je bezoekt, hoe lang en hoe vaak. In Nederland mogen providers en overheid deze data onder bepaalde omstandigheden opvragen. Een VPN versleutelt je verkeer, zodat je ISP alleen ziet dat je verbinding maakt met een VPN-server.',
+          '<strong>2. Beveiliging op openbaar wifi</strong> — Gratis wifi in cafés, hotels, treinen en luchthavens is notoir onveilig. Met de juiste tools kan een aanvaller op hetzelfde netwerk je wachtwoorden en bankgegevens onderscheppen (een "man-in-the-middle aanval"). Een VPN versleutelt al je verkeer zodat dit onmogelijk wordt.',
+          '<strong>3. Toegang tot geo-geblokkeerde content</strong> — NPO Start, Videoland en andere Nederlandse diensten zijn alleen beschikbaar vanuit Nederland. In het buitenland werken ze niet. Met een VPN-server in Nederland heb je altijd toegang. Andersom kun je ook buitenlandse Netflix-bibliotheken bekijken via een server in dat land.',
+          '<strong>4. Bescherming bij thuiswerken</strong> — Thuis gebruik je een privé-wifi-netwerk. Als je werkt met gevoelige bedrijfsdata is een VPN extra bescherming. Veel bedrijven verplichten een VPN voor remote werken om bedrijfsgegevens te beveiligen.',
+        ],
+      },
+      {
+        heading: 'Wat een VPN NIET doet',
+        body: [
+          'Een VPN maakt je <strong>niet volledig anoniem</strong>. Als je ingelogd bent op Google, Facebook of een andere dienst, weet die dienst nog steeds wie je bent — ook met VPN. Een VPN verbergt je IP-adres en versleutelt je verkeer, maar het is geen onzichtbaarheidsmantel.',
+          'Een VPN beschermt je ook <strong>niet tegen malware, virussen of phishing</strong>. Als je op een malafide link klikt of een besmet bestand downloadt, helpt een VPN je niet. Daarvoor heb je goede antivirussoftware nodig. Sommige VPN\'s bieden wel een extra functie om schadelijke websites te blokkeren (zoals NordVPN\'s Threat Protection), maar dat is een toevoeging, geen kernfunctie van een VPN.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'Veelgemaakte fout',
+          text: 'Een VPN maakt je niet anoniem op internet. Als je ingelogd bent op Google of social media weten die platforms nog steeds wie je bent. Voor echte anonimiteit heb je Tor nodig, maar dat gaat sterk ten koste van snelheid.',
+        },
+      },
+      {
+        heading: 'Wat is een no-logs beleid?',
+        body: [
+          'Een <strong>no-logs beleid</strong> (ook "zero-logs" of "geen logboeken") betekent dat de VPN-aanbieder geen activiteitenlogboeken bijhoudt: welke sites je bezoekt, hoe lang en wanneer. Als iemand die gegevens opvraagt bij de aanbieder — een overheid, rechtbank of hacker — is er simpelweg niets te leveren.',
+          'Niet elk no-logs beleid is even sterk. De gouden standaard is een VPN-provider die zijn beleid laat controleren door een onafhankelijke externe partij. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft meerdere audits ondergaan bij PricewaterhouseCoopers. <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is geauditeerd door Deloitte. Dit zijn de meest betrouwbare opties voor privacybewuste gebruikers.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Controleer altijd op externe audits',
+          text: 'Vraag je bij elke VPN af: heeft dit bedrijf een onafhankelijke externe audit laten uitvoeren op het no-logs beleid? En is die audit recent (afgelopen 2 jaar)? Dit is de enige echte verificatie van een privacybelofte.',
+        },
+      },
+      {
+        heading: 'Welke VPN is de beste keuze voor beginners?',
+        body: [
+          'Voor beginners zijn drie factoren het belangrijkst: gebruiksgemak, betrouwbaarheid en prijs. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> is de beste all-round keuze: de app is intuïtief (één druk op de knop), heeft een bewezen no-logs beleid en werkt op Windows, Mac, iPhone, Android, Linux en meer tegelijk.',
+          'Zoek je iets goedkoper? <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> kost minder dan €2 per maand bij een 2-jaarsabonnement en werkt op onbeperkt apparaten tegelijk — ideaal voor gezinnen. Wil je helemaal gratis beginnen? <a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN Gratis</a> is de enige gratis VPN zonder datalimiet die we aanbevelen.',
+        ],
+        cta: 'nordvpn',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Wat is het verschil tussen een VPN en incognito modus?',
+        answer: 'Incognito (of privévenster) slaat geen browsegeschiedenis, cookies of formuliergegevens op je eigen apparaat op. Het verbergt je IP-adres niet — je ISP en websites zien je IP nog steeds gewoon. Een VPN verbergt wél je IP-adres en versleutelt je verkeer voor je ISP. Ze vullen elkaar aan: incognito is lokaal, een VPN is netwerk-niveau privacy.',
+      },
+      {
+        question: 'Is een VPN illegaal in Nederland?',
+        answer: 'Nee, een VPN gebruiken is volledig legaal in Nederland en in vrijwel alle Westerse landen. Het is een legitiem privacy- en beveiligingshulpmiddel. In sommige landen (China, Rusland, Iran) is gebruik van niet-goedgekeurde VPN\'s officieel beperkt. Illegale activiteiten blijven uiteraard illegaal, ook met een VPN.',
+      },
+      {
+        question: 'Maakt een VPN mijn internet langzamer?',
+        answer: 'Een VPN voegt een kleine vertraging toe door versleuteling en omleiding via een externe server. Met een moderne VPN op WireGuard-protocol en een server dicht bij je (bijv. Amsterdam) merk je dit nauwelijks: minder dan 10% snelheidsvermindering op een goede verbinding. Gratis VPN\'s zijn wél significant trager door overvolle servers.',
+      },
+      {
+        question: 'Kan mijn werkgever zien wat ik thuis doe als ik een VPN gebruik?',
+        answer: 'Op je eigen apparaat en eigen wifi-netwerk kan je werkgever niets zien, ook niet met een persoonlijke VPN. Als je verbinding maakt via een bedrijfs-VPN (opgezet door je werkgever) kan de IT-afdeling in principe bedrijfsgerelateerd verkeer monitoren. Een persoonlijke VPN op je privéapparaat thuis is volledig privé voor je werkgever.',
+      },
+      {
+        question: 'Hoe weet ik of mijn VPN correct werkt?',
+        answer: 'Ga naar ipleak.net of whatismyipaddress.com met je VPN ingeschakeld. Je ziet dan het IP-adres van de VPN-server, niet je eigen IP. Controleer ook de DNS-sectie: alle DNS-adressen zouden van de VPN-provider moeten komen. Zie je je eigen provider (KPN, Ziggo)? Dan is er een DNS-lek en werkt de VPN niet volledig.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['vpn-android-instellen', 'vpn-iphone-instellen', 'vpn-ip-adres-verbergen'],
+    tags: ['wat is een vpn', 'vpn uitleg', 'vpn voor beginners', 'vpn werking 2026'],
+  },
+
+  // ─── POST 7: VPN op Android ───────────────────────────────────────────────
+  {
+    slug: 'vpn-android-instellen',
+    title: 'VPN instellen op Android: stap-voor-stap handleiding (2026)',
+    metaTitle: 'VPN Instellen op Android (2026) | Stap-voor-Stap Handleiding | vpnr.nl',
+    metaDescription: 'Leer hoe je een VPN instelt op Android in 3 stappen via de app of handmatig. Inclusief altijd-aan VPN, kill switch en oplossingen voor verbindingsproblemen.',
+    excerpt: 'Een VPN instellen op Android is binnen 3 minuten klaar via de Play Store. Leer hoe je de app installeert, de altijd-aan VPN inschakelt en veelvoorkomende problemen oplost.',
+    category: 'Gids',
+    date: '22 mei 2026',
+    dateISO: '2026-05-22',
+    updatedISO: '2026-05-26',
+    readTime: '6 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-android.svg',
+    imageAlt: 'VPN instellen op Android smartphone met beveiligingsschild op het scherm',
+    intro: 'Een VPN instellen op Android is binnen 3 minuten klaar via de Google Play Store. Je hebt twee opties: via de app van je VPN-aanbieder (aanbevolen — je krijgt alle functies) of handmatig via de Android-netwerkinstellingen (voor zakelijke VPN\'s of gevorderde gebruikers). In deze handleiding lopen we beide methoden stap voor stap door, inclusief altijd-aan VPN, kill switch en oplossingen voor veelvoorkomende problemen.',
+    sections: [
+      {
+        heading: 'VPN installeren via de app (aanbevolen methode)',
+        body: [
+          'De app-methode is de snelste en meest complete manier: je krijgt automatische serverskeuze, kill switch, split tunneling en altijd-aan VPN. Volg deze 4 stappen:',
+          '<strong>Stap 1 — Download de app:</strong> Open de Google Play Store en zoek op de naam van je VPN-aanbieder (bijv. "NordVPN" of "Surfshark"). Download de officiële app. Controleer het aantal downloads (tientallen miljoenen) en de naam van de ontwikkelaar om de echte app te herkennen.',
+          '<strong>Stap 2 — Log in:</strong> Open de app en log in met je account. Heb je nog geen account? Maak het aan via de website van je aanbieder (niet via de Play Store — dat kost meer omdat Google commissie rekent).',
+          '<strong>Stap 3 — Verbinden:</strong> Tik op de grote verbindingsknop. Android vraagt eenmalig toestemming: "Wil je een VPN-verbinding toestaan?" — tik op "OK". Dit is normaal; Android vraagt altijd toestemming voor de eerste VPN-verbinding.',
+          '<strong>Stap 4 — Controleer het sleuteltje:</strong> Het VPN-icoontje (een sleuteltje) verschijnt bovenaan in de statusbalk. Je bent nu beschermd. Test via ipleak.net of je IP correct is veranderd.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Automatische serverselect',
+          text: 'Moderne VPN-apps zoals NordVPN en Surfshark kiezen automatisch de snelste server voor jou op basis van serverbelasting en afstand. Wil je toch handmatig kiezen? Kies altijd een server in Amsterdam of Nederland voor de snelste verbinding.',
+        },
+      },
+      {
+        heading: 'Altijd-aan VPN en kill switch instellen op Android',
+        body: [
+          'Met de <strong>altijd-aan VPN</strong> zorgt Android ervoor dat je internet nooit zonder VPN-bescherming loopt. Verbreekt de VPN-verbinding? Dan blokkeert Android automatisch al je internetverkeer totdat de VPN weer actief is. Dit is de functie die "kill switch" wordt genoemd.',
+          '<strong>Instellen via Android-instellingen:</strong> Ga naar Instellingen → Netwerk en internet → Geavanceerd → VPN. Tik op het tandwielpictogram naast je VPN-verbinding. Activeer "Altijd actieve VPN" en schakel ook "Verbindingen blokkeren zonder VPN" in voor maximale bescherming.',
+          '<strong>Let op:</strong> De ingebouwde Android-optie werkt alleen voor handmatig aangemaakte VPN-verbindingen. Gebruik je een VPN-app (NordVPN, Surfshark)? Activeer de kill switch dan in de app zelf via Instellingen → Kill Switch.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'Batterijoptimalisatie uitschakelen',
+          text: 'Android kan VPN-apps op de achtergrond beëindigen om batterij te besparen — waardoor je onbewust onbeschermd surft. Voorkom dit: Instellingen → Apps → [VPN-app] → Batterij → stel in op "Niet optimaliseren" of "Onbeperkt".',
+        },
+      },
+      {
+        heading: 'VPN handmatig instellen op Android (geavanceerd)',
+        body: [
+          'Handmatig instellen is nuttig voor zakelijke VPN\'s of als je een aanbieder gebruikt zonder Android-app. Android ondersteunt IKEv2/IPSec, L2TP/IPSec en PPTP-protocollen. IKEv2 is de veiligste en stabielste keuze.',
+          '<strong>Stap 1:</strong> Ga naar Instellingen → Netwerk en internet → VPN → Plusteken (+) rechtsboven.',
+          '<strong>Stap 2:</strong> Kies type "IKEv2/IPSec MSCHAPv2". Vul de servernaam of het IP-adres in (opvraagbaar bij je VPN-aanbieder), je gebruikersnaam en wachtwoord. Sla op.',
+          '<strong>Stap 3:</strong> Tik op de verbinding om te verbinden. Het VPN-sleuteltje verschijnt in de statusbalk.',
+          'Nadelen van handmatig instellen: geen kill switch, geen split tunneling, geen automatische serverherverbinding. De app-methode is voor vrijwel alle gebruikers de betere keuze.',
+        ],
+      },
+      {
+        heading: 'Problemen oplossen: VPN werkt niet op Android',
+        body: [
+          '<strong>Verbinding mislukt of time-out?</strong> Probeer een andere server — de huidige kan overbelast of tijdelijk offline zijn. Wissel ook het protocol: ga van OpenVPN naar WireGuard (of andersom). WireGuard is stabieler op mobiele netwerken door zijn lichtere architectuur.',
+          '<strong>VPN verbreekt constant de verbinding?</strong> Batterijbeheer van Android is de meest voorkomende oorzaak. Schakel batterijoptimalisatie uit voor de VPN-app (Instellingen → Apps → [VPN-app] → Batterij → Niet optimaliseren). Controleer ook of achtergrondgegevens zijn ingeschakeld voor de app.',
+          '<strong>VPN werkt niet op specifieke apps?</strong> Sommige apps (bankieren, bepaalde streamingdiensten) detecteren VPN-gebruik en weigeren verbinding. Gebruik split tunneling in je VPN-app om die specifieke app buiten de VPN-tunnel te houden, terwijl al het andere verkeer beschermd blijft.',
+          '<strong>App crasht of reageert niet?</strong> Wis de cache via Instellingen → Apps → [VPN-app] → Opslag → Cache wissen. Helpt dat niet? Verwijder en herinstalleer de app.',
+        ],
+      },
+      {
+        heading: 'De beste VPN-apps voor Android in 2026',
+        body: [
+          '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft de meest complete Android-app: kill switch, split tunneling, automatische verbinding op onbekend wifi, Threat Protection (blokkeert malware, trackers en advertenties) en NordLynx (WireGuard-variant voor maximale snelheid). De app is ook beschikbaar in het Nederlands.',
+          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> blinkt uit door onbeperkte apparaten op één abonnement — ideaal als je meerdere Android-apparaten (telefoon, tablet) wilt beveiligen. De Android-app heeft ook CleanWeb (blokkeert advertenties en trackers) en een NoBorders-modus voor landen met censuur.',
+          '<a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN</a> is de beste gratis optie: geen datalimiet, open-source app en een serieus no-logs beleid dat is geauditeerd. De betaalde versie voegt het Stealth-protocol toe voor landen met strenge VPN-blokkades.',
+        ],
+        cta: 'nordvpn',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Heeft een VPN invloed op de batterijduur van mijn Android?',
+        answer: 'Ja, een VPN verbruikt iets meer batterij door de constante versleuteling: gemiddeld 5–15% extra verbruik afhankelijk van het protocol. WireGuard is aanzienlijk zuiniger dan OpenVPN, omdat het efficiënter is ontworpen met minder overhead. NordLynx (NordVPN\'s WireGuard-implementatie) is specifiek geoptimaliseerd voor mobiel gebruik.',
+      },
+      {
+        question: 'Welke Android-versie heb ik nodig voor een VPN?',
+        answer: 'De meeste VPN-apps ondersteunen Android 6.0 (Marshmallow) en hoger. De ingebouwde IKEv2-functie werkt op Android 9.0 en hoger. Voor de altijd-aan VPN met lekbeveiliging heb je Android 8.0 of hoger nodig. Controleer de Play Store-pagina van je VPN-app voor de exacte minimumvereiste.',
+      },
+      {
+        question: 'Kan ik een VPN gebruiken op een Android TV of Amazon Fire Stick?',
+        answer: 'Ja. NordVPN, Surfshark en ExpressVPN hebben aparte Android TV-apps in de Google Play Store. Op een Amazon Fire Stick installeer je de VPN-app via de Amazon Appstore. Een alternatief is een VPN instellen op je router — dan zijn alle apparaten in je netwerk automatisch beschermd, ook smart tv\'s zonder app-ondersteuning.',
+      },
+      {
+        question: 'Werkt een VPN op alle Android-apps tegelijk?',
+        answer: 'Ja, een VPN versleutelt standaard al het verkeer van je Android-apparaat — alle apps inclusief. Via split tunneling kun je bepaalde apps buiten de VPN-tunnel houden. Handig voor banking-apps die VPN-gebruik blokkeren, of voor gaming-apps waarbij je de extra latentie van de VPN wilt vermijden.',
+      },
+      {
+        question: 'Hoe zet ik de VPN automatisch aan op Android?',
+        answer: 'Gebruik de ingebouwde "Altijd actieve VPN" instelling van Android (Instellingen → Netwerk en internet → VPN → tandwielpictogram) of de auto-verbinden functie in je VPN-app. Met NordVPN kun je instellen dat de app automatisch verbinding maakt wanneer je verbinding maakt met een nieuw of onbeveiligd wifi-netwerk.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['wat-is-een-vpn', 'vpn-iphone-instellen', 'vpn-buitenland-gebruiken'],
+    tags: ['vpn android', 'vpn instellen android', 'android vpn handleiding', 'kill switch android'],
+  },
+
+  // ─── POST 8: VPN op iPhone ────────────────────────────────────────────────
+  {
+    slug: 'vpn-iphone-instellen',
+    title: 'VPN instellen op iPhone en iPad: complete iOS-handleiding (2026)',
+    metaTitle: 'VPN Instellen op iPhone (2026) | iOS Handleiding App & Handmatig | vpnr.nl',
+    metaDescription: 'Installeer een VPN op je iPhone of iPad in 3 minuten via de App Store. Stap-voor-stap handleiding inclusief handmatig IKEv2 instellen en tips voor verbindingsproblemen op iOS.',
+    excerpt: 'Een VPN instellen op iPhone duurt minder dan 3 minuten. iOS heeft uitstekende VPN-ondersteuning. Leer de snelste methode via de App Store en de handmatige IKEv2-instelling.',
+    category: 'Gids',
+    date: '23 mei 2026',
+    dateISO: '2026-05-23',
+    updatedISO: '2026-05-26',
+    readTime: '6 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-iphone.svg',
+    imageAlt: 'VPN instellen op iPhone - iOS smartphone met VPN-beveiligingsschild',
+    intro: 'Een VPN instellen op je iPhone of iPad duurt minder dan 3 minuten. iOS heeft uitstekende ingebouwde VPN-ondersteuning en de apps zijn erg gebruiksvriendelijk. In deze handleiding behandelen we de snelste methode via de App Store, de handmatige IKEv2-instelling voor gevorderde gebruikers, en geven we concrete tips voor de meestvoorkomende verbindingsproblemen op iOS.',
+    sections: [
+      {
+        heading: 'VPN installeren op iPhone via de App Store',
+        body: [
+          'De app-methode geeft je de meest complete VPN-ervaring op iOS, inclusief kill switch, split tunneling en automatische verbinding. Volg deze stappen:',
+          '<strong>Stap 1 — Download de app:</strong> Open de App Store op je iPhone of iPad. Zoek op de naam van je VPN-aanbieder (bijv. "NordVPN" of "Surfshark"). Download de officiële app — controleer het aantal beoordelingen en de naam van de ontwikkelaar.',
+          '<strong>Stap 2 — Log in:</strong> Open de app en meld je aan met je account. Bij NordVPN en Surfshark kun je ook inloggen via Apple ID of e-mailadres.',
+          '<strong>Stap 3 — Geef toestemming:</strong> Tik op de verbindingsknop. iOS toont eenmalig de melding: "Wil je VPN-configuraties toevoegen?" — tik op "Sta toe". Dit is normaal en volledig veilig; iOS vraagt altijd toestemming voor VPN-profielen.',
+          '<strong>Stap 4 — Verbonden:</strong> Het "VPN"-icoontje verschijnt in de statusbalk linksboven op je iPhone. Je bent nu beschermd. Controleer via ipleak.net in Safari of je IP-adres is veranderd naar dat van de VPN-server.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'Koop buiten de App Store',
+          text: 'Abonnementen die via de App Store worden afgesloten zijn vaak duurder omdat Apple 15–30% commissie rekent. Koop je abonnement via de officiële website van de VPN-aanbieder en gebruik de app alleen om in te loggen.',
+        },
+      },
+      {
+        heading: 'Always-on VPN instellen op iPhone',
+        body: [
+          'iOS ondersteunt geen altijd-aan VPN voor gewone consumenten zonder MDM (Mobile Device Management), maar er zijn goede alternatieven. De meeste VPN-apps bieden een "automatisch verbinden" functie die de VPN direct inschakelt bij een nieuwe netwerkverbinding.',
+          '<strong>In NordVPN:</strong> Ga naar het tandwielpictogram → VPN-protocol → Automatisch verbinden → schakel "Op niet-vertrouwde netwerken" in. De VPN verbindt dan automatisch wanneer je verbinding maakt met een onbekend wifi-netwerk.',
+          '<strong>In Surfshark:</strong> Ga naar App-instellingen → Automatisch verbinden → Aan. De VPN start automatisch bij elke netwerkverbinding.',
+          'Wil je voorkomen dat de VPN per ongeluk wordt uitgeschakeld? Ga naar iOS Instellingen → Schermtijd → Inhouds- en privacybeperkingen → Schakel "VPN-configuraties wijzigen" uit. Zo is de VPN-configuratie vergrendeld.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Voor zakelijk gebruik',
+          text: 'Altijd-aan VPN op bedrijfs-iPhones instellen vereist MDM (zoals Apple Business Manager of Jamf). Via MDM kun je per-app VPN-regels en verplichte altijd-aan VPN configureren — zonder dat medewerkers dit kunnen uitschakelen.',
+        },
+      },
+      {
+        heading: 'VPN handmatig instellen op iPhone via IKEv2',
+        body: [
+          'Je kunt een VPN ook handmatig instellen in de iOS-instellingen, zonder extra app. Handig voor zakelijke VPN\'s of aanbieders zonder iOS-app. iOS ondersteunt IKEv2/IPSec (aanbevolen), L2TP/IPSec en Cisco IPSec.',
+          '<strong>Stap 1:</strong> Ga naar Instellingen → Algemeen → VPN en apparaatbeheer → VPN → VPN-configuratie toevoegen.',
+          '<strong>Stap 2:</strong> Kies "IKEv2" als type. Vul in: beschrijving (bijv. "NordVPN NL"), server (bijv. nl123.nordvpn.com), extern-ID en lokaal-ID (je gebruikersnaam of e-mailadres). Kies bij aanmelding "Gebruikersnaam" en vul je gebruikersnaam en wachtwoord in. Je VPN-aanbieder geeft je de exacte servergegevens.',
+          '<strong>Stap 3:</strong> Tik op "Gereed" en daarna op de schakelaar naast de VPN-verbinding om te verbinden. Het VPN-icoontje verschijnt in de statusbalk.',
+          'Nadelen van handmatige instelling: geen kill switch, geen split tunneling en je moet handmatig van server wisselen. De app-methode is voor vrijwel alle gebruikers de betere keuze.',
+        ],
+      },
+      {
+        heading: 'Problemen oplossen: VPN werkt niet op iPhone',
+        body: [
+          '<strong>VPN verbindt niet?</strong> Schakel Vliegtuigmodus in en daarna weer uit — dit reset alle netwerkverbindingen op je iPhone. Probeer vervolgens een andere server of schakel het protocol om van IKEv2 naar WireGuard (in de app-instellingen).',
+          '<strong>VPN verbreekt steeds de verbinding?</strong> iOS kan achtergrond-apps beperken voor energiebesparing. Zorg dat de VPN-app achtergrondvernieuwing aan heeft: iOS Instellingen → [VPN-app] → Achtergrondvernieuwing → Aan. Controleer ook of Wi-Fi Assist is uitgeschakeld (Instellingen → Mobiel → Wi-Fi Assist uitschakelen) — deze feature schakelt over naar mobiele data bij zwak wifi en kan de VPN-tunnel onderbreken.',
+          '<strong>Streaming werkt niet via VPN?</strong> Probeer een andere server, wis de app-cache van de streaming-app (via iOS Instellingen → [streaming app] → app resetten) of gebruik split tunneling in de VPN-app om de streaming-app buiten de tunnel te houden.',
+          '<strong>iCloud of Apple-diensten zijn traag?</strong> Voeg de Apple-domeinen toe aan de split tunneling uitzonderingenlijst zodat iCloud-verkeer direct gaat en niet via de VPN-server wordt omgeleid.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'Wi-Fi Assist uitschakelen',
+          text: 'iOS-functie "Wi-Fi Assist" schakelt automatisch over naar mobiele data als wifi zwak is. Dit kan de VPN-tunnel abrupt onderbreken. Schakel het uit: Instellingen → Mobiel → scroll naar beneden → Wi-Fi Assist uitschakelen.',
+        },
+      },
+      {
+        heading: 'De beste VPN\'s voor iPhone en iPad in 2026',
+        body: [
+          '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft de best beoordeelde iOS-app in de App Store. De app ondersteunt NordLynx (WireGuard), heeft een kill switch voor iOS 16+, automatische verbinding op onbeveiligd wifi, en Threat Protection Lite (blokkeert malafide domeinen op DNS-niveau). Perfect voor dagelijks gebruik op zowel iPhone als iPad.',
+          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is ideaal voor wie meerdere Apple-apparaten heeft (iPhone, iPad, Mac), want het abonnement werkt op onbeperkt apparaten tegelijk. De iOS-app heeft ook CleanWeb (blokkeert advertenties en trackers) en NoBorders-modus voor landen met VPN-censuur.',
+          'Voor de meest privacybewuste gebruikers is <a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN</a> de beste keuze: volledig open-source iOS-app met geauditeerde code, geen metadata-verzameling en gevestigd in Zwitserland — buiten EU- en VS-jurisdictie.',
+        ],
+        cta: 'nordvpn',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Vertraagt een VPN mijn iPhone?',
+        answer: 'Een VPN voegt een kleine vertraging toe (5–15% snelheidsvermindering) door versleuteling en omleiding via een externe server. Met moderne VPN-apps op WireGuard of IKEv2-protocol en een server in Nederland merk je dit in dagelijks gebruik nauwelijks. Kies altijd een server dicht bij je fysieke locatie voor minimale vertraging.',
+      },
+      {
+        question: 'Werkt een VPN op zowel iPhone als iPad?',
+        answer: 'Ja. Alle grote VPN-aanbieders hebben één universele app die werkt op zowel iPhone als iPad (iOS en iPadOS). Met één abonnement kun je tegelijk meerdere apparaten verbinden. Surfshark staat zelfs onbeperkte apparaten toe met één abonnement.',
+      },
+      {
+        question: 'Hoe gebruik ik een VPN op openbaar wifi met mijn iPhone?',
+        answer: 'Installeer de VPN-app en stel automatisch verbinden in voor onbekende netwerken. Bij NordVPN: Instellingen → Auto-verbinden → Op niet-vertrouwde netwerken aan. De VPN verbindt dan automatisch zodra je verbinding maakt met openbaar wifi, nog voordat je browserverkeer wordt verzonden.',
+      },
+      {
+        question: 'Kan ik een gratis VPN gebruiken op mijn iPhone?',
+        answer: 'ProtonVPN heeft een gratis iOS-app zonder datalimiet — de enige gratis VPN die we zonder voorbehoud aanbevelen voor iPhone-gebruik. Andere gratis VPN\'s hebben datalimieten, zijn traag door overvolle servers, of verdienen geld door je data te verkopen. Voor streaming of dagelijks gebruik raden we een betaalde VPN aan.',
+      },
+      {
+        question: 'Hoe weet ik of de VPN actief is op mijn iPhone?',
+        answer: 'Als de VPN actief is, zie je een klein "VPN"-label in de statusbalk linksboven op je iPhone. Via iOS Instellingen → Algemeen → VPN en apparaatbeheer → VPN zie je ook de verbindingsstatus. Extra controle: ga naar ipleak.net in Safari — als je het IP van de VPN-server ziet (niet je eigen ISP-IP), werkt alles correct.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['wat-is-een-vpn', 'vpn-android-instellen', 'vpn-buitenland-gebruiken'],
+    tags: ['vpn iphone', 'vpn instellen iphone', 'ios vpn handleiding', 'vpn ipad'],
+  },
+
+  // ─── POST 9: VPN op Windows ───────────────────────────────────────────────
+  {
+    slug: 'vpn-windows-instellen',
+    title: 'VPN instellen op Windows 11: stap-voor-stap handleiding (2026)',
+    metaTitle: 'VPN Instellen op Windows 11 (2026) | App & Ingebouwde Client | vpnr.nl',
+    metaDescription: 'Installeer een VPN op Windows 11 via de app of de ingebouwde VPN-client. Stap-voor-stap handleiding met kill switch, split tunneling en troubleshooting voor veelvoorkomende fouten.',
+    excerpt: 'Een VPN instellen op Windows 11 kan via de app (aanbevolen) of de ingebouwde Windows VPN-client. Leer beide methoden, stel de kill switch in en los verbindingsproblemen op.',
+    category: 'Gids',
+    date: '24 mei 2026',
+    dateISO: '2026-05-24',
+    updatedISO: '2026-05-26',
+    readTime: '7 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-windows.svg',
+    imageAlt: 'VPN instellen op Windows 11 laptop met beveiligingsschild en Windows-logo',
+    intro: 'Een VPN instellen op Windows 11 kan via twee routes: via de app van je VPN-aanbieder (aanbevolen — meer functies, eenvoudiger) of via de ingebouwde VPN-client van Windows (voor zakelijke configuraties). De app-methode geeft je kill switch, split tunneling en automatische serversselectie die de ingebouwde client mist. In deze handleiding behandelen we beide methoden uitgebreid, inclusief troubleshooting voor de meestgemaakte fouten.',
+    sections: [
+      {
+        heading: 'VPN installeren via de app op Windows (aanbevolen)',
+        body: [
+          'De app-methode is de snelste en meest volledige manier om een VPN op Windows te gebruiken. Je krijgt alle extra functies die de ingebouwde Windows-client niet heeft.',
+          '<strong>Stap 1 — Download de app:</strong> Ga naar de officiële website van je VPN-aanbieder (bijv. nordvpn.com of surfshark.com) en download de Windows-installer (.exe-bestand). Download altijd van de officiële website, nooit van een derde partij.',
+          '<strong>Stap 2 — Installeer:</strong> Voer het installatiebestand uit. De installatie voegt een virtuele netwerkadapter toe aan Windows. Windows Beveiligingscentrum kan hierom vragen — dit is normaal en veilig.',
+          '<strong>Stap 3 — Log in en verbind:</strong> Open de app, meld je aan met je account en klik op "Verbinden". De app kiest automatisch de snelste server. In de systeemvak rechtsonder in de taakbalk verschijnt het VPN-icoontje.',
+          '<strong>Stap 4 — Activeer de kill switch:</strong> Ga direct naar Instellingen → Kill Switch → Internet Kill Switch aan. Dit blokkeert je internet als de VPN-verbinding wegvalt, zodat je IP nooit onbeschermd naar buiten gaat.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Kill switch altijd aanzetten',
+          text: 'Activeer de kill switch meteen na installatie. In NordVPN: tandwielpictogram → Kill Switch → Internet Kill Switch aan. In Surfshark: Instellingen → Connectiviteit → Kill Switch aan. Essentieel bescherming als de VPN-verbinding onverwacht verbreekt.',
+        },
+      },
+      {
+        heading: 'VPN instellen via de ingebouwde Windows 11 client',
+        body: [
+          'Windows 11 heeft een ingebouwde VPN-client die werkt met IKEv2, L2TP/IPSec, SSTP en PPTP. Je hebt de servergegevens van je VPN-aanbieder nodig. IKEv2 is de aanbevolen keuze: snelst en veiligst.',
+          '<strong>Stap 1:</strong> Ga naar Instellingen (Windows + I) → Netwerk en internet → VPN → VPN toevoegen.',
+          '<strong>Stap 2:</strong> Vul in: VPN-aanbieder "Windows (ingebouwd)", verbindingsnaam naar keuze (bijv. "NordVPN Amsterdam"), servernaam of adres (bijv. nl123.nordvpn.com), VPN-type "IKEv2". Kies aanmeldingstype "Gebruikersnaam en wachtwoord" en vul je gegevens in. Sla op.',
+          '<strong>Stap 3:</strong> Open het Actiecentrum (Windows + A), klik op "VPN" of ga naar Instellingen → Netwerk → VPN en klik op je verbinding om te verbinden.',
+        ],
+        table: {
+          headers: ['Functie', 'VPN-app (NordVPN)', 'Windows ingebouwde VPN'],
+          rows: [
+            ['Kill switch', '✅ Ja (2 varianten)', '❌ Niet beschikbaar'],
+            ['Split tunneling', '✅ Ja', '❌ Niet beschikbaar'],
+            ['Automatische serverselect.', '✅ Ja', '❌ Handmatig'],
+            ['WireGuard-protocol', '✅ Ja (NordLynx)', '❌ Niet ondersteund'],
+            ['DNS-lekbeveiliging', '✅ Ingebouwd', '⚠️ Beperkt'],
+            ['Gebruiksgemak', '⭐⭐⭐⭐⭐', '⭐⭐⭐'],
+          ],
+        },
+      },
+      {
+        heading: 'Kill switch en split tunneling op Windows instellen',
+        body: [
+          '<strong>Split tunneling</strong> laat je kiezen welk verkeer door de VPN-tunnel gaat en welk verkeer direct verbindt. Handig als je wilt dat je browser via VPN gaat maar je game-launcher of videobel-app direct verbindt voor lagere latentie.',
+          'In NordVPN: ga naar Instellingen → Split Tunneling → schakel in → voeg apps toe die de VPN omzeilen (bijv. Steam, Xbox App, Zoom). In Surfshark: Instellingen → VPN-instellingen → Bypasser → voeg apps of specifieke websites toe aan de uitzonderingslijst.',
+          '<strong>Kill switch varianten in NordVPN:</strong> "Internet Kill Switch" blokkeert al het internet als de VPN wegvalt. "App Kill Switch" sluit specifieke apps af als de VPN verbreekt — handig voor torrent-clients die je nooit zonder VPN wilt laten draaien. Activeer altijd minimaal de Internet Kill Switch voor dagelijks gebruik.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'Aanbeveling voor thuiswerkers',
+          text: 'Gebruik split tunneling als je thuiswerkt: stuur bedrijfsgerelateerd browserverkeer via VPN, maar laat video-calls (Teams, Zoom) direct verbinden. Zo verminder je de belasting op de VPN-verbinding en voorkom je haperingen tijdens vergaderingen.',
+        },
+      },
+      {
+        heading: 'Problemen oplossen: VPN verbindt niet op Windows',
+        body: [
+          '<strong>Foutmelding "De externe verbinding kon niet worden gemaakt"?</strong> Open PowerShell als administrator (rechtsklik op Start → Windows Terminal (Admin)) en voer achtereenvolgens uit: <em>netsh winsock reset</em> en <em>netsh int ip reset</em>. Start Windows opnieuw op. Dit lost in de meeste gevallen netwerkstack-problemen op.',
+          '<strong>VPN-app start niet of vraagt beheerdersrechten?</strong> Rechtsklik op de app-snelkoppeling en kies "Als administrator uitvoeren". Sommige VPN-apps vereisen beheerdersrechten voor het beheren van de virtuele netwerkadapter.',
+          '<strong>Verbinding is traag via VPN?</strong> Wissel het protocol in de app-instellingen van OpenVPN naar WireGuard (of NordLynx bij NordVPN). WireGuard is gemiddeld 2–3x sneller dan OpenVPN op Windows door de lichtere architectuur.',
+          '<strong>Windows Firewall blokkeert de VPN-app?</strong> Ga naar Windows Beveiliging → Firewall en netwerkbeveiliging → Sta een app toe via firewall → Verander instellingen → Zoek je VPN-app en vink zowel "Privé" als "Openbaar" aan.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'Antivirus kan interfereren',
+          text: 'Antivirus-software (met name Kaspersky, Avast en sommige versies van Malwarebytes) kan VPN-verbindingen blokkeren of vertragen door de netwerkadapter als verdacht te markeren. Voeg je VPN-app toe aan de uitzonderingslijst van je antivirusprogramma als je verbindingsproblemen hebt.',
+        },
+      },
+      {
+        heading: 'De beste VPN\'s voor Windows in 2026',
+        body: [
+          '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft de meest volledige Windows-app: kill switch in twee varianten, split tunneling, Threat Protection (blokkeert malware, trackers en advertenties), automatische wifi-beveiliging en NordLynx voor maximale snelheid. De app ondersteunt ook een donker thema en is beschikbaar in het Nederlands.',
+          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is de beste keuze als je meerdere Windows-apparaten hebt — onbeperkte apparaten per abonnement. De Windows-app biedt ook Rotating IP (wisselt je VPN-IP regelmatig voor extra privacy) en een ingebouwde advertentie-blokkering.',
+          '<a href="/vpn-reviews/expressvpn" class="text-blue-600 hover:underline font-medium">ExpressVPN</a> is de snelste optie voor Windows dankzij het eigen Lightway-protocol. Ideaal voor 4K-streaming, cloudgaming (Xbox Cloud Gaming, GeForce NOW) en grote downloads waarbij elke megabit telt.',
+        ],
+        cta: 'nordvpn',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Werkt een VPN ook op Windows 10?',
+        answer: 'Ja, alle grote VPN-apps (NordVPN, Surfshark, ExpressVPN) ondersteunen zowel Windows 10 als Windows 11 met vrijwel identieke functies. Windows 7 en 8 worden door de meeste providers niet meer ondersteund. Zorg dat Windows 10 volledig bijgewerkt is (minimaal versie 1903) voor de beste compatibiliteit.',
+      },
+      {
+        question: 'Kan ik meerdere VPN-verbindingen instellen op Windows?',
+        answer: 'Ja. Via Instellingen → Netwerk en internet → VPN kun je meerdere VPN-verbindingen toevoegen, ook van verschillende providers. Slechts één verbinding kan tegelijk actief zijn. Met apps van VPN-providers wissel je eenvoudig van server of land zonder meerdere profielen aan te maken.',
+      },
+      {
+        question: 'Hoe controleer ik of mijn VPN actief is op Windows?',
+        answer: 'Kijk rechtsonder in de taakbalk: als het netwerksymbool een schild of VPN-icoontje toont is je VPN actief. Via Instellingen → Netwerk en internet → VPN zie je ook de verbindingsstatus. De meest betrouwbare test: ga naar ipleak.net in je browser — als je het IP-adres van de VPN-server ziet (niet je ISP-IP), werkt alles correct.',
+      },
+      {
+        question: 'Heeft een VPN invloed op mijn gaming-ervaring op Windows?',
+        answer: 'Een VPN voegt latentie toe (10–30 ms extra bij een Nederlandse server), wat merkbaar is bij competitief gaming. Gebruik split tunneling om je game-launcher buiten de VPN-tunnel te houden: zo speel je zonder extra latentie terwijl andere apps beschermd zijn. Voor het unlocken van regionale game-content of bescherming tegen DDoS-aanvallen is een VPN juist handig.',
+      },
+      {
+        question: 'Kan Windows Defender mijn VPN-app blokkeren?',
+        answer: 'Windows Defender blokkeert VPN-apps zelden, maar kan bij installatie de virtuele netwerkadapter als verdacht markeren. Klik dan op "Meer informatie" → "Toch uitvoeren" en voeg de VPN-app toe aan de uitzonderingslijst via Windows Beveiliging → Virus- en bedreigingsbeveiliging → Uitsluitingen beheren. Download altijd van de officiële website van de VPN-aanbieder.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'expressvpn'],
+    relatedSlugs: ['wat-is-een-vpn', 'vpn-android-instellen', 'vpn-protocol-vergelijking'],
+    tags: ['vpn windows', 'vpn instellen windows 11', 'windows vpn handleiding', 'kill switch windows'],
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {

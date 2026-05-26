@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(59,130,246,0.25)"/>
+      <stop offset="100%" stop-color="rgba(99,102,241,0.15)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Laptop (left) -->
+  <rect x="90" y="195" width="240" height="175" rx="8" fill="rgba(30,58,138,0.3)" stroke="rgba(59,130,246,0.4)" stroke-width="2"/>
+  <rect x="102" y="207" width="216" height="151" rx="4" fill="rgba(59,130,246,0.08)"/>
+  <!-- Screen lines -->
+  <line x1="120" y1="240" x2="298" y2="240" stroke="rgba(148,163,184,0.25)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="120" y1="258" x2="270" y2="258" stroke="rgba(148,163,184,0.18)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="120" y1="276" x2="285" y2="276" stroke="rgba(148,163,184,0.18)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="120" y1="294" x2="255" y2="294" stroke="rgba(148,163,184,0.15)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Keyboard base -->
+  <rect x="65" y="372" width="290" height="22" rx="5" fill="rgba(30,58,138,0.4)" stroke="rgba(59,130,246,0.3)" stroke-width="1.5"/>
+  <rect x="155" y="377" width="110" height="11" rx="3" fill="rgba(59,130,246,0.2)"/>
+
+  <!-- Shield (center) -->
+  <path d="M600 148 L710 178 L710 318 Q710 405 600 445 Q490 405 490 318 L490 178 Z"
+        fill="url(#shieldGrad)" stroke="rgba(99,102,241,0.65)" stroke-width="2.5"/>
+  <!-- Shield inner glow -->
+  <path d="M600 168 L692 194 L692 316 Q692 393 600 428 Q508 393 508 316 L508 194 Z"
+        fill="none" stroke="rgba(99,102,241,0.2)" stroke-width="1"/>
+  <!-- Question mark -->
+  <text x="600" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="110" font-weight="bold"
+        fill="rgba(255,255,255,0.82)" letter-spacing="-2">?</text>
+
+  <!-- Globe (right) -->
+  <circle cx="980" cy="305" r="150" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+  <ellipse cx="980" cy="305" rx="150" ry="50" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+  <ellipse cx="980" cy="305" rx="50" ry="150" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <ellipse cx="980" cy="215" rx="130" ry="38" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <ellipse cx="980" cy="395" rx="130" ry="38" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <!-- Globe highlight -->
+  <circle cx="980" cy="305" r="150" fill="rgba(59,130,246,0.05)" stroke="rgba(59,130,246,0.3)" stroke-width="1.5"/>
+  <!-- Internet dot -->
+  <circle cx="980" cy="305" r="18" fill="rgba(59,130,246,0.5)"/>
+  <circle cx="980" cy="305" r="9" fill="rgba(147,197,253,0.9)"/>
+
+  <!-- Dashed connection: laptop → shield -->
+  <line x1="335" y1="285" x2="488" y2="297" stroke="rgba(59,130,246,0.55)" stroke-width="2" stroke-dasharray="10,6"/>
+  <circle cx="360" cy="287" r="4" fill="rgba(96,165,250,0.6)"/>
+  <circle cx="415" cy="291" r="3" fill="rgba(96,165,250,0.45)"/>
+
+  <!-- Dashed connection: shield → globe -->
+  <line x1="712" y1="297" x2="828" y2="300" stroke="rgba(59,130,246,0.55)" stroke-width="2" stroke-dasharray="10,6"/>
+  <circle cx="748" cy="298" r="4" fill="rgba(96,165,250,0.6)"/>
+  <circle cx="795" cy="299" r="3" fill="rgba(96,165,250,0.45)"/>
+
+  <!-- Accent dots -->
+  <circle cx="200" cy="520" r="4" fill="rgba(96,165,250,0.35)"/>
+  <circle cx="450" cy="490" r="3" fill="rgba(96,165,250,0.3)"/>
+  <circle cx="750" cy="510" r="3.5" fill="rgba(96,165,250,0.3)"/>
+  <circle cx="1100" cy="170" r="4" fill="rgba(96,165,250,0.3)"/>
+  <circle cx="850" cy="145" r="3" fill="rgba(96,165,250,0.25)"/>
+</svg>

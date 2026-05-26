@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="phoneGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(59,130,246,0.22)"/>
+      <stop offset="100%" stop-color="rgba(37,99,235,0.1)"/>
+    </linearGradient>
+    <linearGradient id="shieldFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(59,130,246,0.35)"/>
+      <stop offset="100%" stop-color="rgba(99,102,241,0.2)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Background glow rings -->
+  <circle cx="600" cy="315" r="270" fill="rgba(59,130,246,0.04)"/>
+  <circle cx="600" cy="315" r="190" fill="rgba(59,130,246,0.06)"/>
+
+  <!-- iPhone body -->
+  <rect x="445" y="90" width="310" height="510" rx="46" fill="url(#phoneGrad)" stroke="rgba(99,102,241,0.55)" stroke-width="2.5"/>
+  <!-- Inner bezel -->
+  <rect x="454" y="99" width="292" height="492" rx="40" fill="none" stroke="rgba(99,102,241,0.18)" stroke-width="1"/>
+
+  <!-- Dynamic Island / Notch -->
+  <rect x="544" y="108" width="112" height="28" rx="14" fill="rgba(0,0,0,0.75)"/>
+  <!-- Camera in notch -->
+  <circle cx="636" cy="122" r="7" fill="rgba(30,30,30,0.9)"/>
+  <circle cx="636" cy="122" r="4" fill="rgba(20,20,20,1)"/>
+  <circle cx="633" cy="119" r="1.5" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Screen -->
+  <rect x="455" y="145" width="290" height="410" rx="6" fill="rgba(0,0,0,0.45)"/>
+
+  <!-- Shield on screen -->
+  <path d="M600 195 L668 218 L668 318 Q668 372 600 395 Q532 372 532 318 L532 218 Z"
+        fill="url(#shieldFill)" stroke="rgba(99,102,241,0.7)" stroke-width="2"/>
+  <!-- Lock body -->
+  <rect x="581" y="308" width="38" height="32" rx="5" fill="rgba(99,102,241,0.5)" stroke="rgba(147,197,253,0.6)" stroke-width="1.5"/>
+  <!-- Lock shackle -->
+  <path d="M588 308 L588 294 Q588 278 600 278 Q612 278 612 294 L612 308" fill="none" stroke="rgba(147,197,253,0.7)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Lock keyhole -->
+  <circle cx="600" cy="323" r="5" fill="rgba(147,197,253,0.8)"/>
+
+  <!-- Status bar icons (top of screen) -->
+  <rect x="465" y="152" width="30" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="700" y="152" width="30" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Home bar -->
+  <rect x="558" y="528" width="84" height="6" rx="3" fill="rgba(99,102,241,0.45)"/>
+
+  <!-- Side buttons -->
+  <rect x="753" y="210" width="8" height="50" rx="4" fill="rgba(99,102,241,0.35)"/>
+  <rect x="439" y="200" width="8" height="35" rx="4" fill="rgba(99,102,241,0.35)"/>
+  <rect x="439" y="248" width="8" height="60" rx="4" fill="rgba(99,102,241,0.35)"/>
+
+  <!-- Connection arc (left side) -->
+  <path d="M250 315 Q350 200 445 295" fill="none" stroke="rgba(59,130,246,0.4)" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <circle cx="250" cy="315" r="22" fill="rgba(59,130,246,0.1)" stroke="rgba(59,130,246,0.35)" stroke-width="1.5"/>
+  <circle cx="250" cy="315" r="10" fill="rgba(59,130,246,0.4)"/>
+
+  <!-- Connection arc (right side) -->
+  <path d="M755 295 Q850 200 950 315" fill="none" stroke="rgba(59,130,246,0.4)" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <circle cx="950" cy="315" r="22" fill="rgba(59,130,246,0.1)" stroke="rgba(59,130,246,0.35)" stroke-width="1.5"/>
+  <circle cx="950" cy="315" r="10" fill="rgba(59,130,246,0.4)"/>
+
+  <!-- Accent dots -->
+  <circle cx="160" cy="220" r="4" fill="rgba(96,165,250,0.35)"/>
+  <circle cx="140" cy="400" r="3" fill="rgba(96,165,250,0.28)"/>
+  <circle cx="1050" cy="200" r="4" fill="rgba(96,165,250,0.3)"/>
+  <circle cx="1070" cy="430" r="3.5" fill="rgba(96,165,250,0.25)"/>
+  <circle cx="400" cy="530" r="3" fill="rgba(96,165,250,0.2)"/>
+  <circle cx="800" cy="535" r="3" fill="rgba(96,165,250,0.2)"/>
+</svg>
