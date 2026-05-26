@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import VPNCard from '@/components/VPNCard'
 import VPNLogoMarquee from '@/components/VPNLogoMarquee'
-import IPBanner from '@/components/IPBanner'
 import JsonLd from '@/components/JsonLd'
 import { providers } from '@/content/providers'
 import {
@@ -54,7 +53,6 @@ export default function HomePage() {
   return (
     <>
       <JsonLd data={faqSchema} />
-      <IPBanner />
 
       {/* Hero */}
       <section className="hero-glow relative overflow-hidden py-24 px-4">
