@@ -3,9 +3,10 @@ import VPNCard from '@/components/VPNCard'
 import VPNLogoMarquee from '@/components/VPNLogoMarquee'
 import JsonLd from '@/components/JsonLd'
 import { providers } from '@/content/providers'
+import { posts } from '@/content/posts'
 import {
   Film, Tv, Download, Gamepad2, Gift, Tag,
-  ShieldCheck, Wifi, Globe, ChevronRight,
+  ShieldCheck, Wifi, Globe, ChevronRight, Calendar, Clock, ArrowRight,
 } from 'lucide-react'
 
 const faqSchema = {
@@ -49,6 +50,9 @@ const faqSchema = {
 
 export default function HomePage() {
   const top3 = providers.slice(0, 3)
+  const recentPosts = [...posts]
+    .sort((a, b) => b.dateISO.localeCompare(a.dateISO))
+    .slice(0, 3)
 
   return (
     <>
@@ -202,6 +206,82 @@ export default function HomePage() {
                 <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Laatste blogs */}
+      <section className="py-20 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-end justify-between mb-12">
+            <div>
+              <h2 className="text-3xl font-black text-gray-900 mb-2">
+                Laatste van het blog
+              </h2>
+              <p className="text-gray-500">
+                VPN-tips, handleidingen en nieuws voor Nederland.
+              </p>
+            </div>
+            <Link
+              href="/blog"
+              className="hidden sm:inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold text-sm transition-colors"
+            >
+              Alle artikelen
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {recentPosts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group flex flex-col rounded-2xl border border-gray-100 bg-gray-50 hover:bg-white hover:border-blue-200 hover:shadow-lg hover:shadow-blue-500/5 transition-all overflow-hidden"
+              >
+                {/* Category + readtime */}
+                <div className="px-5 pt-5 flex items-center justify-between">
+                  <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-2.5 py-1 rounded-full">
+                    {post.category}
+                  </span>
+                  <span className="flex items-center gap-1 text-xs text-gray-400">
+                    <Clock className="w-3 h-3" />
+                    {post.readTime}
+                  </span>
+                </div>
+
+                {/* Title + excerpt */}
+                <div className="px-5 pt-3 pb-5 flex flex-col flex-1">
+                  <h3 className="font-bold text-gray-900 group-hover:text-blue-700 transition-colors leading-snug mb-2 line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 leading-relaxed line-clamp-2 flex-1">
+                    {post.excerpt}
+                  </p>
+
+                  {/* Date + arrow */}
+                  <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+                    <span className="flex items-center gap-1.5 text-xs text-gray-400">
+                      <Calendar className="w-3 h-3" />
+                      {post.date}
+                    </span>
+                    <span className="text-blue-500 group-hover:translate-x-1 transition-transform">
+                      <ArrowRight className="w-4 h-4" />
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          {/* Mobile: link naar alle blogs */}
+          <div className="mt-8 text-center sm:hidden">
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm"
+            >
+              Alle artikelen bekijken
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
