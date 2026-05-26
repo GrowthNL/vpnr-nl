@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import VPNCard from '@/components/VPNCard'
 import VPNLogoMarquee from '@/components/VPNLogoMarquee'
 import JsonLd from '@/components/JsonLd'
@@ -238,8 +239,19 @@ export default function HomePage() {
                 href={`/blog/${post.slug}`}
                 className="group flex flex-col rounded-2xl border border-gray-100 bg-gray-50 hover:bg-white hover:border-blue-200 hover:shadow-lg hover:shadow-blue-500/5 transition-all overflow-hidden"
               >
+                {/* Hero afbeelding */}
+                <div className="relative w-full h-44 overflow-hidden bg-slate-900">
+                  <Image
+                    src={post.image}
+                    alt={post.imageAlt}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
+
                 {/* Category + readtime */}
-                <div className="px-5 pt-5 flex items-center justify-between">
+                <div className="px-5 pt-4 flex items-center justify-between">
                   <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-2.5 py-1 rounded-full">
                     {post.category}
                   </span>
