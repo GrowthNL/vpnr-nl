@@ -1,0 +1,52 @@
+name: Wekelijkse blogpost genereren
+
+on:
+  # Elke maandag om 08:00 Amsterdam-tijd (06:00 UTC)
+  schedule:
+    - cron: '0 6 * * 1'
+  # Handmatig triggeren via GitHub UI (Actions → Run workflow)
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Post slug (bijv. vpn-mac-instellen)'
+        required: false
+      title:
+        description: 'Blogtitel'
+        required: false
+      keyword:
+        description: 'Primair SEO-keyword'
+        required: false
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Genereer blogpost via Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MANUAL_SLUG: ${{ github.event.inputs.slug }}
+          MANUAL_TITLE: ${{ github.event.inputs.title }}
+          MANUAL_KEYWORD: ${{ github.event.inputs.keyword }}
+        run: node .github/scripts/generate-post.mjs
+
+      - name: Commit en push nieuwe post
+        run: |
+          git config user.name "vpnr.nl Blog Bot"
+          git config user.email "bot@vpnr.nl"
+          git add content/posts.ts public/blog/
+          # Alleen committen als er iets veranderd is
+          git diff --staged --quiet || git commit -m "🤖 Auto: nieuwe blogpost toegevoegd [skip ci]"
+          git push
