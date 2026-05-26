@@ -52,6 +52,9 @@ const surfshark: VPNProvider = {
 
   verdict:
     'Surfshark is de beste keuze als je op prijs let of meerdere apparaten wil beschermen. Onbeperkt apparaten voor minder dan €2,50 per maand is onverslaanbaar. De beveiliging en snelheid zijn uitstekend.',
+
+  lastUpdated: 'mei 2026',
+  lastUpdatedISO: '2026-05-25',
 }
 
 export default surfshark

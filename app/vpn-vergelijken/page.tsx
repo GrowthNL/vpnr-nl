@@ -109,7 +109,7 @@ export default function VergelijkenPage() {
 
       {/* Quick-pick cards */}
       <section className="py-10 px-4 bg-gray-50 border-b border-gray-100">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-3">
           {providers.map((p, i) => (
             <div
               key={p.slug}

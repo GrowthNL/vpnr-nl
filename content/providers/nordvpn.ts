@@ -53,6 +53,9 @@ const nordvpn: VPNProvider = {
 
   verdict:
     'NordVPN is de veiligste keuze voor de meeste gebruikers. Topsnelheid, uitstekende beveiliging en werkt met alle streamingdiensten. De prijs is wat hoger, maar de kwaliteit rechtvaardigt dat volledig.',
+
+  lastUpdated: 'mei 2026',
+  lastUpdatedISO: '2026-05-25',
 }
 
 export default nordvpn

@@ -5,13 +5,18 @@ import { getProvider, providers } from '@/content/providers'
 import CTABox from '@/components/CTABox'
 import ProviderLogo from '@/components/ProviderLogo'
 import JsonLd from '@/components/JsonLd'
-import { Check, X, ChevronRight } from 'lucide-react'
+import AuthorBio from '@/components/AuthorBio'
+import { Check, X, ChevronRight, Calendar } from 'lucide-react'
 
 export async function generateStaticParams() {
   return providers.map((p) => ({ slug: p.slug }))
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
   const { slug } = await params
   const p = getProvider(slug)
   if (!p) return {}
@@ -28,7 +33,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 }
 
-export default async function ReviewPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function ReviewPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
   const { slug } = await params
   const p = getProvider(slug)
   if (!p) notFound()
@@ -40,13 +49,19 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
     '@type': 'Review',
     name: `${p.naam} Review 2026`,
     reviewBody: p.verdict,
+    datePublished: p.lastUpdatedISO,
+    dateModified: p.lastUpdatedISO,
     reviewRating: {
       '@type': 'Rating',
       ratingValue: p.scores.overall,
       bestRating: 10,
       worstRating: 0,
     },
-    author: { '@type': 'Organization', name: 'vpnr.nl' },
+    author: {
+      '@type': 'Organization',
+      name: 'vpnr.nl',
+      url: 'https://vpnr.nl',
+    },
     publisher: { '@type': 'Organization', name: 'vpnr.nl', url: 'https://vpnr.nl' },
     itemReviewed: {
       '@type': 'SoftwareApplication',
@@ -68,7 +83,12 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://vpnr.nl' },
       { '@type': 'ListItem', position: 2, name: 'VPN Reviews', item: 'https://vpnr.nl/vpn-reviews' },
-      { '@type': 'ListItem', position: 3, name: `${p.naam} Review`, item: `https://vpnr.nl/vpn-reviews/${p.slug}` },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: `${p.naam} Review`,
+        item: `https://vpnr.nl/vpn-reviews/${p.slug}`,
+      },
     ],
   }
 
@@ -95,6 +115,11 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
             </div>
             <h1 className="text-4xl font-black text-gray-900 mb-2">{p.naam} Review 2026</h1>
             <p className="text-gray-500 text-lg">{p.tagline}</p>
+            {/* Bijgewerkt datum */}
+            <div className="flex items-center gap-1.5 mt-2 text-xs text-gray-400">
+              <Calendar className="w-3.5 h-3.5" />
+              <span>Bijgewerkt: <strong className="text-gray-600">{p.lastUpdated}</strong></span>
+            </div>
           </div>
           <div className="text-center flex-shrink-0 bg-blue-50 rounded-2xl px-5 py-3">
             <div className="text-4xl font-black text-blue-600">{p.scores.overall}</div>
@@ -114,7 +139,10 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
               <div className="text-2xl font-black text-gray-800">{score}</div>
               <div className="text-xs text-gray-400 mt-0.5">{label}</div>
               <div className="mt-2 bg-gray-100 rounded-full h-1.5">
-                <div className="bg-gradient-to-r from-blue-500 to-blue-400 h-1.5 rounded-full" style={{ width: `${score * 10}%` }} />
+                <div
+                  className="bg-gradient-to-r from-blue-500 to-blue-400 h-1.5 rounded-full"
+                  style={{ width: `${score * 10}%` }}
+                />
               </div>
             </div>
           ))}
@@ -177,7 +205,8 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
       </div>
       {p.prijzen.gratisPeriode && (
         <p className="text-sm text-gray-500 mb-8 flex items-center gap-2">
-          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={2.5} /> {p.prijzen.gratisPeriode}
+          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={2.5} />{' '}
+          {p.prijzen.gratisPeriode}
         </p>
       )}
 
@@ -190,7 +219,13 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
               { label: 'Geen-logs beleid', bool: true, ok: p.features.noLogs },
               { label: 'Kill switch', bool: true, ok: p.features.killSwitch },
               { label: 'Split tunneling', bool: true, ok: p.features.splitTunneling },
-              { label: 'Aantal apparaten', text: p.features.aantalApparaten === 'onbeperkt' ? '∞ Onbeperkt' : `${p.features.aantalApparaten} tegelijk` },
+              {
+                label: 'Aantal apparaten',
+                text:
+                  p.features.aantalApparaten === 'onbeperkt'
+                    ? '∞ Onbeperkt'
+                    : `${p.features.aantalApparaten} tegelijk`,
+              },
               { label: 'Servers', text: `${p.features.aantalServers.toLocaleString('nl')}+` },
               { label: 'Landen', text: `${p.features.aantalLanden} landen` },
               { label: 'Werkt met Netflix', bool: true, ok: p.features.werktMetNetflix },
@@ -203,10 +238,14 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                 <td className="px-5 py-3 text-gray-500 font-medium w-1/2">{label}</td>
                 <td className="px-5 py-3">
                   {bool ? (
-                    <span className={`flex items-center gap-1.5 font-semibold ${ok ? 'text-green-600' : 'text-red-500'}`}>
-                      {ok
-                        ? <Check className="w-4 h-4" strokeWidth={2.5} />
-                        : <X className="w-4 h-4" strokeWidth={2.5} />}
+                    <span
+                      className={`flex items-center gap-1.5 font-semibold ${ok ? 'text-green-600' : 'text-red-500'}`}
+                    >
+                      {ok ? (
+                        <Check className="w-4 h-4" strokeWidth={2.5} />
+                      ) : (
+                        <X className="w-4 h-4" strokeWidth={2.5} />
+                      )}
                       {ok ? 'Ja' : 'Nee'}
                     </span>
                   ) : (
@@ -221,8 +260,13 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
 
       <CTABox provider={p} />
 
+      {/* Author bio */}
+      <AuthorBio updatedDate={p.lastUpdated} />
+
       {/* Alternatieven */}
-      <h2 className="text-2xl font-black text-gray-900 mt-10 mb-4">Alternatieven voor {p.naam}</h2>
+      <h2 className="text-2xl font-black text-gray-900 mt-10 mb-4">
+        Alternatieven voor {p.naam}
+      </h2>
       <div className="space-y-3">
         {otherProviders.map((alt) => (
           <Link

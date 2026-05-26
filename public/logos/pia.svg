@@ -1,0 +1,5 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="20" fill="#49B560"/>
+  <path d="M50 19 L68 28 L68 51 C68 63 59 71 50 78 C41 71 32 63 32 51 L32 28 Z" fill="white"/>
+  <text x="50" y="59" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="16" fill="#49B560">PIA</text>
+</svg>

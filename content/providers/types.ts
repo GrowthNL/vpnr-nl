@@ -38,4 +38,7 @@ export interface VPNProvider {
   voordelen: string[]
   nadelen: string[]
   verdict: string
+
+  lastUpdated: string     // "mei 2026" — zichtbaar op de pagina
+  lastUpdatedISO: string  // "2026-05-25" — voor JSON-LD schema
 }

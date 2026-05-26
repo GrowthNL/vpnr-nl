@@ -6,6 +6,7 @@ import { getProvider } from '@/content/providers'
 import ProviderLogo from '@/components/ProviderLogo'
 import JsonLd from '@/components/JsonLd'
 import FAQAccordion from '@/components/FAQAccordion'
+import AuthorBio from '@/components/AuthorBio'
 import {
   Lightbulb, AlertTriangle, Info, TrendingUp,
   Clock, Calendar, ChevronRight, Tag,
@@ -320,21 +321,7 @@ export default async function BlogPostPage({
           )}
 
           {/* ── AUTHOR BOX ── */}
-          <div className="mt-12 pt-8 border-t border-gray-100 flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-              <span className="text-blue-700 font-black text-lg">V</span>
-            </div>
-            <div>
-              <div className="font-bold text-gray-900 text-sm">{post.author}</div>
-              <div className="text-xs text-gray-500 mt-0.5">
-                Gespecialiseerd in VPN-technologie en online privacy · vpnr.nl
-              </div>
-            </div>
-            <div className="ml-auto text-right">
-              <div className="text-xs text-gray-400">Bijgewerkt</div>
-              <div className="text-xs font-medium text-gray-600">{post.date}</div>
-            </div>
-          </div>
+          <AuthorBio author={post.author} updatedDate={post.date} />
 
           {/* ── TAGS ── */}
           <div className="mt-6 flex flex-wrap gap-2">

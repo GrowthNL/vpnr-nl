@@ -20,6 +20,8 @@ export default function Footer() {
                 { slug: 'surfshark', label: 'Surfshark' },
                 { slug: 'expressvpn', label: 'ExpressVPN' },
                 { slug: 'cyberghost', label: 'CyberGhost' },
+                { slug: 'protonvpn', label: 'ProtonVPN' },
+                { slug: 'pia', label: 'Private Internet Access' },
               ].map(({ slug, label }) => (
                 <li key={slug}>
                   <Link href={`/vpn-reviews/${slug}`} className="hover:text-white transition-colors">{label}</Link>
@@ -48,6 +50,7 @@ export default function Footer() {
               {[
                 { href: '/wat-is-een-vpn', label: 'Wat is een VPN?' },
                 { href: '/over-ons', label: 'Over ons' },
+                { href: '/contact', label: 'Contact' },
                 { href: '/affiliate-disclosure', label: 'Affiliate disclosure' },
                 { href: '/privacy-policy', label: 'Privacybeleid' },
               ].map(({ href, label }) => (

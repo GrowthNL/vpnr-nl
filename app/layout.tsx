@@ -4,6 +4,9 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import JsonLd from '@/components/JsonLd'
+import IPBanner from '@/components/IPBanner'
+import CookieBanner from '@/components/CookieBanner'
+import Analytics from '@/components/Analytics'
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 
@@ -12,7 +15,8 @@ export const metadata: Metadata = {
     default: 'Beste VPN Nederland 2026 | Vergelijk & Bespaar | vpnr.nl',
     template: '%s | vpnr.nl',
   },
-  description: 'Vergelijk de beste VPN-diensten voor Nederland. Onafhankelijke reviews van NordVPN, Surfshark, ExpressVPN en meer. Actuele prijzen en eerlijke beoordelingen.',
+  description:
+    'Vergelijk de beste VPN-diensten voor Nederland. Onafhankelijke reviews van NordVPN, Surfshark, ExpressVPN en meer. Actuele prijzen en eerlijke beoordelingen.',
   metadataBase: new URL('https://vpnr.nl'),
   alternates: { canonical: 'https://vpnr.nl' },
   openGraph: {
@@ -20,7 +24,8 @@ export const metadata: Metadata = {
     locale: 'nl_NL',
     type: 'website',
     title: 'Beste VPN Nederland 2026 | vpnr.nl',
-    description: 'Onafhankelijke VPN-vergelijking voor Nederland. Eerlijke reviews, actuele prijzen en de beste deals.',
+    description:
+      'Onafhankelijke VPN-vergelijking voor Nederland. Eerlijke reviews, actuele prijzen en de beste deals.',
     url: 'https://vpnr.nl',
   },
   twitter: {
@@ -29,6 +34,11 @@ export const metadata: Metadata = {
     description: 'Onafhankelijke VPN-vergelijking voor Nederland.',
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+  // Voeg je Google Search Console verificatiecode toe als NEXT_PUBLIC_GSC_VERIFICATION env var
+  // of vervang de lege string hieronder met je code
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION ?? '',
+  },
   other: {
     'article:publisher': 'https://vpnr.nl',
   },
@@ -41,6 +51,12 @@ const organizationSchema = {
   url: 'https://vpnr.nl',
   logo: 'https://vpnr.nl/og-image.png',
   description: 'Onafhankelijke VPN-vergelijkingssite voor de Nederlandse markt.',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'contact@vpnr.nl',
+    contactType: 'customer support',
+    availableLanguage: 'Dutch',
+  },
   sameAs: ['https://github.com/GrowthNL/vpnr-nl'],
 }
 
@@ -66,9 +82,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd data={websiteSchema} />
       </head>
       <body className="min-h-full flex flex-col bg-white">
+        <IPBanner />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <CookieBanner />
+        <Analytics />
       </body>
     </html>
   )

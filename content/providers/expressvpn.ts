@@ -53,6 +53,9 @@ const expressvpn: VPNProvider = {
 
   verdict:
     'ExpressVPN is de premium keuze voor wie het beste wil zonder compromissen. De snelheid is ongeëvenaard, maar je betaalt daar een significante meerprijs voor. Ideaal voor zware gebruikers en reizigers naar landen met censuur.',
+
+  lastUpdated: 'mei 2026',
+  lastUpdatedISO: '2026-05-25',
 }
 
 export default expressvpn

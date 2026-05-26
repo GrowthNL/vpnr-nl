@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.65,
     })),
+    { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/over-ons`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${base}/affiliate-disclosure`, lastModified: now, changeFrequency: 'monthly', priority: 0.3 },
     { url: `${base}/privacy-policy`, lastModified: now, changeFrequency: 'monthly', priority: 0.3 },

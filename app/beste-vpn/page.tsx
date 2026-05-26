@@ -110,7 +110,7 @@ export default function BesteVPNPage() {
           <p className="text-gray-500 text-sm mb-8 max-w-2xl">
             Gerangschikt op totaalscore op basis van onze tests. Klik op een provider voor de uitgebreide review.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {providers.map((p, i) => (
               <VPNCard key={p.slug} provider={p} rank={i + 1} featured={i === 0} />
             ))}

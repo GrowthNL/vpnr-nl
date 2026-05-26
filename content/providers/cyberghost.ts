@@ -53,6 +53,9 @@ const cyberghost: VPNProvider = {
 
   verdict:
     'CyberGhost is ideaal voor beginners en streaming-liefhebbers. Het grootste servernetwerk en de langste geld-terug-garantie maken het aantrekkelijk. Minder geschikt voor gevorderde gebruikers die split tunneling nodig hebben.',
+
+  lastUpdated: 'mei 2026',
+  lastUpdatedISO: '2026-05-25',
 }
 
 export default cyberghost
