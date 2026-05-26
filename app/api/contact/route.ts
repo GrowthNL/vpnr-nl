@@ -5,13 +5,25 @@ const RECAPTCHA_SECRET = process.env.RECAPTCHA_SECRET_KEY
 const MIN_SCORE = 0.5
 
 function createTransporter() {
+  const port = Number(process.env.SMTP_PORT ?? 465)
+  console.log('[contact/route] SMTP config:', {
+    host: process.env.SMTP_HOST,
+    port,
+    secure: port !== 587,
+    user: process.env.SMTP_USER,
+    to: process.env.SMTP_TO,
+  })
   return nodemailer.createTransport({
     host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT ?? 465),
-    secure: process.env.SMTP_PORT !== '587', // true voor 465, false voor 587
+    port,
+    secure: port !== 587,
+    requireTLS: port === 587,
     auth: {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASS,
+    },
+    tls: {
+      rejectUnauthorized: false, // accepteer self-signed certs
     },
   })
 }
@@ -46,10 +58,11 @@ export async function POST(req: Request) {
 
     // E-mail versturen via SMTP (bijv. je Vimexx/DirectAdmin mailbox)
     const transporter = createTransporter()
-    const recipient = process.env.SMTP_USER ?? ''
+    const sender = process.env.SMTP_USER ?? ''
+    const recipient = process.env.SMTP_TO ?? sender
 
-    await transporter.sendMail({
-      from: `"vpnr.nl Contact" <${recipient}>`,
+    const info = await transporter.sendMail({
+      from: `"vpnr.nl Contact" <${sender}>`,
       to: recipient,
       replyTo: `"${name}" <${email}>`,
       subject: `[vpnr.nl] ${subject ?? 'Contactformulier'} — ${name}`,
@@ -66,6 +79,7 @@ export async function POST(req: Request) {
       ].join('\n'),
     })
 
+    console.log('[contact/route] Mail verzonden:', info.messageId, '→', recipient)
     return NextResponse.json({ success: true })
   } catch (err) {
     console.error('[contact/route]', err)
