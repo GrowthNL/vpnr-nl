@@ -13,6 +13,7 @@ export default function Header() {
           <Link href="/vpn-reviews" className="hover:text-blue-700 transition-colors">Reviews</Link>
           <Link href="/vpn-vergelijken" className="hover:text-blue-700 transition-colors">Vergelijken</Link>
           <Link href="/blog" className="hover:text-blue-700 transition-colors">Blog</Link>
+          <Link href="/contact" className="hover:text-blue-700 transition-colors">Contact</Link>
         </nav>
         <Link
           href="/beste-vpn"

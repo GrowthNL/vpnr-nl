@@ -11,6 +11,18 @@ export default function Footer() {
             <p className="text-sm text-gray-500 leading-relaxed mt-4 max-w-xs">
               Onafhankelijke VPN-vergelijking voor de Nederlandse markt. Geen gesponsorde resultaten.
             </p>
+            <div className="mt-5 space-y-1.5 text-xs text-gray-600">
+              <p className="font-semibold text-gray-500 uppercase tracking-widest text-[10px] mb-2">Uitgever</p>
+              <p>Growth Online Marketing Bureau</p>
+              <p>Zeussingel 77, 1363 TM Almere</p>
+              <a href="mailto:info@growthmedia.nl" className="hover:text-gray-400 transition-colors block">
+                info@growthmedia.nl
+              </a>
+              <a href="tel:+31654208613" className="hover:text-gray-400 transition-colors block">
+                +31 6 54 20 86 13
+              </a>
+              <p className="pt-1">KvK: 67106366</p>
+            </div>
           </div>
           <div>
             <h3 className="text-gray-300 font-semibold mb-4 text-xs uppercase tracking-widest">Reviews</h3>
