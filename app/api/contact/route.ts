@@ -1,11 +1,20 @@
 import { NextResponse } from 'next/server'
-import { Resend } from 'resend'
+import nodemailer from 'nodemailer'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
-const RECIPIENT = 'contact@vpnr.nl'
 const RECAPTCHA_SECRET = process.env.RECAPTCHA_SECRET_KEY
 const MIN_SCORE = 0.5
+
+function createTransporter() {
+  return nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: Number(process.env.SMTP_PORT ?? 465),
+    secure: process.env.SMTP_PORT !== '587', // true voor 465, false voor 587
+    auth: {
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
+    },
+  })
+}
 
 export async function POST(req: Request) {
   try {
@@ -35,17 +44,18 @@ export async function POST(req: Request) {
       }
     }
 
-    // E-mail versturen via Resend
-    await resend.emails.send({
-      // Gebruik je eigen domein zodra je vpnr.nl hebt geverifieerd in Resend.
-      // Tot die tijd werkt 'onboarding@resend.dev' alleen naar je eigen adres.
-      from: 'vpnr.nl Contact <onboarding@resend.dev>',
-      to: [RECIPIENT],
-      replyTo: email,
+    // E-mail versturen via SMTP (bijv. je Vimexx/DirectAdmin mailbox)
+    const transporter = createTransporter()
+    const recipient = process.env.SMTP_USER ?? ''
+
+    await transporter.sendMail({
+      from: `"vpnr.nl Contact" <${recipient}>`,
+      to: recipient,
+      replyTo: `"${name}" <${email}>`,
       subject: `[vpnr.nl] ${subject ?? 'Contactformulier'} — ${name}`,
       text: [
-        `Naam:    ${name}`,
-        `E-mail:  ${email}`,
+        `Naam:      ${name}`,
+        `E-mail:    ${email}`,
         `Onderwerp: ${subject ?? '—'}`,
         '',
         'Bericht:',
