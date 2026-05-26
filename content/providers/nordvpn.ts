@@ -4,7 +4,7 @@ const nordvpn: VPNProvider = {
   slug: 'nordvpn',
   naam: 'NordVPN',
   tagline: 'De meest populaire VPN ter wereld',
-  affiliateLink: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=JOUWID',
+  affiliateLink: '/go/nordvpn',
   ctaTekst: 'Probeer NordVPN',
   logo: '/logos/nordvpn.svg',
 

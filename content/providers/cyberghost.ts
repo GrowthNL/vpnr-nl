@@ -4,7 +4,7 @@ const cyberghost: VPNProvider = {
   slug: 'cyberghost',
   naam: 'CyberGhost',
   tagline: 'Grootste servernetwerk, makkelijk in gebruik',
-  affiliateLink: 'https://www.cyberghostvpn.com/affiliates/JOUWLINK',
+  affiliateLink: '/go/cyberghost',
   ctaTekst: 'Probeer CyberGhost',
   logo: '/logos/cyberghost.svg',
 

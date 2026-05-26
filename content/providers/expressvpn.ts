@@ -4,7 +4,7 @@ const expressvpn: VPNProvider = {
   slug: 'expressvpn',
   naam: 'ExpressVPN',
   tagline: 'Premium snelheid en beveiliging',
-  affiliateLink: 'https://www.expressvpn.com/refer-a-friend/JOUWLINK',
+  affiliateLink: '/go/expressvpn',
   ctaTekst: 'Probeer ExpressVPN',
   logo: '/logos/expressvpn.svg',
 

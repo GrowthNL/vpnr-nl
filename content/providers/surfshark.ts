@@ -4,7 +4,7 @@ const surfshark: VPNProvider = {
   slug: 'surfshark',
   naam: 'Surfshark',
   tagline: 'Onbeperkt apparaten, scherpe prijs',
-  affiliateLink: 'https://surfshark.com/deal/JOUWLINK',
+  affiliateLink: '/go/surfshark',
   ctaTekst: 'Probeer Surfshark',
   logo: '/logos/surfshark.svg',
 

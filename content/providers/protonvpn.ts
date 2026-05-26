@@ -4,7 +4,7 @@ const protonvpn: VPNProvider = {
   slug: 'protonvpn',
   naam: 'ProtonVPN',
   tagline: 'Privacy-first VPN vanuit Zwitserland',
-  affiliateLink: 'https://protonvpn.com/?aff=JOUWLINK',
+  affiliateLink: '/go/protonvpn',
   ctaTekst: 'Probeer ProtonVPN',
   logo: '/logos/protonvpn.svg',
 

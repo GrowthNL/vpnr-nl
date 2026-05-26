@@ -4,7 +4,7 @@ const pia: VPNProvider = {
   slug: 'pia',
   naam: 'Private Internet Access',
   tagline: 'Grootste servernetwerk, bewezen no-logs',
-  affiliateLink: 'https://www.privateinternetaccess.com/pages/buy-vpn/JOUWLINK',
+  affiliateLink: '/go/pia',
   ctaTekst: 'Probeer PIA',
   logo: '/logos/pia.svg',
 
