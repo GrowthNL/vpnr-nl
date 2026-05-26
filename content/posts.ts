@@ -497,122 +497,6 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['vpn-buitenland-gebruiken', 'netflix-vpn-werkt-niet', 'vpn-protocol-vergelijking'],
     tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting'],
   },
-
-  // ─── POST 6: Wat is een VPN ───────────────────────────────────────────────
-  {
-    slug: 'wat-is-een-vpn',
-    title: 'Wat is een VPN? Complete uitleg voor beginners (2026)',
-    metaTitle: 'Wat is een VPN? Uitleg, Werking & Waarom je het Nodig Hebt | vpnr.nl',
-    metaDescription: 'Wat is een VPN en hoe werkt het? Complete uitleg voor beginners: versleuteling, IP-adres verbergen, no-logs beleid en welke VPN het beste is als je net begint.',
-    excerpt: 'Elke dag surfen miljoenen Nederlanders op het internet zonder te beseffen dat hun data wordt bijgehouden. Een VPN is de meest gebruikte tool om jezelf online te beschermen — maar wat is het precies?',
-    category: 'Uitleg',
-    date: '20 mei 2026',
-    dateISO: '2026-05-20',
-    updatedISO: '2026-05-26',
-    readTime: '8 min',
-    author: 'vpnr.nl Redactie',
-    image: '/blog/wat-is-een-vpn.svg',
-    imageAlt: 'Wat is een VPN - laptop verbonden via versleutelde tunnel met internet',
-    intro: 'Elke dag gebruiken miljoenen Nederlanders het internet zonder te beseffen dat hun internetprovider, adverteerders en soms zelfs hackers kunnen meekijken. Een VPN (Virtual Private Network) is het meest gebruikte hulpmiddel om jezelf online te beschermen — maar wat is het precies, hoe werkt het en heb jij het echt nodig? In deze gids leggen we alles uit in gewone taal, zonder technisch jargon.',
-    sections: [
-      {
-        heading: 'Wat is een VPN in het kort?',
-        body: [
-          'Een VPN, voluit <strong>Virtual Private Network</strong>, is een dienst die je internetverbinding versleutelt en je echte IP-adres verbergt door je internetverkeer via een server op een andere locatie te sturen. Websites en apps zien dan het IP-adres van de VPN-server, niet jouw echte IP-adres.',
-          'Een goede analogie: stel je voor dat het internet een snelweg is. Normaal rijd je in een doorzichtige auto — iedereen kan zien wie je bent en waar je naartoe gaat. Met een VPN rijd je in een gepantserde, getinte auto door een privétunnel. Niemand buiten de tunnel kan meekijken.',
-        ],
-        highlight: {
-          type: 'info',
-          title: 'VPN staat voor',
-          text: 'Virtual Private Network — een versleuteld privénetwerk via een openbare verbinding. Oorspronkelijk gebruikt door bedrijven voor veilig thuiswerken, nu de standaard privacytool voor consumenten.',
-        },
-      },
-      {
-        heading: 'Hoe werkt een VPN technisch?',
-        body: [
-          'Wanneer je een VPN inschakelt, loopt al je internetverkeer via een versleutelde tunnel naar een VPN-server. Die server stuurt jouw verzoeken vervolgens door naar het internet. Websites zien alleen het IP-adres van de VPN-server, niet jouw eigen adres of locatie.',
-          'De versleuteling werkt via <strong>AES-256</strong> — dezelfde encryptiestandaard die banken, overheden en het militair gebruiken. Het zou een moderne supercomputer meer dan een miljard jaar kosten om dit te kraken. Bovenop de encryptie zorgt een <strong>no-logs beleid</strong> ervoor dat ook de VPN-aanbieder zelf niet bijhoudt welke sites jij bezoekt.',
-        ],
-        table: {
-          headers: ['Zonder VPN', 'Met VPN'],
-          rows: [
-            ['Je echte IP-adres is zichtbaar voor elke website', 'Websites zien het IP van de VPN-server'],
-            ['Je ISP ziet alle sites die je bezoekt', 'ISP ziet alleen versleuteld dataverkeer'],
-            ['Hackers op openbaar wifi kunnen meekijken', 'Verkeer is volledig versleuteld en onleesbaar'],
-            ['Advertentienetwerken tracken je IP-adres', 'VPN-IP is moeilijk te koppelen aan jouw persoon'],
-            ['Je locatie is zichtbaar voor elke website', 'Websites zien de locatie van de VPN-server'],
-          ],
-        },
-      },
-      {
-        heading: 'Waarom zou je een VPN gebruiken?',
-        body: [
-          '<strong>1. Privacy van je internetprovider</strong> — Je ISP (KPN, Ziggo, T-Mobile) kan alles zien wat je online doet: welke sites je bezoekt, hoe lang en hoe vaak. In Nederland mogen providers en overheid deze data onder bepaalde omstandigheden opvragen. Een VPN versleutelt je verkeer, zodat je ISP alleen ziet dat je verbinding maakt met een VPN-server.',
-          '<strong>2. Beveiliging op openbaar wifi</strong> — Gratis wifi in cafés, hotels, treinen en luchthavens is notoir onveilig. Met de juiste tools kan een aanvaller op hetzelfde netwerk je wachtwoorden en bankgegevens onderscheppen (een "man-in-the-middle aanval"). Een VPN versleutelt al je verkeer zodat dit onmogelijk wordt.',
-          '<strong>3. Toegang tot geo-geblokkeerde content</strong> — NPO Start, Videoland en andere Nederlandse diensten zijn alleen beschikbaar vanuit Nederland. In het buitenland werken ze niet. Met een VPN-server in Nederland heb je altijd toegang. Andersom kun je ook buitenlandse Netflix-bibliotheken bekijken via een server in dat land.',
-          '<strong>4. Bescherming bij thuiswerken</strong> — Thuis gebruik je een privé-wifi-netwerk. Als je werkt met gevoelige bedrijfsdata is een VPN extra bescherming. Veel bedrijven verplichten een VPN voor remote werken om bedrijfsgegevens te beveiligen.',
-        ],
-      },
-      {
-        heading: 'Wat een VPN NIET doet',
-        body: [
-          'Een VPN maakt je <strong>niet volledig anoniem</strong>. Als je ingelogd bent op Google, Facebook of een andere dienst, weet die dienst nog steeds wie je bent — ook met VPN. Een VPN verbergt je IP-adres en versleutelt je verkeer, maar het is geen onzichtbaarheidsmantel.',
-          'Een VPN beschermt je ook <strong>niet tegen malware, virussen of phishing</strong>. Als je op een malafide link klikt of een besmet bestand downloadt, helpt een VPN je niet. Daarvoor heb je goede antivirussoftware nodig. Sommige VPN\'s bieden wel een extra functie om schadelijke websites te blokkeren (zoals NordVPN\'s Threat Protection), maar dat is een toevoeging, geen kernfunctie van een VPN.',
-        ],
-        highlight: {
-          type: 'warning',
-          title: 'Veelgemaakte fout',
-          text: 'Een VPN maakt je niet anoniem op internet. Als je ingelogd bent op Google of social media weten die platforms nog steeds wie je bent. Voor echte anonimiteit heb je Tor nodig, maar dat gaat sterk ten koste van snelheid.',
-        },
-      },
-      {
-        heading: 'Wat is een no-logs beleid?',
-        body: [
-          'Een <strong>no-logs beleid</strong> (ook "zero-logs" of "geen logboeken") betekent dat de VPN-aanbieder geen activiteitenlogboeken bijhoudt: welke sites je bezoekt, hoe lang en wanneer. Als iemand die gegevens opvraagt bij de aanbieder — een overheid, rechtbank of hacker — is er simpelweg niets te leveren.',
-          'Niet elk no-logs beleid is even sterk. De gouden standaard is een VPN-provider die zijn beleid laat controleren door een onafhankelijke externe partij. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft meerdere audits ondergaan bij PricewaterhouseCoopers. <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is geauditeerd door Deloitte. Dit zijn de meest betrouwbare opties voor privacybewuste gebruikers.',
-        ],
-        highlight: {
-          type: 'tip',
-          title: 'Controleer altijd op externe audits',
-          text: 'Vraag je bij elke VPN af: heeft dit bedrijf een onafhankelijke externe audit laten uitvoeren op het no-logs beleid? En is die audit recent (afgelopen 2 jaar)? Dit is de enige echte verificatie van een privacybelofte.',
-        },
-      },
-      {
-        heading: 'Welke VPN is de beste keuze voor beginners?',
-        body: [
-          'Voor beginners zijn drie factoren het belangrijkst: gebruiksgemak, betrouwbaarheid en prijs. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> is de beste all-round keuze: de app is intuïtief (één druk op de knop), heeft een bewezen no-logs beleid en werkt op Windows, Mac, iPhone, Android, Linux en meer tegelijk.',
-          'Zoek je iets goedkoper? <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> kost minder dan €2 per maand bij een 2-jaarsabonnement en werkt op onbeperkt apparaten tegelijk — ideaal voor gezinnen. Wil je helemaal gratis beginnen? <a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN Gratis</a> is de enige gratis VPN zonder datalimiet die we aanbevelen.',
-        ],
-        cta: 'nordvpn',
-      },
-    ],
-    faqs: [
-      {
-        question: 'Wat is het verschil tussen een VPN en incognito modus?',
-        answer: 'Incognito (of privévenster) slaat geen browsegeschiedenis, cookies of formuliergegevens op je eigen apparaat op. Het verbergt je IP-adres niet — je ISP en websites zien je IP nog steeds gewoon. Een VPN verbergt wél je IP-adres en versleutelt je verkeer voor je ISP. Ze vullen elkaar aan: incognito is lokaal, een VPN is netwerk-niveau privacy.',
-      },
-      {
-        question: 'Is een VPN illegaal in Nederland?',
-        answer: 'Nee, een VPN gebruiken is volledig legaal in Nederland en in vrijwel alle Westerse landen. Het is een legitiem privacy- en beveiligingshulpmiddel. In sommige landen (China, Rusland, Iran) is gebruik van niet-goedgekeurde VPN\'s officieel beperkt. Illegale activiteiten blijven uiteraard illegaal, ook met een VPN.',
-      },
-      {
-        question: 'Maakt een VPN mijn internet langzamer?',
-        answer: 'Een VPN voegt een kleine vertraging toe door versleuteling en omleiding via een externe server. Met een moderne VPN op WireGuard-protocol en een server dicht bij je (bijv. Amsterdam) merk je dit nauwelijks: minder dan 10% snelheidsvermindering op een goede verbinding. Gratis VPN\'s zijn wél significant trager door overvolle servers.',
-      },
-      {
-        question: 'Kan mijn werkgever zien wat ik thuis doe als ik een VPN gebruik?',
-        answer: 'Op je eigen apparaat en eigen wifi-netwerk kan je werkgever niets zien, ook niet met een persoonlijke VPN. Als je verbinding maakt via een bedrijfs-VPN (opgezet door je werkgever) kan de IT-afdeling in principe bedrijfsgerelateerd verkeer monitoren. Een persoonlijke VPN op je privéapparaat thuis is volledig privé voor je werkgever.',
-      },
-      {
-        question: 'Hoe weet ik of mijn VPN correct werkt?',
-        answer: 'Ga naar ipleak.net of whatismyipaddress.com met je VPN ingeschakeld. Je ziet dan het IP-adres van de VPN-server, niet je eigen IP. Controleer ook de DNS-sectie: alle DNS-adressen zouden van de VPN-provider moeten komen. Zie je je eigen provider (KPN, Ziggo)? Dan is er een DNS-lek en werkt de VPN niet volledig.',
-      },
-    ],
-    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
-    relatedSlugs: ['vpn-android-instellen', 'vpn-iphone-instellen', 'vpn-ip-adres-verbergen'],
-    tags: ['wat is een vpn', 'vpn uitleg', 'vpn voor beginners', 'vpn werking 2026'],
-  },
-
   // ─── POST 7: VPN op Android ───────────────────────────────────────────────
   {
     slug: 'vpn-android-instellen',
@@ -710,7 +594,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
-    relatedSlugs: ['wat-is-een-vpn', 'vpn-iphone-instellen', 'vpn-buitenland-gebruiken'],
+    relatedSlugs: ['vpn-ip-adres-verbergen', 'vpn-iphone-instellen', 'vpn-buitenland-gebruiken'],
     tags: ['vpn android', 'vpn instellen android', 'android vpn handleiding', 'kill switch android'],
   },
 
@@ -817,7 +701,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
-    relatedSlugs: ['wat-is-een-vpn', 'vpn-android-instellen', 'vpn-buitenland-gebruiken'],
+    relatedSlugs: ['vpn-ip-adres-verbergen', 'vpn-android-instellen', 'vpn-buitenland-gebruiken'],
     tags: ['vpn iphone', 'vpn instellen iphone', 'ios vpn handleiding', 'vpn ipad'],
   },
 
@@ -933,7 +817,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedProviders: ['nordvpn', 'surfshark', 'expressvpn'],
-    relatedSlugs: ['wat-is-een-vpn', 'vpn-android-instellen', 'vpn-protocol-vergelijking'],
+    relatedSlugs: ['goedkoopste-vpn-deals', 'vpn-android-instellen', 'vpn-protocol-vergelijking'],
     tags: ['vpn windows', 'vpn instellen windows 11', 'windows vpn handleiding', 'kill switch windows'],
   },
 ]
