@@ -41,6 +41,7 @@ export const metadata: Metadata = {
   },
   other: {
     'article:publisher': 'https://vpnr.nl',
+    '75fc95685e5b403': '7b9cfe6b067f5a3c7b2476326c2800ad',
   },
 }
 
