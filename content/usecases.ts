@@ -349,16 +349,16 @@ export const usecases: UseCase[] = [
     canonical: 'https://vpnr.nl/beste-vpn/gratis',
     icon: '🆓',
     intro:
-      'Gratis VPN\'s zijn verleidelijk, maar de meeste zijn onveilig of hebben verborgen kosten in de vorm van dataverzameling. Wij onderzochten tientallen gratis VPN\'s en bespreken de enige legitieme gratis opties, plus wanneer een betaalde VPN de enige verstandige keuze is.',
+      'Gratis VPN\'s zijn verleidelijk, maar de meeste zijn onveilig of hebben verborgen kosten in de vorm van dataverzameling. Wij onderzochten tientallen gratis VPN\'s en bespreken de legitieme gratis opties, plus wanneer een betaalde VPN de enige verstandige keuze is.',
     verdict:
-      'Er bestaat geen perfecte gratis VPN. ProtonVPN Free is de enige volledig gratis en veilige VPN zonder datalimiet, maar met slechts 5 serverlocaties en lagere snelheden. Windscribe geeft 10 GB per maand gratis met meer opties. Voor serieus dagelijks gebruik raden wij NordVPN of Surfshark aan: al beschikbaar vanaf €2,19 per maand met een 30-daagse geld-terug-garantie, wat het feitelijk risicovrij maakt.',
-    topProviders: ['nordvpn', 'surfshark', 'expressvpn'],
+      'Er bestaat geen perfecte gratis VPN. ProtonVPN Free is de beste volledig gratis en veilige VPN zonder datalimiet, maar met slechts 3 serverlocaties en lagere snelheden. Hide.me Free en Windscribe geven elk 10 GB per maand gratis met meer opties. Voor serieus dagelijks gebruik raden wij Surfshark aan: al beschikbaar vanaf €2,49 per maand met een 30-daagse geld-terug-garantie, wat het feitelijk risicovrij maakt.',
+    topProviders: ['protonvpn', 'hideme', 'surfshark'],
     keyFeature: 'Geen datalimiet, geen logverkoop, transparant verdienmodel',
     tips: [
       'Vermijd VPN-apps met opgeblazen beoordelingen (>1.000 reviews in korte tijd): dit zijn vaak nep-reviews',
       'Lees altijd het privacybeleid: verkopen ze gebruiksdata aan derde partijen?',
       'Test elke gratis VPN op ipleak.net op DNS-lekken voor je hem vertrouwt',
-      'Gebruik de 30-daagse geld-terug-garantie van betaalde VPNs als risicovrij probeeraanbod',
+      'Gebruik de 30-daagse geld-terug-garantie van betaalde VPN\'s als risicovrij probeeraanbod',
       'Controleer of de VPN-aanbieder onafhankelijke security-audits publiceert',
     ],
     sections: [
@@ -366,28 +366,35 @@ export const usecases: UseCase[] = [
         heading: 'Zijn gratis VPN\'s veilig?',
         body: [
           'De meeste gratis VPN\'s zijn <strong>niet veilig</strong>. Een studie van de Commonwealth Scientific and Industrial Research Organisation (CSIRO) analyseerde 283 gratis VPN-apps en ontdekte dat 38% malware bevatte, 84% gebruikersdata lekte en 75% tracking-bibliotheken gebruikte. Gratis VPN\'s moeten hun kosten ergens terugverdienen, en dat doen ze vaak door jouw data te verkopen aan adverteerders.',
-          'Er zijn uitzonderingen. <strong>ProtonVPN</strong> (Zwitserland) en <strong>Windscribe</strong> (Canada) zijn legitieme bedrijven met een bewezen gratis tier. Ze financieren de gratis versie via betalende klanten, niet door data te verkopen. Dit zijn de enige twee gratis VPN\'s die wij kunnen aanbevelen voor gebruik in Nederland.',
+          'Er zijn uitzonderingen. <strong>ProtonVPN</strong> (Zwitserland), <strong>Hide.me</strong> (Nederland/Maleisië) en <strong>Windscribe</strong> (Canada) zijn legitieme bedrijven met een bewezen gratis tier. Ze financieren de gratis versie via betalende klanten, niet door data te verkopen. Dit zijn de gratis VPN\'s die wij kunnen aanbevelen voor gebruik in Nederland.',
         ],
       },
       {
         heading: 'Legitieme gratis VPN\'s in 2026',
         body: [
-          '<strong>ProtonVPN Free</strong> is onze nummer één gratis VPN. Het heeft geen datalimiet, een geaudit no-logs beleid en servers in Nederland, de VS en Japan. De gratis versie ondersteunt één apparaat tegelijk en is trager dan de betaalde versie, maar is volledig veilig en wordt onderhouden door hetzelfde team als ProtonMail.',
-          '<strong>Windscribe Free</strong> geeft 10 GB per maand gratis met toegang tot servers in 10+ landen. Door je e-mailadres te bevestigen krijg je 15 GB. Windscribe werkt soms met Netflix US. <strong>Tunnelbear</strong> geeft slechts 500 MB per maand, wat alleen voldoende is voor incidenteel browsen op openbare wifi.',
+          '<strong>ProtonVPN Free</strong> is onze nummer één gratis VPN. Het heeft <strong>geen datalimiet</strong>, een geaudit no-logs beleid en servers in Nederland, de VS en Japan. De gratis versie ondersteunt één apparaat tegelijk en is trager dan de betaalde versie, maar is volledig veilig en wordt onderhouden door hetzelfde team als ProtonMail.',
+          '<strong>Hide.me Free</strong> geeft 10 GB per maand gratis met servers in 5 locaties, waaronder Nederland. Hide.me heeft zijn no-logs beleid onafhankelijk laten auditen en is een van de meest transparante providers op de markt. <strong>Windscribe Free</strong> geeft ook 10 GB per maand (15 GB bij bevestigd e-mailadres) met toegang tot servers in 10+ landen. <strong>Tunnelbear</strong> geeft slechts 500 MB per maand — alleen bruikbaar voor incidenteel browsen op openbare wifi.',
+        ],
+      },
+      {
+        heading: 'Gratis VPN\'s die je beter kunt vermijden',
+        body: [
+          '<strong>Hola VPN</strong> is ronduit gevaarlijk: het verkoopt de bandbreedte van zijn gratis gebruikers aan derden, waardoor jouw internetverbinding gebruikt wordt voor andere activiteiten. <strong>Hotspot Shield Free</strong> is ad-supported en heeft een track record van tracking. <strong>SuperVPN</strong> en <strong>TurboVPN</strong> zijn meerdere keren betrapt op dataverzameling en lekken.',
+          'Een vuistregel: als een gratis VPN geen duidelijk verdienmodel heeft (betaalde versie of donaties), betaal jij met je data. Controleer altijd of de provider een onafhankelijke audit heeft laten uitvoeren van zijn privacybeleid.',
         ],
       },
       {
         heading: 'De beperkingen van gratis VPN\'s',
         body: [
           'Zelfs de beste gratis VPN\'s hebben aanzienlijke beperkingen. <strong>Datalimiet</strong>: behalve ProtonVPN hebben alle gratis VPN\'s een maandelijks datalimiet van 500 MB tot 15 GB. <strong>Snelheid</strong>: gratis servers zijn overbelast door veel gebruikers, waardoor de snelheid aanzienlijk lager ligt dan bij betaalde versies.',
-          '<strong>Serverlocaties</strong>: toegang tot slechts 5-10 landen in plaats van 60+. <strong>Streaming</strong>: gratis VPN\'s werken vrijwel nooit met Netflix, Disney+ of andere streamingdiensten. <strong>Support</strong>: geen of beperkte klantenservice. Voor incidenteel gebruik op openbare wifi zijn gratis VPN\'s bruikbaar; voor dagelijks gebruik, streaming of torrenten niet.',
+          '<strong>Serverlocaties</strong>: toegang tot slechts 3-10 landen in plaats van 60+. <strong>Streaming</strong>: gratis VPN\'s werken vrijwel nooit met Netflix, Disney+ of andere streamingdiensten. <strong>Support</strong>: geen of beperkte klantenservice. Voor incidenteel gebruik op openbare wifi zijn gratis VPN\'s bruikbaar; voor dagelijks gebruik, streaming of torrenten niet.',
         ],
       },
       {
         heading: 'Wanneer is een betaalde VPN de moeite waard?',
         body: [
-          'Voor €2,19-€3,99 per maand bij een 2-jaarsplan heb je onbeperkte data, snelle servers, een strikt no-logs beleid, toegang tot Netflix en Disney+, en ondersteuning voor meerdere apparaten tegelijk. <strong>Surfshark</strong> is de goedkoopste betrouwbare VPN en staat onbeperkte apparaten toe op één account.',
-          'Met de <strong>30-daagse geld-terug-garantie</strong> van NordVPN, Surfshark en ExpressVPN probeer je de betaalde versie een maand lang volledig gratis. Als je niet tevreden bent, krijg je je geld volledig terug via de klantenservice. Dit maakt betaalde VPN\'s feitelijk risicovrij om uit te proberen.',
+          'Voor €2,49-€3,99 per maand bij een 2-jaarsplan heb je onbeperkte data, snelle servers, een strikt no-logs beleid, toegang tot Netflix en Disney+, en ondersteuning voor meerdere apparaten tegelijk. <strong>Surfshark</strong> is de goedkoopste betrouwbare VPN en staat onbeperkte apparaten toe op één account.',
+          'Met de <strong>30-daagse geld-terug-garantie</strong> van NordVPN en Surfshark probeer je de betaalde versie een maand lang volledig gratis. Als je niet tevreden bent, krijg je je geld volledig terug via de klantenservice. Dit maakt betaalde VPN\'s feitelijk risicovrij om uit te proberen.',
         ],
       },
     ],
@@ -395,12 +402,12 @@ export const usecases: UseCase[] = [
       {
         question: 'Wat is de beste gratis VPN voor Nederland in 2026?',
         answer:
-          'ProtonVPN Free is de beste gratis VPN voor Nederland. Het heeft geen datalimiet, een geaudit no-logs beleid en is ontwikkeld door het team achter ProtonMail. De gratis versie heeft servers in Nederland, de VS en Japan en ondersteunt één apparaat tegelijk.',
+          'ProtonVPN Free is de beste gratis VPN voor Nederland. Het heeft geen datalimiet, een geaudit no-logs beleid en is ontwikkeld door het team achter ProtonMail. De gratis versie heeft servers in Nederland, de VS en Japan en ondersteunt één apparaat tegelijk. Hide.me Free is een goed alternatief met 10 GB per maand en Nederlandse servers.',
       },
       {
         question: 'Zijn gratis VPN\'s veilig om te gebruiken?',
         answer:
-          'De meeste gratis VPN\'s zijn niet veilig: onderzoek toont aan dat veel gratis VPN-apps malware bevatten of gebruikersdata verkopen aan adverteerders. Uitzonderingen zijn ProtonVPN Free en Windscribe, die transparant zijn over hun verdienmodel en geen data verkopen.',
+          'De meeste gratis VPN\'s zijn niet veilig: onderzoek toont aan dat veel gratis VPN-apps malware bevatten of gebruikersdata verkopen aan adverteerders. Uitzonderingen zijn ProtonVPN Free, Hide.me Free en Windscribe, die transparant zijn over hun verdienmodel en geen data verkopen.',
       },
       {
         question: 'Heeft ProtonVPN een gratis versie zonder datalimiet?',
@@ -408,9 +415,14 @@ export const usecases: UseCase[] = [
           'Ja. ProtonVPN biedt een permanente gratis versie zonder enig datalimiet. Je hebt toegang tot servers in Nederland, de VS en Japan met één apparaat tegelijk. De gratis versie is trager dan de betaalde versie maar volledig veilig en zonder logboeken.',
       },
       {
+        question: 'Hoeveel data geeft Hide.me gratis?',
+        answer:
+          'Hide.me Free geeft 10 GB per maand gratis met toegang tot 5 serverlocaties, waaronder servers in Nederland. Het no-logs beleid is onafhankelijk geaudit. De gratis versie ondersteunt één apparaat en heeft geen advertenties of tracking.',
+      },
+      {
         question: 'Wat is het verschil tussen een gratis en betaalde VPN?',
         answer:
-          'Betaalde VPN\'s bieden onbeperkte data, hogere snelheden, 60+ serverlocaties, werken met Netflix en streaming, ondersteunen meerdere apparaten tegelijk en hebben een strenger no-logs beleid met onafhankelijke audits. Gratis VPN\'s hebben datalimiet (of beperkte servers), lagere snelheden en werken zelden met streamingdiensten.',
+          'Betaalde VPN\'s bieden onbeperkte data, hogere snelheden, 60+ serverlocaties, werken met Netflix en streaming, ondersteunen meerdere apparaten tegelijk en hebben een strenger no-logs beleid met onafhankelijke audits. Gratis VPN\'s hebben een datalimiet (uitzondering: ProtonVPN), lagere snelheden en werken zelden met streamingdiensten.',
       },
       {
         question: 'Kan ik Netflix kijken met een gratis VPN?',
