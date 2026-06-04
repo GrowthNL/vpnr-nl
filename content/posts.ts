@@ -52,7 +52,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-15',
     readTime: '5 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-buitenland-gebruiken.svg',
+    image: '/blog/vpn-buitenland-gebruiken.jpg',
     imageAlt: 'VPN gebruiken in het buitenland, globe met beveiligde verbinding',
     intro: 'Zodra je de grens over gaat, merk je meteen dat het internet er anders uitziet. Nederlandse sites zoals NPO Start en Videoland zijn geblokkeerd, openbare wifi in hotels en luchthavens is onveilig en in landen als China of de VAE zijn zelfs WhatsApp en Google deels beperkt. Een VPN lost al deze problemen tegelijk op, maar je moet het wél van tevoren installeren.',
     sections: [
@@ -148,7 +148,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-12',
     readTime: '4 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/netflix-vpn-werkt-niet.svg',
+    image: '/blog/netflix-vpn-werkt-niet.jpg',
     imageAlt: 'Netflix via VPN, streamingscherm met VPN-beveiligingsbadge',
     intro: 'Je zit comfortabel op de bank, VPN aangezet op een Amerikaans serveradres, Netflix geopend, en dan verschijnt de gevreesde melding: "Je gebruikt een unblocker of proxy. Schakel je unblocker of proxy uit en probeer het opnieuw." Frustrerend, maar oplosbaar.',
     sections: [
@@ -227,7 +227,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-08',
     readTime: '7 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-protocol-vergelijking.svg',
+    image: '/blog/vpn-protocol-vergelijking.jpg',
     imageAlt: 'VPN-protocollen vergelijking, netwerk van verbonden nodes met slot',
     intro: 'Een VPN is pas zo goed als het protocol dat er achter zit. Het protocol bepaalt hoe snel je verbinding is, hoe veilig de versleuteling en hoe goed het werkt op verschillende netwerken. De drie dominante protocollen zijn WireGuard, OpenVPN en IKEv2/IPSec, elk met eigen sterktes en zwaktes.',
     sections: [
@@ -318,7 +318,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-03',
     readTime: '6 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-ip-adres-verbergen.svg',
+    image: '/blog/vpn-ip-adres-verbergen.jpg',
     imageAlt: 'IP-adres verbergen met VPN, schild met doorgestreept oog',
     intro: 'Elke keer dat je een website bezoekt, stuurt je apparaat een digitaal visitekaartje mee: je IP-adres. Dit adres onthult je internetprovider, je globale locatie en kan worden gebruikt om je gedrag online bij te houden over duizenden sites heen. Een VPN is de meest complete en betrouwbare manier om je IP te verbergen.',
     sections: [
@@ -409,7 +409,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-01',
     readTime: '3 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/goedkoopste-vpn-deals.svg',
+    image: '/blog/goedkoopste-vpn-deals.jpg',
     imageAlt: 'Goedkoopste VPN deals 2026, prijskaartje met procentsymbool',
     intro: 'Een goede VPN hoeft helemaal niet duur te zijn. Met de juiste deal betaal je soms minder dan €2 per maand voor premium bescherming van topmerken. Dit zijn de beste VPN-aanbiedingen van mei 2026, van budgetvriendelijk tot premium.',
     sections: [
@@ -510,7 +510,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-26',
     readTime: '6 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-android-instellen.svg',
+    image: '/blog/vpn-android-instellen.jpg',
     imageAlt: 'VPN instellen op Android smartphone met beveiligingsschild op het scherm',
     intro: 'Een VPN instellen op Android is binnen 3 minuten klaar via de Google Play Store. Je hebt twee opties: via de app van je VPN-aanbieder (aanbevolen — je krijgt alle functies) of handmatig via de Android-netwerkinstellingen (voor zakelijke VPN\'s of gevorderde gebruikers). In deze handleiding lopen we beide methoden stap voor stap door, inclusief altijd-aan VPN, kill switch en oplossingen voor veelvoorkomende problemen.',
     sections: [
@@ -611,7 +611,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-26',
     readTime: '6 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-iphone-instellen.svg',
+    image: '/blog/vpn-iphone-instellen.jpg',
     imageAlt: 'VPN instellen op iPhone - iOS smartphone met VPN-beveiligingsschild',
     intro: 'Een VPN instellen op je iPhone of iPad duurt minder dan 3 minuten. iOS heeft uitstekende ingebouwde VPN-ondersteuning en de apps zijn erg gebruiksvriendelijk. In deze handleiding behandelen we de snelste methode via de App Store, de handmatige IKEv2-instelling voor gevorderde gebruikers, en geven we concrete tips voor de meestvoorkomende verbindingsproblemen op iOS.',
     sections: [
@@ -718,7 +718,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-05-26',
     readTime: '7 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-windows-instellen.svg',
+    image: '/blog/vpn-windows-instellen.jpg',
     imageAlt: 'VPN instellen op Windows 11 laptop met beveiligingsschild en Windows-logo',
     intro: 'Een VPN instellen op Windows 11 kan via twee routes: via de app van je VPN-aanbieder (aanbevolen — meer functies, eenvoudiger) of via de ingebouwde VPN-client van Windows (voor zakelijke configuraties). De app-methode geeft je kill switch, split tunneling en automatische serversselectie die de ingebouwde client mist. In deze handleiding behandelen we beide methoden uitgebreid, inclusief troubleshooting voor de meestgemaakte fouten.',
     sections: [
@@ -834,7 +834,7 @@ export const posts: BlogPost[] = [
     updatedISO: "2026-05-26",
     readTime: "6 min",
     author: "vpnr.nl Redactie",
-    image: "/blog/nordvpn-korting.svg",
+    image: "/blog/nordvpn-korting.jpg",
     imageAlt: "NordVPN kortingsbanner met prijsvergelijking en besparingspictogrammen",
     intro: "Zoek je de beste NordVPN korting voor juni 2026? Je betaalt al snel te veel als je zonder deal een VPN afsluit. In dit artikel vind je alle actuele aanbiedingen, exclusieve kortingscodes en slimme bespaartips om NordVPN voor de laagste prijs te krijgen.",
     sections: [
@@ -960,7 +960,7 @@ export const posts: BlogPost[] = [
     updatedISO: "2026-06-01",
     readTime: "7 min",
     author: "vpnr.nl Redactie",
-    image: "/blog/kill-switch-vpn.svg",
+    image: "/blog/kill-switch-vpn.jpg",
     imageAlt: "Illustratie van een VPN kill switch die de internetverbinding beveiligt bij verbindingsverlies",
     intro: "Stel je voor: je bent bezig met gevoelige financiële transacties of downloadt via BitTorrent, en plotseling valt je VPN-verbinding weg zonder dat je het merkt. Op dat moment is je echte IP-adres zichtbaar voor iedereen. Een kill switch voorkomt dit horrorscenario door automatisch al je internetverkeer te blokkeren zodra de beveiligde tunnel wegvalt.",
     sections: [
@@ -1097,7 +1097,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-06-04',
     readTime: '5 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/wat-is-mijn-ip-adres.svg',
+    image: '/blog/wat-is-mijn-ip-adres.jpg',
     imageAlt: 'IP-adres check op scherm met locatiepictogram en VPN-schild',
     intro:
       'Elke keer dat je een website bezoekt, verstuurt je apparaat automatisch je IP-adres mee. Dat ogenschijnlijk onschuldige getal onthult meer dan je denkt: je internetprovider, je globale locatie en soms zelfs je stad. Wil je weten wat jouw IP-adres nu is en wat het onthult? Check het bovenaan deze pagina en lees verder wat je ermee kunt doen.',
@@ -1191,7 +1191,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-06-04',
     readTime: '7 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/nordvpn-vs-surfshark.svg',
+    image: '/blog/nordvpn-vs-surfshark.jpg',
     imageAlt: 'NordVPN vs Surfshark vergelijking 2026 - twee VPN-logo\'s naast elkaar',
     intro:
       'NordVPN en Surfshark zijn de twee VPN-diensten die het meest met elkaar vergeleken worden. Dat is niet voor niets: beiden zijn betrouwbaar, snel en werken met Netflix. Maar er zijn duidelijke verschillen in prijs, apparaatlimiet en streaming-prestaties. Dit artikel geeft een diepgaande vergelijking zodat je de juiste keuze maakt.',
@@ -1291,7 +1291,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-06-04',
     readTime: '6 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-thuiswerken.svg',
+    image: '/blog/vpn-thuiswerken.jpg',
     imageAlt: 'VPN voor thuiswerken - laptop op thuiskantoor met beveiligingsschild',
     intro:
       'Thuiswerken is voor veel Nederlanders de norm geworden. Maar werken vanuit huis brengt beveiligingsrisico\'s met zich mee: gevoelige bedrijfsdata die via je thuisnetwerk verstuurd wordt, toegang tot bedrijfssystemen via onbeveiligde verbindingen en het ontbreken van de beveiligingsmaatregelen die kantoornetwerken wel hebben. Een VPN lost veel van deze problemen op.',

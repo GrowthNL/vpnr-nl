@@ -265,8 +265,8 @@ async function generateAIImage(slug, title, subject) {
   return new Promise((resolve) => {
     const body = JSON.stringify({ inputs: prompt })
     const options = {
-      hostname: 'api-inference.huggingface.co',
-      path: '/models/black-forest-labs/FLUX.1-schnell',
+      hostname: 'router.huggingface.co',
+      path: '/hf-inference/models/black-forest-labs/FLUX.1-schnell',
       method: 'POST',
       headers: {
         Authorization: `Bearer ${token}`,
