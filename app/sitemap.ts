@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { providers } from '@/content/providers'
 import { usecases } from '@/content/usecases'
 import { posts } from '@/content/posts'
+import { comparisons } from '@/content/comparisons'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://vpnr.nl'
@@ -11,6 +12,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
     { url: `${base}/beste-vpn`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
     { url: `${base}/vpn-vergelijken`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
+    ...comparisons.map((c) => ({
+      url: `${base}/vpn-vergelijken/${c.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    })),
     { url: `${base}/vpn-reviews`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
     ...providers.map((p) => ({
       url: `${base}/vpn-reviews/${p.slug}`,
