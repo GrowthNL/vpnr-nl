@@ -258,25 +258,84 @@ function buildPrompt(topic, subject) {
   const base = 'professional stock photo, sharp focus, DSLR photography, natural lighting, high resolution, 16:9, no text, no logos, no watermarks'
 
   const topicPrompts = {
-    streaming: `Person relaxing on a couch watching a large TV screen with colorful streaming content, cozy modern living room, warm lighting, ${base}`,
-    torrenting: `Close-up of hands on a laptop keyboard with a blurred download progress bar on screen, dark desk setup, soft blue ambient light, ${base}`,
-    gaming: `Gaming setup with RGB keyboard and monitor showing colorful game visuals, dark room with neon lighting, immersive atmosphere, ${base}`,
-    iphone: `iPhone held in hand with a VPN app on screen, clean minimalist background, soft natural light, ${base}`,
-    android: `Android smartphone on a wooden desk showing a secure connection screen, modern office background, ${base}`,
-    mac: `MacBook Pro open on a clean desk with abstract secure network visualization on screen, bright airy home office, ${base}`,
-    windows: `Windows laptop on a modern desk with a security dashboard on screen, professional home office setup, ${base}`,
-    homeoffice: `Neat home office desk with laptop, notebook and coffee mug, large window with soft daylight, productive calm atmosphere, ${base}`,
-    travel: `Person using a laptop at an airport terminal or café abroad, travel bag nearby, international travel vibe, ${base}`,
-    belgium: `Panoramic view of Brussels city center with modern buildings and digital network overlay, blue sky, ${base}`,
-    ip: `Close-up of a server room with blinking lights and cables, digital security concept, dark cool lighting, ${base}`,
-    protocol: `Abstract visualization of data packets flowing through a secure digital tunnel, dark background with glowing blue lines, ${base}`,
-    killswitch: `Hand reaching for a large red emergency stop button, industrial metaphor for digital safety, dramatic lighting, ${base}`,
-    deals: `Shopping concept with laptop showing a discount page, credit card on desk, warm inviting light, ${base}`,
-    compare: `Two smartphones side by side on a desk showing different VPN apps, clean white background, top-down flat lay, ${base}`,
-    vpn: `Person working on a laptop in a coffee shop, secure padlock icon subtly reflected on the screen, candid street photography style, ${base}`,
+    streaming: `Person relaxing on a couch watching a large TV, warm cozy living room atmosphere, bokeh background, ${base}`,
+    torrenting: `Close-up of fiber optic cables glowing blue and white, dark background, futuristic data transfer concept, ${base}`,
+    gaming: `Gaming desk with RGB mechanical keyboard and mouse, dark room with colorful neon ambient lighting, no screens visible, ${base}`,
+    iphone: `Minimalist white desk with a smartphone face-down next to a coffee cup and succulent plant, soft natural light, ${base}`,
+    android: `Android smartphone lying on a wooden desk, screen facing away, shallow depth of field, clean modern office, ${base}`,
+    mac: `MacBook closed on a minimalist white desk with a small plant and coffee, bright airy Scandinavian interior, ${base}`,
+    windows: `Laptop closed on a professional office desk with a pen and notebook, soft window light, clean workspace, ${base}`,
+    homeoffice: `Neat home office desk with closed laptop, notebook, coffee mug and plants, large window with soft daylight, ${base}`,
+    travel: `Person with backpack and luggage at a bright airport terminal, bokeh background, international travel atmosphere, ${base}`,
+    belgium: `Panoramic skyline of Brussels with modern glass buildings and blue sky, golden hour light, ${base}`,
+    ip: `Close-up of blinking server rack lights and ethernet cables in a dark server room, cool blue tones, ${base}`,
+    protocol: `Glowing fiber optic strands forming a tunnel of light, abstract digital security concept, dark background, ${base}`,
+    killswitch: `Hand pressing a large red emergency stop button in an industrial setting, dramatic cinematic lighting, ${base}`,
+    deals: `Stack of euro coins next to a piggy bank on a wooden table, soft warm light, financial savings concept, ${base}`,
+    compare: `Two smartphones placed back-to-back on a white surface, clean top-down flat lay, minimal shadows, ${base}`,
+    vpn: `Person typing on a laptop keyboard in a coffee shop, shallow depth of field, candid lifestyle photography, ${base}`,
   }
 
   return topicPrompts[topic] ?? topicPrompts.vpn
+}
+
+async function generateImagenImage(slug, title, subject) {
+  const key = process.env.GOOGLE_AI_KEY
+  if (!key) return null
+
+  console.log('🖼️   GOOGLE_AI_KEY gevonden — probeer Imagen 3 via Gemini API...')
+
+  const topic = detectTopic(slug, title)
+  const prompt = buildPrompt(topic, subject)
+  console.log(`🎯  Topic: ${topic}`)
+  console.log(`📝  Prompt: ${prompt.slice(0, 80)}...`)
+
+  return new Promise((resolve) => {
+    const body = JSON.stringify({
+      instances: [{ prompt }],
+      parameters: { sampleCount: 1, aspectRatio: '16:9', personGeneration: 'allow_adult' },
+    })
+
+    const options = {
+      hostname: 'generativelanguage.googleapis.com',
+      path: `/v1beta/models/imagen-3.0-generate-002:predict?key=${key}`,
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(body),
+      },
+    }
+
+    const req = https.request(options, (res) => {
+      const chunks = []
+      res.on('data', (chunk) => chunks.push(chunk))
+      res.on('end', () => {
+        if (res.statusCode !== 200) {
+          console.log(`⚠️   Imagen API antwoord: ${res.statusCode} — val terug op FLUX`)
+          console.log(Buffer.concat(chunks).toString().slice(0, 200))
+          resolve(null)
+          return
+        }
+        try {
+          const json = JSON.parse(Buffer.concat(chunks).toString())
+          const b64 = json.predictions?.[0]?.bytesBase64Encoded
+          if (!b64) { resolve(null); return }
+          const outputPath = `${ROOT}/public/blog/${slug}.jpg`
+          fs.writeFileSync(outputPath, Buffer.from(b64, 'base64'))
+          console.log(`✅  Imagen-afbeelding opgeslagen: public/blog/${slug}.jpg`)
+          resolve(`/blog/${slug}.jpg`)
+        } catch {
+          console.log('⚠️   Imagen parse-fout — val terug op FLUX')
+          resolve(null)
+        }
+      })
+    })
+
+    req.on('error', () => { console.log('⚠️   Imagen verbindingsfout — val terug op FLUX'); resolve(null) })
+    req.setTimeout(60000, () => { req.destroy(); console.log('⚠️   Imagen timeout — val terug op FLUX'); resolve(null) })
+    req.write(body)
+    req.end()
+  })
 }
 
 async function generateAIImage(slug, title, subject) {
@@ -293,7 +352,11 @@ async function generateAIImage(slug, title, subject) {
   return new Promise((resolve) => {
     const body = JSON.stringify({
       inputs: prompt,
-      parameters: { width: 1280, height: 720 },
+      parameters: {
+        width: 1280,
+        height: 720,
+        negative_prompt: 'text, words, letters, typography, watermark, logo, label, caption, writing, inscription, signage, subtitles, overlay',
+      },
     })
     const options = {
       hostname: 'router.huggingface.co',
@@ -349,7 +412,12 @@ export async function generateImage(slug, title, subject = '', category = '') {
   const outputDir = path.join(ROOT, 'public', 'blog')
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true })
 
-  // Probeer eerst HuggingFace AI als token beschikbaar is
+  // Probeer eerst Imagen 3 (Google), dan FLUX (HuggingFace), dan SVG
+  if (process.env.GOOGLE_AI_KEY) {
+    const imagenPath = await generateImagenImage(slug, title, subject)
+    if (imagenPath) return imagenPath
+  }
+
   if (process.env.HF_TOKEN) {
     const aiPath = await generateAIImage(slug, title, subject)
     if (aiPath) return aiPath
