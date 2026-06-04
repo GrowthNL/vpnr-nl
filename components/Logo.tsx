@@ -49,30 +49,14 @@ export default function Logo({ size = 44 }: { size?: number }) {
         />
       </g>
 
-      {/* VPNR — caps, lichte verloop */}
+      {/* VPNR.nl — één tekstelement zodat .nl direct aansluit zonder ruimte */}
       <text
         x="50"
         y="32"
         fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-        fontWeight="900"
-        fontSize="27"
-        letterSpacing="0.5"
-        fill="url(#textGrad)"
       >
-        VPNR
-      </text>
-
-      {/* .nl — direct aansluitend */}
-      <text
-        x="148"
-        y="32"
-        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-        fontWeight="600"
-        fontSize="19"
-        fill="#3b82f6"
-        fillOpacity="0.65"
-      >
-        .nl
+        <tspan fontWeight="900" fontSize="27" letterSpacing="0.5" fill="url(#textGrad)">VPNR</tspan>
+        <tspan fontWeight="600" fontSize="19" fill="#3b82f6" fillOpacity="0.65">.nl</tspan>
       </text>
     </svg>
   )
