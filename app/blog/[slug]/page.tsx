@@ -111,7 +111,7 @@ export default async function BlogPostPage({
       '@type': 'Organization',
       name: 'vpnr.nl',
       url: 'https://vpnr.nl',
-      logo: { '@type': 'ImageObject', url: 'https://vpnr.nl/logos/nordvpn.svg' },
+      logo: { '@type': 'ImageObject', url: 'https://vpnr.nl/opengraph-image.png', width: 1200, height: 630 },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://vpnr.nl/blog/${post.slug}` },
     keywords: post.tags.join(', '),

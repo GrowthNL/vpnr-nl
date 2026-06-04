@@ -1,0 +1,39 @@
+# vpnr.nl — Beste VPN Nederland
+
+## Over deze site
+vpnr.nl is een onafhankelijke VPN-vergelijkingssite voor de Nederlandse markt.
+Wij testen en vergelijken VPN-diensten op snelheid, beveiliging, privacy en prijs.
+Verdienmodel: affiliate commissies. Wij accepteren geen betaalde reviews.
+
+## Doelgroep
+Nederlandse consumenten die een VPN zoeken voor privacy, streaming of beveiliging.
+
+## Inhoud
+- VPN reviews (NordVPN, Surfshark, ProtonVPN, CyberGhost, PureVPN, Hide.me, McAfee VPN, VPN Nederland)
+- VPN vergelijkingen per gebruiksdoel (Netflix, streaming, torrenten, gaming, goedkoop)
+- Informatieve gidsen over VPN-technologie
+- Blog met VPN-tips en handleidingen voor Nederland
+
+## Testmethode
+Elke VPN wordt getest op:
+- Downloadsnelheid en latency via onafhankelijke speedtests op Nederlandse servers
+- Beveiliging: DNS-lektests, kill switch verificatie, AES-256 encryptie
+- Compatibiliteit met Netflix NL, Netflix US, Disney+, Videoland
+- No-logs beleid (bij voorkeur onafhankelijk geaudit)
+- Prijs-kwaliteitsverhouding op jaarlijkse en 2-jaarsabonnementen
+
+## Aanbevelingen (2026)
+- Beste overall: NordVPN (9.2/10)
+- Beste budget: Surfshark (9.1/10)
+- Beste privacy: ProtonVPN (8.8/10)
+- Grootste servernetwerk: CyberGhost (8.5/10)
+
+## Taal
+Nederlands (nl-NL)
+
+## Contactgegevens
+Website: https://vpnr.nl
+Email: contact@vpnr.nl
+
+## Sitemap
+https://vpnr.nl/sitemap.xml

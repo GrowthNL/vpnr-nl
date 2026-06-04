@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     description:
       'Onafhankelijke VPN-vergelijking voor Nederland. Eerlijke reviews, actuele prijzen en de beste deals.',
     url: 'https://vpnr.nl',
+    images: [{ url: 'https://vpnr.nl/opengraph-image.png', width: 1200, height: 630, alt: 'vpnr.nl — Beste VPN Nederland 2026' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -50,7 +51,7 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'vpnr.nl',
   url: 'https://vpnr.nl',
-  logo: 'https://vpnr.nl/og-image.png',
+  logo: 'https://vpnr.nl/opengraph-image.png',
   description: 'Onafhankelijke VPN-vergelijkingssite voor de Nederlandse markt.',
   contactPoint: {
     '@type': 'ContactPoint',
@@ -68,11 +69,6 @@ const websiteSchema = {
   url: 'https://vpnr.nl',
   description: 'Vergelijk de beste VPN-diensten voor Nederland.',
   inLanguage: 'nl-NL',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: 'https://vpnr.nl/beste-vpn?q={search_term_string}',
-    'query-input': 'required name=search_term_string',
-  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
