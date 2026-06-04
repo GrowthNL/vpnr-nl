@@ -254,16 +254,47 @@ function generateSVG(slug, title, category = '') {
 
 // ─── AI IMAGE VIA HUGGINGFACE (optioneel, als HF_TOKEN beschikbaar is) ──────
 
+function buildPrompt(topic, subject) {
+  const base = 'professional stock photo, sharp focus, DSLR photography, natural lighting, high resolution, 16:9, no text, no logos, no watermarks'
+
+  const topicPrompts = {
+    streaming: `Person relaxing on a couch watching a large TV screen with colorful streaming content, cozy modern living room, warm lighting, ${base}`,
+    torrenting: `Close-up of hands on a laptop keyboard with a blurred download progress bar on screen, dark desk setup, soft blue ambient light, ${base}`,
+    gaming: `Gaming setup with RGB keyboard and monitor showing colorful game visuals, dark room with neon lighting, immersive atmosphere, ${base}`,
+    iphone: `iPhone held in hand with a VPN app on screen, clean minimalist background, soft natural light, ${base}`,
+    android: `Android smartphone on a wooden desk showing a secure connection screen, modern office background, ${base}`,
+    mac: `MacBook Pro open on a clean desk with abstract secure network visualization on screen, bright airy home office, ${base}`,
+    windows: `Windows laptop on a modern desk with a security dashboard on screen, professional home office setup, ${base}`,
+    homeoffice: `Neat home office desk with laptop, notebook and coffee mug, large window with soft daylight, productive calm atmosphere, ${base}`,
+    travel: `Person using a laptop at an airport terminal or café abroad, travel bag nearby, international travel vibe, ${base}`,
+    belgium: `Panoramic view of Brussels city center with modern buildings and digital network overlay, blue sky, ${base}`,
+    ip: `Close-up of a server room with blinking lights and cables, digital security concept, dark cool lighting, ${base}`,
+    protocol: `Abstract visualization of data packets flowing through a secure digital tunnel, dark background with glowing blue lines, ${base}`,
+    killswitch: `Hand reaching for a large red emergency stop button, industrial metaphor for digital safety, dramatic lighting, ${base}`,
+    deals: `Shopping concept with laptop showing a discount page, credit card on desk, warm inviting light, ${base}`,
+    compare: `Two smartphones side by side on a desk showing different VPN apps, clean white background, top-down flat lay, ${base}`,
+    vpn: `Person working on a laptop in a coffee shop, secure padlock icon subtly reflected on the screen, candid street photography style, ${base}`,
+  }
+
+  return topicPrompts[topic] ?? topicPrompts.vpn
+}
+
 async function generateAIImage(slug, title, subject) {
   const token = process.env.HF_TOKEN
   if (!token) return null
 
   console.log('🤖  HF_TOKEN gevonden — probeer AI-afbeelding via FLUX...')
 
-  const prompt = `Professional hero image for VPN article: "${subject}". Dark navy blue background, cybersecurity theme, abstract tech art, glowing blue elements, 16:9 landscape, no text, no logos, photorealistic digital art`
+  const topic = detectTopic(slug, title)
+  const prompt = buildPrompt(topic, subject)
+  console.log(`🎯  Topic: ${topic}`)
+  console.log(`📝  Prompt: ${prompt.slice(0, 80)}...`)
 
   return new Promise((resolve) => {
-    const body = JSON.stringify({ inputs: prompt })
+    const body = JSON.stringify({
+      inputs: prompt,
+      parameters: { width: 1280, height: 720 },
+    })
     const options = {
       hostname: 'router.huggingface.co',
       path: '/hf-inference/models/black-forest-labs/FLUX.1-schnell',
