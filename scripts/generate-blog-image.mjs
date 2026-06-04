@@ -21,6 +21,16 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
 
+function downloadFile(url, dest) {
+  return new Promise((resolve, reject) => {
+    const file = fs.createWriteStream(dest)
+    https.get(url, (res) => {
+      res.pipe(file)
+      file.on('finish', () => file.close(resolve))
+    }).on('error', (e) => { fs.unlink(dest, () => {}); reject(e) })
+  })
+}
+
 // ─── ENV LOADER ──────────────────────────────────────────────────────────────
 
 function loadEnv() {
@@ -258,25 +268,88 @@ function buildPrompt(topic, subject) {
   const base = 'professional stock photo, sharp focus, DSLR photography, natural lighting, high resolution, 16:9, no text, no logos, no watermarks'
 
   const topicPrompts = {
-    streaming: `Person relaxing on a couch watching a large TV, warm cozy living room atmosphere, bokeh background, ${base}`,
-    torrenting: `Close-up of fiber optic cables glowing blue and white, dark background, futuristic data transfer concept, ${base}`,
-    gaming: `Gaming desk with RGB mechanical keyboard and mouse, dark room with colorful neon ambient lighting, no screens visible, ${base}`,
-    iphone: `Minimalist white desk with a smartphone face-down next to a coffee cup and succulent plant, soft natural light, ${base}`,
-    android: `Android smartphone lying on a wooden desk, screen facing away, shallow depth of field, clean modern office, ${base}`,
-    mac: `MacBook closed on a minimalist white desk with a small plant and coffee, bright airy Scandinavian interior, ${base}`,
-    windows: `Laptop closed on a professional office desk with a pen and notebook, soft window light, clean workspace, ${base}`,
-    homeoffice: `Neat home office desk with closed laptop, notebook, coffee mug and plants, large window with soft daylight, ${base}`,
-    travel: `Person with backpack and luggage at a bright airport terminal, bokeh background, international travel atmosphere, ${base}`,
-    belgium: `Panoramic skyline of Brussels with modern glass buildings and blue sky, golden hour light, ${base}`,
-    ip: `Close-up of blinking server rack lights and ethernet cables in a dark server room, cool blue tones, ${base}`,
-    protocol: `Glowing fiber optic strands forming a tunnel of light, abstract digital security concept, dark background, ${base}`,
+    streaming: `Person relaxing on a couch watching Netflix on a large TV screen, colorful movie poster visible, warm cozy living room, bokeh background, ${base}`,
+    torrenting: `Close-up of a laptop screen showing a download progress bar at 98%, dark minimal desk setup, soft blue ambient light, ${base}`,
+    gaming: `Gaming setup with RGB keyboard and monitor showing a vibrant game, dark room with neon lighting, immersive atmosphere, ${base}`,
+    iphone: `iPhone held in hand showing a VPN connected screen with green checkmark, clean minimalist background, soft natural light, ${base}`,
+    android: `Android smartphone on a wooden desk showing a security app with shield icon, modern office background, ${base}`,
+    mac: `MacBook Pro open on a clean desk showing a security dashboard with green status indicators, bright airy home office, ${base}`,
+    windows: `Windows laptop on a modern desk showing a VPN app interface with connected status, professional home office setup, ${base}`,
+    homeoffice: `Neat home office desk with open laptop showing a productivity app, notebook, coffee mug and plants, large window with soft daylight, ${base}`,
+    travel: `Person using a laptop at a busy airport terminal, departure board visible in background, travel bag nearby, ${base}`,
+    belgium: `Panoramic skyline of Brussels with the Atomium and modern glass buildings, blue sky, golden hour light, ${base}`,
+    ip: `Close-up of a screen showing an IP address lookup tool with location data, dark server room background, cool blue tones, ${base}`,
+    protocol: `Split screen showing WireGuard vs OpenVPN logos on a dark tech dashboard, glowing interface, ${base}`,
     killswitch: `Hand pressing a large red emergency stop button in an industrial setting, dramatic cinematic lighting, ${base}`,
-    deals: `Stack of euro coins next to a piggy bank on a wooden table, soft warm light, financial savings concept, ${base}`,
-    compare: `Two smartphones placed back-to-back on a white surface, clean top-down flat lay, minimal shadows, ${base}`,
-    vpn: `Person typing on a laptop keyboard in a coffee shop, shallow depth of field, candid lifestyle photography, ${base}`,
+    deals: `Laptop screen showing a VPN pricing page with big discount percentages, credit card on desk, warm inviting light, ${base}`,
+    compare: `Two smartphones side by side showing different VPN app interfaces, clean white background, top-down flat lay, ${base}`,
+    vpn: `Person working on a laptop in a coffee shop with a VPN shield icon visible on screen, candid lifestyle photography, ${base}`,
   }
 
   return topicPrompts[topic] ?? topicPrompts.vpn
+}
+
+async function generateDallEImage(slug, title, subject) {
+  const key = process.env.OPENAI_API_KEY
+  if (!key) return null
+
+  console.log('🎨  OPENAI_API_KEY gevonden — genereer via DALL-E 3...')
+
+  const topic = detectTopic(slug, title)
+  const prompt = buildPrompt(topic, subject)
+  console.log(`🎯  Topic: ${topic}`)
+  console.log(`📝  Prompt: ${prompt.slice(0, 80)}...`)
+
+  return new Promise((resolve) => {
+    const body = JSON.stringify({
+      model: 'gpt-image-2',
+      prompt,
+      n: 1,
+      size: '1536x1024',
+      quality: 'medium',
+    })
+
+    const options = {
+      hostname: 'api.openai.com',
+      path: '/v1/images/generations',
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${key}`,
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(body),
+      },
+    }
+
+    const req = https.request(options, (res) => {
+      const chunks = []
+      res.on('data', (chunk) => chunks.push(chunk))
+      res.on('end', () => {
+        if (res.statusCode !== 200) {
+          console.log(`⚠️   DALL-E 3 API antwoord: ${res.statusCode} — val terug op FLUX`)
+          console.log(Buffer.concat(chunks).toString().slice(0, 300))
+          resolve(null)
+          return
+        }
+        try {
+          const json = JSON.parse(Buffer.concat(chunks).toString())
+          const b64 = json.data?.[0]?.b64_json
+          if (!b64) { resolve(null); return }
+          const outputPath = `${ROOT}/public/blog/${slug}.jpg`
+          fs.writeFileSync(outputPath, Buffer.from(b64, 'base64'))
+          console.log(`✅  GPT Image 2 afbeelding opgeslagen: public/blog/${slug}.jpg`)
+          resolve(`/blog/${slug}.jpg`)
+        } catch (e) {
+          console.log('⚠️   DALL-E 3 parse-fout — val terug op FLUX')
+          resolve(null)
+        }
+      })
+    })
+
+    req.on('error', () => { console.log('⚠️   DALL-E 3 verbindingsfout — val terug op FLUX'); resolve(null) })
+    req.setTimeout(60000, () => { req.destroy(); console.log('⚠️   DALL-E 3 timeout — val terug op FLUX'); resolve(null) })
+    req.write(body)
+    req.end()
+  })
 }
 
 async function generateImagenImage(slug, title, subject) {
@@ -412,7 +485,12 @@ export async function generateImage(slug, title, subject = '', category = '') {
   const outputDir = path.join(ROOT, 'public', 'blog')
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true })
 
-  // Probeer eerst Imagen 3 (Google), dan FLUX (HuggingFace), dan SVG
+  // Prioriteit: DALL-E 3 → Imagen 3 → FLUX → SVG
+  if (process.env.OPENAI_API_KEY) {
+    const dallePath = await generateDallEImage(slug, title, subject)
+    if (dallePath) return dallePath
+  }
+
   if (process.env.GOOGLE_AI_KEY) {
     const imagenPath = await generateImagenImage(slug, title, subject)
     if (imagenPath) return imagenPath
