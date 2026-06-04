@@ -1,15 +1,15 @@
 import Image from 'next/image'
 
 // Providers with official PNG files (white/transparent background)
-const pngLogos = new Set(['nordvpn', 'mcafee', 'purevpn', 'hideme'])
+const pngLogos = new Set(['nordvpn', 'mcafee', 'purevpn', 'hideme', 'cyberghost', 'vpnnederland'])
 
-// Providers with custom SVG icons
-const svgLogos = new Set(['surfshark', 'cyberghost', 'protonvpn', 'vpnnederland'])
+// Providers with official SVG icons (Simple Icons — official brand vectors)
+const svgLogos = new Set(['surfshark', 'protonvpn'])
 
 const brandColors: Record<string, string> = {
   nordvpn:      '#ffffff',
-  surfshark:    '#E8E8E8',
-  cyberghost:   '#ffffff',
+  surfshark:    '#ffffff',
+  cyberghost:   '#F9B200',
   protonvpn:    '#ffffff',
   purevpn:      '#ffffff',
   vpnnederland: '#ffffff',
