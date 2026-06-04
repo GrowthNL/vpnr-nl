@@ -1,15 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <defs>
-    <linearGradient id="pureBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0077C8"/>
-      <stop offset="100%" stop-color="#005FA3"/>
-    </linearGradient>
-  </defs>
-  <rect width="40" height="40" rx="9" fill="url(#pureBg)"/>
-  <!-- Shield outline -->
-  <path d="M20 7 L29 11 L29 20 C29 25.5 25.2 30 20 32.5 C14.8 30 11 25.5 11 20 L11 11 Z"
-        fill="none" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
-  <!-- P letterform -->
-  <text x="20" y="24" font-family="Arial, sans-serif" font-weight="900" font-size="12"
-        fill="white" text-anchor="middle">P</text>
+  <rect width="40" height="40" rx="9" fill="#280070"/>
+  <!-- Outer concentric ring -->
+  <circle cx="20" cy="20" r="13" fill="#4B0E8F"/>
+  <!-- Middle ring -->
+  <circle cx="20" cy="20" r="9.5" fill="#6B2FB5"/>
+  <!-- Inner ring -->
+  <circle cx="20" cy="20" r="6.5" fill="#8B52D0"/>
+  <!-- White teardrop/shield (flat top, rounded sides, pointed bottom) -->
+  <path d="M20 12.5 Q15 12.5 15 17.5 L15 20 Q15 25 20 27.5 Q25 25 25 20 L25 17.5 Q25 12.5 20 12.5 Z" fill="white"/>
 </svg>

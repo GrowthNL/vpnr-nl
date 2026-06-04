@@ -1,14 +1,14 @@
 import ProviderLogo from '@/components/ProviderLogo'
 
 const vpnProviders = [
-  { slug: 'nordvpn', name: 'NordVPN' },
-  { slug: 'surfshark', name: 'Surfshark' },
-  { slug: 'expressvpn', name: 'ExpressVPN' },
-  { slug: 'cyberghost', name: 'CyberGhost' },
-  { slug: 'protonvpn', name: 'ProtonVPN' },
-  { slug: 'pia', name: 'Private Internet Access' },
-  { slug: 'mullvad', name: 'Mullvad' },
-  { slug: 'ipvanish', name: 'IPVanish' },
+  { slug: 'nordvpn',      name: 'NordVPN' },
+  { slug: 'surfshark',    name: 'Surfshark' },
+  { slug: 'protonvpn',    name: 'ProtonVPN' },
+  { slug: 'hideme',       name: 'Hide.me' },
+  { slug: 'cyberghost',   name: 'CyberGhost' },
+  { slug: 'purevpn',      name: 'PureVPN' },
+  { slug: 'mcafee',       name: 'McAfee VPN' },
+  { slug: 'vpnnederland', name: 'VPN Nederland' },
 ]
 
 const items = [...vpnProviders, ...vpnProviders]

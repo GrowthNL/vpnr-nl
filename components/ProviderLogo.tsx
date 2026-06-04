@@ -3,14 +3,14 @@ import Image from 'next/image'
 const knownSlugs = new Set(['nordvpn', 'surfshark', 'cyberghost', 'protonvpn', 'purevpn', 'vpnnederland', 'mcafee', 'hideme'])
 
 const brandColors: Record<string, string> = {
-  nordvpn:      '#003F7E',
+  nordvpn:      '#4E5CE6',
   surfshark:    '#1B2B44',
-  cyberghost:   '#292F3B',
-  protonvpn:    '#6D4AFF',
-  purevpn:      '#0077C8',
+  cyberghost:   '#F9C02A',
+  protonvpn:    '#1B1340',
+  purevpn:      '#280070',
   vpnnederland: '#1A2E4A',
-  mcafee:       '#C01818',
-  hideme:       '#0D2B30',
+  mcafee:       '#C21807',
+  hideme:       '#0D4B5B',
 }
 
 interface Props {

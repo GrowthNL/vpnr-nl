@@ -1,14 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="9" fill="#292F3B"/>
-  <!-- Ghost body - rounded top, flat bottom with scallops -->
-  <path d="M20 8 C13 8 11 13 11 18 L11 30 Q13 28.5 15 30 Q17 31.5 20 30 Q23 28.5 25 30 Q27 31.5 29 30 L29 18 C29 13 27 8 20 8 Z"
-        fill="#FFCC00"/>
-  <!-- Left eye -->
-  <ellipse cx="16.5" cy="18" rx="2.2" ry="2.5" fill="#292F3B"/>
-  <!-- Right eye -->
-  <ellipse cx="23.5" cy="18" rx="2.2" ry="2.5" fill="#292F3B"/>
-  <!-- Shine on left eye -->
-  <circle cx="17.3" cy="16.8" r="0.7" fill="white" opacity="0.7"/>
-  <!-- Shine on right eye -->
-  <circle cx="24.3" cy="16.8" r="0.7" fill="white" opacity="0.7"/>
+  <rect width="40" height="40" rx="9" fill="#F9C02A"/>
+  <!-- Ghost body: dome top, straight sides, wavy bottom with 3 feet -->
+  <path d="M20 10 C14.5 10 11 13.5 11 18.5 L11 30 L14 27.5 L17 30 L20 27.5 L23 30 L26 27.5 L29 30 L29 18.5 C29 13.5 25.5 10 20 10 Z" fill="#2C2C2C"/>
+  <!-- Eyes: yellow ovals -->
+  <ellipse cx="17" cy="18.5" rx="2.5" ry="3" fill="#F9C02A"/>
+  <ellipse cx="23" cy="18.5" rx="2.5" ry="3" fill="#F9C02A"/>
 </svg>
