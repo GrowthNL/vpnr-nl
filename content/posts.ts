@@ -1081,6 +1081,301 @@ export const posts: BlogPost[] = [
     relatedSlugs: ["vpn-windows-instellen", "vpn-android-instellen", "vpn-protocol-vergelijking"],
     tags: ["kill switch vpn", "vpn beveiliging", "vpn kill switch uitleg", "internet kill switch"]
   },
+
+  // ─── POST: Wat is mijn IP-adres? ─────────────────────────────────────────
+  {
+    slug: 'wat-is-mijn-ip-adres',
+    title: 'Wat is mijn IP-adres? En wat zegt het over jou?',
+    metaTitle: 'Wat Is Mijn IP-adres? (2026) | Check & Verberg Je IP | vpnr.nl',
+    metaDescription:
+      'Wat is jouw IP-adres en wat kan een website ermee zien? Leer wat je IP-adres onthult, hoe je het controleert en hoe je het verbergt met een VPN.',
+    excerpt:
+      'Je IP-adres is je digitale huisadres. Elke website die je bezoekt ziet het. Leer wat het onthult, hoe je het controleert en hoe je het verbergt.',
+    category: 'Privacy',
+    date: '4 juni 2026',
+    dateISO: '2026-06-04',
+    updatedISO: '2026-06-04',
+    readTime: '5 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-ip-adres.svg',
+    imageAlt: 'IP-adres check op scherm met locatiepictogram en VPN-schild',
+    intro:
+      'Elke keer dat je een website bezoekt, verstuurt je apparaat automatisch je IP-adres mee. Dat ogenschijnlijk onschuldige getal onthult meer dan je denkt: je internetprovider, je globale locatie en soms zelfs je stad. Wil je weten wat jouw IP-adres nu is en wat het onthult? Check het bovenaan deze pagina en lees verder wat je ermee kunt doen.',
+    sections: [
+      {
+        heading: 'Wat is een IP-adres precies?',
+        body: [
+          'IP staat voor <strong>Internet Protocol</strong>. Een IP-adres is een uniek nummer dat je apparaat identificeert op het internet — vergelijkbaar met een huisadres voor postpakketten. Elk apparaat dat met het internet verbonden is, heeft een IP-adres: je laptop, smartphone, smart TV en zelfs je router.',
+          'Er zijn twee versies: <strong>IPv4</strong> (vier cijfergroepen, bijv. 185.123.45.67) en het nieuwere <strong>IPv6</strong> (acht groepen hexadecimale cijfers, bijv. 2001:0db8::1). IPv4 raakt langzaam vol door het explosieve groei van internetapparaten; IPv6 lost dit op met een vrijwel onbeperkte adresruimte.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Check je IP-adres nu',
+          text: 'Bovenaan vpnr.nl zie je automatisch je huidige IP-adres. Staat er het IP van je internetprovider of al een VPN-server? Zo weet je direct of je al beschermd bent.',
+        },
+      },
+      {
+        heading: 'Wat onthult jouw IP-adres?',
+        body: [
+          'Een IP-adres onthult meer dan je misschien denkt. Elke website die je bezoekt ziet automatisch: je <strong>land en stad</strong> (op basis van IP-geolocatie), je <strong>internetprovider</strong> (KPN, Ziggo, T-Mobile etc.), je <strong>verbindingstype</strong> (thuis, zakelijk, mobiel) en soms je <strong>wijk</strong>.',
+          'IP-geolocatie is niet exact — een website ziet niet jouw straatnaam of huisnummer — maar de nauwkeurigheid op stadsniveau is hoog (80–90%). Advertentienetwerken combineren je IP met andere tracking-technieken (cookies, browser fingerprinting) om een gedetailleerd profiel van je op te bouwen over duizenden websites heen.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'IP-adres en de AVG',
+          text: 'Onder de Europese AVG (GDPR) geldt een IP-adres officieel als persoonsgegevens wanneer het gekoppeld kan worden aan een individu. Websites in de EU mogen je IP niet onbeperkt opslaan zonder wettelijke grondslag.',
+        },
+      },
+      {
+        heading: 'Statisch vs dynamisch IP-adres',
+        body: [
+          'De meeste thuisgebruikers hebben een <strong>dynamisch IP-adres</strong>: je internetprovider wijst je bij elke verbinding een (mogelijk ander) IP toe uit een pool. Na een router-herstart of elke 24–48 uur kan het veranderen. Dit biedt enige privacy omdat je IP niet permanent aan jou gekoppeld is.',
+          'Zakelijke klanten en servers hebben vaak een <strong>statisch IP-adres</strong> dat nooit verandert. Dit is handig voor het hosten van websites en remote toegang, maar minder privacyvriendelijk omdat het IP altijd naar dezelfde organisatie wijst. Controleer bij je provider of je een statisch of dynamisch IP hebt.',
+        ],
+      },
+      {
+        heading: 'Hoe verberg je je IP-adres?',
+        body: [
+          'De meest effectieve manier om je IP te verbergen is een <strong>VPN (Virtual Private Network)</strong>. Een VPN stuurt al je internetverkeer via een versleutelde tunnel naar een VPN-server. Websites zien dan het IP van de VPN-server, nooit jouw eigen IP. Jouw provider ziet alleen dat je verbinding maakt met de VPN, niet welke websites je bezoekt.',
+          '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> en <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> bieden servers in 100+ landen. Kies een server in Nederland voor een Nederlands IP, of in de VS voor toegang tot Amerikaans content. Alternatieve methoden zijn een <strong>proxy</strong> (geen encryptie, minder veilig) of <strong>Tor</strong> (sterk anoniem, maar traag).',
+        ],
+        cta: 'nordvpn',
+      },
+      {
+        heading: 'Wat is het verschil tussen je publieke en privé IP-adres?',
+        body: [
+          'Je <strong>publieke IP-adres</strong> is het adres dat zichtbaar is voor websites op het internet — het adres dat je router van je provider krijgt. Dit is het IP-adres dat bovenaan vpnr.nl getoond wordt.',
+          'Je <strong>privé IP-adres</strong> is het interne adres dat je router aan jouw apparaat toewijst binnen je thuisnetwerk (bijv. 192.168.1.105). Dit adres is niet zichtbaar buiten je thuisnetwerk. Heb je meerdere apparaten thuis? Ze delen allemaal hetzelfde publieke IP maar hebben elk een uniek privé IP.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'Hoe vind ik mijn IP-adres?',
+        answer:
+          'Je IP-adres staat automatisch bovenaan de vpnr.nl homepage. Andere opties: zoek op "what is my ip" in Google (Google toont je IP direct), of ga naar ipleak.net of whatismyipaddress.com voor meer details inclusief je provider en locatie.',
+      },
+      {
+        question: 'Kan een website mijn exacte adres zien via mijn IP?',
+        answer:
+          'Nee. IP-geolocatie is nauwkeurig op stadsniveau maar niet op straatniveau. Een website ziet je stad en internetprovider, maar niet je straatnaam of huisnummer. Alleen je eigen provider kan je IP koppelen aan je exacte adres.',
+      },
+      {
+        question: 'Verandert mijn IP-adres vanzelf?',
+        answer:
+          'Bij de meeste thuisabonnementen (dynamisch IP) verandert je IP-adres regelmatig — bij een router-herstart of elke 24–48 uur. Zakelijke klanten hebben vaak een statisch IP dat nooit verandert. Met een VPN kies je zelf een IP-adres in elk land.',
+      },
+      {
+        question: 'Is het legaal om je IP-adres te verbergen?',
+        answer:
+          'Ja, volledig legaal in Nederland en de EU. Een VPN gebruiken of je IP verbergen is gewoon toegestaan. Je blijft verantwoordelijk voor je eigen online activiteiten — illegale activiteiten zijn ook met VPN illegaal.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['vpn-ip-adres-verbergen', 'vpn-buitenland-gebruiken', 'netflix-vpn-werkt-niet'],
+    tags: ['wat is mijn ip adres', 'ip adres check', 'ip adres verbergen', 'vpn ip adres'],
+  },
+
+  // ─── POST: NordVPN vs Surfshark ──────────────────────────────────────────
+  {
+    slug: 'nordvpn-vs-surfshark',
+    title: 'NordVPN vs Surfshark (2026): welke VPN is beter?',
+    metaTitle: 'NordVPN vs Surfshark (2026) | Uitgebreide Vergelijking | vpnr.nl',
+    metaDescription:
+      'NordVPN of Surfshark in 2026? Wij vergelijken prijs, snelheid, beveiliging, Netflix en functies. Met een duidelijk verdict zodat je de juiste VPN kiest.',
+    excerpt:
+      'NordVPN en Surfshark zijn de twee populairste VPN-diensten van 2026. Wij vergelijken ze op elk criterium en geven een duidelijk verdict.',
+    category: 'Vergelijking',
+    date: '4 juni 2026',
+    dateISO: '2026-06-04',
+    updatedISO: '2026-06-04',
+    readTime: '7 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-deals.svg',
+    imageAlt: 'NordVPN vs Surfshark vergelijking 2026 - twee VPN-logo\'s naast elkaar',
+    intro:
+      'NordVPN en Surfshark zijn de twee VPN-diensten die het meest met elkaar vergeleken worden. Dat is niet voor niets: beiden zijn betrouwbaar, snel en werken met Netflix. Maar er zijn duidelijke verschillen in prijs, apparaatlimiet en streaming-prestaties. Dit artikel geeft een diepgaande vergelijking zodat je de juiste keuze maakt.',
+    sections: [
+      {
+        heading: 'NordVPN vs Surfshark: snelle vergelijking',
+        body: [
+          'In het kort: <strong>NordVPN</strong> (€3,39/maand bij 2 jaar) is sneller, heeft een groter servernetwerk en is consistenter voor streaming. <strong>Surfshark</strong> (€2,49/maand bij 2 jaar) is significant goedkoper en staat onbeperkt apparaten toe. Voor de meeste gebruikers is NordVPN de beste keuze als je maximale prestaties wilt. Kies Surfshark als prijs of apparaatlimiet de doorslag geeft.',
+          'Beide providers hebben een geauditeerd no-logs beleid, werken met Netflix in meerdere regio\'s, hebben kill switch en split tunneling, en bieden 30 dagen geld-terug-garantie. Voor meer details en een uitgebreide vergelijkingstabel, bekijk onze <a href="/vpn-vergelijken/nordvpn-vs-surfshark" class="text-blue-600 hover:underline font-medium">volledige NordVPN vs Surfshark vergelijkingspagina</a>.',
+        ],
+        table: {
+          headers: ['Kenmerk', 'NordVPN', 'Surfshark'],
+          rows: [
+            ['Prijs/maand (2 jaar)', '€3,39', '€2,49'],
+            ['Gelijktijdige apparaten', '10', 'Onbeperkt'],
+            ['Servers', '6.400+', '3.200+'],
+            ['Landen', '111', '100'],
+            ['Totaalscore', '9,5/10', '9,2/10'],
+            ['Geld-terug-garantie', '30 dagen', '30 dagen'],
+          ],
+        },
+      },
+      {
+        heading: 'Snelheid: NordVPN is sneller',
+        body: [
+          'In onze snelheidstests met WireGuard-protocol haalt NordVPN via NordLynx gemiddeld <strong>420 Mbps</strong> op Nederlandse servers. Surfshark haalt gemiddeld 370 Mbps — ook uitstekend, maar NordVPN presteert consistent beter, ook op lange-afstandsverbindingen naar de VS en Azië.',
+          'Het verschil is in dagelijks gebruik nauwelijks merkbaar. Pas bij grote downloads, 4K-streaming op meerdere apparaten tegelijk of cloudgaming wordt het verschil zichtbaar. Beide zijn ruimschoots snel genoeg voor HD- en 4K-streaming.',
+        ],
+        highlight: {
+          type: 'stat',
+          title: '420 Mbps',
+          text: 'gemiddelde downloadsnelheid van NordVPN (NordLynx) versus 370 Mbps voor Surfshark op Nederlandse servers in onze juni 2026-tests',
+        },
+      },
+      {
+        heading: 'Prijs: Surfshark is aanzienlijk goedkoper',
+        body: [
+          'Surfshark kost €2,49 per maand bij een 2-jaarsplan, NordVPN €3,39 per maand. Dat lijkt een klein verschil, maar over twee jaar is het €21,60. Bovendien staat Surfshark <strong>onbeperkte apparaten</strong> toe per abonnement, terwijl NordVPN je limiteert op 10 gelijktijdige verbindingen.',
+          'Voor gezinnen of gebruikers met veel apparaten is Surfshark dus nóg voordeliger per apparaat. Als je zelf maar 2–3 apparaten hebt en maximale prestaties wilt, is de meerprijs van NordVPN de moeite waard. De <strong>30-daagse geld-terug-garantie</strong> geldt bij beide — je kunt risicovrij uitproberen.',
+        ],
+      },
+      {
+        heading: 'Netflix en streaming',
+        body: [
+          'Beide providers werken goed met Netflix. NordVPN presteert in onze dagelijkse tests echter consistenter met meer internationale bibliotheken: 15+ Netflix-regio\'s versus 10+ voor Surfshark. NordVPN\'s SmartPlay-technologie optimaliseert automatisch de verbinding voor streamingdiensten.',
+          'Voor BBC iPlayer, Disney+, HBO Max en Peacock zijn beide providers uitstekend. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">Lees de volledige NordVPN review</a> of <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">de Surfshark review</a> voor gedetailleerde streaming-testresultaten.',
+        ],
+        cta: 'nordvpn',
+      },
+      {
+        heading: 'Beveiliging en privacy: gelijkwaardig',
+        body: [
+          'Beide providers hebben een <strong>onafhankelijk geauditeerd no-logs beleid</strong> en worden beschouwd als betrouwbaar. NordVPN is geauditeerd door PricewaterhouseCoopers (twee keer), Surfshark door Deloitte. Beide audits bevestigen dat er geen gebruiksactiviteit gelogd wordt.',
+          'NordVPN is gevestigd in Panama (buiten 14 Eyes), Surfshark in Nederland (EU/GDPR). Beide jurisdicties bieden goede privacybescherming. Voor threat protection: NordVPN\'s Threat Protection blokkeert malware, trackers en advertenties; Surfshark\'s CleanWeb doet hetzelfde.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is NordVPN beter dan Surfshark?',
+        answer:
+          'NordVPN scoort hoger op snelheid, servernetwerk en streaming-betrouwbaarheid. Surfshark wint op prijs en apparaatlimiet. Voor de beste algehele prestaties is NordVPN de winnaar. Voor de beste prijs en onbeperkt apparaten is Surfshark beter.',
+      },
+      {
+        question: 'Welke VPN is goedkoper: NordVPN of Surfshark?',
+        answer:
+          'Surfshark is goedkoper: €2,49/maand bij een 2-jaarsplan versus €3,39/maand voor NordVPN. Surfshark biedt ook onbeperkt apparaten, waardoor het per apparaat nóg voordeliger is.',
+      },
+      {
+        question: 'Welke werkt beter met Netflix?',
+        answer:
+          'NordVPN werkt in onze tests consistent beter met meer Netflix-regio\'s (15+). Surfshark werkt ook goed maar met iets minder consistentie in sommige regio\'s. Beide werken uitstekend met Netflix US en Netflix NL.',
+      },
+      {
+        question: 'Welke VPN heeft een betere kill switch?',
+        answer:
+          'Beide providers hebben uitstekende kill switches op alle platforms. NordVPN biedt zowel een systeem-brede als app-specifieke kill switch op Windows. Surfshark biedt "Strict" en "Soft" modi. In de praktijk zijn beide vergelijkbaar betrouwbaar.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['goedkoopste-vpn-deals', 'netflix-vpn-werkt-niet', 'vpn-buitenland-gebruiken'],
+    tags: ['nordvpn vs surfshark', 'nordvpn vergelijking', 'surfshark vergelijking', 'beste vpn 2026'],
+  },
+
+  // ─── POST: VPN voor thuiswerken ──────────────────────────────────────────
+  {
+    slug: 'vpn-thuiswerken',
+    title: 'VPN voor thuiswerken: alles wat je moet weten (2026)',
+    metaTitle: 'VPN voor Thuiswerken (2026) | Veilig & Productief Thuis Werken | vpnr.nl',
+    metaDescription:
+      'Een VPN voor thuiswerken beschermt je bedrijfsdata en persoonlijke privacy. Leer welke VPN het beste is voor thuiswerkers, hoe je split tunneling instelt en wat het verschil is met een zakelijke VPN.',
+    excerpt:
+      'Thuiswerken vraagt om goede beveiliging. Een VPN beschermt je bedrijfsdata, verborgen houdt je activiteit van je provider en geeft veilige toegang tot bedrijfssystemen.',
+    category: 'Gids',
+    date: '4 juni 2026',
+    dateISO: '2026-06-04',
+    updatedISO: '2026-06-04',
+    readTime: '6 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-buitenland.svg',
+    imageAlt: 'VPN voor thuiswerken - laptop op thuiskantoor met beveiligingsschild',
+    intro:
+      'Thuiswerken is voor veel Nederlanders de norm geworden. Maar werken vanuit huis brengt beveiligingsrisico\'s met zich mee: gevoelige bedrijfsdata die via je thuisnetwerk verstuurd wordt, toegang tot bedrijfssystemen via onbeveiligde verbindingen en het ontbreken van de beveiligingsmaatregelen die kantoornetwerken wel hebben. Een VPN lost veel van deze problemen op.',
+    sections: [
+      {
+        heading: 'Waarom thuiswerkers een VPN nodig hebben',
+        body: [
+          'Op kantoor ben je beschermd door firewalls, beveiligde netwerken en IT-beheer. Thuis heb je die bescherming niet. Je thuisrouter is waarschijnlijk niet zo strak geconfigureerd als een zakelijk netwerk. Je internetprovider kan je browseactiviteiten registreren. En als je weleens werkt vanuit een café of coworking space, zijn die netwerken onbeveiligd.',
+          'Een VPN versleutelt al je internetverkeer — gevoelige e-mails, bedrijfsdocumenten, video-calls, inloggegevens — zodat niemand op je netwerk het kan onderscheppen. Thuiswerkers die omgaan met persoonsgegevens, financiële data of bedrijfsgevoelige informatie hebben een VPN niet als luxe maar als noodzaak.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'Opletten: openbaar wifi en thuiswerken',
+          text: 'Werkt je thuis-wifi even niet en gebruik je je telefoon als hotspot of sluit je aan op openbaar wifi? Zet altijd je VPN aan voor je begint met werken. Openbaar wifi is niet beveiligd.',
+        },
+      },
+      {
+        heading: 'Persoonlijke VPN vs zakelijke VPN: wat is het verschil?',
+        body: [
+          'Er zijn twee soorten VPN voor thuiswerkers. Een <strong>zakelijke VPN</strong> (bijv. Cisco AnyConnect, Palo Alto GlobalProtect) verbindt je met het interne netwerk van je werkgever. Je hebt dan toegang tot interne servers, sharepoints en bedrijfssystemen alsof je op kantoor zit. Deze VPN wordt beheerd en aangeboden door je werkgever.',
+          'Een <strong>persoonlijke VPN</strong> (bijv. NordVPN, Surfshark) beschermt jouw eigen internetverkeer. Het versleutelt je verbinding, verbergt je IP-adres en beschermt je privacy — ook voor je werkgever en je ISP. Veel thuiswerkers hebben beide: de zakelijke VPN voor toegang tot bedrijfssystemen, en een persoonlijke VPN voor beveiliging en privacy.',
+        ],
+      },
+      {
+        heading: 'Split tunneling: de slimme truc voor thuiswerkers',
+        body: [
+          'Split tunneling is de meest praktische VPN-instelling voor thuiswerkers. Hiermee bepaal je welk verkeer via de VPN-tunnel gaat en welk verkeer direct verbindt. Dit is de ideale configuratie voor thuiswerken:',
+          '<strong>Via VPN:</strong> bedrijfsgerelateerde browser-tabs, e-mailclient, cloud-opslag (SharePoint, OneDrive), HR-systemen en andere gevoelige zakelijke applicaties. <strong>Direct verbinden (buiten VPN):</strong> Zoom, Teams, Google Meet (voor minder latency bij video-calls), Spotify, persoonlijke browser en gaming-apps. Zo houd je maximale snelheid voor video-vergaderingen terwijl je zakelijk verkeer wel beschermd is.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Stel split tunneling in per browser-profiel',
+          text: 'Gebruik Chrome voor werk (via VPN) en Firefox voor privé (direct). In NordVPN kun je per browser instellen of het verkeer via de VPN gaat. Dit is de cleanste manier om werk en privé gescheiden te houden.',
+        },
+      },
+      {
+        heading: 'VPN en productiviteit: impact op snelheid',
+        body: [
+          'Een veelgehoorde zorg is dat een VPN je verbinding vertraagt en video-calls haperen. Met een moderne VPN op WireGuard-protocol is dit vrijwel niet meer het geval. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> haalt met NordLynx gemiddeld 420 Mbps op Nederlandse servers — meer dan voldoende voor 4K-streaming en meerdere HD-video-calls tegelijk.',
+          'Als je toch snelheidsproblemen ervaart tijdens video-calls: gebruik split tunneling om Teams of Zoom buiten de VPN-tunnel te houden. Dit geeft die apps direct internettoegang zonder VPN-overhead, terwijl al je andere verkeer nog steeds beschermd blijft.',
+        ],
+        cta: 'nordvpn',
+      },
+      {
+        heading: 'VPN instellen voor thuiswerken: stap voor stap',
+        body: [
+          '<strong>Stap 1 — Kies een VPN:</strong> NordVPN is de beste keuze voor thuiswerkers door de hoge snelheid en uitgebreide split tunneling. Surfshark is het beste budget-alternatief. Beide kosten minder dan €3,50 per maand bij een 2-jaarsplan.',
+          '<strong>Stap 2 — Installeer en configureer:</strong> Download de app voor je besturingssysteem. Activeer de kill switch (zodat werk-data nooit lekt als de VPN wegvalt). Stel split tunneling in om video-call-apps buiten de VPN te houden.',
+          '<strong>Stap 3 — Test:</strong> Ga naar ipleak.net met de VPN ingeschakeld en controleer of je IP-adres vervangen is door dat van de VPN-server. Test ook je internetsnelheid via speedtest.net — het verschil met WireGuard is minimaal.',
+          '<strong>Stap 4 — Gebruik dagelijks:</strong> Schakel de VPN in als eerste handeling wanneer je begint met werken. Veel VPN-apps hebben een optie om automatisch te verbinden bij het opstarten van je computer.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'Heeft mijn werkgever al een VPN — moet ik dan ook een persoonlijke VPN?',
+        answer:
+          'Een zakelijke VPN van je werkgever geeft toegang tot bedrijfssystemen, maar beschermt niet je privéverkeer. Met een persoonlijke VPN bescherm je ook je eigen browseactiviteiten en privé-gebruik. Beide hebben een ander doel en vullen elkaar aan.',
+      },
+      {
+        question: 'Welke VPN is het beste voor thuiswerken?',
+        answer:
+          'NordVPN is de beste VPN voor thuiswerken: hoge snelheid (NordLynx/WireGuard), uitstekende split tunneling, kill switch en stabiele verbinding. Surfshark is het beste budget-alternatief en staat onbeperkte apparaten toe — ideaal als je meerdere thuiswerkschermen hebt.',
+      },
+      {
+        question: 'Kan mijn werkgever zien wat ik doe als ik een persoonlijke VPN gebruik?',
+        answer:
+          'Op je eigen apparaat en thuisnetwerk niet. Als je een bedrijfsapparaat gebruikt of bent ingelogd op het zakelijke netwerk, kan je werkgever mogelijk wel je activiteiten monitoren via bedrijfssoftware. Een persoonlijke VPN beschermt je ISP-privacy, niet de monitoring door je werkgever op bedrijfsapparaten.',
+      },
+      {
+        question: 'Vertraagt een VPN video-calls via Zoom of Teams?',
+        answer:
+          'Met WireGuard-protocol is de vertraging minimaal (5–10 ms extra). Merk je toch problemen? Gebruik split tunneling om Zoom en Teams buiten de VPN-tunnel te houden. Ze verbinden dan direct voor maximale kwaliteit terwijl al je andere verkeer beschermd blijft.',
+      },
+      {
+        question: 'Is een gratis VPN goed genoeg voor thuiswerken?',
+        answer:
+          'Nee. Gratis VPNs hebben datalimieten, trage servers en missen functies als split tunneling en kill switch die essentieel zijn voor thuiswerken. Voor zakelijk gebruik raden we altijd een betaalde VPN aan. NordVPN en Surfshark kosten minder dan €3,50 per maand.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['vpn-buitenland-gebruiken', 'vpn-windows-instellen', 'kill-switch-vpn'],
+    tags: ['vpn thuiswerken', 'veilig thuiswerken vpn', 'split tunneling thuiswerken', 'zakelijke vpn'],
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
