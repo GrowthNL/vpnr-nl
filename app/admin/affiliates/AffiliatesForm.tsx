@@ -9,12 +9,14 @@ interface Props {
 }
 
 const PROVIDER_LABELS: Record<string, string> = {
-  nordvpn:    'NordVPN',
-  surfshark:  'Surfshark',
-  expressvpn: 'ExpressVPN',
-  protonvpn:  'ProtonVPN',
-  cyberghost: 'CyberGhost',
-  pia:        'Private Internet Access',
+  nordvpn:      'NordVPN',
+  surfshark:    'Surfshark',
+  protonvpn:    'ProtonVPN',
+  hideme:       'Hide.me',
+  cyberghost:   'CyberGhost',
+  purevpn:      'PureVPN',
+  mcafee:       'McAfee VPN',
+  vpnnederland: 'VPN Nederland',
 }
 
 function isPlaceholder(url: string) {

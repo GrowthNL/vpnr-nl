@@ -16,10 +16,13 @@ export const metadata: Metadata = {
 }
 
 const bestFor: Record<string, string> = {
-  nordvpn: 'Beste al-in-één',
-  surfshark: 'Beste prijs',
-  expressvpn: 'Snelste VPN',
-  cyberghost: 'Meest servers',
+  nordvpn:      'Beste al-in-één',
+  surfshark:    'Beste prijs',
+  protonvpn:    'Open-source',
+  hideme:       'Beste privacy',
+  cyberghost:   'Meest servers',
+  purevpn:      'KPMG-geauditeerd',
+  vpnnederland: 'Nederlandse keuze',
 }
 
 function SectionHeader({ label }: { label: string }) {

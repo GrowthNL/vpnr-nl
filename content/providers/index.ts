@@ -1,18 +1,22 @@
 import nordvpn from './nordvpn'
 import surfshark from './surfshark'
-import expressvpn from './expressvpn'
-import cyberghost from './cyberghost'
 import protonvpn from './protonvpn'
-import pia from './pia'
+import hideme from './hideme'
+import cyberghost from './cyberghost'
+import purevpn from './purevpn'
+import mcafee from './mcafee'
+import vpnnederland from './vpnnederland'
 import type { VPNProvider } from './types'
 
 export const providers: VPNProvider[] = [
   nordvpn,
   surfshark,
-  expressvpn,
-  cyberghost,
   protonvpn,
-  pia,
+  hideme,
+  cyberghost,
+  purevpn,
+  mcafee,
+  vpnnederland,
 ]
 
 export function getProvider(slug: string): VPNProvider | undefined {

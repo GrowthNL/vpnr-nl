@@ -14,12 +14,14 @@
  */
 
 export const affiliateLinks: Record<string, string> = {
-  nordvpn:    'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=JOUWID',
-  surfshark:  'https://surfshark.com/vpn-deal?coupon=JOUWCODE',
-  expressvpn: 'https://www.expressvpn.com/vpn-service/vpn-deal?offer=JOUWCODE',
-  protonvpn:  'https://protonvpn.com/?ref=JOUWID',
-  cyberghost: 'https://www.cyberghostvpn.com/affiliates/?coupon=JOUWCODE',
-  pia:        'https://www.privateinternetaccess.com/pages/buy-vpn/JOUWCODE',
+  nordvpn:      'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=JOUWID',
+  surfshark:    'https://surfshark.com/vpn-deal?coupon=JOUWCODE',
+  protonvpn:    'https://protonvpn.com/?ref=JOUWID',
+  hideme:       'https://hide.me/en/vpn?ref=JOUWCODE',
+  cyberghost:   'https://www.cyberghostvpn.com/affiliates/?coupon=JOUWCODE',
+  purevpn:      'https://www.purevpn.com/order?aff_id=JOUWID',
+  mcafee:       'https://www.mcafee.com/en-nl/index.html?ref=JOUWCODE',
+  vpnnederland: 'https://www.vpnnederland.nl/?ref=JOUWCODE',
 }
 
 /**

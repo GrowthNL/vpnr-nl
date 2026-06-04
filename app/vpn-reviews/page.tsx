@@ -5,15 +5,18 @@ import ProviderLogo from '@/components/ProviderLogo'
 
 export const metadata: Metadata = {
   title: 'VPN Reviews 2026 | Onafhankelijk Getest',
-  description: 'Lees onze uitgebreide VPN reviews. We testen NordVPN, Surfshark, ExpressVPN en meer op snelheid, beveiliging en prijs.',
+  description: 'Lees onze uitgebreide VPN reviews. We testen NordVPN, Surfshark, ProtonVPN, Hide.me en meer op snelheid, beveiliging en prijs.',
   alternates: { canonical: 'https://vpnr.nl/vpn-reviews' },
 }
 
 const badges: Record<string, string> = {
-  nordvpn: 'Meest gekozen',
-  surfshark: 'Beste prijs',
-  expressvpn: 'Snelste VPN',
-  cyberghost: 'Grootste netwerk',
+  nordvpn:      'Meest gekozen',
+  surfshark:    'Beste prijs',
+  protonvpn:    'Open-source',
+  hideme:       'Beste privacy',
+  cyberghost:   'Grootste netwerk',
+  purevpn:      'KPMG-geauditeerd',
+  vpnnederland: 'Nederlandse keuze',
 }
 
 export default function ReviewsPage() {
