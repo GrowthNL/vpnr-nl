@@ -8,11 +8,11 @@ const svgLogos = new Set(['surfshark', 'cyberghost', 'protonvpn', 'vpnnederland'
 
 const brandColors: Record<string, string> = {
   nordvpn:      '#ffffff',
-  surfshark:    '#1B2B44',
-  cyberghost:   '#F9C02A',
-  protonvpn:    '#1B1340',
+  surfshark:    '#E8E8E8',
+  cyberghost:   '#ffffff',
+  protonvpn:    '#ffffff',
   purevpn:      '#ffffff',
-  vpnnederland: '#1A2E4A',
+  vpnnederland: '#ffffff',
   mcafee:       '#ffffff',
   hideme:       '#ffffff',
 }

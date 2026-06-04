@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="9" fill="#1A2E4A"/>
-  <!-- Dutch flag stripes (mini) -->
-  <rect x="9" y="13" width="22" height="4.5" rx="1" fill="#AE1C28"/>
-  <rect x="9" y="17.5" width="22" height="4.5" rx="0" fill="#FFFFFF"/>
-  <rect x="9" y="22" width="22" height="4.5" rx="1" fill="#21468B"/>
-  <!-- NL text overlay -->
-  <text x="20" y="21.5" font-family="Arial, sans-serif" font-weight="900" font-size="7.5"
-        fill="#1A2E4A" text-anchor="middle" opacity="0.9">NL</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="white"/>
+  <!-- Two crossing rounded rectangles forming orange X -->
+  <g transform="translate(100,100)">
+    <rect x="-75" y="-22" width="150" height="44" rx="18" fill="#FF6B00" transform="rotate(-45)"/>
+    <rect x="-75" y="-22" width="150" height="44" rx="18" fill="#FF6B00" transform="rotate(45)"/>
+    <!-- White center dot -->
+    <circle cx="0" cy="0" r="7" fill="white"/>
+  </g>
 </svg>

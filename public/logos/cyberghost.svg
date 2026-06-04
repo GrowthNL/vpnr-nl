@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="9" fill="#F9C02A"/>
-  <!-- Ghost body: dome top, straight sides, wavy bottom with 3 feet -->
-  <path d="M20 10 C14.5 10 11 13.5 11 18.5 L11 30 L14 27.5 L17 30 L20 27.5 L23 30 L26 27.5 L29 30 L29 18.5 C29 13.5 25.5 10 20 10 Z" fill="#2C2C2C"/>
-  <!-- Eyes: yellow ovals -->
-  <ellipse cx="17" cy="18.5" rx="2.5" ry="3" fill="#F9C02A"/>
-  <ellipse cx="23" cy="18.5" rx="2.5" ry="3" fill="#F9C02A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="white"/>
+  <!-- Yellow circle background -->
+  <circle cx="100" cy="90" r="78" fill="#F9B200"/>
+  <!-- Ghost body: dome head + body + 3 wavy feet -->
+  <path d="M100 38 C76 38 60 54 60 76 L60 138 L68 130 L76 138 L84 130 L92 138 L100 130 L108 138 L116 130 L124 138 L132 130 L140 138 L140 76 C140 54 124 38 100 38 Z" fill="#2C2C2C"/>
+  <!-- Yellow oval eyes -->
+  <ellipse cx="86" cy="82" rx="9" ry="11" fill="#F9B200"/>
+  <ellipse cx="114" cy="82" rx="9" ry="11" fill="#F9B200"/>
 </svg>
