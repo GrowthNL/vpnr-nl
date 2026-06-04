@@ -1376,6 +1376,224 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['vpn-buitenland-gebruiken', 'vpn-windows-instellen', 'kill-switch-vpn'],
     tags: ['vpn thuiswerken', 'veilig thuiswerken vpn', 'split tunneling thuiswerken', 'zakelijke vpn'],
   },
+
+  // ─── POST 14: VPN op Mac ──────────────────────────────────────────────────
+  {
+    slug: 'vpn-mac-instellen',
+    title: 'VPN instellen op Mac: stap-voor-stap handleiding (2026)',
+    metaTitle: 'VPN Instellen op Mac (2026) | App & Handmatig | macOS Handleiding | vpnr.nl',
+    metaDescription: 'Installeer een VPN op je Mac of MacBook in 3 minuten. Stap-voor-stap handleiding via de app of handmatig via macOS-instellingen. Inclusief kill switch, split tunneling en troubleshooting.',
+    excerpt: 'Een VPN instellen op je Mac duurt minder dan 3 minuten. Leer de snelste methode via de app, de handmatige IKEv2-instelling en hoe je veelvoorkomende verbindingsproblemen oplost.',
+    category: 'Gids',
+    date: '4 juni 2026',
+    dateISO: '2026-06-04',
+    updatedISO: '2026-06-04',
+    readTime: '6 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-mac-instellen.jpg',
+    imageAlt: 'MacBook Pro met actieve VPN-verbinding op macOS, beveiligde internetverbinding',
+    intro: 'Een VPN instellen op je Mac of MacBook is binnen 3 minuten geregeld. macOS heeft uitstekende ingebouwde VPN-ondersteuning en de meeste VPN-apps werken naadloos op zowel Intel- als Apple Silicon-Macs (M1, M2, M3, M4). In deze handleiding lopen we de snelste methode via de app door, de handmatige instelling voor gevorderde gebruikers en concrete oplossingen voor de meestvoorkomende problemen op macOS.',
+    sections: [
+      {
+        heading: 'VPN installeren via de app op Mac (aanbevolen)',
+        body: [
+          'De app-methode geeft je alle functies: kill switch, split tunneling, automatisch verbinden en de snelste servers. Volg deze stappen:',
+          '<strong>Stap 1 — Download de app:</strong> Ga naar de officiële website van je VPN-aanbieder (bijv. nordvpn.com of surfshark.com) en download de macOS-app. Download altijd van de officiële site, niet via de Mac App Store — daar betaal je soms meer en mist de app functies.',
+          '<strong>Stap 2 — Installeer en log in:</strong> Open het .dmg-bestand, sleep de app naar je Programmamap en open hem. Log in met je account. Bij de eerste start vraagt macOS toestemming om een VPN-configuratie toe te voegen — klik op "Sta toe" in Systeeminstellingen.',
+          '<strong>Stap 3 — Verbinden:</strong> Klik op de grote verbindingsknop. De app kiest automatisch de snelste server. In de menubalk verschijnt een VPN-icoon. Test via ipleak.net in Safari of je IP correct is veranderd.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Apple Silicon (M1/M2/M3/M4)',
+          text: 'Alle grote VPN-aanbieders (NordVPN, Surfshark, ExpressVPN) hebben native Apple Silicon-apps. Download altijd de universele versie van de officiële website voor de beste prestaties op je M-chip Mac.',
+        },
+      },
+      {
+        heading: 'Kill switch en automatisch verbinden instellen op Mac',
+        body: [
+          'De kill switch is de belangrijkste instelling na de installatie. Hij blokkeert je internetverkeer als de VPN-verbinding wegvalt, zodat je IP-adres nooit per ongeluk zichtbaar wordt.',
+          '<strong>In NordVPN voor Mac:</strong> Klik op het tandwiel → Verbinding → schakel "Kill Switch" in. Er zijn twee varianten: "Kill Switch" (blokkeert internet bij VPN-uitval) en "App Kill Switch" (sluit specifieke apps bij uitval). Voor maximale bescherming activeer je beide.',
+          '<strong>In Surfshark voor Mac:</strong> Ga naar Instellingen → Verbindingsopties → Kill Switch aan. Activeer ook "Auto-connect" om de VPN automatisch te starten bij het opstarten van je Mac.',
+          'macOS heeft zelf geen ingebouwde kill switch voor VPN-apps — dat verschilt van iOS. Je bent volledig afhankelijk van de kill switch in de VPN-app zelf. Controleer altijd of deze is ingeschakeld na installatie.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'Geen kill switch in macOS zelf',
+          text: 'Anders dan op iPhone heeft macOS geen systeem-brede kill switch. Als je VPN-app crasht zonder ingebouwde kill switch actief, surft je Mac onbeschermd. Controleer altijd of de kill switch aan staat in de app-instellingen.',
+        },
+      },
+      {
+        heading: 'VPN handmatig instellen op macOS via IKEv2',
+        body: [
+          'Handmatig instellen is handig voor zakelijke VPN\'s of als je een aanbieder gebruikt zonder macOS-app. macOS ondersteunt IKEv2/IPSec, L2TP/IPSec en Cisco IPSec — IKEv2 is de beste keuze.',
+          '<strong>Stap 1:</strong> Ga naar Systeeminstellingen (Apple-menu) → VPN → Klik op het plusje → "VPN-configuratie toevoegen".',
+          '<strong>Stap 2:</strong> Kies type "IKEv2". Vul in: weergavenaam (bijv. "NordVPN Amsterdam"), server (bijv. nl123.nordvpn.com), extern ID (zelfde als server) en lokaal ID (je e-mailadres). Kies bij Authenticatie "Gebruikersnaam" en vul je VPN-inloggegevens in.',
+          '<strong>Stap 3:</strong> Klik op "Verbinden". Het VPN-sleuteltje verschijnt in de menubalk.',
+          'Let op: de handmatige methode mist kill switch, split tunneling en automatische serverselect. Voor dagelijks gebruik is de app-methode altijd beter.',
+        ],
+      },
+      {
+        heading: 'Problemen oplossen: VPN werkt niet op Mac',
+        body: [
+          '<strong>VPN verbindt niet?</strong> Controleer of macOS toestemming heeft gegeven voor de VPN-configuratie: Systeeminstellingen → Privacy & Beveiliging → VPN. Staat er een melding dat de extensie is geblokkeerd? Klik op "Sta toe" en herstart de app.',
+          '<strong>VPN traag of instabiel?</strong> Wissel van protocol — ga in de app-instellingen van OpenVPN naar NordLynx (WireGuard) of IKEv2. WireGuard is op Macs significant sneller door de efficiënte implementatie op Apple Silicon.',
+          '<strong>Firewall of beveiligingssoftware blokkeert VPN?</strong> Sommige Mac-firewalls (Little Snitch, LuLu) blokkeren VPN-verbindingen. Voeg je VPN-app toe aan de uitzonderingenlijst van je firewall. In macOS-firewall (Systeeminstellingen → Netwerk → Firewall) schakel je inkomende verbindingen in voor de VPN-app.',
+          '<strong>Split tunneling werkt niet?</strong> NordVPN en Surfshark bieden split tunneling op Mac, maar het heet in NordVPN "Gesplitste tunnel" en in Surfshark "Bypasser". Voeg apps toe die je buiten de VPN-tunnel wilt houden, zoals online games of videobel-apps.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'macOS Firewall en VPN',
+          text: 'De ingebouwde macOS-firewall blokkeert standaard geen uitgaand VPN-verkeer. Problemen komen vaker van derde-partij beveiligingssoftware. Controleer Little Snitch, Lulu of je antivirusprogramma als de VPN niet verbindt.',
+        },
+      },
+      {
+        heading: 'De beste VPN-apps voor Mac in 2026',
+        body: [
+          '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft de meest complete Mac-app: native Apple Silicon-ondersteuning, NordLynx (WireGuard) voor maximale snelheid, kill switch, split tunneling en Threat Protection (blokkeert malware, trackers en advertenties zonder actieve VPN-verbinding). De app heeft ook een menubar-widget voor snel wisselen van server.',
+          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is ideaal als je meerdere Apple-apparaten hebt: één abonnement voor onbeperkt Mac, iPhone, iPad en Apple TV tegelijk. De Mac-app heeft CleanWeb (advertentieblocker), split tunneling en automatisch verbinden bij opstarten.',
+          '<a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN</a> is de beste keuze voor Mac-gebruikers die privacy boven alles stellen: volledig open-source macOS-app, onafhankelijk geauditeerde code en gevestigd in Zwitserland. De gratis versie heeft geen datalimiet en werkt goed voor incidenteel gebruik.',
+        ],
+        cta: 'nordvpn',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Werkt een VPN op alle Macs, ook met Apple Silicon (M1/M2/M3)?',
+        answer: 'Ja. Alle grote VPN-aanbieders hebben native Apple Silicon-apps die geoptimaliseerd zijn voor M1, M2, M3 en M4 chips. Ze draaien sneller en zuiniger dan de Intel-versies via Rosetta. Download altijd de "universele" of "Apple Silicon"-versie van de officiële website.',
+      },
+      {
+        question: 'Heeft een VPN invloed op de batterijduur van mijn MacBook?',
+        answer: 'Minimaal met moderne protocollen. NordLynx (WireGuard) verbruikt significant minder stroom dan OpenVPN door de efficiëntere implementatie — ideaal voor MacBook-gebruik onderweg. Verwacht 3–8% extra batterijverbruik, afhankelijk van serverafstand en protocol.',
+      },
+      {
+        question: 'Kan ik een VPN gebruiken op meerdere Macs tegelijk?',
+        answer: 'Dat hangt af van je abonnement. NordVPN staat 10 gelijktijdige verbindingen toe, Surfshark onbeperkt. Heb je meerdere Macs thuis? Dan is Surfshark het voordeligste: één abonnement voor alle apparaten zonder limiet.',
+      },
+      {
+        question: 'Werkt een VPN ook in de iCloud Privédoorgifte van Apple?',
+        answer: 'iCloud Privédoorgifte (Private Relay) en een VPN zijn beide actief, maar ze werken op verschillende lagen. Private Relay beschermt alleen Safari-verkeer; een VPN beschermt al je Mac-verkeer. Ze kunnen naast elkaar werken, al raden sommige VPN-aanbieders aan Private Relay uit te schakelen om conflicten te vermijden.',
+      },
+      {
+        question: 'Hoe weet ik of de VPN actief is op mijn Mac?',
+        answer: 'Een actieve VPN toont een sleuteltje-icoon in de macOS-menubalk rechtsboven. Extra zekerheid: ga naar ipleak.net in je browser — als je het IP van de VPN-server ziet en niet je eigen ISP-IP, werkt alles correct. Controleer ook de DNS-sectie op eventuele lekken.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['vpn-windows-instellen', 'vpn-iphone-instellen', 'vpn-thuiswerken'],
+    tags: ['vpn mac', 'vpn instellen mac', 'vpn macbook', 'macos vpn handleiding', 'vpn apple silicon'],
+  },
+
+  // ─── POST 15: VPN voor torrenten ─────────────────────────────────────────
+  {
+    slug: 'vpn-torrenten',
+    title: 'VPN voor torrenten: veilig en anoniem downloaden in 2026',
+    metaTitle: 'VPN voor Torrenten (2026) | Veilig Downloaden & Beste VPN\'s | vpnr.nl',
+    metaDescription: 'Alles over VPN gebruiken bij torrenten. Waarom je IP-adres zichtbaar is zonder VPN, welke functies je VPN moet hebben en de 3 beste VPN\'s voor P2P in 2026.',
+    excerpt: 'Zonder VPN is je IP-adres zichtbaar voor iedereen in een torrent-swarm. Leer hoe een VPN je beschermt en welke VPN\'s het beste werken voor P2P-downloads.',
+    category: 'Gids',
+    date: '4 juni 2026',
+    dateISO: '2026-06-04',
+    updatedISO: '2026-06-04',
+    readTime: '5 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-torrenten.jpg',
+    imageAlt: 'Anoniem torrenten met VPN, beveiligde P2P verbinding via versleutelde tunnel',
+    intro: 'Wanneer je een torrent downloadt, is je IP-adres zichtbaar voor iedereen die hetzelfde bestand deelt — de seeders, leechers en beheerders van de tracker. Dat zijn soms duizenden mensen tegelijk. Met een VPN vervang je je echte IP door dat van een VPN-server, zodat je anoniem blijft in de swarm. Maar niet elke VPN is geschikt voor torrenten: je hebt specifieke functies nodig die het verschil maken.',
+    sections: [
+      {
+        heading: 'Waarom je IP-adres zichtbaar is bij torrenten',
+        body: [
+          'Bij BitTorrent verbind je rechtstreeks met andere gebruikers om stukjes van een bestand uit te wisselen. Dit is het peer-to-peer principe: er is geen centrale server die de bestanden bewaart. Het gevolg is dat iedereen in de swarm jouw IP-adres ziet — en jij die van hen.',
+          'Copyright-handhavingsorganisaties (zoals BREIN in Nederland en België) monitoren actief populaire torrents. Ze loggen IP-adressen en sturen vervolgens namens rechtenhouders brieven naar internetproviders. Die ISP koppelt het IP aan een abonnee en stuurt een waarschuwingsbrief of — in herhaaldelijke gevallen — beëindigt het abonnement.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'BREIN monitort actief',
+          text: 'BREIN (Bescherming Rechten Entertainment Industrie Nederland) logt IP-adressen in populaire torrent-swarms en stuurt handhavingsbrieven. Zonder VPN is je IP-adres direct zichtbaar en herleidbaar naar jouw abonnement bij je provider.',
+        },
+      },
+      {
+        heading: 'Hoe een VPN je beschermt bij torrenten',
+        body: [
+          'Een VPN versleutelt al je internetverkeer en stuurt het via een VPN-server. In de torrent-swarm ziet iedereen het IP-adres van de VPN-server — niet jouw echte IP. BREIN of andere handhavingsorganisaties kunnen dat server-IP loggen, maar het leidt naar de VPN-aanbieder, niet naar jou.',
+          'Cruciaal is dat je VPN-aanbieder een <strong>strict no-logs beleid</strong> heeft: ze slaan geen verbindingslogs op die herleidbaar zijn naar individuele gebruikers. De beste aanbieders hebben dit onafhankelijk laten auditen. NordVPN en Surfshark zijn meerdere keren geauditeerd en hebben bewezen geen logs bij te houden — ook niet onder juridische druk.',
+        ],
+        highlight: {
+          type: 'stat',
+          title: 'Geen logs',
+          text: 'NordVPN werd in 2018 geconfronteerd met een serverinbeslagname door autoriteiten. Er werden geen gebruikersgegevens gevonden — het no-logs beleid hield stand in de praktijk.',
+        },
+      },
+      {
+        heading: 'Welke functies moet een VPN voor torrenten hebben?',
+        body: [
+          '<strong>Kill switch (essentieel):</strong> Als je VPN-verbinding wegvalt, blokkeert de kill switch direct al je internetverkeer. Zonder kill switch kan je torrent-client even doorgaan op je echte IP — precies het moment dat je zichtbaar bent.',
+          '<strong>P2P-servers:</strong> Niet alle VPN-servers zijn geschikt voor torrenten. Sommige providers blokkeren P2P-verkeer op bepaalde servers om misbruik te voorkomen. Goede VPN\'s hebben speciale P2P-geoptimaliseerde servers die hoge uploadsnelheden ondersteunen.',
+          '<strong>No-logs beleid (geauditeerd):</strong> Een zelfverklaard no-logs beleid is weinig waard. Kies alleen VPN\'s waarvan het beleid door een onafhankelijke partij (PwC, Deloitte, Cure53) is gecontroleerd.',
+          '<strong>DNS-lekbeveiliging:</strong> DNS-lekken onthullen je echte IP via de DNS-server van je ISP, zelfs als de VPN actief is. Premium VPN\'s gebruiken hun eigen DNS-servers en voorkomen lekken.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Kill switch instelling voor torrenten',
+          text: 'Activeer de kill switch vóórdat je je torrent-client opent. In NordVPN: Instellingen → Kill Switch → aan. In Surfshark: Instellingen → Connectiviteit → Kill Switch → aan. Start daarna pas je BitTorrent-client.',
+        },
+      },
+      {
+        heading: 'De beste VPN\'s voor torrenten in 2026',
+        body: [
+          '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> is onze topkeuze voor torrenten: speciale P2P-servers (herkenbaar in de serverlijst), NordLynx/WireGuard voor hoge downloadsnelheden, bewezen no-logs beleid en een dubbele kill switch. De SOCKS5-proxy is een extra functie voor geavanceerde gebruikers die hun torrent-client direct willen configureren zonder de volledige VPN-overhead.',
+          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> staat P2P toe op alle servers, wat handig is als je altijd dezelfde serverlocatie wil gebruiken. Het is ook de goedkoopste optie (€1,99/mnd bij 2 jaar) en staat onbeperkte apparaten toe — kun je torrenten op meerdere apparaten tegelijk zonder extra kosten.',
+          '<a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN</a> is de beste keuze voor privacy-puristen: open-source software, geauditeerde code, gevestigd in Zwitserland en speciale "Secure Core"-servers die je verkeer via meerdere landen routeren. Iets langzamer dan NordVPN, maar maximale anonimiteit.',
+        ],
+        table: {
+          headers: ['VPN', 'P2P-servers', 'Kill switch', 'No-logs audit', 'Prijs/mnd'],
+          rows: [
+            ['NordVPN', '✅ Speciaal', '✅ Dubbel', '✅ PwC', '€2,99'],
+            ['Surfshark', '✅ Alle servers', '✅ Ja', '✅ Deloitte', '€1,99'],
+            ['ProtonVPN', '✅ Ja', '✅ Ja', '✅ Securitum', '€4,99'],
+          ],
+        },
+        cta: 'nordvpn',
+      },
+      {
+        heading: 'Torrent-client instellen met VPN: zo doe je het goed',
+        body: [
+          'De meest veilige configuratie: open je VPN-app, activeer de kill switch, verbind met een P2P-server en open dan pas je torrent-client (qBittorrent, Transmission of Deluge). De torrent-client bindt automatisch aan de VPN-interface.',
+          'Gevorderd: in qBittorrent kun je de VPN-netwerkadapter handmatig instellen onder Instellingen → Geavanceerd → Netwerkinstellingen → "Netwerkingang binden aan". Kies de VPN-adapter (meestal tun0 of een NordVPN/Surfshark-interface). Zo kan qBittorrent alleen verbinding maken als de VPN actief is — een extra veiligheidsniveau bovenop de kill switch.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'SOCKS5-proxy als alternatief',
+          text: 'NordVPN en Surfshark bieden een SOCKS5-proxy die je direct in qBittorrent kunt instellen. Dit verbergt je IP in de swarm zonder het volledige verkeer te versleutelen — sneller, maar minder bescherming. Combineer altijd met de volledige VPN voor maximale veiligheid.',
+        },
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is torrenten met VPN legaal in Nederland?',
+        answer: 'Een VPN gebruiken is volledig legaal in Nederland. Torrenten van auteursrechtelijk beschermd materiaal zonder toestemming is niet legaal, ongeacht of je een VPN gebruikt. Een VPN beschermt je privacy, maar maakt illegale activiteiten niet legaal. Publiek domein, Creative Commons-content en officieel gedeelde bestanden zijn wél legaal te downloaden via torrents.',
+      },
+      {
+        question: 'Kan mijn internetprovider zien dat ik torrent via VPN?',
+        answer: 'Je provider ziet dat je een verbinding hebt met een VPN-server, maar niet wat je erover verstuurt — dat is versleuteld. Ze kunnen niet zien dat je torrent, welke bestanden je downloadt of welke trackers je gebruikt. Zonder VPN ziet je ISP precies welke P2P-verbindingen je maakt.',
+      },
+      {
+        question: 'Maakt een VPN mijn torrent-downloads trager?',
+        answer: 'Met een moderne VPN en WireGuard-protocol is het snelheidsverlies minimaal: gemiddeld 5–15%. Met NordVPN op NordLynx haal je in de praktijk 300–500 Mbps, ruim voldoende voor alle torrent-downloads. Kies altijd een P2P-geoptimaliseerde server zo dicht mogelijk bij je fysieke locatie.',
+      },
+      {
+        question: 'Welke torrent-client werkt het beste met een VPN?',
+        answer: 'qBittorrent is de beste keuze: open-source, geen reclame, en heeft een ingebouwde optie om de netwerkadapter te binden aan je VPN-interface. Transmission is een goed alternatief voor Mac-gebruikers. Vermijd uTorrent (bevat reclame en was vroeger gebundeld met adware) en gebruik nooit een torrent-client met ingebouwde browser.',
+      },
+      {
+        question: 'Moet ik de VPN aanzetten vóórdat ik de torrent-client open?',
+        answer: 'Ja, altijd. Start je VPN en wacht tot de verbinding actief is, activeer de kill switch, verbind met een P2P-server en open dan je torrent-client. Als je de torrent-client al open hebt, sluit hem eerst, start de VPN en open hem opnieuw zodat hij de VPN-verbinding gebruikt.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    relatedSlugs: ['vpn-ip-adres-verbergen', 'kill-switch-vpn', 'vpn-protocol-vergelijking'],
+    tags: ['vpn torrenten', 'veilig torrenten', 'torrent vpn nederland', 'anoniem downloaden', 'p2p vpn'],
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
