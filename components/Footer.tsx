@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 mt-auto">
       <div className="max-w-6xl mx-auto px-4 py-14">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-10">
           <div className="col-span-2 md:col-span-1">
             <Logo size={28} />
             <p className="text-sm text-gray-500 leading-relaxed mt-4 max-w-xs">
@@ -45,7 +45,27 @@ export default function Footer() {
                 { href: '/beste-vpn/voor-netflix', label: 'Netflix' },
                 { href: '/beste-vpn/voor-streaming', label: 'Streaming' },
                 { href: '/beste-vpn/voor-torrenten', label: 'Torrenten' },
+                { href: '/beste-vpn/voor-gaming', label: 'Gaming' },
+                { href: '/beste-vpn/voor-iphone', label: 'iPhone' },
+                { href: '/beste-vpn/voor-mac', label: 'Mac' },
+                { href: '/beste-vpn/voor-android', label: 'Android' },
+                { href: '/beste-vpn/voor-thuiswerken', label: 'Thuiswerken' },
+                { href: '/beste-vpn/voor-belgie', label: 'België' },
                 { href: '/beste-vpn/gratis', label: 'Gratis VPN' },
+              ].map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="hover:text-white transition-colors">{label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-gray-300 font-semibold mb-4 text-xs uppercase tracking-widest">Vergelijkingen</h3>
+            <ul className="space-y-2.5 text-sm">
+              {[
+                { href: '/vpn-vergelijken', label: 'Alle VPN\'s vergelijken' },
+                { href: '/vpn-vergelijken/nordvpn-vs-surfshark', label: 'NordVPN vs Surfshark' },
+                { href: '/vpn-vergelijken/protonvpn-vs-surfshark', label: 'ProtonVPN vs Surfshark' },
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} className="hover:text-white transition-colors">{label}</Link>
