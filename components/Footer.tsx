@@ -27,10 +27,10 @@ export default function Footer() {
               {[
                 { slug: 'nordvpn', label: 'NordVPN' },
                 { slug: 'surfshark', label: 'Surfshark' },
-                { slug: 'expressvpn', label: 'ExpressVPN' },
                 { slug: 'cyberghost', label: 'CyberGhost' },
                 { slug: 'protonvpn', label: 'ProtonVPN' },
-                { slug: 'pia', label: 'Private Internet Access' },
+                { slug: 'purevpn', label: 'PureVPN' },
+                { slug: 'hideme', label: 'Hide.me' },
               ].map(({ slug, label }) => (
                 <li key={slug}>
                   <Link href={`/vpn-reviews/${slug}`} className="hover:text-white transition-colors">{label}</Link>
