@@ -52,6 +52,7 @@ function detectTopic(slug, title) {
   const text = (slug + ' ' + title).toLowerCase()
   if (/netflix|stream|disney|hbo|kijk/.test(text)) return 'streaming'
   if (/torrent|p2p|download/.test(text)) return 'torrenting'
+  if (/router|dd-wrt|openwrt|firmware/.test(text)) return 'router'
   if (/gaming|game|ping|ddos/.test(text)) return 'gaming'
   if (/iphone|ios|ipad/.test(text)) return 'iphone'
   if (/mac|macos|macbook|apple/.test(text)) return 'mac'
@@ -268,6 +269,7 @@ function buildPrompt(topic, subject) {
   const base = 'professional stock photo, sharp focus, DSLR photography, natural lighting, high resolution, 16:9, no text, no logos, no watermarks'
 
   const topicPrompts = {
+    router: `Modern wifi router on a home desk with glowing LED lights, multiple devices connected in background, clean home interior, ${base}`,
     streaming: `Person relaxing on a couch watching Netflix on a large TV screen, colorful movie poster visible, warm cozy living room, bokeh background, ${base}`,
     torrenting: `Close-up of a laptop screen showing a download progress bar at 98%, dark minimal desk setup, soft blue ambient light, ${base}`,
     gaming: `Gaming setup with RGB keyboard and monitor showing a vibrant game, dark room with neon lighting, immersive atmosphere, ${base}`,
