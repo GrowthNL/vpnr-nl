@@ -1595,6 +1595,131 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['vpn-thuiswerken', 'kill-switch-vpn', 'vpn-protocol-vergelijking'],
     tags: ['vpn router instellen', 'vpn op router', 'router vpn handleiding', 'dd-wrt vpn', 'asus vpn router'],
   },
+
+  // ─── AUTO-GEGENEREERD ────────────────────────────────────────────
+  {
+    slug: "nordvpn-korting",
+    title: "NordVPN korting juni 2026 — actuele deals en aanbiedingen",
+    metaTitle: "NordVPN korting juni 2026 | Tot 77% korting + gratis maanden",
+    metaDescription: "Bespaar tot 77% op NordVPN in juni 2026. Bekijk alle actuele kortingscodes, deals en aanbiedingen. Inclusief vergelijking met andere top VPN's.",
+    excerpt: "Ontdek de beste NordVPN kortingen voor juni 2026 en bespaar tot 77% op je abonnement. We vergelijken alle actuele deals zodat jij de laagste prijs betaalt.",
+    category: "Deals",
+    date: "8 juni 2026",
+    dateISO: "2026-06-08",
+    updatedISO: "2026-06-08",
+    readTime: "6 min",
+    author: "vpnr.nl Redactie",
+    image: "/blog/vpn-deals.svg",
+    imageAlt: "NordVPN kortingsactie met percentage en prijsvergelijking",
+    intro: "Een premium VPN hoeft geen fortuin te kosten — zeker niet als je weet waar je moet zoeken. NordVPN biedt in juni 2026 kortingen tot 77% op meerjarige abonnementen, plus gratis extra maanden. In dit artikel vind je alle actuele NordVPN deals, tips om de laagste prijs te pakken en een eerlijke vergelijking met concurrenten.",
+    sections: [
+      {
+        heading: "Wat is de beste NordVPN korting in juni 2026?",
+        body: [
+          "De beste NordVPN korting in juni 2026 is <strong>77% korting op het 2-jarig Complete-abonnement</strong>, inclusief 3 gratis maanden. Dit brengt de maandprijs naar €3,69 in plaats van de reguliere €15,99 per maand. Je betaalt dus €99,63 voor 27 maanden volledige bescherming.",
+          "NordVPN hanteert een staffelkorting: hoe langer je abonnement, hoe groter de besparing. Het maandabonnement zonder korting kost €15,99, terwijl het jaarabonnement uitkomt op €4,99 per maand. De <a href=\"/vpn-reviews/nordvpn\" class=\"text-blue-600 hover:underline font-medium\">volledige NordVPN review</a> laat zien waarom dit een van de beste VPN's op de markt blijft.",
+          "Let op: deze kortingen gelden alleen voor nieuwe klanten. Bestaande gebruikers kunnen soms profiteren van verlengingsaanbiedingen via e-mail, maar deze zijn doorgaans minder gunstig dan de instapdeals."
+        ],
+        highlight: {
+          type: "stat",
+          title: "Beste deal juni 2026",
+          text: "2-jarig Complete-abonnement: €3,69/maand (77% korting) + 3 maanden gratis = 27 maanden voor €99,63 totaal"
+        }
+      },
+      {
+        heading: "Welke NordVPN abonnementen zijn er en wat kosten ze?",
+        body: [
+          "NordVPN biedt drie abonnementsniveaus: <strong>Basis</strong>, <strong>Plus</strong> en <strong>Complete</strong>. Elk niveau is beschikbaar als maand-, jaar- of 2-jarig abonnement. De prijsverschillen zijn aanzienlijk, vooral bij langere looptijden.",
+          "Het Basis-abonnement bevat de kern-VPN-functies: versleutelde verbinding, 6.400+ servers in 111 landen en Threat Protection Lite. Plus voegt een wachtwoordmanager en datalekscanner toe. Complete bevat daarbovenop 1TB versleutelde cloudopslag.",
+          "Voor de meeste gebruikers biedt het <strong>Plus-abonnement</strong> de beste prijs-kwaliteitverhouding. De wachtwoordmanager alleen is al €2-3 per maand waard bij standalone diensten. Bekijk onze <a href=\"/goedkoopste-vpn-deals\" class=\"text-blue-600 hover:underline font-medium\">overzichtspagina met goedkoopste VPN deals</a> voor alle actuele prijzen."
+        ],
+        table: {
+          headers: ["Abonnement", "1 maand", "1 jaar", "2 jaar + 3 mnd gratis"],
+          rows: [
+            ["Basis", "€13,99/mnd", "€4,49/mnd", "€3,09/mnd (74%)"],
+            ["Plus", "€14,99/mnd", "€4,79/mnd", "€3,39/mnd (75%)"],
+            ["Complete", "€15,99/mnd", "€5,49/mnd", "€3,69/mnd (77%)"]
+          ]
+        }
+      },
+      {
+        heading: "Hoe activeer je een NordVPN kortingscode?",
+        body: [
+          "NordVPN kortingen worden <strong>automatisch toegepast</strong> wanneer je via een officiële actielink bestelt — je hoeft geen code in te voeren. De korting verschijnt direct in je winkelmandje op de checkout-pagina. Dit voorkomt typefouten en zorgt dat je altijd de actuele deal krijgt.",
+          "Sommige websites bieden zogenaamde 'exclusieve' kortingscodes aan, maar deze werken zelden beter dan de standaard actielinks. NordVPN's eigen website toont altijd de hoogst beschikbare korting voor nieuwe klanten. Wees alert op verlopen codes of misleidende aanbiedingen.",
+          "Na het kiezen van je abonnement vul je je e-mailadres in en selecteer je een betaalmethode. NordVPN accepteert iDEAL, creditcard, PayPal en zelfs cryptocurrency voor extra anonimiteit. De 30-dagen geld-terug-garantie geldt ongeacht de gekozen betaalmethode."
+        ],
+        highlight: {
+          type: "tip",
+          title: "Controleer altijd de totaalprijs",
+          text: "Kijk naar het totaalbedrag dat je vooraf betaalt, niet alleen de maandprijs. Bij een 2-jarig abonnement betaal je €99,63 ineens — een flinke uitgave, maar per maand de scherpste deal."
+        }
+      },
+      {
+        heading: "Hoe verhoudt NordVPN zich tot andere VPN-aanbieders qua prijs?",
+        body: [
+          "<a href=\"/vpn-reviews/surfshark\" class=\"text-blue-600 hover:underline font-medium\">Surfshark</a> is de goedkoopste optie met €1,99 per maand bij een 2-jarig abonnement, maar NordVPN biedt snellere servers en meer geavanceerde functies. <a href=\"/vpn-reviews/expressvpn\" class=\"text-blue-600 hover:underline font-medium\">ExpressVPN</a> is premium geprijsd vanaf €6,25 per maand en richt zich op gebruikers die maximale snelheid prioriteren.",
+          "NordVPN zit qua prijs in het middensegment, maar scoort bovengemiddeld op beveiligingsaudits, serveraantal en extra features zoals Threat Protection. Voor Nederlandse gebruikers die <a href=\"/vpn-buitenland-gebruiken\" class=\"text-blue-600 hover:underline font-medium\">een VPN in het buitenland willen gebruiken</a> zijn de 111 serverlanden een groot pluspunt.",
+          "De keuze hangt af van je prioriteiten. Wil je de absolute laagste prijs? Kies Surfshark. Zoek je de beste balans tussen prijs, snelheid en functies? Dan is NordVPN met de huidige korting een uitstekende keuze."
+        ],
+        table: {
+          headers: ["VPN-aanbieder", "Laagste maandprijs", "Servers", "Landen", "Geld-terug-garantie"],
+          rows: [
+            ["NordVPN", "€3,09/mnd", "6.400+", "111", "30 dagen"],
+            ["Surfshark", "€1,99/mnd", "3.200+", "100", "30 dagen"],
+            ["ExpressVPN", "€6,25/mnd", "3.000+", "105", "30 dagen"]
+          ]
+        },
+        cta: "nordvpn"
+      },
+      {
+        heading: "Wanneer zijn de beste momenten om NordVPN te kopen?",
+        body: [
+          "De <strong>hoogste NordVPN kortingen</strong> verschijnen tijdens Black Friday (november), Cyber Monday en rond de feestdagen in december. Tijdens deze periodes kan de korting oplopen tot 80% of meer, soms met 4-6 gratis maanden bovenop het 2-jarig abonnement.",
+          "Buiten deze piekmomenten blijven de standaardkortingen van 70-77% het hele jaar door beschikbaar. Het verschil met Black Friday-deals is vaak slechts 1-2 euro per maand. Wachten op een actie loont dus alleen als je abonnement niet urgent is én de volgende grote sale nabij is.",
+          "NordVPN past prijzen soms aan per regio. Nederlandse gebruikers zien dezelfde deals als andere EU-landen, maar prijzen in dollars kunnen voordeliger lijken door wisselkoersschommelingen. Betaal altijd in euro's om verrassingen op je creditcardafschrift te voorkomen."
+        ],
+        highlight: {
+          type: "info",
+          title: "Verlengingen vs. nieuwe accounts",
+          text: "Bij verlenging betaal je vaak de reguliere prijs. Overweeg een nieuw account aan te maken met een ander e-mailadres om opnieuw van instapkortingen te profiteren. Dit is toegestaan volgens de voorwaarden."
+        }
+      },
+      {
+        heading: "Is de NordVPN geld-terug-garantie betrouwbaar?",
+        body: [
+          "Ja, de <strong>30-dagen geld-terug-garantie van NordVPN werkt zonder vragen</strong>. Je kunt binnen 30 dagen na aankoop je volledige bedrag terugvragen via de livechat, zonder dat je een reden hoeft op te geven. De terugbetaling wordt binnen 5-10 werkdagen verwerkt.",
+          "Dit maakt NordVPN risicovol uitproberen mogelijk. Test de snelheid, controleer of je favoriete streamingdiensten werken en ervaar de apps op al je apparaten. Ben je niet tevreden? Dan krijg je gewoon je geld terug.",
+          "Let op: de garantie geldt alleen voor aankopen via de officiële NordVPN-website of app. Koop je via een derde partij zoals de Apple App Store, dan gelden de refundvoorwaarden van dat platform. Voor volledige controle bestel je daarom altijd rechtstreeks."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: "Werkt NordVPN korting ook voor bestaande klanten?",
+        answer: "Bestaande klanten krijgen meestal geen toegang tot de hoge instapkortingen. Je kunt wel wachten op verlengingsaanbiedingen via e-mail of overwegen een nieuw account aan te maken met een ander e-mailadres om opnieuw van de actieprijs te profiteren."
+      },
+      {
+        question: "Kan ik NordVPN korting combineren met een kortingscode?",
+        answer: "Nee, NordVPN staat geen stapeling van kortingen toe. De actieprijs die je ziet op de website is altijd de maximale beschikbare korting. Externe kortingscodes voegen zelden extra voordeel toe boven de standaard deal."
+      },
+      {
+        question: "Hoeveel apparaten kan ik gebruiken met één NordVPN abonnement?",
+        answer: "Met één NordVPN abonnement kun je tot 10 apparaten tegelijkertijd verbinden. Dit geldt voor alle abonnementsniveaus (Basis, Plus en Complete) en je kunt de app installeren op onbeperkt veel apparaten."
+      },
+      {
+        question: "Wat is het verschil tussen NordVPN Basis, Plus en Complete?",
+        answer: "Basis bevat alleen VPN-functies. Plus voegt NordPass (wachtwoordmanager) en datalekscanner toe. Complete bevat alles van Plus plus 1TB versleutelde cloudopslag via NordLocker. Voor de meeste gebruikers biedt Plus de beste waarde."
+      },
+      {
+        question: "Hoe lang duurt het voordat NordVPN mijn geld terugstort?",
+        answer: "Na goedkeuring van je terugbetaalverzoek ontvang je het bedrag binnen 5-10 werkdagen terug, afhankelijk van je betaalmethode. iDEAL en PayPal zijn meestal sneller dan creditcardterugbetalingen."
+      }
+    ],
+    relatedProviders: ["nordvpn", "surfshark", "expressvpn"],
+    relatedSlugs: ["goedkoopste-vpn-deals", "vpn-reviews/nordvpn", "vpn-buitenland-gebruiken"],
+    tags: ["nordvpn korting", "nordvpn aanbieding", "nordvpn deal 2026", "vpn korting"]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
