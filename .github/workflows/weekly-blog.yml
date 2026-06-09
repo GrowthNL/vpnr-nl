@@ -1,52 +1,79 @@
-name: Wekelijkse blogpost genereren
+name: Automatische Weekelijkse Blogpost
 
 on:
-  # Elke maandag om 08:00 Amsterdam-tijd (06:00 UTC)
+  # Elke maandag om ~09:00 Amsterdam-tijd (07:00 UTC)
   schedule:
-    - cron: '0 6 * * 1'
-  # Handmatig triggeren via GitHub UI (Actions → Run workflow)
+    - cron: '0 7 * * 1'
+
+  # Handmatig triggeren via GitHub Actions UI (handig voor testen)
   workflow_dispatch:
     inputs:
-      slug:
-        description: 'Post slug (bijv. vpn-mac-instellen)'
+      model:
+        description: 'Claude-model'
         required: false
-      title:
-        description: 'Blogtitel'
-        required: false
-      keyword:
-        description: 'Primair SEO-keyword'
-        required: false
+        default: 'claude-opus-4-8'
+        type: choice
+        options:
+          - claude-opus-4-8
+          - claude-sonnet-4-6
 
 jobs:
-  generate-post:
+  generate-blog:
+    name: Genereer nieuwe blogpost
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
-      - name: Setup Node.js
+      - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Genereer blogpost via Claude API
+      - name: Controleer ANTHROPIC_API_KEY
+        run: |
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "❌  ANTHROPIC_API_KEY ontbreekt."
+            echo "   Ga naar: Settings → Secrets and variables → Actions → New repository secret"
+            exit 1
+          fi
+          echo "✅  ANTHROPIC_API_KEY gevonden"
+
+      - name: Genereer blogpost
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MANUAL_SLUG: ${{ github.event.inputs.slug }}
-          MANUAL_TITLE: ${{ github.event.inputs.title }}
-          MANUAL_KEYWORD: ${{ github.event.inputs.keyword }}
-        run: node .github/scripts/generate-post.mjs
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_AI_KEY: ${{ secrets.GOOGLE_AI_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          BLOG_MODEL: ${{ github.event.inputs.model || 'claude-opus-4-8' }}
+        run: node scripts/generate-blog-post.mjs
 
-      - name: Commit en push nieuwe post
+      - name: Commit en push nieuwe blogpost
         run: |
           git config user.name "vpnr.nl Blog Bot"
           git config user.email "bot@vpnr.nl"
-          git add content/posts.ts public/blog/
-          # Alleen committen als er iets veranderd is
-          git diff --staged --quiet || git commit -m "🤖 Auto: nieuwe blogpost toegevoegd [skip ci]"
-          git push
+
+          git add content/posts.ts
+          git add public/blog/ || true
+          git add public/llms.txt || true
+
+          if git diff --staged --quiet; then
+            echo "ℹ️   Geen wijzigingen — alle onderwerpen zijn al geschreven."
+            exit 0
+          fi
+
+          BLOG_TITLE=$(git diff --staged content/posts.ts | grep '"title":' | head -1 | sed 's/.*"title": "\(.*\)",/\1/')
+          git commit -m "Blog: ${BLOG_TITLE:-automatisch gegenereerd} ($(date +'%Y-%m-%d'))"
+
+          for i in 1 2 3 4; do
+            git push origin main && break
+            echo "⚠️   Push mislukt (poging $i/4), wacht ${i}s..."
+            sleep $i
+          done
