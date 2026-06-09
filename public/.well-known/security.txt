@@ -1,0 +1,3 @@
+Contact: mailto:contact@vpnr.nl
+Preferred-Languages: nl, en
+Canonical: https://vpnr.nl/.well-known/security.txt
