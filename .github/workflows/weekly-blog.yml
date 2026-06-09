@@ -1,9 +1,10 @@
 name: Automatische Weekelijkse Blogpost
 
 on:
-  # Elke maandag om ~09:00 Amsterdam-tijd (07:00 UTC)
+  # Elke maandag en donderdag om ~09:00 Amsterdam-tijd (07:00 UTC)
   schedule:
     - cron: '0 7 * * 1'
+    - cron: '0 7 * * 4'
 
   # Handmatig triggeren via GitHub Actions UI (handig voor testen)
   workflow_dispatch:
