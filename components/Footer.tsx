@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 mt-auto">
       <div className="max-w-6xl mx-auto px-4 py-14">
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-10">
-          <div className="col-span-2 md:col-span-1">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-10">
+          <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Logo size={28} />
             <p className="text-sm text-gray-500 leading-relaxed mt-4 max-w-xs">
               Onafhankelijke VPN-vergelijking voor de Nederlandse markt. Geen gesponsorde resultaten.
@@ -52,6 +52,24 @@ export default function Footer() {
                 { href: '/beste-vpn/voor-thuiswerken', label: 'Thuiswerken' },
                 { href: '/beste-vpn/voor-belgie', label: 'België' },
                 { href: '/beste-vpn/gratis', label: 'Gratis VPN' },
+              ].map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="hover:text-white transition-colors">{label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-gray-300 font-semibold mb-4 text-xs uppercase tracking-widest">Blog</h3>
+            <ul className="space-y-2.5 text-sm">
+              {[
+                { href: '/blog', label: 'Alle artikelen' },
+                { href: '/blog/vpn-buitenland-gebruiken', label: 'VPN in buitenland' },
+                { href: '/blog/vpn-windows-instellen', label: 'VPN op Windows' },
+                { href: '/blog/vpn-android-instellen', label: 'VPN op Android' },
+                { href: '/blog/vpn-iphone-instellen', label: 'VPN op iPhone' },
+                { href: '/blog/netflix-vpn-werkt-niet', label: 'Netflix VPN werkt niet' },
+                { href: '/blog/nordvpn-korting', label: 'NordVPN korting' },
               ].map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} className="hover:text-white transition-colors">{label}</Link>
