@@ -1,0 +1,11 @@
+/* TEAM */
+Organisatie: Growth Online Marketing Bureau
+Website: https://vpnr.nl
+Locatie: Almere, Nederland
+KvK: 67106366
+Contact: contact@vpnr.nl
+
+/* SITE */
+Laatste update: 2026-06-09
+Taal: Nederlands (nl-NL)
+Technologie: Next.js, TypeScript, Tailwind CSS, Vercel

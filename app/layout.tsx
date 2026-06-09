@@ -18,7 +18,13 @@ export const metadata: Metadata = {
   description:
     'Vergelijk de beste VPN-diensten voor Nederland. Onafhankelijke reviews van NordVPN, Surfshark, ExpressVPN en meer. Actuele prijzen en eerlijke beoordelingen.',
   metadataBase: new URL('https://vpnr.nl'),
-  alternates: { canonical: 'https://vpnr.nl' },
+  alternates: {
+    canonical: 'https://vpnr.nl',
+    languages: {
+      'nl-NL': 'https://vpnr.nl',
+      'x-default': 'https://vpnr.nl',
+    },
+  },
   openGraph: {
     siteName: 'vpnr.nl',
     locale: 'nl_NL',

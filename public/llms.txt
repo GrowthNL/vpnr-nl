@@ -3,16 +3,11 @@
 ## Over deze site
 vpnr.nl is een onafhankelijke VPN-vergelijkingssite voor de Nederlandse markt.
 Wij testen en vergelijken VPN-diensten op snelheid, beveiliging, privacy en prijs.
-Verdienmodel: affiliate commissies. Wij accepteren geen betaalde reviews.
+Verdienmodel: affiliate commissies. Wij accepteren geen betaalde reviews of gesponsorde scores.
+Opgericht door Growth Online Marketing Bureau (Almere, KvK 67106366).
 
 ## Doelgroep
 Nederlandse consumenten die een VPN zoeken voor privacy, streaming of beveiliging.
-
-## Inhoud
-- VPN reviews (NordVPN, Surfshark, ProtonVPN, CyberGhost, PureVPN, Hide.me, McAfee VPN, VPN Nederland)
-- VPN vergelijkingen per gebruiksdoel (Netflix, streaming, torrenten, gaming, goedkoop)
-- Informatieve gidsen over VPN-technologie
-- Blog met VPN-tips en handleidingen voor Nederland
 
 ## Testmethode
 Elke VPN wordt getest op:
@@ -37,3 +32,61 @@ Email: contact@vpnr.nl
 
 ## Sitemap
 https://vpnr.nl/sitemap.xml
+
+---
+
+## Alle pagina's
+
+### Hoofdpagina's
+- https://vpnr.nl — Startpagina: VPN vergelijken Nederland 2026
+- https://vpnr.nl/beste-vpn — Beste VPN overzicht met vergelijkingstabel
+- https://vpnr.nl/vpn-reviews — Overzicht alle VPN reviews
+- https://vpnr.nl/vpn-vergelijken — Hoofd vergelijkingspagina
+- https://vpnr.nl/blog — VPN blog: handleidingen en tips
+- https://vpnr.nl/wat-is-een-vpn — Informatieve gids: wat is een VPN?
+- https://vpnr.nl/over-ons — Over vpnr.nl en ons team
+- https://vpnr.nl/contact — Contactpagina
+- https://vpnr.nl/affiliate-disclosure — Transparantie over affiliate verdienmodel
+- https://vpnr.nl/privacy-policy — Privacybeleid
+
+### VPN Reviews (/vpn-reviews/)
+- https://vpnr.nl/vpn-reviews/nordvpn — NordVPN review: snelheid, beveiliging, prijs
+- https://vpnr.nl/vpn-reviews/surfshark — Surfshark review: budget VPN met veel functies
+- https://vpnr.nl/vpn-reviews/protonvpn — ProtonVPN review: Zwitserse privacy en gratis plan
+- https://vpnr.nl/vpn-reviews/hideme — Hide.me review: Nederlandse VPN met gratis optie
+- https://vpnr.nl/vpn-reviews/cyberghost — CyberGhost review: grootste servernetwerk
+- https://vpnr.nl/vpn-reviews/purevpn — PureVPN review: betaalbare all-round VPN
+- https://vpnr.nl/vpn-reviews/mcafee — McAfee VPN review: antivirus bundel met VPN
+- https://vpnr.nl/vpn-reviews/vpnnederland — VPN Nederland review: Nederlandse provider
+
+### Beste VPN voor gebruik (/beste-vpn/)
+- https://vpnr.nl/beste-vpn/voor-netflix — Beste VPN voor Netflix 2026
+- https://vpnr.nl/beste-vpn/voor-streaming — Beste VPN voor streaming 2026
+- https://vpnr.nl/beste-vpn/voor-torrenten — Beste VPN voor torrenten 2026
+- https://vpnr.nl/beste-vpn/voor-gaming — Beste VPN voor gaming 2026
+- https://vpnr.nl/beste-vpn/gratis — Beste gratis VPN 2026
+- https://vpnr.nl/beste-vpn/goedkoop — Goedkoopste VPN 2026
+- https://vpnr.nl/beste-vpn/voor-iphone — Beste VPN voor iPhone en iOS 2026
+- https://vpnr.nl/beste-vpn/voor-mac — Beste VPN voor Mac en macOS 2026
+- https://vpnr.nl/beste-vpn/voor-android — Beste VPN voor Android 2026
+- https://vpnr.nl/beste-vpn/voor-thuiswerken — Beste VPN voor thuiswerken 2026
+- https://vpnr.nl/beste-vpn/voor-belgie — Beste VPN voor België 2026
+
+### VPN Vergelijkingen (/vpn-vergelijken/)
+- https://vpnr.nl/vpn-vergelijken/nordvpn-vs-surfshark — NordVPN vs Surfshark: uitgebreide vergelijking
+- https://vpnr.nl/vpn-vergelijken/protonvpn-vs-surfshark — ProtonVPN vs Surfshark: vergelijking
+
+### Blog artikelen (/blog/)
+- https://vpnr.nl/blog/vpn-buitenland-gebruiken — VPN gebruiken in het buitenland: gids en tips
+- https://vpnr.nl/blog/netflix-vpn-werkt-niet — Netflix VPN werkt niet meer? Oplossingen
+- https://vpnr.nl/blog/vpn-protocol-vergelijking — WireGuard vs OpenVPN vs IKEv2: welk protocol is het beste?
+- https://vpnr.nl/blog/vpn-ip-adres-verbergen — Hoe verberg je je IP-adres? Complete gids 2026
+- https://vpnr.nl/blog/goedkoopste-vpn-deals — Goedkoopste VPN-deals van 2026
+- https://vpnr.nl/blog/vpn-android-instellen — VPN instellen op Android: stap-voor-stap handleiding
+- https://vpnr.nl/blog/vpn-iphone-instellen — VPN instellen op iPhone en iPad: iOS handleiding
+- https://vpnr.nl/blog/vpn-windows-instellen — VPN instellen op Windows 11: handleiding
+- https://vpnr.nl/blog/nordvpn-korting — NordVPN korting 2026: actuele deals en aanbiedingen
+- https://vpnr.nl/blog/kill-switch-vpn — Kill switch VPN uitgelegd: wat is het en waarom heb je het nodig?
+- https://vpnr.nl/blog/wat-is-mijn-ip-adres — Wat is mijn IP-adres? En wat zegt het over jou?
+- https://vpnr.nl/blog/nordvpn-vs-surfshark — NordVPN vs Surfshark blog: welke VPN is beter?
+- https://vpnr.nl/blog/vpn-thuiswerken — VPN voor thuiswerken: veilig thuis werken in 2026
