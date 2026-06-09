@@ -1596,6 +1596,154 @@ export const posts: BlogPost[] = [
     tags: ['vpn router instellen', 'vpn op router', 'router vpn handleiding', 'dd-wrt vpn', 'asus vpn router'],
   },
 
+  {
+    "slug": "vpn-china-gebruiken",
+    "title": "VPN gebruiken in China (2026): welke werken nog écht?",
+    "metaTitle": "VPN China 2026: welke werken nog achter de Firewall?",
+    "metaDescription": "VPN China 2026: ontdek welke VPNs de Great Firewall omzeilen met obfuscatie. Praktische tips, juridisch kader en de beste keuzes vergeleken.",
+    "excerpt": "Welke VPN werkt nog in China? Ontdek hoe obfuscatie de Great Firewall omzeilt en welke VPNs in 2026 betrouwbaar werken voor reizigers.",
+    "category": "Gids",
+    "date": "9 juni 2026",
+    "dateISO": "2026-06-09",
+    "updatedISO": "2026-06-09",
+    "readTime": "8 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/vpn-china-gebruiken.jpg",
+    "imageAlt": "Reiziger gebruikt smartphone met VPN-app op een drukke straat in Shanghai met neonverlichting",
+    "intro": "Een VPN in China gebruiken is in 2026 nog steeds mogelijk, maar alleen met diensten die obfuscatie (verhulling) bieden om de Great Firewall te omzeilen. In deze gids leggen we uit welke VPNs nog werken, hoe het juridisch zit voor toeristen en hoe je je verbinding voorbereidt vóór vertrek. vpnr.nl ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze onafhankelijke beoordeling niet.",
+    "sections": [
+      {
+        "heading": "Waarom werkt een gewone VPN niet in China?",
+        "body": [
+          "China beschikt over een van de meest geavanceerde censuursystemen ter wereld: de zogenoemde Great Firewall. Dit systeem analyseert internetverkeer en blokkeert actief verbindingen die op VPN-gebruik lijken. Met technieken als <strong>Deep Packet Inspection (DPI)</strong> herkent de firewall standaard VPN-protocollen en sluit deze direct af.",
+          "Hierdoor werken de meeste populaire VPNs zonder speciale aanpassingen niet meer binnen China. Een gewone OpenVPN- of WireGuard-verbinding wordt vrijwel onmiddellijk gedetecteerd en geblokkeerd. Wie toch toegang wil tot diensten als Google, WhatsApp, Instagram of Netflix, heeft een VPN nodig die zijn verkeer kan verhullen.",
+          "De oplossing heet <strong>obfuscatie</strong>: hierbij wordt het VPN-verkeer vermomd als gewoon HTTPS-verkeer, zodat de firewall het niet als VPN herkent. Niet elke aanbieder ondersteunt deze functie, wat de keuze in China sterk beperkt."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Werkt niet zomaar",
+          "text": "Een standaard VPN zonder obfuscatie wordt in China vrijwel altijd geblokkeerd. Kies bewust een aanbieder met verhullingstechnologie."
+        }
+      },
+      {
+        "heading": "Welke VPNs werken nog wél in China?",
+        "body": [
+          "In 2026 zijn er enkele VPNs die zich onderscheiden door betrouwbare obfuscatie en stabiele werking achter de Great Firewall. De koploper is <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> met zijn speciale Obfuscated Servers, die het VPN-verkeer vermommen als regulier internetverkeer.",
+          "Ook <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a> doet het goed dankzij de Camouflage Mode, die automatisch wordt geactiveerd op het OpenVPN-protocol. Surfshark is bovendien voordeliger en biedt onbeperkt aantal apparaten, handig als je met meerdere reisgenoten verbindt.",
+          "Een derde betrouwbare optie is <a href='/vpn-reviews/purevpn' class='text-blue-600 hover:underline font-medium'>PureVPN</a>, dat eveneens obfuscatie aanbiedt en speciale servers heeft voor regio's met strenge censuur. Welke je kiest hangt af van je budget en voorkeuren."
+        ],
+        "table": {
+          "headers": [
+            "VPN",
+            "Obfuscatie-functie",
+            "Werkt in China"
+          ],
+          "rows": [
+            [
+              "NordVPN",
+              "Obfuscated Servers",
+              "Ja, zeer betrouwbaar"
+            ],
+            [
+              "Surfshark",
+              "Camouflage Mode",
+              "Ja, betrouwbaar"
+            ],
+            [
+              "PureVPN",
+              "Stealth-servers",
+              "Ja, wisselend"
+            ]
+          ]
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Is een VPN in China legaal voor toeristen?",
+        "body": [
+          "Het juridische kader rondom VPN-gebruik in China is genuanceerd. Officieel zijn alleen door de overheid goedgekeurde VPNs toegestaan, en niet-gelicentieerde VPNs zijn technisch gezien niet toegestaan. In de praktijk wordt het gebruik door <strong>toeristen en zakenreizigers gedoogd</strong>.",
+          "Er zijn vrijwel geen gevallen bekend van buitenlandse reizigers die zijn beboet of vervolgd voor het simpelweg gebruiken van een VPN tijdens hun verblijf. De autoriteiten richten zich vooral op het aanbieden en verkopen van illegale VPN-diensten binnen China, niet op individuele gebruikers.",
+          "Voor reizigers betekent dit dat je met een gerust hart een internationale VPN kunt gebruiken om toegang te houden tot je vertrouwde apps en diensten. Houd je wel altijd aan de lokale wetgeving en gebruik je VPN voor legitieme doeleinden."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Gedoogd gebruik",
+          "text": "Toeristen die een internationale VPN gebruiken worden in de praktijk niet vervolgd. De handhaving richt zich op aanbieders, niet op gebruikers."
+        }
+      },
+      {
+        "heading": "Installeer je VPN vóór je vertrek",
+        "body": [
+          "De belangrijkste tip die we niet vaak genoeg kunnen herhalen: <strong>installeer en configureer je VPN voordat je naar China reist</strong>. De Great Firewall blokkeert namelijk ook de websites en app-stores van veel VPN-aanbieders, waardoor downloaden ter plaatse vrijwel onmogelijk is.",
+          "Maak een account aan, download de app op al je apparaten en test of de obfuscatie-functie werkt terwijl je nog thuis bent. Voor specifieke instructies per apparaat kun je onze handleidingen raadplegen voor <a href='/blog/vpn-android-instellen' class='text-blue-600 hover:underline font-medium'>Android</a> en <a href='/blog/vpn-iphone-instellen' class='text-blue-600 hover:underline font-medium'>iPhone</a>.",
+          "Overweeg ook om twee verschillende VPNs te installeren als back-up. Mocht de ene tijdelijk worden geblokkeerd door een verscherping van de firewall, dan heb je altijd een alternatief achter de hand."
+        ],
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Praktische tips voor een stabiele verbinding",
+        "body": [
+          "Eenmaal in China zijn er een paar instellingen die het verschil maken. Schakel altijd de <strong>obfuscatie-modus</strong> in (Obfuscated Servers bij NordVPN, Camouflage bij Surfshark) en test verschillende server-locaties. Servers in Hongkong, Japan, Singapore en de westkust van de VS bieden meestal de beste snelheden vanuit China.",
+          "Activeer ook de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a>, zodat je internetverbinding automatisch wordt verbroken als de VPN even wegvalt. Zo voorkom je dat je echte IP-adres per ongeluk wordt blootgesteld.",
+          "Werkt een server niet meer? Probeer dan een andere locatie of wissel van protocol. De firewall blokkeert soms specifieke servers, waarna een eenvoudige wissel de verbinding weer herstelt. Geduld en flexibiliteit zijn hierbij essentieel."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Test meerdere servers",
+          "text": "Server-locaties dichtbij China zoals Hongkong, Japan en Singapore geven doorgaans de snelste en stabielste verbinding."
+        }
+      },
+      {
+        "heading": "Conclusie: onze aanbeveling voor China",
+        "body": [
+          "Voor wie naar China reist en betrouwbare internettoegang wil behouden, is <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> in 2026 onze topkeuze dankzij de bewezen Obfuscated Servers en stabiele werking. Wil je een voordeliger alternatief met onbeperkt aantal apparaten, dan is Surfshark een uitstekende tweede optie.",
+          "Het allerbelangrijkste blijft de voorbereiding: regel je VPN voor vertrek, test de verbinding thuis en installeer eventueel een back-up. Zo zorg je dat je tijdens je verblijf toegang houdt tot je vertrouwde diensten zonder verrassingen.",
+          "Wil je de opties rustig naast elkaar leggen? Bekijk dan onze volledige <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijking</a> om de beste keuze voor jouw situatie te maken."
+        ],
+        "cta": "nordvpn"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Werkt NordVPN nog in China in 2026?",
+        "answer": "Ja, NordVPN werkt nog in China dankzij de speciale Obfuscated Servers die VPN-verkeer vermommen als regulier internetverkeer. Het is een van de meest betrouwbare opties achter de Great Firewall. Activeer wel altijd de obfuscatie-functie in de instellingen."
+      },
+      {
+        "question": "Is het gebruik van een VPN in China strafbaar voor toeristen?",
+        "answer": "In de praktijk is VPN-gebruik door toeristen gedoogd. Hoewel alleen overheidsgoedgekeurde VPNs officieel zijn toegestaan, worden buitenlandse reizigers vrijwel nooit beboet of vervolgd voor het gebruiken van een internationale VPN tijdens hun verblijf."
+      },
+      {
+        "question": "Waarom moet ik mijn VPN voor vertrek installeren?",
+        "answer": "De Great Firewall blokkeert ook de websites en app-stores van veel VPN-aanbieders, waardoor downloaden in China zelf vrijwel onmogelijk is. Installeer en test je VPN daarom altijd terwijl je nog thuis bent."
+      },
+      {
+        "question": "Welke server-locatie werkt het beste in China?",
+        "answer": "Servers dichtbij China geven meestal de beste snelheden. Probeer locaties in Hongkong, Japan, Singapore of de westkust van de Verenigde Staten. Test meerdere servers, want de firewall blokkeert er soms specifieke."
+      },
+      {
+        "question": "Wat is obfuscatie en waarom is het nodig in China?",
+        "answer": "Obfuscatie verhult je VPN-verkeer zodat het lijkt op gewoon HTTPS-verkeer. Dit is nodig omdat de Great Firewall standaard VPN-protocollen herkent en blokkeert. Zonder obfuscatie werkt een VPN vrijwel niet in China."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "purevpn"
+    ],
+    "relatedSlugs": [
+      "vpn-buitenland-gebruiken",
+      "kill-switch-vpn",
+      "vpn-protocol-vergelijking"
+    ],
+    "tags": [
+      "vpn china",
+      "great firewall",
+      "obfuscatie vpn",
+      "vpn reizen",
+      "vpn buitenland",
+      "nordvpn china"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
