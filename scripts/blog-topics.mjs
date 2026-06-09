@@ -1,32 +1,31 @@
 /**
  * blog-topics.mjs
  *
- * Geprioriteerde lijst van blog-onderwerpen voor vpnr.nl.
- * Geordend op: zoekvolume × affiliate-potentieel × ontbrekende dekking.
+ * Geprioriteerde lijst van BLOG-onderwerpen voor vpnr.nl.
+ * Geordend op: zoekvolume × ontbrekende dekking × affiliate-potentieel.
+ *
+ * REGELS:
+ * - Geen reviews (die staan op /vpn-reviews/[slug])
+ * - Geen onderwerpen die al als use-case bestaan (/beste-vpn/[slug])
+ * - Geen onderwerpen die al als vergelijkingspagina bestaan (/vpn-vergelijken/[slug])
+ * - Geen onderwerpen die al als blogpost bestaan (/blog/[slug])
+ * - Alleen informatieve, uitleg- of how-to blogartikelen
  *
  * Het generate-blog-post.mjs script pakt automatisch het eerste onderwerp
- * waarvan de slug nog niet in posts.ts bestaat.
- * Voeg nieuwe onderwerpen onderaan toe — ze komen vanzelf aan de beurt.
+ * waarvan de slug nog niet bestaat én dat niet overlapt met bestaande pagina's.
+ * Voeg nieuwe onderwerpen toe aan het einde — ze komen vanzelf aan de beurt.
  */
 
 export const BLOG_TOPICS = [
 
-  // ─── HOGE PRIORITEIT: veel volume + directe conversie ──────────────────────
+  // ─── HOGE PRIORITEIT ───────────────────────────────────────────────────────
   {
     keyword: 'vpn china',
     slug: 'vpn-china-gebruiken',
     title: 'VPN gebruiken in China (2026): welke werken nog?',
     category: 'Gids',
     relatedProviders: ['nordvpn', 'surfshark', 'purevpn'],
-    context: 'China blokkeert bijna alle VPNs via de Great Firewall. Bespreek welke VPNs obfuscatie bieden (NordVPN Obfuscated Servers, Surfshark Camouflage). Juridisch kader voor toeristen: gebruik is gedoogd. Praktische tips: installeer voor vertrek, test server-locaties.',
-  },
-  {
-    keyword: 'expressvpn review',
-    slug: 'expressvpn-review',
-    title: 'ExpressVPN review 2026: snelste VPN, maar ook de duurste?',
-    category: 'Review',
-    relatedProviders: ['expressvpn', 'nordvpn', 'surfshark'],
-    context: 'Eerlijke, uitgebreide review. ExpressVPN is premium geprijsd (~€8,32/mnd). Bespreek: Lightway protocol (eigen, snel), 105 landen, TrustedServer (RAM-only), Netflix/streaming-compatibiliteit. Vergelijk snelheid en prijs direct met NordVPN.',
+    context: 'China blokkeert bijna alle VPNs via de Great Firewall. Bespreek welke VPNs obfuscatie bieden (NordVPN Obfuscated Servers, Surfshark Camouflage). Juridisch kader voor toeristen: gebruik is gedoogd. Praktische tips: installeer vóór vertrek, test server-locaties.',
   },
   {
     keyword: 'vpn smart tv instellen',
@@ -42,7 +41,7 @@ export const BLOG_TOPICS = [
     title: 'De gevaren van gratis VPN: waarom je beter betaalt (2026)',
     category: 'Uitleg',
     relatedProviders: ['protonvpn', 'hideme', 'nordvpn'],
-    context: 'Concrete gevaren: datalogging + verkoop aan derden, malware (Hola VPN casus), bandbreedtebeperking, DNS-lekken, zwakke encryptie. Benoem dat ProtonVPN WEL een betrouwbaar gratis plan heeft (geen tijdslimiet, geen logs).',
+    context: 'Concrete gevaren: datalogging + verkoop aan derden, malware (Hola VPN casus), bandbreedtebeperking, DNS-lekken, zwakke encryptie. Benoem dat ProtonVPN WEL een betrouwbaar gratis plan heeft (geen tijdslimiet, geen logs). LET OP: dit is een blog-uitlegartikel, geen review van ProtonVPN.',
   },
   {
     keyword: 'vpn openbaar wifi beveiliging',
@@ -58,7 +57,7 @@ export const BLOG_TOPICS = [
     title: 'VPN instellen op Amazon Firestick (2026): stap voor stap',
     category: 'Gids',
     relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'Fire TV Stick heeft een Android-gebaseerd OS. Methode 1: directe app via Amazon Appstore (NordVPN, Surfshark, CyberGhost staan er allemaal in). Methode 2: sideloading via ADB. Welke werkt het beste voor Netflix US.',
+    context: 'Fire TV Stick heeft een Android-gebaseerd OS. Methode 1: directe app via Amazon Appstore. Methode 2: sideloading via ADB. Welke werkt het beste voor streaming.',
   },
   {
     keyword: 'vpn ipad instellen',
@@ -67,6 +66,14 @@ export const BLOG_TOPICS = [
     category: 'Gids',
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
     context: 'iPad-specifieke handleiding: VPN-app installeren via App Store, handmatige IKEv2-configuratie, VPN aan/uitzetten via Bedieningspaneel. Verschil met iPhone-instelling. Welke VPN het beste werkt op iPadOS.',
+  },
+  {
+    keyword: 'vpn encryptie uitgelegd',
+    slug: 'vpn-encryptie-uitgelegd',
+    title: 'VPN encryptie uitgelegd: hoe werkt AES-256 en wat betekent het? (2026)',
+    category: 'Uitleg',
+    relatedProviders: ['nordvpn', 'protonvpn', 'surfshark'],
+    context: 'Uitleg VPN-encryptie voor gewone gebruikers: AES-256 vs AES-128, symmetrische vs asymmetrische encryptie, handshake, Perfect Forward Secrecy. Welke encryptie NordVPN, Surfshark en ProtonVPN gebruiken. Waarom encryptie praktisch onkraakbaar is.',
   },
   {
     keyword: 'vpn anoniem internetten',
@@ -82,7 +89,7 @@ export const BLOG_TOPICS = [
     title: 'VPN split tunneling uitgelegd: wat is het en wanneer gebruik je het?',
     category: 'Uitleg',
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
-    context: 'Leg uit: bij split tunneling loopt alleen geselecteerd verkeer via VPN. Use cases: Netflix via VPN + thuisbank via lokaal IP. Inverse split tunneling. Welke VPNs dit goed implementeren (NordVPN, Surfshark). Niet beschikbaar op iOS.',
+    context: 'Leg uit: bij split tunneling loopt alleen geselecteerd verkeer via VPN. Use cases: Netflix via VPN + thuisbank via lokaal IP. Inverse split tunneling. Welke VPNs dit goed implementeren. Niet beschikbaar op iOS.',
   },
   {
     keyword: 'dns lek vpn',
@@ -93,30 +100,30 @@ export const BLOG_TOPICS = [
     context: 'Wat is een DNS-lek: jouw ISP ziet welke sites je bezoekt ondanks VPN. Test-tools: ipleak.net, dnsleaktest.com. Oorzaken: Windows Smart Multi-Homed DNS. Fix: DNS over HTTPS inschakelen + VPN met eigen DNS-servers. IPv6-lekken ook bespreken.',
   },
 
-  // ─── MEDIUM PRIORITEIT: gezond volume + goede conversiepotentie ────────────
+  // ─── MEDIUM PRIORITEIT ─────────────────────────────────────────────────────
   {
-    keyword: 'nordvpn vs protonvpn',
+    keyword: 'nordvpn vs protonvpn vergelijking',
     slug: 'nordvpn-vs-protonvpn',
     title: 'NordVPN vs ProtonVPN (2026): snelheid versus privacy',
     category: 'Vergelijking',
     relatedProviders: ['nordvpn', 'protonvpn'],
-    context: 'Head-to-head vergelijking. NordVPN: sneller, groter netwerk, meer features. ProtonVPN: Zwitsers recht, open source, Secure Core servers, sterkere privacygaranties. Vergelijk prijs, streaming-werking, gratis optie.',
+    context: 'Head-to-head vergelijking. NordVPN: sneller, groter netwerk, meer features. ProtonVPN: Zwitsers recht, open source, Secure Core servers, sterkere privacygaranties. Vergelijk prijs, streaming-werking. LET OP: dit is een blog-vergelijkingsartikel, geen review van één provider.',
   },
   {
-    keyword: 'surfshark vs cyberghost',
+    keyword: 'surfshark vs cyberghost vergelijking',
     slug: 'surfshark-vs-cyberghost',
     title: 'Surfshark vs CyberGhost (2026): welke budget-VPN wint?',
     category: 'Vergelijking',
     relatedProviders: ['surfshark', 'cyberghost'],
-    context: 'CyberGhost: 9000+ servers, 45-daagen garantie, gespecialiseerde streaming servers. Surfshark: onbeperkte apparaten, goedkoper bij 2-jaar. Vergelijk Netflix-compatibiliteit, snelheid, privacy (CyberGhost is Roemeens, eigenaar Kape).',
+    context: 'CyberGhost: 9000+ servers, 45-daagen garantie, gespecialiseerde streaming servers. Surfshark: onbeperkte apparaten, goedkoper bij 2-jaar. Vergelijk Netflix-compatibiliteit, snelheid, privacy. LET OP: blog-vergelijking, geen review.',
   },
   {
-    keyword: 'vpn studenten',
+    keyword: 'vpn studenten goedkoop',
     slug: 'beste-vpn-voor-studenten',
     title: 'Beste VPN voor studenten 2026: goedkoop, snel en veilig',
     category: 'Gids',
     relatedProviders: ['surfshark', 'nordvpn', 'protonvpn'],
-    context: 'Studenten zoeken: goedkoop (Surfshark €1,99/mnd), werkt op uni-netwerk (sommige blokkeren VPN-poorten), Netflix US, veilig torrenten voor studiemateriaal, bescherming op openbaar wifi.',
+    context: 'Studenten zoeken: goedkoop (Surfshark €1,99/mnd), werkt op uni-netwerk (sommige blokkeren VPN-poorten), veilig op openbaar wifi, onbeperkte apparaten. Verschil met gratis opties. Concrete aanbevelingen per budget.',
   },
   {
     keyword: 'vpn playstation instellen',
@@ -124,7 +131,7 @@ export const BLOG_TOPICS = [
     title: 'VPN instellen op PS4 en PS5 (2026): zo doe je het',
     category: 'Gids',
     relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'PS4/PS5 heeft geen native VPN-app. Drie methoden: (1) via router, (2) PC als hotspot met gedeelde VPN-verbinding, (3) Mac internet sharing. Voordelen: geo-geblokkeerde games early release, DDoS-bescherming bij online gaming.',
+    context: 'PS4/PS5 heeft geen native VPN-app. Drie methoden: (1) via router, (2) PC als hotspot met gedeelde VPN-verbinding, (3) Mac internet sharing. Voordelen: vroegere game-releases bereiken, DDoS-bescherming bij online gaming.',
   },
   {
     keyword: 'vpn apple tv instellen',
@@ -135,15 +142,7 @@ export const BLOG_TOPICS = [
     context: 'Apple TV 4K (gen 3+) ondersteunt native VPN-apps via tvOS. NordVPN en ProtonVPN hebben een tvOS-app. Voor oudere modellen: SmartDNS of router-methode. Stap-voor-stap instructies.',
   },
   {
-    keyword: 'protonvpn gratis plan',
-    slug: 'protonvpn-gratis-plan',
-    title: 'ProtonVPN gratis: de betrouwbaarste gratis VPN in 2026?',
-    category: 'Review',
-    relatedProviders: ['protonvpn', 'hideme', 'nordvpn'],
-    context: 'ProtonVPN gratis: onbeperkte data (uniek!), 3 serverlanden (NL, VS, JP), geen logs, maar lagere snelheid (wachtrij bij piekuren). Vergelijk met Windscribe (15GB/mnd), hide.me (10GB/mnd). Is het goed genoeg voor dagelijks gebruik?',
-  },
-  {
-    keyword: 'vpn obfuscatie',
+    keyword: 'vpn obfuscatie stealth',
     slug: 'vpn-obfuscatie-uitgelegd',
     title: 'VPN obfuscatie uitgelegd: verberg dat je VPN gebruikt (2026)',
     category: 'Uitleg',
@@ -156,36 +155,36 @@ export const BLOG_TOPICS = [
     title: 'Surfshark korting 2026: bespaar tot 87% op het beste budget-VPN',
     category: 'Deals',
     relatedProviders: ['surfshark', 'nordvpn'],
-    context: 'Actuele Surfshark deal: 24-maanden abonnement voor ~€1,99/mnd (87% korting + 3 gratis maanden). Wanneer zijn de beste deals (Black Friday). Vergelijk met NordVPN-deal. Is Surfshark het waard voor die prijs?',
+    context: 'Actuele Surfshark deal: 24-maanden abonnement voor ~€1,99/mnd (87% korting + 3 gratis maanden). Wanneer zijn de beste deals (Black Friday). Vergelijk met NordVPN-deal. Is Surfshark het waard voor die prijs? Dit is een deals/kortingsartikel, geen review.',
   },
   {
-    keyword: 'netflix us kijken vpn',
-    slug: 'netflix-us-kijken-vpn',
-    title: 'Netflix US kijken met VPN in Nederland (2026): zo doe je het',
-    category: 'Gids',
-    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'Stap-voor-stap: (1) kies juiste VPN, (2) verbind met VS-server, (3) open Netflix in incognitovenster. Foutmelding "proxy gedetecteerd": wisselen van server. Waarom Netflix blokkeert. Content-verschil NL vs US-catalogus.',
+    keyword: 'vpn snelheid verbeteren tips',
+    slug: 'vpn-snelheid-verbeteren',
+    title: 'VPN te traag? 8 tips om je VPN-snelheid te verbeteren (2026)',
+    category: 'Tips',
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    context: 'Praktische tips: (1) gebruik WireGuard/NordLynx protocol, (2) kies dichtstbijzijnde server, (3) schakel split tunneling in, (4) wired vs wifi, (5) sluit achtergrond-apps, (6) probeer een andere server, (7) upgrade je plan, (8) herstart VPN-app. Met uitleg waarom elk helpt.',
   },
   {
-    keyword: 'vpn gaming ping',
-    slug: 'vpn-gaming-minder-lag',
-    title: 'VPN voor gaming: verlaag je ping en speel beschermd (2026)',
-    category: 'Gids',
-    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'Wanneer VPN ping verlaagt (ISP throttling, betere route naar game-server) en wanneer niet (extra hops). DDoS-bescherming. Geo-unlock: vroegere release van games. WireGuard als snelste protocol voor gaming. Praktische test: Fortnite, CoD, Valorant.',
+    keyword: 'vpn legaal nederland',
+    slug: 'vpn-legaal-in-nederland',
+    title: 'Is een VPN legaal in Nederland? Alles wat je moet weten (2026)',
+    category: 'Uitleg',
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    context: 'VPN is volledig legaal in Nederland. Uitleg: wat de wet zegt, wanneer gebruik illegaal KAN worden (illegale activiteiten uitvoeren), hoe providers omgaan met rechtshulpverzoeken, no-logs beleid als bescherming. Vergelijk met landen waar VPN verboden is.',
   },
-
-  // ─── LAGERE PRIORITEIT: long-tail, aanvullende coverage ────────────────────
   {
-    keyword: 'vpn chromebook',
+    keyword: 'vpn chromebook instellen',
     slug: 'vpn-op-chromebook',
     title: 'VPN instellen op Chromebook (2026): app, Linux of ingebouwd',
     category: 'Gids',
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
-    context: 'Drie methoden: (1) Android-app via Play Store, (2) Linux-container via CLI, (3) ingebouwde Chrome OS VPN (L2TP/IKEv2 handmatig). Welke methode het gemakkelijkst is.',
+    context: 'Drie methoden: (1) Android-app via Play Store, (2) Linux-container via CLI, (3) ingebouwde Chrome OS VPN (L2TP/IKEv2 handmatig). Welke methode het gemakkelijkst is en welke de meeste features biedt.',
   },
+
+  // ─── LAGERE PRIORITEIT ─────────────────────────────────────────────────────
   {
-    keyword: 'vpn linux ubuntu',
+    keyword: 'vpn linux ubuntu instellen',
     slug: 'vpn-op-linux-instellen',
     title: 'VPN instellen op Linux (2026): Ubuntu, Debian en Mint',
     category: 'Gids',
@@ -193,15 +192,15 @@ export const BLOG_TOPICS = [
     context: 'NordVPN heeft een goede Linux CLI-client (apt install nordvpn). ProtonVPN ook. Behandel: NetworkManager GUI-methode, WireGuard handmatig instellen. Commando\'s voor Ubuntu/Debian stap voor stap.',
   },
   {
-    keyword: 'vpn no logs',
+    keyword: 'vpn no logs beleid uitgelegd',
     slug: 'vpn-no-logs-beleid',
     title: 'VPN no-logs beleid: wat betekent het echt? (2026)',
     category: 'Uitleg',
     relatedProviders: ['protonvpn', 'nordvpn', 'hideme'],
-    context: 'Verschil: verbindingslogs (tijdstempel, duur) vs activiteitslogs (bezochte sites). Audits: NordVPN door Deloitte, ProtonVPN open source. Rechtszaken: NordVPN kon geen logs overhandigen omdat ze niet bestonden. RAM-only servers.',
+    context: 'Verschil: verbindingslogs (tijdstempel, duur) vs activiteitslogs (bezochte sites). Audits: NordVPN door Deloitte, ProtonVPN open source. Rechtszaken waarbij VPNs logs moesten overhandigen maar niet konden omdat ze niet bestonden. RAM-only servers.',
   },
   {
-    keyword: 'vpn bedrijven zakelijk',
+    keyword: 'vpn zakelijk zzp',
     slug: 'vpn-voor-bedrijven',
     title: 'Beste VPN voor bedrijven en ZZP\'ers (2026)',
     category: 'Gids',
@@ -209,7 +208,7 @@ export const BLOG_TOPICS = [
     context: 'Zakelijke VPN-behoeften: statisch IP, dedicated servers, teams-beheer, AVG-compliance. Behandel NordLayer (zakelijk NordVPN), Proton for Business, Surfshark Teams. Kosten per gebruiker vergelijken.',
   },
   {
-    keyword: 'vpn double vpn',
+    keyword: 'double vpn multi-hop',
     slug: 'double-vpn-uitgelegd',
     title: 'Double VPN uitgelegd: wanneer heb je dubbele beveiliging nodig?',
     category: 'Uitleg',
@@ -217,7 +216,7 @@ export const BLOG_TOPICS = [
     context: 'Multi-hop / double VPN versleutelt twee keer via twee servers. Wanneer zinvol: journalisten, activisten, extreme privacybehoeften. Impact op snelheid (~40-60% trager). Welke VPNs: NordVPN (Dubbele VPN), ProtonVPN (Secure Core).',
   },
   {
-    keyword: 'vpn uitschakelen',
+    keyword: 'vpn uitschakelen tijdelijk',
     slug: 'vpn-uitschakelen-tijdelijk',
     title: 'VPN tijdelijk uitschakelen: wanneer en hoe doe je dat? (2026)',
     category: 'Tips',
@@ -225,71 +224,47 @@ export const BLOG_TOPICS = [
     context: 'Situaties waar je VPN even wilt uitschakelen (online bankieren met strenge verificatie, lokale netwerkapparaten bereiken, snelste verbinding nodig). Hoe op Windows, Mac, iPhone, Android. Split tunneling als slimmere oplossing.',
   },
   {
-    keyword: 'vpn vergelijken prijzen',
+    keyword: 'vpn prijzen vergelijken',
     slug: 'vpn-prijzen-vergelijken-2026',
-    title: 'VPN prijzen vergelijken 2026: overzicht alle abonnementen',
+    title: 'VPN prijzen vergelijken 2026: groot overzicht alle abonnementen',
     category: 'Vergelijking',
     relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
     context: 'Grote vergelijkingstabel: maandprijs, jaarprijs en 2-jaarsprijs van alle grote VPNs (NordVPN, Surfshark, CyberGhost, ProtonVPN, PureVPN, ExpressVPN). Beste keuze per budget-categorie. Verborgen kosten en automatische verlengingen.',
   },
   {
-    keyword: 'vpn werkt niet',
+    keyword: 'vpn werkt niet oplossingen',
     slug: 'vpn-werkt-niet-oplossingen',
-    title: 'VPN werkt niet? 10 oplossingen voor de meest voorkomende problemen (2026)',
+    title: 'VPN werkt niet? 10 oplossingen voor veelvoorkomende problemen (2026)',
     category: 'Tips',
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
-    context: 'Troubleshooting gids: VPN verbindt niet, VPN traag, streaming wordt geblokkeerd, VPN verbreekt steeds de verbinding, DNS-fouten. Oplossingen per platform (Windows, Mac, iPhone, Android) en per VPN-provider.',
+    context: 'Troubleshooting gids: VPN verbindt niet, VPN traag, streaming wordt geblokkeerd, VPN verbreekt steeds de verbinding, DNS-fouten. Oplossingen per platform (Windows, Mac, iPhone, Android) en per scenario.',
   },
   {
-    keyword: 'vpn ipv6 lek',
+    keyword: 'vpn ipv6 lek voorkomen',
     slug: 'vpn-ipv6-lek-voorkomen',
     title: 'IPv6-lek bij VPN: wat is het en hoe fix je het? (2026)',
     category: 'Uitleg',
     relatedProviders: ['nordvpn', 'protonvpn', 'surfshark'],
-    context: 'IPv6 wordt niet altijd via VPN-tunnel gerouteerd, waardoor je echte IPv6-adres zichtbaar blijft. Test op ipleak.net. Fix: IPv6 uitschakelen in Windows/macOS, of kies VPN met native IPv6-ondersteuning (NordVPN, ProtonVPN).',
+    context: 'IPv6 wordt niet altijd via VPN-tunnel gerouteerd, waardoor je echte IPv6-adres zichtbaar blijft. Test op ipleak.net. Fix: IPv6 uitschakelen in Windows/macOS, of kies VPN met native IPv6-ondersteuning.',
   },
   {
-    keyword: 'vpn belgie streamz vtm',
-    slug: 'vpn-belgie-streaming',
-    title: 'VPN voor Belgische streaming (2026): VTM Go, Streamz en Play',
-    category: 'Gids',
-    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'Belgische streamingdiensten zijn geo-gelocked. VTM Go en Streamz vereisen een Belgisch IP-adres. Welke VPN heeft Belgische servers die werken. Stap-voor-stap voor vanuit Nederland kijken naar Belgisch TV-aanbod.',
-  },
-  {
-    keyword: 'vpn poort forwarding',
+    keyword: 'vpn poort forwarding uitleg',
     slug: 'vpn-poort-forwarding',
-    title: 'VPN poort-doorschakeling (port forwarding) uitgelegd (2026)',
+    title: 'VPN poortdoorschakeling (port forwarding) uitgelegd (2026)',
     category: 'Uitleg',
     relatedProviders: ['protonvpn', 'purevpn', 'hideme'],
-    context: 'Port forwarding via VPN voor torrenten (snellere downloads als seed), thuis-server bereikbaar via internet, gaming-servers hosten. Welke VPNs dit ondersteunen: ProtonVPN (ingebouwd), PureVPN, AirVPN. Waarom de meeste VPNs het NIET bieden (security).',
+    context: 'Port forwarding via VPN voor torrenten (snellere downloads als seed), thuis-server bereikbaar via internet, gaming-servers hosten. Welke VPNs dit ondersteunen: ProtonVPN (ingebouwd), PureVPN. Waarom de meeste VPNs het NIET bieden (security).',
   },
   {
-    keyword: 'expressvpn korting',
+    keyword: 'expressvpn korting aanbieding',
     slug: 'expressvpn-korting-2026',
     title: 'ExpressVPN korting 2026: bespaar op de snelste VPN',
     category: 'Deals',
     relatedProviders: ['expressvpn', 'nordvpn', 'surfshark'],
-    context: 'ExpressVPN-deal: 12 maanden + 3 gratis = ~€6,39/mnd (49% korting). Is het de meerprijs waard t.o.v. NordVPN? Wanneer te kopen. Vergelijkingstabel met actuele prijzen van top-VPNs.',
+    context: 'ExpressVPN-deal: 12 maanden + 3 gratis = ~€6,39/mnd (49% korting). Is het de meerprijs waard t.o.v. NordVPN? Wanneer te kopen. Vergelijkingstabel met actuele prijzen van top-VPNs. Dit is een deals/kortingsartikel.',
   },
   {
-    keyword: 'vpn senioren ouderen',
-    slug: 'beste-vpn-voor-senioren',
-    title: 'Beste VPN voor senioren (2026): eenvoudig, veilig en betaalbaar',
-    category: 'Gids',
-    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'Criteria voor 60+: eenvoudige installatie (één klik verbinden), duidelijke app, goede klantenservice (telefoon/chat), geen technische kennis nodig. NordVPN beste keuze (simpelste app), CyberGhost als alternatief (45-daagen garantie).',
-  },
-  {
-    keyword: 'vpn disney plus',
-    slug: 'vpn-disney-plus',
-    title: 'VPN voor Disney+ in 2026: werkt het nog en hoe?',
-    category: 'Gids',
-    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'Disney+ blokkeert actief VPN-verkeer. Welke VPNs werken nog (NordVPN, Surfshark). Welke extra content beschikbaar is in de VS t.o.v. Nederland. Tips bij blokkade-foutmelding. Verschil met Netflix-blokkade.',
-  },
-  {
-    keyword: 'vpn versus tor',
+    keyword: 'vpn vs tor browser verschil',
     slug: 'vpn-vs-tor-browser',
     title: 'VPN vs Tor: verschil, voor/nadelen en wanneer wat te kiezen (2026)',
     category: 'Uitleg',
@@ -297,7 +272,7 @@ export const BLOG_TOPICS = [
     context: 'Vergelijking: VPN (snelheid, één vertrouwde partij) vs Tor (anonimiteit, traag, geen vertrouwde partij). Onion over VPN (NordVPN). VPN over Tor (ProtonVPN Secure Core). Wanneer wat kiezen: journalisten, activisten, dagelijks gebruik.',
   },
   {
-    keyword: 'vpn kopen beginners',
+    keyword: 'vpn kopen beginners gids',
     slug: 'vpn-kopen-gids',
     title: 'VPN kopen in 2026: complete beginnersgids',
     category: 'Gids',
@@ -305,15 +280,15 @@ export const BLOG_TOPICS = [
     context: 'Stap-voor-stap voor beginners: (1) wat heb je nodig? (2) welke criteria zijn belangrijk? (3) top 3 aanbevelingen per budget. Behandel: protocol, no-logs, apparaatlimieten, geld-terug-garantie. Vermijd te technische taal.',
   },
   {
-    keyword: 'vpn snelheid test nederland',
+    keyword: 'vpn snelheid test vergelijken',
     slug: 'vpn-snelheid-vergelijken',
     title: 'VPN snelheidstest 2026: welke VPN is het snelst in Nederland?',
     category: 'Vergelijking',
     relatedProviders: ['nordvpn', 'surfshark', 'expressvpn'],
-    context: 'Snelheidsvergelijking via Nederlandse servers met speedtest.net. Protocols: NordLynx (NordVPN), WireGuard (Surfshark), Lightway (ExpressVPN). Tabel: download, upload, ping. Welk protocol het snelste is per VPN.',
+    context: 'Snelheidsvergelijking via Nederlandse servers. Protocols: NordLynx (NordVPN), WireGuard (Surfshark), Lightway (ExpressVPN). Tabel: download, upload, ping. Welk protocol het snelste is per VPN. Eerlijke testmethode uitleggen.',
   },
   {
-    keyword: 'vpn reisrouter',
+    keyword: 'vpn reisrouter apparaten',
     slug: 'vpn-op-reisrouter',
     title: 'VPN op een reisrouter: alle apparaten tegelijk beveiligd (2026)',
     category: 'Gids',
@@ -321,11 +296,27 @@ export const BLOG_TOPICS = [
     context: 'Reisrouters (GL.iNet Beryl AX, Slate AX) hebben ingebouwde VPN-ondersteuning. Voordelen: geen VPN-app nodig op elk apparaat, werkt ook op Smart TV en spelconsoles. Hoe instellen met NordVPN of Surfshark.',
   },
   {
-    keyword: 'vpn kopen checklist',
+    keyword: 'vpn kopen checklist tips',
     slug: 'vpn-kopen-checklist',
     title: 'VPN kopen checklist 2026: waar moet je op letten?',
     category: 'Gids',
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
-    context: 'Praktische checklist: no-logs beleid (geaudit?), encryptie-standaard (AES-256), protocollen (WireGuard/OpenVPN), kill switch, apparaatlimieten, klantenservice, betaalmethoden (anoniem betalen via crypto). Rode vlaggen bij slechte VPNs.',
+    context: 'Praktische checklist: no-logs beleid (geaudit?), encryptie-standaard (AES-256), protocollen (WireGuard/OpenVPN), kill switch, apparaatlimieten, klantenservice, betaalmethoden. Rode vlaggen bij slechte VPNs.',
+  },
+  {
+    keyword: 'vpn browser extensie verschil',
+    slug: 'vpn-browser-extensie-vs-app',
+    title: 'VPN browser-extensie vs VPN-app: wat is het verschil? (2026)',
+    category: 'Uitleg',
+    relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
+    context: 'Browser-extensie beschermt alleen browserverkeer (HTTP/HTTPS), niet andere apps. VPN-app beschermt al het verkeer op het apparaat. Wanneer extensie voldoende is, wanneer je de volledige app nodig hebt. WebRTC-lekken bij extensies.',
+  },
+  {
+    keyword: 'vpn kinderen familie veilig',
+    slug: 'vpn-voor-kinderen-familie',
+    title: 'VPN voor het gezin: bescherm je kinderen online (2026)',
+    category: 'Gids',
+    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
+    context: 'Waarom gezinnen een VPN gebruiken: bescherming op openbaar wifi, privacy voor kinderen, blokkering van schadelijke content (NordVPN Threat Protection, Surfshark CleanWeb). Hoe instellen op meerdere apparaten tegelijk. Gratis vs betaalde opties.',
   },
 ]

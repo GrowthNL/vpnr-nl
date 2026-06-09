@@ -61,20 +61,61 @@ function formatISO(date) {
   return date.toISOString().split('T')[0]
 }
 
-// Haal alle bestaande slugs op uit posts.ts
-function getExistingSlugs(postsContent) {
+// Haal alle bestaande blog-slugs op uit posts.ts
+function getExistingBlogSlugs(postsContent) {
   const matches = [...postsContent.matchAll(/\bslug:\s*["']([^"']+)["']/g)]
   return new Set(matches.map((m) => m[1]))
 }
 
-// Haal alle bestaande blog-slugs op (voor de internal-links lijst in de prompt)
-function getBlogSlugList(postsContent) {
-  const matches = [...postsContent.matchAll(/\bslug:\s*["']([^"']+)["']/g)]
-  return matches
-    .map((m) => m[1])
-    .filter((s) => !s.includes('/'))
-    .map((s) => `- /blog/${s}`)
-    .join('\n')
+// Lees slugs uit een willekeurig TypeScript content-bestand
+function readSlugsFromFile(filePath) {
+  try {
+    const content = readFileSync(filePath, 'utf8')
+    return [...content.matchAll(/\bslug:\s*["']([^"']+)["']/g)].map((m) => m[1])
+  } catch {
+    return []
+  }
+}
+
+// Bouw een volledig overzicht van ALLE bestaande pagina's op de site
+function getAllExistingPages(root) {
+  const pages = []
+
+  // Blog posts
+  const blogSlugs = readSlugsFromFile(path.join(root, 'content/posts.ts'))
+  blogSlugs.forEach((s) => pages.push({ slug: s, url: `/blog/${s}`, type: 'blog' }))
+
+  // Provider review-pagina's
+  const providerSlugs = readSlugsFromFile(path.join(root, 'content/providers/index.ts'))
+  providerSlugs.forEach((s) => pages.push({ slug: s, url: `/vpn-reviews/${s}`, type: 'review' }))
+
+  // Use-case pagina's
+  const usecaseSlugs = readSlugsFromFile(path.join(root, 'content/usecases.ts'))
+  usecaseSlugs.forEach((s) => pages.push({ slug: s, url: `/beste-vpn/${s}`, type: 'usecase' }))
+
+  // Vergelijkingspagina's
+  const comparisonSlugs = readSlugsFromFile(path.join(root, 'content/comparisons.ts'))
+  comparisonSlugs.forEach((s) => pages.push({ slug: s, url: `/vpn-vergelijken/${s}`, type: 'comparison' }))
+
+  return pages
+}
+
+// Check of een topic-slug al bestaat op ENIGE pagina (niet alleen blog)
+function findExistingPage(topicSlug, allPages) {
+  return allPages.find((p) => p.slug === topicSlug) ?? null
+}
+
+// Eenvoudige keyword-overlap check: zijn 2+ kernwoorden (>4 tekens) al gedekt?
+function hasKeywordOverlap(topicKeyword, allPages) {
+  const words = topicKeyword.toLowerCase().split(/\s+/).filter((w) => w.length > 4)
+  if (words.length === 0) return null
+
+  for (const page of allPages) {
+    const pageText = page.slug.toLowerCase().replace(/-/g, ' ')
+    const matches = words.filter((w) => pageText.includes(w))
+    if (matches.length >= 2) return page
+  }
+  return null
 }
 
 // ─── ANTHROPIC API ───────────────────────────────────────────────────────────
@@ -112,16 +153,13 @@ async function callAnthropic(systemPrompt, userPrompt) {
 
 // ─── PROMPT BUILDER ──────────────────────────────────────────────────────────
 
-function buildSystemPrompt(existingSlugs) {
-  const blogLinks = getBlogSlugList(
-    [...existingSlugs].map((s) => `slug: '${s}'`).join('\n')
-  )
-
-  // Bouw een leesbare lijst van bestaande blog-slugs voor internal linking
-  const existingBlogLinks = [...existingSlugs]
-    .filter((s) => !s.includes('/'))
-    .map((s) => `/blog/${s}`)
+function buildSystemPrompt(allPages) {
+  const blogLinks = allPages
+    .filter((p) => p.type === 'blog')
+    .map((p) => p.url)
     .join('\n    ')
+
+  const existingBlogLinks = blogLinks
 
   return `Je bent een ervaren Nederlandse SEO-contentschrijver voor vpnr.nl, een onafhankelijke VPN-vergelijkingssite voor de Nederlandse markt (Amsterdam/Nederland).
 
@@ -279,15 +317,30 @@ async function main() {
     process.exit(1)
   }
 
-  // Lees bestaande posts
+  // Lees ALLE bestaande pagina's (blog + reviews + use-cases + vergelijkingen)
   const postsPath = path.join(ROOT, 'content', 'posts.ts')
   const postsContent = readFileSync(postsPath, 'utf8')
-  const existingSlugs = getExistingSlugs(postsContent)
+  const allPages = getAllExistingPages(ROOT)
+  const blogSlugs = getExistingBlogSlugs(postsContent)
 
-  console.log(`📚  Bestaande posts: ${existingSlugs.size}`)
+  console.log(`📚  Bestaande pagina's: ${allPages.length} totaal`)
+  console.log(`   Blog: ${allPages.filter(p => p.type === 'blog').length}  |  Reviews: ${allPages.filter(p => p.type === 'review').length}  |  Use-cases: ${allPages.filter(p => p.type === 'usecase').length}  |  Vergelijkingen: ${allPages.filter(p => p.type === 'comparison').length}`)
 
-  // Kies het volgende onderwerp
-  const topic = BLOG_TOPICS.find((t) => !existingSlugs.has(t.slug))
+  // Kies het volgende onderwerp — sla over als slug al bestaat OP ENIGE pagina
+  let topic = null
+  for (const candidate of BLOG_TOPICS) {
+    const exactMatch = findExistingPage(candidate.slug, allPages)
+    if (exactMatch) {
+      console.log(`⏭️   Overgeslagen (bestaat al als ${exactMatch.type}): ${exactMatch.url}`)
+      continue
+    }
+    const overlap = hasKeywordOverlap(candidate.keyword, allPages)
+    if (overlap) {
+      console.log(`⚠️   Mogelijke overlap voor "${candidate.keyword}" met ${overlap.url} — toch schrijven (andere invalshoek)`)
+    }
+    topic = candidate
+    break
+  }
 
   if (!topic) {
     console.log('🎉  Alle onderwerpen zijn al geschreven!')
@@ -302,7 +355,7 @@ async function main() {
 
   // Genereer blogcontent via Anthropic
   console.log('\n🤖  Anthropic API aanroepen...')
-  const systemPrompt = buildSystemPrompt(existingSlugs)
+  const systemPrompt = buildSystemPrompt(allPages)
   const userPrompt = buildUserPrompt(topic)
 
   let rawOutput
