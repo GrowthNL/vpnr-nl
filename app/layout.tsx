@@ -61,7 +61,7 @@ const organizationSchema = {
   description: 'Onafhankelijke VPN-vergelijkingssite voor de Nederlandse markt.',
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'contact@vpnr.nl',
+    email: 'info@growthmedia.nl',
     contactType: 'customer support',
     availableLanguage: 'Dutch',
   },

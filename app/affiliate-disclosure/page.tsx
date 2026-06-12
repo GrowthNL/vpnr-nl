@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure | vpnr.nl',
   description: 'Informatie over affiliate links en commissies op vpnr.nl.',
+  alternates: { canonical: 'https://vpnr.nl/affiliate-disclosure' },
 }
 
 export default function AffiliateDisclosurePage() {

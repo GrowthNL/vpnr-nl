@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Privacybeleid | vpnr.nl',
   description: 'Het privacybeleid van vpnr.nl, hoe wij omgaan met jouw gegevens.',
+  alternates: { canonical: 'https://vpnr.nl/privacy-policy' },
 }
 
 export default function PrivacyPolicyPage() {
