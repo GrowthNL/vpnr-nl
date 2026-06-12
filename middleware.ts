@@ -12,6 +12,16 @@ export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
   const host = request.headers.get('host') ?? ''
 
+  // Canonicalisatie: forceer non-www (www.vpnr.nl → vpnr.nl) met een 301.
+  // Voorkomt dubbele www/non-www URLs in Google's index.
+  if (host.startsWith('www.')) {
+    const url = new URL(request.url)
+    url.host = host.slice(4)
+    url.protocol = 'https:'
+    url.port = ''
+    return NextResponse.redirect(url, 301)
+  }
+
   // Blokkeer indexering van Vercel preview/deployment URLs
   if (isVercelUrl(host)) {
     // Geef een disallow-all robots.txt terug voor de Vercel URL
