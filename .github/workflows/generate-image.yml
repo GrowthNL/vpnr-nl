@@ -1,0 +1,78 @@
+name: Genereer blogpost afbeelding
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Blog slug (bijv. vpn-smart-tv-instellen)'
+        required: true
+        type: string
+      title:
+        description: 'Blogtitel'
+        required: true
+        type: string
+      subject:
+        description: 'Onderwerp / context voor de afbeelding'
+        required: false
+        default: ''
+        type: string
+      category:
+        description: 'Categorie (Gids, Tips, Uitleg, Deals, Vergelijking)'
+        required: false
+        default: 'Gids'
+        type: string
+
+jobs:
+  generate-image:
+    name: Genereer afbeelding via GPT Image 2
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Genereer afbeelding
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          node scripts/generate-blog-image.mjs \
+            "${{ github.event.inputs.slug }}" \
+            "${{ github.event.inputs.title }}" \
+            "${{ github.event.inputs.subject || github.event.inputs.title }}" \
+            "${{ github.event.inputs.category }}"
+
+      - name: Update image-extensie in posts.ts (svg → jpg)
+        run: |
+          SLUG="${{ github.event.inputs.slug }}"
+          if [ -f "public/blog/${SLUG}.jpg" ]; then
+            sed -i "s|/blog/${SLUG}.svg|/blog/${SLUG}.jpg|g" content/posts.ts
+            echo "✅  Extensie bijgewerkt: .svg → .jpg"
+          else
+            echo "ℹ️   Geen .jpg gegenereerd, SVG blijft staan"
+          fi
+
+      - name: Commit en push
+        run: |
+          git config user.name "vpnr.nl Blog Bot"
+          git config user.email "bot@vpnr.nl"
+          git add public/blog/ content/posts.ts || true
+          if git diff --staged --quiet; then
+            echo "ℹ️   Geen wijzigingen"
+            exit 0
+          fi
+          git commit -m "Afbeelding: ${{ github.event.inputs.slug }} (GPT Image 2)"
+          for i in 1 2 3 4; do
+            git push origin main && break
+            sleep $i
+          done
