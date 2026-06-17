@@ -1744,6 +1744,116 @@ export const posts: BlogPost[] = [
       "nordvpn china"
     ]
   },
+
+  // ─── POST 17: VPN op Smart TV ─────────────────────────────────────────────
+  {
+    slug: 'vpn-smart-tv-instellen',
+    title: 'VPN instellen op Smart TV (2026): Samsung, LG en Android TV',
+    metaTitle: 'VPN instellen op Smart TV (2026) | Samsung, LG, Android TV | vpnr.nl',
+    metaDescription: 'VPN instellen op je Smart TV: stap-voor-stap voor Android TV, Samsung Tizen en LG webOS. Directe app, SmartDNS of via router — welke methode past bij jou?',
+    excerpt: 'Een VPN op je Smart TV instellen is makkelijker dan je denkt. Via een app, SmartDNS of via je router bescherm je je kijkgedrag en ontgrendel je buitenlandse streamingcontent.',
+    category: 'Gids',
+    date: '17 juni 2026',
+    dateISO: '2026-06-17',
+    updatedISO: '2026-06-17',
+    readTime: '7 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/vpn-smart-tv-instellen.svg',
+    imageAlt: 'VPN instellen op Smart TV in de woonkamer, Samsung televisie met VPN-app scherm',
+    intro: 'Een VPN instellen op je Smart TV opent een wereld aan mogelijkheden: buitenlandse Netflix-catalogi, geo-geblokkeerde diensten en betere privacy bij het kijken. Maar anders dan op je telefoon heeft een Smart TV vaak geen directe VPN-app. In deze gids bespreken we drie methoden: een directe app (voor Android TV en Google TV), SmartDNS (voor Samsung en LG) en de universele router-methode.',
+    sections: [
+      {
+        heading: 'Waarom een VPN op je Smart TV?',
+        body: [
+          'De meeste Smart TVs zijn verbonden met het internet maar bieden weinig privacy. Je kijkgedrag, zoekopdrachten en IP-adres zijn zichtbaar voor je provider, de TV-fabrikant én de streamingdiensten die je gebruikt. Samsung en LG verzamelen standaard gebruiksdata, tenzij je dit expliciet uitschakelt.',
+          'Een VPN op je Smart TV lost meerdere problemen tegelijk op. Je verbergt je IP-adres en locatie, waardoor je toegang krijgt tot content die in Nederland niet beschikbaar is — denk aan de Amerikaanse Netflix-catalogus, BBC iPlayer of Streamz uit België. Bovendien ben je beter beschermd op openbare netwerken, handig als je een TV meeneemt naar een vakantiepark of hotel.',
+          'Het nadeel: Smart TVs zijn gesloten systemen. Alleen Android TV en Google TV ondersteunen directe VPN-apps. Samsung (Tizen OS) en LG (webOS) niet — daar moet je een omweg nemen via SmartDNS of de router.',
+        ],
+        highlight: {
+          title: 'Welke methode past bij jou?',
+          text: 'Android TV of Google TV → directe VPN-app. Samsung of LG → SmartDNS. Elk merk → via de router (vereist VPN-compatibele router).',
+        },
+      },
+      {
+        heading: 'Methode 1: VPN-app direct op Android TV of Google TV',
+        body: [
+          'Android TV en Google TV (gebruikt op Sony, TCL, Nvidia Shield en Chromecast met Google TV) draaien op Android en hebben toegang tot de Google Play Store. Hierdoor kun je VPN-apps direct installeren, net zoals op je telefoon.',
+          '<strong>Stap 1:</strong> Open de Google Play Store op je TV. Zoek op de naam van je VPN-provider, bijvoorbeeld "NordVPN" of "Surfshark".',
+          '<strong>Stap 2:</strong> Download en installeer de app. Log in met je bestaande account — je hebt geen apart TV-abonnement nodig.',
+          '<strong>Stap 3:</strong> Kies een serverlocatie. Voor Netflix US kies je een Amerikaanse server. Voor BBC iPlayer een server in het Verenigd Koninkrijk.',
+          '<strong>Stap 4:</strong> Verbinden. Je TV is nu beveiligd. Open je streamingapp en geniet van de uitgebreide catalogus.',
+          '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> en <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> hebben beiden een volwaardige Android TV-app met interface aangepast voor afstandsbediening. <a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> heeft speciale streaming-geoptimaliseerde servers die je per land kunt kiezen.',
+        ],
+        cta: 'nordvpn',
+      },
+      {
+        heading: 'Methode 2: SmartDNS voor Samsung (Tizen) en LG (webOS)',
+        body: [
+          'Samsung Smart TVs draaien op Tizen OS en LG-toestellen op webOS. Geen van beide ondersteunt directe VPN-apps. De eenvoudigste oplossing is <strong>SmartDNS</strong>: je wijzigt de DNS-instellingen van je TV zodat streamingdiensten denken dat je in een ander land bent.',
+          'SmartDNS verbergt je IP-adres niet volledig en versleutelt je verbinding niet — het is dus geen volwaardige VPN. Maar voor het ontgrendelen van streamingcontent werkt het uitstekend en heeft het vrijwel geen invloed op je kijksnelheid.',
+          '<strong>SmartDNS instellen op Samsung TV:</strong> Ga naar <em>Instellingen → Algemeen → Netwerk → Netwerkstatus → IP-instellingen</em>. Verander "DNS-instelling" van automatisch naar handmatig. Voer het SmartDNS-adres van je VPN-provider in.',
+          '<strong>SmartDNS instellen op LG webOS:</strong> Ga naar <em>Instellingen → Netwerk → Geavanceerde wifi-instellingen → DNS-server</em>. De verdere stappen zijn identiek. Herstart je streamingapp na het opslaan.',
+          'NordVPN en Surfshark bieden SmartDNS aan bij elk betaald abonnement zonder meerkosten. Activeer SmartDNS eerst in je accountdashboard — je thuisadres moet geregistreerd zijn bij de provider.',
+        ],
+        highlight: {
+          title: 'Belangrijk voor SmartDNS',
+          text: 'Registreer je thuisadres eerst in het VPN-accountdashboard voordat je de DNS-instellingen op de TV aanpast. Zonder registratie werkt SmartDNS niet.',
+        },
+      },
+      {
+        heading: 'Methode 3: VPN via de router (werkt op alle Smart TVs)',
+        body: [
+          'De meest universele methode: installeer de VPN op je router. Elk apparaat dat via die router verbinding maakt — inclusief je Smart TV, ongeacht het merk — is dan automatisch via de VPN beschermd.',
+          'Het voordeel: je hoeft niets in te stellen op de TV zelf en alle apparaten in huis zijn in één keer beveiligd. Het nadeel: je router moet VPN-ondersteuning hebben. Routers van je internetprovider (KPN, Ziggo, Odido) ondersteunen dit vrijwel nooit.',
+          'Je hebt een eigen router nodig met firmware zoals DD-WRT, Asus Merlin of OpenWRT — of een router die natively WireGuard ondersteunt. Populaire opties zijn de <strong>Asus RT-AX88U</strong> (natively VPN-ready) of de <strong>GL.iNet Beryl AX</strong> (compacte reisrouter met ingebouwde VPN).',
+          'Lees onze uitgebreide handleiding voor alle details: <a href="/blog/vpn-router-instellen" class="text-blue-600 hover:underline font-medium">VPN instellen op je router</a>.',
+        ],
+        cta: 'surfshark',
+      },
+      {
+        heading: 'Welke VPN is het beste voor Smart TV in 2026?',
+        body: [
+          'Niet elke VPN is even geschikt voor gebruik op een televisie. Dit zijn de drie beste opties:',
+          '<strong><a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> — Beste overall:</strong> Volledige Android TV-app, SmartDNS inbegrepen, snelle NordLynx-verbindingen voor 4K-streaming en betrouwbare werking met Netflix US, Disney+ en BBC iPlayer.',
+          '<strong><a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> — Beste voor meerdere TVs:</strong> Onbeperkt aantal apparaten gelijktijdig, scherpe prijs (€2,19/maand bij 2 jaar), Android TV-app én SmartDNS beschikbaar.',
+          '<strong><a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> — Beste streaming-servers:</strong> Speciale servers geoptimaliseerd voor Netflix, Disney+ en Amazon Prime per land, met Android TV-app en uitstekende router-ondersteuning.',
+        ],
+        table: {
+          headers: ['VPN', 'Android TV-app', 'SmartDNS', 'Router-ondersteuning', 'Prijs/mnd'],
+          rows: [
+            ['NordVPN', '✓', '✓', '✓', '€3,39'],
+            ['Surfshark', '✓', '✓', '✓', '€2,19'],
+            ['CyberGhost', '✓', '✗', '✓', '€2,19'],
+          ],
+        },
+      },
+    ],
+    faqs: [
+      {
+        question: 'Kan ik een VPN instellen op elke Smart TV?',
+        answer: 'Niet via een directe app. Android TV en Google TV ondersteunen VPN-apps via de Play Store. Samsung (Tizen) en LG (webOS) niet — daarvoor gebruik je SmartDNS of de router-methode. De router-methode werkt op elke Smart TV, ongeacht het merk of besturingssysteem.',
+      },
+      {
+        question: 'Vertraagt een VPN de streamingkwaliteit op mijn Smart TV?',
+        answer: 'Een goede VPN heeft minimale impact op je snelheid. Via WireGuard of NordLynx haal je makkelijk 100–500 Mbps — ruim voldoende voor 4K-streaming (vereist circa 25 Mbps). Kies een server dichtbij voor de beste snelheid. SmartDNS heeft vrijwel geen snelheidsinvloed omdat er geen encryptie plaatsvindt.',
+      },
+      {
+        question: 'Werkt Netflix US via een VPN op mijn Smart TV?',
+        answer: 'Ja, maar Netflix detecteert bekende VPN-servers actief. Je hebt een VPN nodig met servers die speciaal geoptimaliseerd zijn voor Netflix. NordVPN en Surfshark werken in 2026 betrouwbaar met Netflix US. Krijg je een foutmelding? Clear de Netflix-app cache of probeer een andere server in hetzelfde land.',
+      },
+      {
+        question: 'Wat is het verschil tussen SmartDNS en een echte VPN voor mijn TV?',
+        answer: 'SmartDNS verandert alleen je DNS-server zodat streamingdiensten je locatie anders zien. Het versleutelt je verbinding niet en verbergt je IP-adres niet volledig. Een volledige VPN doet dat wel. SmartDNS is sneller en ideaal als je alleen streamingcontent wilt ontgrendelen. Een VPN geeft meer privacy én streaming-voordelen, maar vereist een Android TV-app of router.',
+      },
+      {
+        question: 'Hoeveel apparaten kan ik gelijktijdig verbinden met één VPN-abonnement?',
+        answer: 'Dat verschilt per provider. NordVPN staat 10 gelijktijdige verbindingen toe, Surfshark heeft geen limiet. Als je een VPN op je router installeert, telt het hele thuisnetwerk als één verbinding — ongeacht hoeveel TVs, telefoons en computers erachter zitten.',
+      },
+    ],
+    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
+    relatedSlugs: ['vpn-router-instellen', 'netflix-vpn-werkt-niet', 'vpn-android-instellen'],
+    tags: ['vpn smart tv', 'vpn samsung tv', 'vpn lg tv', 'vpn android tv', 'smartdns tv', 'vpn instellen televisie'],
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
