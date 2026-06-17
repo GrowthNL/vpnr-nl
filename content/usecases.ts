@@ -27,8 +27,8 @@ export const usecases: UseCase[] = [
     intro:
       'Netflix blokkeert actief VPN-servers. Niet elke VPN werkt meer betrouwbaar. Wij testen dagelijks welke VPN\'s de Netflix-blokkade omzeilen en toegang geven tot Netflix US, UK, Canada, Japan en meer dan 15 andere regio\'s.',
     verdict:
-      'NordVPN is de beste VPN voor Netflix in 2026. Het werkt consistent met Netflix US, UK, Canada, Japan en meer dan 15 andere regio\'s dankzij gespecialiseerde streamingservers en snelle IP-rotatie. Surfshark is het beste betaalbare alternatief. ExpressVPN is de snelste optie maar ook de duurste. Alle drie bieden een 30-daagse geld-terug-garantie zodat je risicovrij kunt proberen.',
-    topProviders: ['nordvpn', 'surfshark', 'expressvpn'],
+      'NordVPN is de beste VPN voor Netflix in 2026. Het werkt consistent met Netflix US, UK, Canada, Japan en meer dan 15 andere regio\'s dankzij gespecialiseerde streamingservers en snelle IP-rotatie. Surfshark is het beste betaalbare alternatief. CyberGhost biedt speciale Netflix-geoptimaliseerde servers per land en is ideaal voor gebruikers die snel de juiste server willen vinden. Alle drie bieden een 30-daagse geld-terug-garantie zodat je risicovrij kunt proberen.',
+    topProviders: ['nordvpn', 'surfshark', 'cyberghost'],
     keyFeature: 'Betrouwbare ontgrendeling van Netflix US, UK, Canada en Japan',
     tips: [
       'Kies altijd een server in het land waarvan je de Netflix-bibliotheek wil bekijken, bijv. "United States" voor Netflix US',
@@ -108,8 +108,8 @@ export const usecases: UseCase[] = [
     intro:
       'Streamingdiensten zijn geografisch beperkt: BBC iPlayer is alleen in het VK, Peacock en Hulu alleen in de VS. Met de juiste VPN kijk je al deze diensten gewoon vanuit Nederland. Wij testen welke VPN het meest betrouwbaar werkt met de populairste streamingplatforms.',
     verdict:
-      'NordVPN is de beste all-round VPN voor streaming in 2026: het werkt met Netflix, Disney+, HBO Max, BBC iPlayer, Peacock en Hulu. ExpressVPN is de beste keuze als BBC iPlayer je prioriteit is. Surfshark biedt de meeste waarde voor meerdere streamingdiensten tegelijk. Alle drie hebben apps voor Smart TV, Fire TV Stick, Apple TV en Android TV.',
-    topProviders: ['nordvpn', 'expressvpn', 'surfshark'],
+      'NordVPN is de beste all-round VPN voor streaming in 2026: het werkt met Netflix, Disney+, HBO Max, BBC iPlayer, Peacock en Hulu. CyberGhost heeft streaming-geoptimaliseerde servers per dienst en land, ideaal voor gebruikers die snel willen schakelen tussen platforms. Surfshark biedt de meeste waarde voor meerdere streamingdiensten tegelijk. Alle drie hebben apps voor Smart TV, Fire TV Stick, Apple TV en Android TV.',
+    topProviders: ['nordvpn', 'surfshark', 'cyberghost'],
     keyFeature: 'Werkt met Disney+, HBO Max, BBC iPlayer, Peacock en Hulu',
     tips: [
       'Kies een server in het land van de streamingdienst die je wil kijken, bijv. UK voor BBC iPlayer',
@@ -270,8 +270,8 @@ export const usecases: UseCase[] = [
     intro:
       'Een VPN voor gaming heeft twee hoofddoelen: DDoS-bescherming en toegang tot games die eerder uitkomen in andere regio\'s. De juiste VPN heeft minimale impact op je ping en kan je verbinding zelfs verbeteren als je ISP gameverkeer throttlet. Wij testen welke VPN het beste scoort voor Nederlandse gamers.',
     verdict:
-      'NordVPN is de beste VPN voor gaming in Nederland. Met servers in Amsterdam en Frankfurt blijft de extra latency onder de 10ms. ExpressVPN is de beste keuze voor console gaming (PS5, Xbox) dankzij de ingebouwde Smart DNS feature. Surfshark is het beste budget-alternatief met onbeperkte apparaten, ideaal als je op meerdere platforms speelt.',
-    topProviders: ['nordvpn', 'expressvpn', 'surfshark'],
+      'NordVPN is de beste VPN voor gaming in Nederland. Met servers in Amsterdam en Frankfurt blijft de extra latency onder de 10ms. Surfshark is het beste budget-alternatief met onbeperkte apparaten, ideaal als je op meerdere platforms speelt. CyberGhost heeft geoptimaliseerde gaming-servers in meer dan 100 landen en is ook geschikt voor consolegaming via de router.',
+    topProviders: ['nordvpn', 'surfshark', 'cyberghost'],
     keyFeature: 'Lage latency (<10ms extra), DDoS-bescherming, geo-unlock van games',
     tips: [
       'Verbind altijd met de server die geografisch het dichtst bij de gameserver ligt voor minimale ping',
