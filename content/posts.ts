@@ -1770,6 +1770,7 @@ export const posts: BlogPost[] = [
           'Het nadeel: Smart TVs zijn gesloten systemen. Alleen Android TV en Google TV ondersteunen directe VPN-apps. Samsung (Tizen OS) en LG (webOS) niet — daar moet je een omweg nemen via SmartDNS of de router.',
         ],
         highlight: {
+          type: 'tip',
           title: 'Welke methode past bij jou?',
           text: 'Android TV of Google TV → directe VPN-app. Samsung of LG → SmartDNS. Elk merk → via de router (vereist VPN-compatibele router).',
         },
@@ -1796,6 +1797,7 @@ export const posts: BlogPost[] = [
           'NordVPN en Surfshark bieden SmartDNS aan bij elk betaald abonnement zonder meerkosten. Activeer SmartDNS eerst in je accountdashboard — je thuisadres moet geregistreerd zijn bij de provider.',
         ],
         highlight: {
+          type: 'warning',
           title: 'Belangrijk voor SmartDNS',
           text: 'Registreer je thuisadres eerst in het VPN-accountdashboard voordat je de DNS-instellingen op de TV aanpast. Zonder registratie werkt SmartDNS niet.',
         },
