@@ -18,7 +18,7 @@ export interface VPNProvider {
     maandelijks: number
     jaarlijks: number
     tweeJaar: number | null
-    gratisPeriode: string | null  // bijv. "30 dagen geld-terug-garantie"
+    gratisPeriode: string | null
   }
 
   features: {
@@ -39,6 +39,16 @@ export interface VPNProvider {
   nadelen: string[]
   verdict: string
 
-  lastUpdated: string     // "mei 2026" — zichtbaar op de pagina
-  lastUpdatedISO: string  // "2026-05-25" — voor JSON-LD schema
+  sections?: {
+    heading: string
+    body: string[]
+  }[]
+
+  faqs?: {
+    question: string
+    answer: string
+  }[]
+
+  lastUpdated: string
+  lastUpdatedISO: string
 }

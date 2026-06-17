@@ -21,12 +21,12 @@ export async function generateMetadata({
   const p = getProvider(slug)
   if (!p) return {}
   return {
-    title: `${p.naam} Review 2026 | Eerlijk Getest`,
-    description: `Lees onze uitgebreide ${p.naam} review. Score: ${p.scores.overall}/10. Vanaf €${p.prijzen.tweeJaar ?? p.prijzen.jaarlijks}/maand. ${p.prijzen.gratisPeriode}.`,
+    title: `${p.naam} Review 2026 | Getest op Snelheid, Privacy & Streaming`,
+    description: `Lees onze uitgebreide ${p.naam} review 2026. Score: ${p.scores.overall}/10. Getest op snelheid, beveiliging en Netflix. Vanaf €${p.prijzen.tweeJaar ?? p.prijzen.jaarlijks}/maand. ${p.prijzen.gratisPeriode ?? ''}.`,
     alternates: { canonical: `https://vpnr.nl/vpn-reviews/${slug}` },
     openGraph: {
-      title: `${p.naam} Review 2026, Score ${p.scores.overall}/10`,
-      description: `Onze eerlijke ${p.naam} review: snelheid, beveiliging, prijs en gebruiksgemak getest. Lees of ${p.naam} de beste VPN is voor jou.`,
+      title: `${p.naam} Review 2026 — Score ${p.scores.overall}/10 | vpnr.nl`,
+      description: `Onze eerlijke ${p.naam} review: snelheid, beveiliging, streaming en prijs getest. Is ${p.naam} de beste VPN voor jou in 2026?`,
       url: `https://vpnr.nl/vpn-reviews/${slug}`,
       type: 'article',
     },
@@ -72,7 +72,7 @@ export default async function ReviewPage({
         '@type': 'Offer',
         price: p.prijzen.tweeJaar ?? p.prijzen.jaarlijks,
         priceCurrency: 'EUR',
-        url: p.affiliateLink,
+        url: `https://vpnr.nl/vpn-reviews/${p.slug}`,
       },
     },
   }
@@ -83,19 +83,27 @@ export default async function ReviewPage({
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://vpnr.nl' },
       { '@type': 'ListItem', position: 2, name: 'VPN Reviews', item: 'https://vpnr.nl/vpn-reviews' },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: `${p.naam} Review`,
-        item: `https://vpnr.nl/vpn-reviews/${p.slug}`,
-      },
+      { '@type': 'ListItem', position: 3, name: `${p.naam} Review`, item: `https://vpnr.nl/vpn-reviews/${p.slug}` },
     ],
   }
+
+  const faqSchema = p.faqs && p.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: p.faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+      }
+    : null
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <JsonLd data={reviewSchema} />
       <JsonLd data={breadcrumbSchema} />
+      {faqSchema && <JsonLd data={faqSchema} />}
 
       {/* Breadcrumb */}
       <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2">
@@ -115,7 +123,6 @@ export default async function ReviewPage({
             </div>
             <h1 className="text-4xl font-black text-gray-900 mb-2">{p.naam} Review 2026</h1>
             <p className="text-gray-500 text-lg">{p.tagline}</p>
-            {/* Bijgewerkt datum */}
             <div className="flex items-center gap-1.5 mt-2 text-xs text-gray-400">
               <Calendar className="w-3.5 h-3.5" />
               <span>Bijgewerkt: <strong className="text-gray-600">{p.lastUpdated}</strong></span>
@@ -189,7 +196,7 @@ export default async function ReviewPage({
 
       {/* Prijzen */}
       <h2 className="text-2xl font-black text-gray-900 mt-10 mb-4">Prijzen & Abonnementen</h2>
-      <div className="grid grid-cols-3 gap-3 mb-8">
+      <div className="grid grid-cols-3 gap-3 mb-4">
         {[
           { label: 'Per maand', price: p.prijzen.maandelijks, note: 'Geen contract' },
           { label: '1 jaar', price: p.prijzen.jaarlijks, note: 'Populairst' },
@@ -205,7 +212,7 @@ export default async function ReviewPage({
       </div>
       {p.prijzen.gratisPeriode && (
         <p className="text-sm text-gray-500 mb-8 flex items-center gap-2">
-          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={2.5} />{' '}
+          <Check className="w-4 h-4 text-green-500 flex-shrink-0" strokeWidth={2.5} />
           {p.prijzen.gratisPeriode}
         </p>
       )}
@@ -221,10 +228,7 @@ export default async function ReviewPage({
               { label: 'Split tunneling', bool: true, ok: p.features.splitTunneling },
               {
                 label: 'Aantal apparaten',
-                text:
-                  p.features.aantalApparaten === 'onbeperkt'
-                    ? '∞ Onbeperkt'
-                    : `${p.features.aantalApparaten} tegelijk`,
+                text: p.features.aantalApparaten === 'onbeperkt' ? '∞ Onbeperkt' : `${p.features.aantalApparaten} tegelijk`,
               },
               { label: 'Servers', text: `${p.features.aantalServers.toLocaleString('nl')}+` },
               { label: 'Landen', text: `${p.features.aantalLanden} landen` },
@@ -238,14 +242,8 @@ export default async function ReviewPage({
                 <td className="px-5 py-3 text-gray-500 font-medium w-1/2">{label}</td>
                 <td className="px-5 py-3">
                   {bool ? (
-                    <span
-                      className={`flex items-center gap-1.5 font-semibold ${ok ? 'text-green-600' : 'text-red-500'}`}
-                    >
-                      {ok ? (
-                        <Check className="w-4 h-4" strokeWidth={2.5} />
-                      ) : (
-                        <X className="w-4 h-4" strokeWidth={2.5} />
-                      )}
+                    <span className={`flex items-center gap-1.5 font-semibold ${ok ? 'text-green-600' : 'text-red-500'}`}>
+                      {ok ? <Check className="w-4 h-4" strokeWidth={2.5} /> : <X className="w-4 h-4" strokeWidth={2.5} />}
                       {ok ? 'Ja' : 'Nee'}
                     </span>
                   ) : (
@@ -258,7 +256,47 @@ export default async function ReviewPage({
         </table>
       </div>
 
+      {/* Content secties */}
+      {p.sections && p.sections.length > 0 && (
+        <div className="space-y-10 my-10">
+          {p.sections.map(({ heading, body }) => (
+            <div key={heading}>
+              <h2 className="text-2xl font-black text-gray-900 mb-4">{heading}</h2>
+              {body.map((para, i) => (
+                <p
+                  key={i}
+                  className="text-gray-600 leading-relaxed mb-3"
+                  dangerouslySetInnerHTML={{ __html: para }}
+                />
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
+
       <CTABox provider={p} />
+
+      {/* FAQ */}
+      {p.faqs && p.faqs.length > 0 && (
+        <div className="mt-12">
+          <h2 className="text-2xl font-black text-gray-900 mb-6">
+            Veelgestelde vragen over {p.naam}
+          </h2>
+          <div className="space-y-3">
+            {p.faqs.map(({ question, answer }) => (
+              <details key={question} className="bg-white rounded-2xl border border-gray-100 group">
+                <summary className="flex items-center justify-between px-6 py-4 cursor-pointer list-none font-semibold text-gray-900 text-sm">
+                  {question}
+                  <ChevronRight className="w-4 h-4 text-gray-400 flex-shrink-0 rotate-90 group-open:rotate-[270deg] transition-transform duration-200" />
+                </summary>
+                <div className="px-6 pb-5 text-sm text-gray-600 leading-relaxed border-t border-gray-50 pt-3">
+                  {answer}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Author bio */}
       <AuthorBio updatedDate={p.lastUpdated} />
