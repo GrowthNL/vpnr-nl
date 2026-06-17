@@ -71,7 +71,8 @@ function getExistingBlogSlugs(postsContent) {
 function readSlugsFromFile(filePath) {
   try {
     const content = readFileSync(filePath, 'utf8')
-    return [...content.matchAll(/\bslug:\s*["']([^"']+)["']/g)].map((m) => m[1])
+    // Match both TS-style (slug: 'value') and JSON-style ("slug": "value")
+    return [...content.matchAll(/\b"?slug"?:\s*["']([^"']+)["']/g)].map((m) => m[1])
   } catch {
     return []
   }
