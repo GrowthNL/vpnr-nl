@@ -1856,6 +1856,133 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['vpn-router-instellen', 'netflix-vpn-werkt-niet', 'vpn-android-instellen'],
     tags: ['vpn smart tv', 'vpn samsung tv', 'vpn lg tv', 'vpn android tv', 'smartdns tv', 'vpn instellen televisie'],
   },
+
+  {
+    slug: 'surfshark-korting',
+    title: 'Surfshark korting juni 2026 — bespaar tot 87% op je abonnement',
+    metaTitle: 'Surfshark Korting Juni 2026 — Actuele Deals & Aanbiedingen',
+    metaDescription: 'Actuele Surfshark korting voor juni 2026. Bespaar tot 87% op het 2-jarig abonnement + 3 maanden gratis. Vergelijk plannen en activeer de beste deal vandaag.',
+    excerpt: 'Ontdek de actuele Surfshark kortingen voor juni 2026 en bespaar tot 87% op je abonnement — inclusief onbeperkt apparaten voor minder dan €2,50 per maand.',
+    category: 'Deals',
+    date: '22 juni 2026',
+    dateISO: '2026-06-22',
+    updatedISO: '2026-06-22',
+    readTime: '6 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/surfshark-korting.svg',
+    imageAlt: 'Surfshark korting 2026, teal VPN app interface met kortingspercentage en schildlogo',
+    intro: 'Surfshark is al jaren een van de voordeligste premium VPN\'s, maar met de juiste korting wordt het nóg aantrekkelijker. In juni 2026 biedt Surfshark tot 87% korting op het tweejarig abonnement, inclusief 3 extra maanden gratis. In dit artikel vind je alle actuele deals, een vergelijking van de abonnementen en praktische tips om zeker de laagste prijs te pakken.',
+    sections: [
+      {
+        heading: 'Wat is de huidige Surfshark korting in juni 2026?',
+        body: [
+          'De actuele Surfshark korting in juni 2026 bedraagt tot <strong>87% op het 2-jarig abonnement</strong>, plus 3 maanden gratis. Daarmee kom je uit op <strong>€1,99 per maand</strong> (Starter-plan) voor een totaalperiode van 27 maanden.',
+          'Surfshark past zijn aanbiedingen meerdere keren per jaar aan, met de grootste kortingen rond de zomer, Black Friday en Nieuwjaar. De huidige zomercampagne is historisch gezien een van de sterkste en loopt naar verwachting tot eind juni 2026.',
+          'Let op: de scherpe introductieprijs geldt voor de eerste abonnementsperiode. Bij automatische verlenging na 2 jaar gelden de reguliere tarieven. Plan vooruit en stap in tijdens de actieperiode om maximaal te besparen.',
+        ],
+        highlight: {
+          type: 'stat',
+          title: 'Actuele besparing',
+          text: 'Met de juni 2026-deal betaal je €53,73 voor 27 maanden in plaats van €416,65 bij maandelijks betalen — een besparing van ruim €360.',
+        },
+        cta: 'surfshark',
+      },
+      {
+        heading: 'Welk Surfshark-abonnement heeft de meeste korting?',
+        body: [
+          'Surfshark biedt drie abonnementen aan: <strong>Starter</strong>, <strong>One</strong> en <strong>One+</strong>. Het Starter-plan bevat de VPN-functies, CleanWeb (advertentie- en trackerblokkering) en toegang tot alle 3.200+ servers.',
+          'Surfshark One voegt daaraan toe: een virusscanner, een alternatief ID-adres, en realtime datalek-meldingen. One+ telt er ook nog een data removal-service bij, die je gegevens van datamakelaars laat verwijderen.',
+          'Voor de meeste thuisgebruikers is het <strong>Starter-plan meer dan voldoende</strong>. Het unieke voordeel van Surfshark — onbeperkt apparaten — zit in alle drie de plannen inbegrepen.',
+        ],
+        table: {
+          headers: ['Abonnement', 'Prijs/maand (2-jarig)', 'Korting', "Extra's"],
+          rows: [
+            ['Starter', '€1,99', '87%', 'VPN + CleanWeb'],
+            ['One', '€2,69', '83%', 'VPN + virusscanner + ID Alert'],
+            ['One+', '€3,99', '78%', 'Alles van One + data removal'],
+          ],
+        },
+      },
+      {
+        heading: 'Hoe activeer je de Surfshark korting?',
+        body: [
+          'De Surfshark korting activeer je in drie stappen: klik op een actielink van onze <a href="/vpn-reviews/surfshark">Surfshark-reviewpagina</a>, kies je abonnement en afrekeningsduur op de Surfshark-website, en rond de bestelling af. De korting wordt <strong>automatisch verrekend</strong> — je hoeft geen aparte kortingscode in te voeren.',
+          'Krijg je niet de verwachte prijs te zien? Probeer dan je browsercookies te wissen of open de pagina in een incognitovenster. Sommige browsers slaan oude prijzen op uit eerdere bezoeken, waardoor de actiekorting niet altijd direct zichtbaar is.',
+          'Controleer voor het afrekenen altijd het besteloverzicht. Het totaalbedrag en de looptijd moeten overeenkomen met de actie. Pas als je de actieprijs ziet, voltooi je de betaling.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Pro-tip',
+          text: 'Open Surfshark altijd via een incognitovenster om zeker te zijn dat je de actuele actieprijs ziet. Cookies kunnen soms een hogere standaardprijs weergeven.',
+        },
+      },
+      {
+        heading: 'Surfshark vs. NordVPN: welke deal is beter in juni 2026?',
+        body: [
+          'Surfshark en NordVPN zijn de twee populairste VPN\'s voor Nederlandse gebruikers. Op prijs wint Surfshark duidelijk: €1,99/maand tegenover €3,39/maand bij NordVPN. Maar er zijn meer verschillen om rekening mee te houden.',
+          '<a href="/vpn-reviews/nordvpn">NordVPN</a> is sneller (NordLynx-protocol) en heeft een groter servernetwerk (6.400+ vs. 3.200+). Surfshark compenseert dat met onbeperkt apparaten en een lagere prijs. Ben je niet de enige gebruiker of heb je meerdere apparaten? Dan is Surfshark vrijwel altijd de slimmere keuze.',
+          'Wil je een uitgebreide vergelijking? Lees dan onze <a href="/vpn-vergelijken/nordvpn-vs-surfshark">NordVPN vs. Surfshark vergelijking</a> voor een diepgaande analyse van snelheid, beveiliging en streaming.',
+        ],
+        table: {
+          headers: ['Kenmerk', 'Surfshark', 'NordVPN'],
+          rows: [
+            ['Laagste prijs/maand', '€1,99', '€3,39'],
+            ['Apparaten', 'Onbeperkt', '10'],
+            ['Servers', '3.200+', '6.400+'],
+            ['Snelheid', '9.0/10', '9.5/10'],
+            ['Geld-terug garantie', '30 dagen', '30 dagen'],
+          ],
+        },
+      },
+      {
+        heading: 'Wanneer zijn de beste Surfshark-aanbiedingen te verwachten?',
+        body: [
+          'Surfshark houdt traditioneel vier grote actieperiodes per jaar: <strong>zomer</strong> (juni–augustus), <strong>Black Friday</strong> (november), <strong>Cyber Monday</strong> en <strong>Nieuwjaar</strong>. De huidige zomerdeal met 87% is al erg scherp — vergelijkbaar met de Black Friday-prijzen.',
+          'Buiten de grote salesperiodes schommelt de korting op het tweejarig plan tussen de 75% en 83%. Wachten op een nog betere deal is dus zelden zinvol: het verschil bedraagt hooguit een paar euro over de volledige looptijd.',
+          'Surfshark biedt ook soms flash sales via nieuwsbrief of social media. Abonneer je op de Surfshark-mailinglist om als eerste te horen over tijdelijke extra kortingen.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'Goed om te weten',
+          text: 'Surfshark geeft 30 dagen geld-terug-garantie, zonder vragen. Je kunt dus nu van de korting profiteren en de dienst risicovrij testen.',
+        },
+      },
+      {
+        heading: 'Is Surfshark de moeite waard met korting?',
+        body: [
+          'Surfshark levert voor €1,99 per maand een volwaardige premium VPN die je complete netwerk beschermt — van laptop tot smart-tv — zonder limiet op het aantal apparaten. Dat maakt het een van de beste prijs-kwaliteitsopties op de markt.',
+          'In onze tests scoort Surfshark een <strong>9.2/10 overall</strong>: uitstekend op beveiliging (AES-256, kill switch, no-logs), solide snelheden via WireGuard en betrouwbare deblokkering van Netflix, Disney+ en Videoland. Lees de volledige <a href="/vpn-reviews/surfshark">Surfshark review</a> voor alle testresultaten.',
+          'Voor gezinnen, huishoudens met veel apparaten of iedereen die op prijs let, is dit de sterkste VPN-deal in juni 2026. Het tweejarig plan met 3 maanden gratis is het meest voordelig en dekt je tot het derde kwartaal van 2028.',
+        ],
+        cta: 'surfshark',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Hoe lang is de Surfshark korting van juni 2026 geldig?',
+        answer: 'De huidige actie met 87% korting en 3 maanden gratis loopt naar verwachting tot eind juni 2026. Daarna stapt Surfshark doorgaans over op een nieuwe campagne met vergelijkbare kortingen.',
+      },
+      {
+        question: 'Heb ik een kortingscode nodig voor Surfshark?',
+        answer: 'Nee. Klik je via een actielink op onze site naar Surfshark, dan wordt de korting automatisch verrekend. Je hoeft geen aparte code in te voeren. Ziet de prijs er niet kloppend uit? Wis je cookies of gebruik een incognitovenster.',
+      },
+      {
+        question: 'Kan ik Surfshark op meerdere apparaten gebruiken?',
+        answer: 'Ja, Surfshark staat een onbeperkt aantal gelijktijdige verbindingen toe. Dat is uniek onder premium VPN-aanbieders. Je kunt dus het hele gezin beschermen — telefoons, laptops, tablets en smart-tv\'s — met één abonnement.',
+      },
+      {
+        question: 'Wat gebeurt er met de prijs na afloop van de 2-jaar actieperiode?',
+        answer: 'Na de introductieperiode wordt het abonnement automatisch verlengd tegen de dan geldende standaardprijs. Die is aanzienlijk hoger dan de actieprijs. Zet een herinnering voor het verloopdatum zodat je tijdig een nieuwe deal kunt pakken of kunt overstappen.',
+      },
+      {
+        question: 'Biedt Surfshark een gratis proefversie?',
+        answer: 'Surfshark heeft geen gratis tier, maar biedt wel een 30-daagse geld-terug-garantie. Je kunt de dienst dus een maand volledig uitproberen en je geld terugvragen als je niet tevreden bent — geen vragen gesteld.',
+      },
+    ],
+    relatedProviders: ['surfshark', 'nordvpn', 'cyberghost'],
+    relatedSlugs: ['nordvpn-korting', 'goedkoopste-vpn-deals', 'vpn-reviews/surfshark'],
+    tags: ['surfshark korting', 'surfshark aanbieding', 'surfshark deal 2026', 'surfshark prijs', 'goedkope vpn'],
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
