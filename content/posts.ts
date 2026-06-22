@@ -399,33 +399,33 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'goedkoopste-vpn-deals',
-    title: 'De goedkoopste VPN-deals van mei 2026',
-    metaTitle: 'Goedkoopste VPN-deals mei 2026 | Beste Aanbiedingen & Kortingen | vpnr.nl',
-    metaDescription: 'Overzicht van de beste VPN-aanbiedingen van mei 2026. Bespaar tot 85% met de juiste deal. Inclusief onze eerlijke beoordeling per budget en tips voor de laagste prijs.',
-    excerpt: 'Een overzicht van de beste VPN-aanbiedingen van mei 2026. Bespaar tot 85% met onze verzamelde deals en ontdek welke VPN de beste prijs-kwaliteit biedt.',
+    title: 'De goedkoopste VPN-deals van juni 2026',
+    metaTitle: 'Goedkoopste VPN-deals juni 2026 | Beste Aanbiedingen & Kortingen | vpnr.nl',
+    metaDescription: 'Overzicht van de beste VPN-aanbiedingen van juni 2026. Bespaar tot 87% met de juiste deal. Inclusief onze eerlijke beoordeling per budget en tips voor de laagste prijs.',
+    excerpt: 'Een overzicht van de beste VPN-aanbiedingen van juni 2026. Bespaar tot 87% met onze verzamelde deals en ontdek welke VPN de beste prijs-kwaliteit biedt.',
     category: 'Deals',
     date: '1 mei 2026',
     dateISO: '2026-05-01',
-    updatedISO: '2026-05-01',
+    updatedISO: '2026-06-22',
     readTime: '3 min',
     author: 'vpnr.nl Redactie',
     image: '/blog/goedkoopste-vpn-deals.jpg',
     imageAlt: 'Goedkope VPN deals 2026, kortingssymbolen in donkerblauwe digitale omgeving',
-    intro: 'Een goede VPN hoeft helemaal niet duur te zijn. Met de juiste deal betaal je soms minder dan €2 per maand voor premium bescherming van topmerken. Dit zijn de beste VPN-aanbiedingen van mei 2026, van budgetvriendelijk tot premium.',
+    intro: 'Een goede VPN hoeft helemaal niet duur te zijn. Met de juiste deal betaal je soms minder dan €2 per maand voor premium bescherming van topmerken. Dit zijn de beste VPN-aanbiedingen van juni 2026, van budgetvriendelijk tot premium.',
     sections: [
       {
-        heading: 'De beste VPN-aanbiedingen van mei 2026',
+        heading: 'De beste VPN-aanbiedingen van juni 2026',
         body: [
-          'De grootste kortingen zitten in 2-jaarsabonnementen van gerenommeerde aanbieders. <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is op dit moment de goedkoopste premium VPN: al vanaf <strong>€1.99/maand</strong> bij het 2-jaarsabonnement. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> start bij <strong>€2.99/maand</strong> voor 2 jaar.',
-          '<a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> biedt met <strong>€2.19/maand</strong> een enorm servernetwerk van 10.000+ servers. <a href="/vpn-reviews/expressvpn" class="text-blue-600 hover:underline font-medium">ExpressVPN</a> is duurder maar staat bekend als de snelste en meest betrouwbare VPN voor landen zoals China.',
+          'De grootste kortingen zitten in 2-jaarsabonnementen van gerenommeerde aanbieders. <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is op dit moment de goedkoopste premium VPN: al vanaf <strong>€1,99/maand</strong> bij het 2-jaarsabonnement, inclusief 3 maanden gratis. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> start bij <strong>€3,39/maand</strong> voor 2 jaar.',
+          '<a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> biedt met <strong>€2,19/maand</strong> het grootste servernetwerk van 11.500+ servers én de langste geld-terug-garantie: 45 dagen. <a href="/vpn-reviews/purevpn" class="text-blue-600 hover:underline font-medium">PureVPN</a> is met €1,99/maand een goedkope tweede optie met door KPMG gecertificeerd no-logs-beleid.',
         ],
         table: {
-          headers: ['Provider', 'Prijs/maand (2 jaar)', 'Korting'],
+          headers: ['Provider', 'Prijs/maand (2 jaar)', 'Korting', 'Garantie'],
           rows: [
-            ['Surfshark', '€1.99', '−85%'],
-            ['CyberGhost', '€2.19', '−83%'],
-            ['NordVPN', '€2.99', '−77%'],
-            ['ExpressVPN', '€6.67 (1 jaar)', '−49%'],
+            ['Surfshark', '€1,99', '−87%', '30 dagen'],
+            ['PureVPN', '€1,99', '−83%', '31 dagen'],
+            ['CyberGhost', '€2,19', '−83%', '45 dagen'],
+            ['NordVPN', '€3,39', '−74%', '30 dagen'],
           ],
         },
         cta: 'surfshark',
@@ -469,8 +469,8 @@ export const posts: BlogPost[] = [
       {
         heading: 'Onze aanbeveling per budget',
         body: [
-          '<strong>Budget (< €2/mnd)</strong>: Surfshark. Goedkoopste premium VPN met onbeperkte apparaten en uitstekende snelheid. <strong>Beste balans (€3/mnd)</strong>: NordVPN. De all-round kampioen met het beste beveiligingstrack record. <strong>Premium (€7/mnd)</strong>: ExpressVPN. De snelste VPN, met de beste ondersteuning voor moeilijke regio\'s.',
-          'Wil je eerst proberen zonder risico? Maak gebruik van de 30-dagen geld-terug-garantie. Probeer NordVPN of Surfshark een maand lang, ben je niet tevreden, dan krijg je je geld terug zonder gedoe.',
+          '<strong>Budget (< €2/mnd)</strong>: Surfshark of PureVPN. Beide kosten €1,99/maand bij 2 jaar. Surfshark wint op onbeperkte apparaten; PureVPN op het KPMG-gecertificeerde no-logs-beleid. <strong>Beste balans (€3/mnd)</strong>: NordVPN. De snelste en meest betrouwbare all-round VPN. <strong>Privacy-first</strong>: ProtonVPN. Open source, gevestigd in Zwitserland, onafhankelijk geaudit.',
+          'Wil je eerst proberen zonder risico? Maak gebruik van de 30-dagen geld-terug-garantie. Probeer NordVPN of Surfshark een maand lang; ben je niet tevreden, dan krijg je je geld terug zonder gedoe. CyberGhost biedt zelfs 45 dagen — de ruimste garantie in de markt.',
         ],
         cta: 'surfshark',
       },
@@ -478,7 +478,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         question: 'Wat is de goedkoopste betrouwbare VPN?',
-        answer: 'Surfshark is momenteel de goedkoopste premium VPN bij een 2-jaarsabonnement: vanaf €1.99/maand. Het heeft geen datalimiet, geen beperking op apparaten en een onafhankelijk geauditeerd no-logs beleid. CyberGhost (€2.19/mnd) is een goede tweede.',
+        answer: 'Surfshark en PureVPN zijn in juni 2026 beide de goedkoopste premium VPN\'s: vanaf €1,99/maand bij een 2-jaarsabonnement. Surfshark heeft onbeperkt apparaten; PureVPN heeft een door KPMG gecertificeerd no-logs-beleid. CyberGhost (€2,19/mnd) is een goede derde met het grootste servernetwerk.',
       },
       {
         question: 'Zijn VPN-aanbiedingen te goed om waar te zijn?',
@@ -486,16 +486,16 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Wanneer zijn VPN-abonnementen het goedkoopst?',
-        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80-90% korting. Nieuwjaarsaanbiedingen (januari) en zomerdeals zijn ook goede momenten. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
+        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80–90% korting. Zomerdeals (juni–augustus) zijn eveneens sterk — de huidige aanbiedingen zitten op historisch hoge kortingen. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
       },
       {
         question: 'Is een gratis VPN veilig?',
-        answer: 'De meeste gratis VPN\'s zijn niet veilig voor dagelijks gebruik: veel verdienen geld door je data te verkopen. Uitzonderingen zijn ProtonVPN Gratis (geen datalimiet, echt no-logs) en Windscribe (10 GB/maand gratis). Voor dagelijks gebruik raden we altijd een betaalde VPN aan.',
+        answer: 'De meeste gratis VPN\'s zijn niet veilig voor dagelijks gebruik: veel verdienen geld door je data te verkopen. Uitzonderingen zijn ProtonVPN Gratis (geen datalimiet, echt no-logs) en Hide.me (10 GB/maand gratis). Voor dagelijks gebruik raden we altijd een betaalde VPN aan.',
       },
     ],
     relatedProviders: ['surfshark', 'nordvpn', 'cyberghost'],
-    relatedSlugs: ['vpn-buitenland-gebruiken', 'netflix-vpn-werkt-niet', 'vpn-protocol-vergelijking'],
-    tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting'],
+    relatedSlugs: ['surfshark-korting', 'nordvpn-korting', 'vpn-buitenland-gebruiken'],
+    tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting juni 2026'],
   },
   // ─── POST 7: VPN op Android ───────────────────────────────────────────────
   {
