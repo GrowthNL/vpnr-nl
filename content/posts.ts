@@ -1758,7 +1758,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-06-17',
     readTime: '7 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/vpn-smart-tv-instellen.svg',
+    image: '/blog/vpn-smart-tv-instellen.jpg',
     imageAlt: 'VPN instellen op Smart TV in de woonkamer, Samsung televisie met VPN-app scherm',
     intro: 'Een VPN instellen op je Smart TV opent een wereld aan mogelijkheden: buitenlandse Netflix-catalogi, geo-geblokkeerde diensten en betere privacy bij het kijken. Maar anders dan op je telefoon heeft een Smart TV vaak geen directe VPN-app. In deze gids bespreken we drie methoden: een directe app (voor Android TV en Google TV), SmartDNS (voor Samsung en LG) en de universele router-methode.',
     sections: [
