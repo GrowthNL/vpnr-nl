@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description:
       'Onafhankelijke VPN-vergelijking voor Nederland. Eerlijke reviews, actuele prijzen en de beste deals.',
     url: 'https://vpnr.nl',
-    images: [{ url: 'https://vpnr.nl/opengraph-image.png', width: 1200, height: 630, alt: 'vpnr.nl — Beste VPN Nederland 2026' }],
+    images: [{ url: 'https://vpnr.nl/opengraph-image.png', width: 1200, height: 630, alt: 'vpnr.nl | Beste VPN Nederland 2026' }],
   },
   twitter: {
     card: 'summary_large_image',

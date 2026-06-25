@@ -69,7 +69,7 @@ export async function POST(req: Request) {
       text: [
         `Naam:      ${name}`,
         `E-mail:    ${email}`,
-        `Onderwerp: ${subject ?? '—'}`,
+        `Onderwerp: ${subject ?? '(geen onderwerp)'}`,
         '',
         'Bericht:',
         message,

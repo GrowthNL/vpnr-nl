@@ -40,14 +40,14 @@ const purevpn: VPNProvider = {
   voordelen: [
     'Onafhankelijk geauditeerd no-logs beleid (KPMG-gecertificeerd)',
     'Uitgebreid servernetwerk: 6.500+ servers in 65+ landen',
-    '10 gelijktijdige verbindingen — geschikt voor het hele gezin',
+    '10 gelijktijdige verbindingen, geschikt voor het hele gezin',
     'Kill switch en split tunneling beschikbaar op meerdere platforms',
     'Langste geld-terug-garantie: 31 dagen',
   ],
 
   nadelen: [
     'Verlengingsprijs stijgt fors na de introductieperiode',
-    'Gevestigd op de Britse Maagdeneilanden — minder transparant voor EU-gebruikers',
+    'Gevestigd op de Britse Maagdeneilanden, minder transparant voor EU-gebruikers',
     'P2P-servers niet beschikbaar in alle regio\'s',
   ],
 

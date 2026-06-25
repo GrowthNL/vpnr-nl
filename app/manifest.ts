@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'vpnr.nl — Beste VPN Nederland',
+    name: 'vpnr.nl | Beste VPN Nederland',
     short_name: 'vpnr.nl',
     description: 'Vergelijk de beste VPN-diensten voor Nederland. Onafhankelijke reviews en actuele deals.',
     start_url: '/',

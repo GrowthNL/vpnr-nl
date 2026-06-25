@@ -40,7 +40,7 @@ const vpnnederland: VPNProvider = {
   voordelen: [
     'Nederlandstalige klantenservice en interface',
     'Onbeperkt aantal gelijktijdige verbindingen',
-    'Gevestigd op Curaçao — buiten de 5/9/14 Eyes surveillance alliantie',
+    'Gevestigd op Curaçao, buiten de 5/9/14 Eyes surveillance alliantie',
     'Ondersteunt WireGuard voor snelle verbindingen',
     'Scherpe jaarprijs voor een Europees product',
   ],
@@ -53,7 +53,7 @@ const vpnnederland: VPNProvider = {
   ],
 
   verdict:
-    'VPN Nederland richt zich op de Nederlandse markt met Nederlandstalige ondersteuning en onbeperkt apparaten voor een lage prijs. Helaas toonden onafhankelijke tests DNS- en IP-lekken aan — een serieus privacyprobleem. Voor eenvoudig dagelijks gebruik prima, maar wie privacy echt serieus neemt kan beter kiezen voor NordVPN of ProtonVPN.',
+    'VPN Nederland richt zich op de Nederlandse markt met Nederlandstalige ondersteuning en onbeperkt apparaten voor een lage prijs. Helaas toonden onafhankelijke tests DNS- en IP-lekken aan, een serieus privacyprobleem. Voor eenvoudig dagelijks gebruik prima, maar wie privacy echt serieus neemt kan beter kiezen voor NordVPN of ProtonVPN.',
 
   sections: [
     {

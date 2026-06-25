@@ -373,7 +373,7 @@ export const usecases: UseCase[] = [
         heading: 'Legitieme gratis VPN\'s in 2026',
         body: [
           '<strong>ProtonVPN Free</strong> is onze nummer één gratis VPN. Het heeft <strong>geen datalimiet</strong>, een geaudit no-logs beleid en servers in Nederland, de VS en Japan. De gratis versie ondersteunt één apparaat tegelijk en is trager dan de betaalde versie, maar is volledig veilig en wordt onderhouden door hetzelfde team als ProtonMail.',
-          '<strong>Hide.me Free</strong> geeft 10 GB per maand gratis met servers in 5 locaties, waaronder Nederland. Hide.me heeft zijn no-logs beleid onafhankelijk laten auditen en is een van de meest transparante providers op de markt. <strong>Windscribe Free</strong> geeft ook 10 GB per maand (15 GB bij bevestigd e-mailadres) met toegang tot servers in 10+ landen. <strong>Tunnelbear</strong> geeft slechts 500 MB per maand — alleen bruikbaar voor incidenteel browsen op openbare wifi.',
+          '<strong>Hide.me Free</strong> geeft 10 GB per maand gratis met servers in 5 locaties, waaronder Nederland. Hide.me heeft zijn no-logs beleid onafhankelijk laten auditen en is een van de meest transparante providers op de markt. <strong>Windscribe Free</strong> geeft ook 10 GB per maand (15 GB bij bevestigd e-mailadres) met toegang tot servers in 10+ landen. <strong>Tunnelbear</strong> geeft slechts 500 MB per maand, alleen bruikbaar voor incidenteel browsen op openbare wifi.',
         ],
       },
       {
@@ -541,7 +541,7 @@ export const usecases: UseCase[] = [
         heading: 'Waarom een VPN op je iPhone?',
         body: [
           'Je iPhone is het apparaat dat je overal mee naartoe neemt en verbinding maakt met tientallen netwerken: wifi van cafés, hotels, luchthavens en openbare plekken. Op al deze netwerken is je data kwetsbaar voor onderschepping als je geen VPN gebruikt.',
-          'Een VPN op je iPhone versleutelt al je internetverkeer, verbergt je IP-adres en beschermt je privacygevoelige gegevens — bankgegevens, wachtwoorden, berichten — op elk netwerk. iOS heeft goede ingebouwde VPN-ondersteuning, maar de volledige functionaliteit (kill switch, automatisch verbinden, split tunneling) krijg je alleen via een app van een VPN-aanbieder.',
+          'Een VPN op je iPhone versleutelt al je internetverkeer, verbergt je IP-adres en beschermt je privacygevoelige gegevens, bankgegevens, wachtwoorden, berichten, op elk netwerk. iOS heeft goede ingebouwde VPN-ondersteuning, maar de volledige functionaliteit (kill switch, automatisch verbinden, split tunneling) krijg je alleen via een app van een VPN-aanbieder.',
         ],
       },
       {
@@ -554,7 +554,7 @@ export const usecases: UseCase[] = [
       {
         heading: 'VPN instellen op iPhone: hoe werkt het?',
         body: [
-          'Installeer de VPN-app via de App Store, log in met je account en tik op de verbindingsknop. iOS vraagt eenmalig toestemming voor VPN-configuraties — dit is normaal. Het VPN-icoontje verschijnt in de statusbalk als je verbonden bent.',
+          'Installeer de VPN-app via de App Store, log in met je account en tik op de verbindingsknop. iOS vraagt eenmalig toestemming voor VPN-configuraties, dit is normaal. Het VPN-icoontje verschijnt in de statusbalk als je verbonden bent.',
           'Voor <strong>automatisch verbinden</strong> ga je in NordVPN naar Instellingen → Auto-verbinden → Op niet-vertrouwde netwerken. In Surfshark: App-instellingen → Automatisch verbinden. Zo is je iPhone automatisch beschermd zodra je verbinding maakt met een openbaar netwerk, zonder dat je eraan hoeft te denken.',
         ],
       },
@@ -605,14 +605,14 @@ export const usecases: UseCase[] = [
     canonical: 'https://vpnr.nl/beste-vpn/voor-mac',
     icon: '💻',
     intro:
-      'Een VPN op je Mac beschermt je privacy, geeft toegang tot geo-geblokkeerde content en beveiligt je verbinding op openbare wifi. macOS heeft uitstekende VPN-ondersteuning maar vereist een goed afgestemde app voor de beste prestaties — zeker op Apple Silicon (M1, M2, M3 en M4). Wij testen welke VPN het beste werkt op Mac.',
+      'Een VPN op je Mac beschermt je privacy, geeft toegang tot geo-geblokkeerde content en beveiligt je verbinding op openbare wifi. macOS heeft uitstekende VPN-ondersteuning maar vereist een goed afgestemde app voor de beste prestaties, zeker op Apple Silicon (M1, M2, M3 en M4). Wij testen welke VPN het beste werkt op Mac.',
     verdict:
       'NordVPN is de beste VPN voor Mac in 2026: de macOS-app ondersteunt Apple Silicon natively, heeft een systeem-brede kill switch, split tunneling en Threat Protection. Surfshark is het beste budget-alternatief met onbeperkte apparaten. ProtonVPN is de beste keuze voor privacy-bewuste Mac-gebruikers.',
     topProviders: ['nordvpn', 'surfshark', 'protonvpn'],
     keyFeature: 'Native Apple Silicon-ondersteuning, kill switch, split tunneling op macOS',
     tips: [
       'Download de VPN-app van de officiële website van de provider, niet via de Mac App Store (meer functies)',
-      'Schakel de systeem-brede kill switch in via de app-instellingen — niet te verwarren met de app-kill switch',
+      'Schakel de systeem-brede kill switch in via de app-instellingen, niet te verwarren met de app-kill switch',
       'Gebruik split tunneling om Zoom en Teams buiten de VPN-tunnel te houden voor lagere latency bij videobellen',
       'Controleer of de VPN-app native Apple Silicon ondersteunt voor maximale prestaties op M1/M2/M3/M4',
       'Voeg de VPN-app toe aan de login-items zodat hij automatisch start bij het opstarten van je Mac',
@@ -643,7 +643,7 @@ export const usecases: UseCase[] = [
         heading: 'VPN en macOS systeembeveiliging',
         body: [
           'macOS heeft sterke ingebouwde beveiliging (Gatekeeper, SIP, XProtect) maar beschermt je niet op onbeveiligd wifi. Een VPN vult aan waar macOS ophoudt: het versleutelt al je internet-verkeer, ook op netwerken die je niet controleert.',
-          'macOS vraagt om toestemming bij de installatie van VPN-configuratieprofielen. Dit is normaal en veilig. Bij NordVPN en Surfshark zie je een dialoogvenster "Wil je een VPN-configuratie toevoegen?" — klik op "Sta toe". Na installatie verschijnt het VPN-statusicoontje in de menubalk.',
+          'macOS vraagt om toestemming bij de installatie van VPN-configuratieprofielen. Dit is normaal en veilig. Bij NordVPN en Surfshark zie je een dialoogvenster "Wil je een VPN-configuratie toevoegen?", klik op "Sta toe". Na installatie verschijnt het VPN-statusicoontje in de menubalk.',
         ],
       },
     ],
@@ -694,7 +694,7 @@ export const usecases: UseCase[] = [
     tips: [
       'Schakel batterijoptimalisatie uit voor de VPN-app om te voorkomen dat Android hem stopt (Instellingen → Apps → Batterij)',
       'Gebruik Android\'s ingebouwde altijd-aan VPN voor maximale bescherming: Instellingen → Netwerk → VPN',
-      'Download de VPN-app via Google Play om authenticiteit te garanderen — controleer het aantal downloads',
+      'Download de VPN-app via Google Play om authenticiteit te garanderen, controleer het aantal downloads',
       'WireGuard-protocol geeft de laagste batterijbelasting van alle VPN-protocollen op Android',
       'Test je VPN na installatie op ipleak.net om te bevestigen dat je IP-adres verborgen is',
     ],
@@ -717,7 +717,7 @@ export const usecases: UseCase[] = [
         heading: 'VPN op Android TV en Android-tablets',
         body: [
           'NordVPN, Surfshark en ProtonVPN hebben aparte Android TV-apps beschikbaar in de Google Play Store. Op een Android-tablet werkt dezelfde smartphone-app, maar de interface schaalt automatisch naar het grotere scherm.',
-          'Voor <strong>Fire TV Stick</strong> (Amazon\'s Android-gebaseerde streamingstick) zijn VPN-apps beschikbaar in de Amazon Appstore. NordVPN, Surfshark en ProtonVPN staan allemaal in de Amazon Appstore. Een alternatief is een VPN instellen op je router — dan zijn alle apparaten automatisch beschermd.',
+          'Voor <strong>Fire TV Stick</strong> (Amazon\'s Android-gebaseerde streamingstick) zijn VPN-apps beschikbaar in de Amazon Appstore. NordVPN, Surfshark en ProtonVPN staan allemaal in de Amazon Appstore. Een alternatief is een VPN instellen op je router, dan zijn alle apparaten automatisch beschermd.',
         ],
       },
       {
@@ -767,7 +767,7 @@ export const usecases: UseCase[] = [
     canonical: 'https://vpnr.nl/beste-vpn/voor-thuiswerken',
     icon: '🏠',
     intro:
-      'Thuiswerken brengt specifieke VPN-behoeften met zich mee: toegang tot bedrijfssystemen, beveiliging op je thuisnetwerk en privacy bij gebruik van openbare hotspots onderweg. De juiste VPN maakt thuiswerken veilig en productief — zonder je verbindingssnelheid te compromitteren.',
+      'Thuiswerken brengt specifieke VPN-behoeften met zich mee: toegang tot bedrijfssystemen, beveiliging op je thuisnetwerk en privacy bij gebruik van openbare hotspots onderweg. De juiste VPN maakt thuiswerken veilig en productief, zonder je verbindingssnelheid te compromitteren.',
     verdict:
       'NordVPN is de beste VPN voor thuiswerken in 2026. De combinatie van hoge snelheid (NordLynx), uitstekende beveiliging en functies als split tunneling maakt het ideaal voor thuiswerkers. Surfshark is de beste budgetkeuze voor kleine bedrijven en ZZP\'ers die meerdere apparaten willen beschermen. ProtonVPN is de beste keuze als privacy op het werk een harde eis is.',
     topProviders: ['nordvpn', 'surfshark', 'protonvpn'],
@@ -798,7 +798,7 @@ export const usecases: UseCase[] = [
         heading: 'Beveiliging op het thuisnetwerk',
         body: [
           'Je thuisnetwerk is veiliger dan openbare wifi, maar niet perfect beveiligd. Je router kan kwetsbaarheden hebben, andere apparaten op je netwerk kunnen gecompromitteerd zijn, en je internetprovider registreert je browsing. Een VPN beschermt je ook thuis tegen deze risico\'s.',
-          'Voor maximale beveiliging kun je de VPN op je <strong>thuisrouter</strong> instellen. Dan zijn alle apparaten in huis automatisch beschermd — ook smart TV\'s, spelconsoles en IoT-apparaten die zelf geen VPN-app hebben. NordVPN en Surfshark hebben uitgebreide installatiegidsen voor populaire routers zoals Asus, Netgear en Fritzbox.',
+          'Voor maximale beveiliging kun je de VPN op je <strong>thuisrouter</strong> instellen. Dan zijn alle apparaten in huis automatisch beschermd, ook smart TV\'s, spelconsoles en IoT-apparaten die zelf geen VPN-app hebben. NordVPN en Surfshark hebben uitgebreide installatiegidsen voor populaire routers zoals Asus, Netgear en Fritzbox.',
         ],
       },
       {
@@ -813,7 +813,7 @@ export const usecases: UseCase[] = [
       {
         question: 'Welke VPN is het beste voor thuiswerken?',
         answer:
-          'NordVPN is de beste VPN voor thuiswerken door de combinatie van hoge snelheid, split tunneling, kill switch en stabiele verbinding. Surfshark is het beste budget-alternatief en staat onbeperkte apparaten toe — ideaal als je thuis meerdere apparaten gebruikt.',
+          'NordVPN is de beste VPN voor thuiswerken door de combinatie van hoge snelheid, split tunneling, kill switch en stabiele verbinding. Surfshark is het beste budget-alternatief en staat onbeperkte apparaten toe, ideaal als je thuis meerdere apparaten gebruikt.',
       },
       {
         question: 'Kan ik mijn persoonlijke VPN combineren met de zakelijke VPN van mijn werkgever?',
@@ -865,7 +865,7 @@ export const usecases: UseCase[] = [
         heading: 'Belgische streamingdiensten bereiken vanuit het buitenland',
         body: [
           '<strong>VRT MAX</strong> (het vroegere VRT NU) is de gratis streamingdienst van de VRT met alle Belgische publieke omroepinhoud: Eén, Canvas, Ketnet en Sport/Voetbal. De dienst controleert je IP-adres en blokkeert toegang buiten België. Met een VPN-server in Brussel of Antwerpen heb je gewoon toegang vanuit het buitenland.',
-          '<strong>Streamz</strong>, de betaalde Vlaamse streamingdienst van DPG Media en Telenet, werkt op dezelfde manier. <strong>Play Sports</strong> en <strong>Pickx</strong> zijn vergelijkbaar. Alle grote Belgische streamingdiensten controleren je IP. Met NordVPN of Surfshark en een Belgische server heb je overal toegang — of je nu op vakantie bent in Spanje of tijdelijk in Nederland woont.',
+          '<strong>Streamz</strong>, de betaalde Vlaamse streamingdienst van DPG Media en Telenet, werkt op dezelfde manier. <strong>Play Sports</strong> en <strong>Pickx</strong> zijn vergelijkbaar. Alle grote Belgische streamingdiensten controleren je IP. Met NordVPN of Surfshark en een Belgische server heb je overal toegang, of je nu op vakantie bent in Spanje of tijdelijk in Nederland woont.',
         ],
       },
       {

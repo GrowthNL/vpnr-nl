@@ -45,9 +45,9 @@ const mcafee: VPNProvider = {
   ],
 
   nadelen: [
-    'Geen echte no-logs policy — privacyrichtlijn laat dataverzameling toe',
+    'Geen echte no-logs policy, privacyrichtlijn laat dataverzameling toe',
     'Kill switch alleen beschikbaar op Windows, niet op iOS of Android',
-    'Gevestigd in de VS (Five Eyes) — ongunstig voor privacy',
+    'Gevestigd in de VS (Five Eyes), ongunstig voor privacy',
     'Prijzen stijgen drastisch bij verlenging (tot 3× de introductieprijs)',
     'Alleen jaarlijks abonnement beschikbaar, geen maandoptie',
   ],

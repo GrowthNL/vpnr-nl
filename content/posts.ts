@@ -470,7 +470,7 @@ export const posts: BlogPost[] = [
         heading: 'Onze aanbeveling per budget',
         body: [
           '<strong>Budget (< €2/mnd)</strong>: Surfshark of PureVPN. Beide kosten €1,99/maand bij 2 jaar. Surfshark wint op onbeperkte apparaten; PureVPN op het KPMG-gecertificeerde no-logs-beleid. <strong>Beste balans (€3/mnd)</strong>: NordVPN. De snelste en meest betrouwbare all-round VPN. <strong>Privacy-first</strong>: ProtonVPN. Open source, gevestigd in Zwitserland, onafhankelijk geaudit.',
-          'Wil je eerst proberen zonder risico? Maak gebruik van de 30-dagen geld-terug-garantie. Probeer NordVPN of Surfshark een maand lang; ben je niet tevreden, dan krijg je je geld terug zonder gedoe. CyberGhost biedt zelfs 45 dagen — de ruimste garantie in de markt.',
+          'Wil je eerst proberen zonder risico? Maak gebruik van de 30-dagen geld-terug-garantie. Probeer NordVPN of Surfshark een maand lang; ben je niet tevreden, dan krijg je je geld terug zonder gedoe. CyberGhost biedt zelfs 45 dagen, de ruimste garantie in de markt.',
         ],
         cta: 'surfshark',
       },
@@ -486,7 +486,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Wanneer zijn VPN-abonnementen het goedkoopst?',
-        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80–90% korting. Zomerdeals (juni–augustus) zijn eveneens sterk — de huidige aanbiedingen zitten op historisch hoge kortingen. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
+        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80–90% korting. Zomerdeals (juni–augustus) zijn eveneens sterk, de huidige aanbiedingen zitten op historisch hoge kortingen. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
       },
       {
         question: 'Is een gratis VPN veilig?',
@@ -512,16 +512,16 @@ export const posts: BlogPost[] = [
     author: 'vpnr.nl Redactie',
     image: '/blog/vpn-android-instellen.jpg',
     imageAlt: 'Android smartphone met actieve VPN-verbinding, beveiligde mobiele verbinding',
-    intro: 'Een VPN instellen op Android is binnen 3 minuten klaar via de Google Play Store. Je hebt twee opties: via de app van je VPN-aanbieder (aanbevolen — je krijgt alle functies) of handmatig via de Android-netwerkinstellingen (voor zakelijke VPN\'s of gevorderde gebruikers). In deze handleiding lopen we beide methoden stap voor stap door, inclusief altijd-aan VPN, kill switch en oplossingen voor veelvoorkomende problemen.',
+    intro: 'Een VPN instellen op Android is binnen 3 minuten klaar via de Google Play Store. Je hebt twee opties: via de app van je VPN-aanbieder (aanbevolen, je krijgt alle functies) of handmatig via de Android-netwerkinstellingen (voor zakelijke VPN\'s of gevorderde gebruikers). In deze handleiding lopen we beide methoden stap voor stap door, inclusief altijd-aan VPN, kill switch en oplossingen voor veelvoorkomende problemen.',
     sections: [
       {
         heading: 'VPN installeren via de app (aanbevolen methode)',
         body: [
           'De app-methode is de snelste en meest complete manier: je krijgt automatische serverskeuze, kill switch, split tunneling en altijd-aan VPN. Volg deze 4 stappen:',
-          '<strong>Stap 1 — Download de app:</strong> Open de Google Play Store en zoek op de naam van je VPN-aanbieder (bijv. "NordVPN" of "Surfshark"). Download de officiële app. Controleer het aantal downloads (tientallen miljoenen) en de naam van de ontwikkelaar om de echte app te herkennen.',
-          '<strong>Stap 2 — Log in:</strong> Open de app en log in met je account. Heb je nog geen account? Maak het aan via de website van je aanbieder (niet via de Play Store — dat kost meer omdat Google commissie rekent).',
-          '<strong>Stap 3 — Verbinden:</strong> Tik op de grote verbindingsknop. Android vraagt eenmalig toestemming: "Wil je een VPN-verbinding toestaan?" — tik op "OK". Dit is normaal; Android vraagt altijd toestemming voor de eerste VPN-verbinding.',
-          '<strong>Stap 4 — Controleer het sleuteltje:</strong> Het VPN-icoontje (een sleuteltje) verschijnt bovenaan in de statusbalk. Je bent nu beschermd. Test via ipleak.net of je IP correct is veranderd.',
+          '<strong>Stap 1, Download de app:</strong> Open de Google Play Store en zoek op de naam van je VPN-aanbieder (bijv. "NordVPN" of "Surfshark"). Download de officiële app. Controleer het aantal downloads (tientallen miljoenen) en de naam van de ontwikkelaar om de echte app te herkennen.',
+          '<strong>Stap 2, Log in:</strong> Open de app en log in met je account. Heb je nog geen account? Maak het aan via de website van je aanbieder (niet via de Play Store, dat kost meer omdat Google commissie rekent).',
+          '<strong>Stap 3, Verbinden:</strong> Tik op de grote verbindingsknop. Android vraagt eenmalig toestemming: "Wil je een VPN-verbinding toestaan?", tik op "OK". Dit is normaal; Android vraagt altijd toestemming voor de eerste VPN-verbinding.',
+          '<strong>Stap 4, Controleer het sleuteltje:</strong> Het VPN-icoontje (een sleuteltje) verschijnt bovenaan in de statusbalk. Je bent nu beschermd. Test via ipleak.net of je IP correct is veranderd.',
         ],
         highlight: {
           type: 'tip',
@@ -539,7 +539,7 @@ export const posts: BlogPost[] = [
         highlight: {
           type: 'warning',
           title: 'Batterijoptimalisatie uitschakelen',
-          text: 'Android kan VPN-apps op de achtergrond beëindigen om batterij te besparen — waardoor je onbewust onbeschermd surft. Voorkom dit: Instellingen → Apps → [VPN-app] → Batterij → stel in op "Niet optimaliseren" of "Onbeperkt".',
+          text: 'Android kan VPN-apps op de achtergrond beëindigen om batterij te besparen, waardoor je onbewust onbeschermd surft. Voorkom dit: Instellingen → Apps → [VPN-app] → Batterij → stel in op "Niet optimaliseren" of "Onbeperkt".',
         },
       },
       {
@@ -555,7 +555,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Problemen oplossen: VPN werkt niet op Android',
         body: [
-          '<strong>Verbinding mislukt of time-out?</strong> Probeer een andere server — de huidige kan overbelast of tijdelijk offline zijn. Wissel ook het protocol: ga van OpenVPN naar WireGuard (of andersom). WireGuard is stabieler op mobiele netwerken door zijn lichtere architectuur.',
+          '<strong>Verbinding mislukt of time-out?</strong> Probeer een andere server, de huidige kan overbelast of tijdelijk offline zijn. Wissel ook het protocol: ga van OpenVPN naar WireGuard (of andersom). WireGuard is stabieler op mobiele netwerken door zijn lichtere architectuur.',
           '<strong>VPN verbreekt constant de verbinding?</strong> Batterijbeheer van Android is de meest voorkomende oorzaak. Schakel batterijoptimalisatie uit voor de VPN-app (Instellingen → Apps → [VPN-app] → Batterij → Niet optimaliseren). Controleer ook of achtergrondgegevens zijn ingeschakeld voor de app.',
           '<strong>VPN werkt niet op specifieke apps?</strong> Sommige apps (bankieren, bepaalde streamingdiensten) detecteren VPN-gebruik en weigeren verbinding. Gebruik split tunneling in je VPN-app om die specifieke app buiten de VPN-tunnel te houden, terwijl al het andere verkeer beschermd blijft.',
           '<strong>App crasht of reageert niet?</strong> Wis de cache via Instellingen → Apps → [VPN-app] → Opslag → Cache wissen. Helpt dat niet? Verwijder en herinstalleer de app.',
@@ -565,7 +565,7 @@ export const posts: BlogPost[] = [
         heading: 'De beste VPN-apps voor Android in 2026',
         body: [
           '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft de meest complete Android-app: kill switch, split tunneling, automatische verbinding op onbekend wifi, Threat Protection (blokkeert malware, trackers en advertenties) en NordLynx (WireGuard-variant voor maximale snelheid). De app is ook beschikbaar in het Nederlands.',
-          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> blinkt uit door onbeperkte apparaten op één abonnement — ideaal als je meerdere Android-apparaten (telefoon, tablet) wilt beveiligen. De Android-app heeft ook CleanWeb (blokkeert advertenties en trackers) en een NoBorders-modus voor landen met censuur.',
+          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> blinkt uit door onbeperkte apparaten op één abonnement, ideaal als je meerdere Android-apparaten (telefoon, tablet) wilt beveiligen. De Android-app heeft ook CleanWeb (blokkeert advertenties en trackers) en een NoBorders-modus voor landen met censuur.',
           '<a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN</a> is de beste gratis optie: geen datalimiet, open-source app en een serieus no-logs beleid dat is geauditeerd. De betaalde versie voegt het Stealth-protocol toe voor landen met strenge VPN-blokkades.',
         ],
         cta: 'nordvpn',
@@ -582,11 +582,11 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Kan ik een VPN gebruiken op een Android TV of Amazon Fire Stick?',
-        answer: 'Ja. NordVPN, Surfshark en ExpressVPN hebben aparte Android TV-apps in de Google Play Store. Op een Amazon Fire Stick installeer je de VPN-app via de Amazon Appstore. Een alternatief is een VPN instellen op je router — dan zijn alle apparaten in je netwerk automatisch beschermd, ook smart tv\'s zonder app-ondersteuning.',
+        answer: 'Ja. NordVPN, Surfshark en ExpressVPN hebben aparte Android TV-apps in de Google Play Store. Op een Amazon Fire Stick installeer je de VPN-app via de Amazon Appstore. Een alternatief is een VPN instellen op je router, dan zijn alle apparaten in je netwerk automatisch beschermd, ook smart tv\'s zonder app-ondersteuning.',
       },
       {
         question: 'Werkt een VPN op alle Android-apps tegelijk?',
-        answer: 'Ja, een VPN versleutelt standaard al het verkeer van je Android-apparaat — alle apps inclusief. Via split tunneling kun je bepaalde apps buiten de VPN-tunnel houden. Handig voor banking-apps die VPN-gebruik blokkeren, of voor gaming-apps waarbij je de extra latentie van de VPN wilt vermijden.',
+        answer: 'Ja, een VPN versleutelt standaard al het verkeer van je Android-apparaat, alle apps inclusief. Via split tunneling kun je bepaalde apps buiten de VPN-tunnel houden. Handig voor banking-apps die VPN-gebruik blokkeren, of voor gaming-apps waarbij je de extra latentie van de VPN wilt vermijden.',
       },
       {
         question: 'Hoe zet ik de VPN automatisch aan op Android?',
@@ -619,10 +619,10 @@ export const posts: BlogPost[] = [
         heading: 'VPN installeren op iPhone via de App Store',
         body: [
           'De app-methode geeft je de meest complete VPN-ervaring op iOS, inclusief kill switch, split tunneling en automatische verbinding. Volg deze stappen:',
-          '<strong>Stap 1 — Download de app:</strong> Open de App Store op je iPhone of iPad. Zoek op de naam van je VPN-aanbieder (bijv. "NordVPN" of "Surfshark"). Download de officiële app — controleer het aantal beoordelingen en de naam van de ontwikkelaar.',
-          '<strong>Stap 2 — Log in:</strong> Open de app en meld je aan met je account. Bij NordVPN en Surfshark kun je ook inloggen via Apple ID of e-mailadres.',
-          '<strong>Stap 3 — Geef toestemming:</strong> Tik op de verbindingsknop. iOS toont eenmalig de melding: "Wil je VPN-configuraties toevoegen?" — tik op "Sta toe". Dit is normaal en volledig veilig; iOS vraagt altijd toestemming voor VPN-profielen.',
-          '<strong>Stap 4 — Verbonden:</strong> Het "VPN"-icoontje verschijnt in de statusbalk linksboven op je iPhone. Je bent nu beschermd. Controleer via ipleak.net in Safari of je IP-adres is veranderd naar dat van de VPN-server.',
+          '<strong>Stap 1, Download de app:</strong> Open de App Store op je iPhone of iPad. Zoek op de naam van je VPN-aanbieder (bijv. "NordVPN" of "Surfshark"). Download de officiële app, controleer het aantal beoordelingen en de naam van de ontwikkelaar.',
+          '<strong>Stap 2, Log in:</strong> Open de app en meld je aan met je account. Bij NordVPN en Surfshark kun je ook inloggen via Apple ID of e-mailadres.',
+          '<strong>Stap 3, Geef toestemming:</strong> Tik op de verbindingsknop. iOS toont eenmalig de melding: "Wil je VPN-configuraties toevoegen?", tik op "Sta toe". Dit is normaal en volledig veilig; iOS vraagt altijd toestemming voor VPN-profielen.',
+          '<strong>Stap 4, Verbonden:</strong> Het "VPN"-icoontje verschijnt in de statusbalk linksboven op je iPhone. Je bent nu beschermd. Controleer via ipleak.net in Safari of je IP-adres is veranderd naar dat van de VPN-server.',
         ],
         highlight: {
           type: 'info',
@@ -641,7 +641,7 @@ export const posts: BlogPost[] = [
         highlight: {
           type: 'tip',
           title: 'Voor zakelijk gebruik',
-          text: 'Altijd-aan VPN op bedrijfs-iPhones instellen vereist MDM (zoals Apple Business Manager of Jamf). Via MDM kun je per-app VPN-regels en verplichte altijd-aan VPN configureren — zonder dat medewerkers dit kunnen uitschakelen.',
+          text: 'Altijd-aan VPN op bedrijfs-iPhones instellen vereist MDM (zoals Apple Business Manager of Jamf). Via MDM kun je per-app VPN-regels en verplichte altijd-aan VPN configureren, zonder dat medewerkers dit kunnen uitschakelen.',
         },
       },
       {
@@ -657,8 +657,8 @@ export const posts: BlogPost[] = [
       {
         heading: 'Problemen oplossen: VPN werkt niet op iPhone',
         body: [
-          '<strong>VPN verbindt niet?</strong> Schakel Vliegtuigmodus in en daarna weer uit — dit reset alle netwerkverbindingen op je iPhone. Probeer vervolgens een andere server of schakel het protocol om van IKEv2 naar WireGuard (in de app-instellingen).',
-          '<strong>VPN verbreekt steeds de verbinding?</strong> iOS kan achtergrond-apps beperken voor energiebesparing. Zorg dat de VPN-app achtergrondvernieuwing aan heeft: iOS Instellingen → [VPN-app] → Achtergrondvernieuwing → Aan. Controleer ook of Wi-Fi Assist is uitgeschakeld (Instellingen → Mobiel → Wi-Fi Assist uitschakelen) — deze feature schakelt over naar mobiele data bij zwak wifi en kan de VPN-tunnel onderbreken.',
+          '<strong>VPN verbindt niet?</strong> Schakel Vliegtuigmodus in en daarna weer uit, dit reset alle netwerkverbindingen op je iPhone. Probeer vervolgens een andere server of schakel het protocol om van IKEv2 naar WireGuard (in de app-instellingen).',
+          '<strong>VPN verbreekt steeds de verbinding?</strong> iOS kan achtergrond-apps beperken voor energiebesparing. Zorg dat de VPN-app achtergrondvernieuwing aan heeft: iOS Instellingen → [VPN-app] → Achtergrondvernieuwing → Aan. Controleer ook of Wi-Fi Assist is uitgeschakeld (Instellingen → Mobiel → Wi-Fi Assist uitschakelen), deze feature schakelt over naar mobiele data bij zwak wifi en kan de VPN-tunnel onderbreken.',
           '<strong>Streaming werkt niet via VPN?</strong> Probeer een andere server, wis de app-cache van de streaming-app (via iOS Instellingen → [streaming app] → app resetten) of gebruik split tunneling in de VPN-app om de streaming-app buiten de tunnel te houden.',
           '<strong>iCloud of Apple-diensten zijn traag?</strong> Voeg de Apple-domeinen toe aan de split tunneling uitzonderingenlijst zodat iCloud-verkeer direct gaat en niet via de VPN-server wordt omgeleid.',
         ],
@@ -673,7 +673,7 @@ export const posts: BlogPost[] = [
         body: [
           '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft de best beoordeelde iOS-app in de App Store. De app ondersteunt NordLynx (WireGuard), heeft een kill switch voor iOS 16+, automatische verbinding op onbeveiligd wifi, en Threat Protection Lite (blokkeert malafide domeinen op DNS-niveau). Perfect voor dagelijks gebruik op zowel iPhone als iPad.',
           '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is ideaal voor wie meerdere Apple-apparaten heeft (iPhone, iPad, Mac), want het abonnement werkt op onbeperkt apparaten tegelijk. De iOS-app heeft ook CleanWeb (blokkeert advertenties en trackers) en NoBorders-modus voor landen met VPN-censuur.',
-          'Voor de meest privacybewuste gebruikers is <a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN</a> de beste keuze: volledig open-source iOS-app met geauditeerde code, geen metadata-verzameling en gevestigd in Zwitserland — buiten EU- en VS-jurisdictie.',
+          'Voor de meest privacybewuste gebruikers is <a href="/vpn-reviews/protonvpn" class="text-blue-600 hover:underline font-medium">ProtonVPN</a> de beste keuze: volledig open-source iOS-app met geauditeerde code, geen metadata-verzameling en gevestigd in Zwitserland, buiten EU- en VS-jurisdictie.',
         ],
         cta: 'nordvpn',
       },
@@ -693,11 +693,11 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Kan ik een gratis VPN gebruiken op mijn iPhone?',
-        answer: 'ProtonVPN heeft een gratis iOS-app zonder datalimiet — de enige gratis VPN die we zonder voorbehoud aanbevelen voor iPhone-gebruik. Andere gratis VPN\'s hebben datalimieten, zijn traag door overvolle servers, of verdienen geld door je data te verkopen. Voor streaming of dagelijks gebruik raden we een betaalde VPN aan.',
+        answer: 'ProtonVPN heeft een gratis iOS-app zonder datalimiet, de enige gratis VPN die we zonder voorbehoud aanbevelen voor iPhone-gebruik. Andere gratis VPN\'s hebben datalimieten, zijn traag door overvolle servers, of verdienen geld door je data te verkopen. Voor streaming of dagelijks gebruik raden we een betaalde VPN aan.',
       },
       {
         question: 'Hoe weet ik of de VPN actief is op mijn iPhone?',
-        answer: 'Als de VPN actief is, zie je een klein "VPN"-label in de statusbalk linksboven op je iPhone. Via iOS Instellingen → Algemeen → VPN en apparaatbeheer → VPN zie je ook de verbindingsstatus. Extra controle: ga naar ipleak.net in Safari — als je het IP van de VPN-server ziet (niet je eigen ISP-IP), werkt alles correct.',
+        answer: 'Als de VPN actief is, zie je een klein "VPN"-label in de statusbalk linksboven op je iPhone. Via iOS Instellingen → Algemeen → VPN en apparaatbeheer → VPN zie je ook de verbindingsstatus. Extra controle: ga naar ipleak.net in Safari, als je het IP van de VPN-server ziet (niet je eigen ISP-IP), werkt alles correct.',
       },
     ],
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
@@ -720,16 +720,16 @@ export const posts: BlogPost[] = [
     author: 'vpnr.nl Redactie',
     image: '/blog/vpn-windows-instellen.jpg',
     imageAlt: 'Laptop met VPN-software op Windows 11, beveiligde verbinding via donkere interface',
-    intro: 'Een VPN instellen op Windows 11 kan via twee routes: via de app van je VPN-aanbieder (aanbevolen — meer functies, eenvoudiger) of via de ingebouwde VPN-client van Windows (voor zakelijke configuraties). De app-methode geeft je kill switch, split tunneling en automatische serversselectie die de ingebouwde client mist. In deze handleiding behandelen we beide methoden uitgebreid, inclusief troubleshooting voor de meestgemaakte fouten.',
+    intro: 'Een VPN instellen op Windows 11 kan via twee routes: via de app van je VPN-aanbieder (aanbevolen, meer functies, eenvoudiger) of via de ingebouwde VPN-client van Windows (voor zakelijke configuraties). De app-methode geeft je kill switch, split tunneling en automatische serversselectie die de ingebouwde client mist. In deze handleiding behandelen we beide methoden uitgebreid, inclusief troubleshooting voor de meestgemaakte fouten.',
     sections: [
       {
         heading: 'VPN installeren via de app op Windows (aanbevolen)',
         body: [
           'De app-methode is de snelste en meest volledige manier om een VPN op Windows te gebruiken. Je krijgt alle extra functies die de ingebouwde Windows-client niet heeft.',
-          '<strong>Stap 1 — Download de app:</strong> Ga naar de officiële website van je VPN-aanbieder (bijv. nordvpn.com of surfshark.com) en download de Windows-installer (.exe-bestand). Download altijd van de officiële website, nooit van een derde partij.',
-          '<strong>Stap 2 — Installeer:</strong> Voer het installatiebestand uit. De installatie voegt een virtuele netwerkadapter toe aan Windows. Windows Beveiligingscentrum kan hierom vragen — dit is normaal en veilig.',
-          '<strong>Stap 3 — Log in en verbind:</strong> Open de app, meld je aan met je account en klik op "Verbinden". De app kiest automatisch de snelste server. In de systeemvak rechtsonder in de taakbalk verschijnt het VPN-icoontje.',
-          '<strong>Stap 4 — Activeer de kill switch:</strong> Ga direct naar Instellingen → Kill Switch → Internet Kill Switch aan. Dit blokkeert je internet als de VPN-verbinding wegvalt, zodat je IP nooit onbeschermd naar buiten gaat.',
+          '<strong>Stap 1, Download de app:</strong> Ga naar de officiële website van je VPN-aanbieder (bijv. nordvpn.com of surfshark.com) en download de Windows-installer (.exe-bestand). Download altijd van de officiële website, nooit van een derde partij.',
+          '<strong>Stap 2, Installeer:</strong> Voer het installatiebestand uit. De installatie voegt een virtuele netwerkadapter toe aan Windows. Windows Beveiligingscentrum kan hierom vragen, dit is normaal en veilig.',
+          '<strong>Stap 3, Log in en verbind:</strong> Open de app, meld je aan met je account en klik op "Verbinden". De app kiest automatisch de snelste server. In de systeemvak rechtsonder in de taakbalk verschijnt het VPN-icoontje.',
+          '<strong>Stap 4, Activeer de kill switch:</strong> Ga direct naar Instellingen → Kill Switch → Internet Kill Switch aan. Dit blokkeert je internet als de VPN-verbinding wegvalt, zodat je IP nooit onbeschermd naar buiten gaat.',
         ],
         highlight: {
           type: 'tip',
@@ -762,7 +762,7 @@ export const posts: BlogPost[] = [
         body: [
           '<strong>Split tunneling</strong> laat je kiezen welk verkeer door de VPN-tunnel gaat en welk verkeer direct verbindt. Handig als je wilt dat je browser via VPN gaat maar je game-launcher of videobel-app direct verbindt voor lagere latentie.',
           'In NordVPN: ga naar Instellingen → Split Tunneling → schakel in → voeg apps toe die de VPN omzeilen (bijv. Steam, Xbox App, Zoom). In Surfshark: Instellingen → VPN-instellingen → Bypasser → voeg apps of specifieke websites toe aan de uitzonderingslijst.',
-          '<strong>Kill switch varianten in NordVPN:</strong> "Internet Kill Switch" blokkeert al het internet als de VPN wegvalt. "App Kill Switch" sluit specifieke apps af als de VPN verbreekt — handig voor torrent-clients die je nooit zonder VPN wilt laten draaien. Activeer altijd minimaal de Internet Kill Switch voor dagelijks gebruik.',
+          '<strong>Kill switch varianten in NordVPN:</strong> "Internet Kill Switch" blokkeert al het internet als de VPN wegvalt. "App Kill Switch" sluit specifieke apps af als de VPN verbreekt, handig voor torrent-clients die je nooit zonder VPN wilt laten draaien. Activeer altijd minimaal de Internet Kill Switch voor dagelijks gebruik.',
         ],
         highlight: {
           type: 'info',
@@ -788,7 +788,7 @@ export const posts: BlogPost[] = [
         heading: 'De beste VPN\'s voor Windows in 2026',
         body: [
           '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> heeft de meest volledige Windows-app: kill switch in twee varianten, split tunneling, Threat Protection (blokkeert malware, trackers en advertenties), automatische wifi-beveiliging en NordLynx voor maximale snelheid. De app ondersteunt ook een donker thema en is beschikbaar in het Nederlands.',
-          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is de beste keuze als je meerdere Windows-apparaten hebt — onbeperkte apparaten per abonnement. De Windows-app biedt ook Rotating IP (wisselt je VPN-IP regelmatig voor extra privacy) en een ingebouwde advertentie-blokkering.',
+          '<a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is de beste keuze als je meerdere Windows-apparaten hebt, onbeperkte apparaten per abonnement. De Windows-app biedt ook Rotating IP (wisselt je VPN-IP regelmatig voor extra privacy) en een ingebouwde advertentie-blokkering.',
           '<a href="/vpn-reviews/expressvpn" class="text-blue-600 hover:underline font-medium">ExpressVPN</a> is de snelste optie voor Windows dankzij het eigen Lightway-protocol. Ideaal voor 4K-streaming, cloudgaming (Xbox Cloud Gaming, GeForce NOW) en grote downloads waarbij elke megabit telt.',
         ],
         cta: 'nordvpn',
@@ -805,7 +805,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Hoe controleer ik of mijn VPN actief is op Windows?',
-        answer: 'Kijk rechtsonder in de taakbalk: als het netwerksymbool een schild of VPN-icoontje toont is je VPN actief. Via Instellingen → Netwerk en internet → VPN zie je ook de verbindingsstatus. De meest betrouwbare test: ga naar ipleak.net in je browser — als je het IP-adres van de VPN-server ziet (niet je ISP-IP), werkt alles correct.',
+        answer: 'Kijk rechtsonder in de taakbalk: als het netwerksymbool een schild of VPN-icoontje toont is je VPN actief. Via Instellingen → Netwerk en internet → VPN zie je ook de verbindingsstatus. De meest betrouwbare test: ga naar ipleak.net in je browser, als je het IP-adres van de VPN-server ziet (niet je ISP-IP), werkt alles correct.',
       },
       {
         question: 'Heeft een VPN invloed op mijn gaming-ervaring op Windows?',
@@ -824,8 +824,8 @@ export const posts: BlogPost[] = [
   // ─── AUTO-GEGENEREERD ────────────────────────────────────────────
   {
     slug: "nordvpn-korting",
-    title: "NordVPN korting juni 2026 — actuele deals en aanbiedingen",
-    metaTitle: "NordVPN korting juni 2026 — bespaar tot 74% vandaag",
+    title: "NordVPN korting juni 2026, actuele deals en aanbiedingen",
+    metaTitle: "NordVPN korting juni 2026, bespaar tot 74% vandaag",
     metaDescription: "Actuele NordVPN korting en deals voor juni 2026. Ontdek de beste aanbiedingen, vergelijk prijzen en bespaar tot 74% op je VPN-abonnement.",
     excerpt: "Ontdek de actuele NordVPN kortingen voor juni 2026 en bespaar tot 74% op je abonnement met onze exclusieve deals.",
     category: "Deals",
@@ -857,7 +857,7 @@ export const posts: BlogPost[] = [
         body: [
           "Een NordVPN kortingscode activeren doe je in 4 simpele stappen: ga naar de officiële website, kies je abonnement, voer de code in bij het afrekenproces en rond de betaling af. De korting wordt direct verrekend met je totaalbedrag.",
           "Niet alle kortingen vereisen een code. De meeste actuele deals van NordVPN worden automatisch toegepast wanneer je via een actielink naar de website gaat. Onze links op <a href=\"/vpn-reviews/nordvpn\" class=\"text-blue-600 hover:underline font-medium\">de NordVPN-reviewpagina</a> bevatten altijd de nieuwste actiecodes.",
-          "Controleer voordat je afrekent of de korting zichtbaar is in het besteloverzicht. Zie je geen korting? Probeer dan een andere browser of wis je cookies — soms blokkeert opgeslagen data de juiste weergave van actieprijzen."
+          "Controleer voordat je afrekent of de korting zichtbaar is in het besteloverzicht. Zie je geen korting? Probeer dan een andere browser of wis je cookies, soms blokkeert opgeslagen data de juiste weergave van actieprijzen."
         ],
         highlight: {
           type: "tip",
@@ -1105,7 +1105,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Wat is een IP-adres precies?',
         body: [
-          'IP staat voor <strong>Internet Protocol</strong>. Een IP-adres is een uniek nummer dat je apparaat identificeert op het internet — vergelijkbaar met een huisadres voor postpakketten. Elk apparaat dat met het internet verbonden is, heeft een IP-adres: je laptop, smartphone, smart TV en zelfs je router.',
+          'IP staat voor <strong>Internet Protocol</strong>. Een IP-adres is een uniek nummer dat je apparaat identificeert op het internet, vergelijkbaar met een huisadres voor postpakketten. Elk apparaat dat met het internet verbonden is, heeft een IP-adres: je laptop, smartphone, smart TV en zelfs je router.',
           'Er zijn twee versies: <strong>IPv4</strong> (vier cijfergroepen, bijv. 185.123.45.67) en het nieuwere <strong>IPv6</strong> (acht groepen hexadecimale cijfers, bijv. 2001:0db8::1). IPv4 raakt langzaam vol door het explosieve groei van internetapparaten; IPv6 lost dit op met een vrijwel onbeperkte adresruimte.',
         ],
         highlight: {
@@ -1118,7 +1118,7 @@ export const posts: BlogPost[] = [
         heading: 'Wat onthult jouw IP-adres?',
         body: [
           'Een IP-adres onthult meer dan je misschien denkt. Elke website die je bezoekt ziet automatisch: je <strong>land en stad</strong> (op basis van IP-geolocatie), je <strong>internetprovider</strong> (KPN, Ziggo, T-Mobile etc.), je <strong>verbindingstype</strong> (thuis, zakelijk, mobiel) en soms je <strong>wijk</strong>.',
-          'IP-geolocatie is niet exact — een website ziet niet jouw straatnaam of huisnummer — maar de nauwkeurigheid op stadsniveau is hoog (80–90%). Advertentienetwerken combineren je IP met andere tracking-technieken (cookies, browser fingerprinting) om een gedetailleerd profiel van je op te bouwen over duizenden websites heen.',
+          'IP-geolocatie is niet exact, een website ziet niet jouw straatnaam of huisnummer, maar de nauwkeurigheid op stadsniveau is hoog (80–90%). Advertentienetwerken combineren je IP met andere tracking-technieken (cookies, browser fingerprinting) om een gedetailleerd profiel van je op te bouwen over duizenden websites heen.',
         ],
         highlight: {
           type: 'info',
@@ -1144,7 +1144,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Wat is het verschil tussen je publieke en privé IP-adres?',
         body: [
-          'Je <strong>publieke IP-adres</strong> is het adres dat zichtbaar is voor websites op het internet — het adres dat je router van je provider krijgt. Dit is het IP-adres dat bovenaan vpnr.nl getoond wordt.',
+          'Je <strong>publieke IP-adres</strong> is het adres dat zichtbaar is voor websites op het internet, het adres dat je router van je provider krijgt. Dit is het IP-adres dat bovenaan vpnr.nl getoond wordt.',
           'Je <strong>privé IP-adres</strong> is het interne adres dat je router aan jouw apparaat toewijst binnen je thuisnetwerk (bijv. 192.168.1.105). Dit adres is niet zichtbaar buiten je thuisnetwerk. Heb je meerdere apparaten thuis? Ze delen allemaal hetzelfde publieke IP maar hebben elk een uniek privé IP.',
         ],
       },
@@ -1163,12 +1163,12 @@ export const posts: BlogPost[] = [
       {
         question: 'Verandert mijn IP-adres vanzelf?',
         answer:
-          'Bij de meeste thuisabonnementen (dynamisch IP) verandert je IP-adres regelmatig — bij een router-herstart of elke 24–48 uur. Zakelijke klanten hebben vaak een statisch IP dat nooit verandert. Met een VPN kies je zelf een IP-adres in elk land.',
+          'Bij de meeste thuisabonnementen (dynamisch IP) verandert je IP-adres regelmatig, bij een router-herstart of elke 24–48 uur. Zakelijke klanten hebben vaak een statisch IP dat nooit verandert. Met een VPN kies je zelf een IP-adres in elk land.',
       },
       {
         question: 'Is het legaal om je IP-adres te verbergen?',
         answer:
-          'Ja, volledig legaal in Nederland en de EU. Een VPN gebruiken of je IP verbergen is gewoon toegestaan. Je blijft verantwoordelijk voor je eigen online activiteiten — illegale activiteiten zijn ook met VPN illegaal.',
+          'Ja, volledig legaal in Nederland en de EU. Een VPN gebruiken of je IP verbergen is gewoon toegestaan. Je blijft verantwoordelijk voor je eigen online activiteiten, illegale activiteiten zijn ook met VPN illegaal.',
       },
     ],
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
@@ -1217,7 +1217,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Snelheid: NordVPN is sneller',
         body: [
-          'In onze snelheidstests met WireGuard-protocol haalt NordVPN via NordLynx gemiddeld <strong>420 Mbps</strong> op Nederlandse servers. Surfshark haalt gemiddeld 370 Mbps — ook uitstekend, maar NordVPN presteert consistent beter, ook op lange-afstandsverbindingen naar de VS en Azië.',
+          'In onze snelheidstests met WireGuard-protocol haalt NordVPN via NordLynx gemiddeld <strong>420 Mbps</strong> op Nederlandse servers. Surfshark haalt gemiddeld 370 Mbps, ook uitstekend, maar NordVPN presteert consistent beter, ook op lange-afstandsverbindingen naar de VS en Azië.',
           'Het verschil is in dagelijks gebruik nauwelijks merkbaar. Pas bij grote downloads, 4K-streaming op meerdere apparaten tegelijk of cloudgaming wordt het verschil zichtbaar. Beide zijn ruimschoots snel genoeg voor HD- en 4K-streaming.',
         ],
         highlight: {
@@ -1230,7 +1230,7 @@ export const posts: BlogPost[] = [
         heading: 'Prijs: Surfshark is aanzienlijk goedkoper',
         body: [
           'Surfshark kost €2,49 per maand bij een 2-jaarsplan, NordVPN €3,39 per maand. Dat lijkt een klein verschil, maar over twee jaar is het €21,60. Bovendien staat Surfshark <strong>onbeperkte apparaten</strong> toe per abonnement, terwijl NordVPN je limiteert op 10 gelijktijdige verbindingen.',
-          'Voor gezinnen of gebruikers met veel apparaten is Surfshark dus nóg voordeliger per apparaat. Als je zelf maar 2–3 apparaten hebt en maximale prestaties wilt, is de meerprijs van NordVPN de moeite waard. De <strong>30-daagse geld-terug-garantie</strong> geldt bij beide — je kunt risicovrij uitproberen.',
+          'Voor gezinnen of gebruikers met veel apparaten is Surfshark dus nóg voordeliger per apparaat. Als je zelf maar 2–3 apparaten hebt en maximale prestaties wilt, is de meerprijs van NordVPN de moeite waard. De <strong>30-daagse geld-terug-garantie</strong> geldt bij beide, je kunt risicovrij uitproberen.',
         ],
       },
       {
@@ -1300,7 +1300,7 @@ export const posts: BlogPost[] = [
         heading: 'Waarom thuiswerkers een VPN nodig hebben',
         body: [
           'Op kantoor ben je beschermd door firewalls, beveiligde netwerken en IT-beheer. Thuis heb je die bescherming niet. Je thuisrouter is waarschijnlijk niet zo strak geconfigureerd als een zakelijk netwerk. Je internetprovider kan je browseactiviteiten registreren. En als je weleens werkt vanuit een café of coworking space, zijn die netwerken onbeveiligd.',
-          'Een VPN versleutelt al je internetverkeer — gevoelige e-mails, bedrijfsdocumenten, video-calls, inloggegevens — zodat niemand op je netwerk het kan onderscheppen. Thuiswerkers die omgaan met persoonsgegevens, financiële data of bedrijfsgevoelige informatie hebben een VPN niet als luxe maar als noodzaak.',
+          'Een VPN versleutelt al je internetverkeer, gevoelige e-mails, bedrijfsdocumenten, video-calls, inloggegevens, zodat niemand op je netwerk het kan onderscheppen. Thuiswerkers die omgaan met persoonsgegevens, financiële data of bedrijfsgevoelige informatie hebben een VPN niet als luxe maar als noodzaak.',
         ],
         highlight: {
           type: 'warning',
@@ -1312,7 +1312,7 @@ export const posts: BlogPost[] = [
         heading: 'Persoonlijke VPN vs zakelijke VPN: wat is het verschil?',
         body: [
           'Er zijn twee soorten VPN voor thuiswerkers. Een <strong>zakelijke VPN</strong> (bijv. Cisco AnyConnect, Palo Alto GlobalProtect) verbindt je met het interne netwerk van je werkgever. Je hebt dan toegang tot interne servers, sharepoints en bedrijfssystemen alsof je op kantoor zit. Deze VPN wordt beheerd en aangeboden door je werkgever.',
-          'Een <strong>persoonlijke VPN</strong> (bijv. NordVPN, Surfshark) beschermt jouw eigen internetverkeer. Het versleutelt je verbinding, verbergt je IP-adres en beschermt je privacy — ook voor je werkgever en je ISP. Veel thuiswerkers hebben beide: de zakelijke VPN voor toegang tot bedrijfssystemen, en een persoonlijke VPN voor beveiliging en privacy.',
+          'Een <strong>persoonlijke VPN</strong> (bijv. NordVPN, Surfshark) beschermt jouw eigen internetverkeer. Het versleutelt je verbinding, verbergt je IP-adres en beschermt je privacy, ook voor je werkgever en je ISP. Veel thuiswerkers hebben beide: de zakelijke VPN voor toegang tot bedrijfssystemen, en een persoonlijke VPN voor beveiliging en privacy.',
         ],
       },
       {
@@ -1330,7 +1330,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'VPN en productiviteit: impact op snelheid',
         body: [
-          'Een veelgehoorde zorg is dat een VPN je verbinding vertraagt en video-calls haperen. Met een moderne VPN op WireGuard-protocol is dit vrijwel niet meer het geval. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> haalt met NordLynx gemiddeld 420 Mbps op Nederlandse servers — meer dan voldoende voor 4K-streaming en meerdere HD-video-calls tegelijk.',
+          'Een veelgehoorde zorg is dat een VPN je verbinding vertraagt en video-calls haperen. Met een moderne VPN op WireGuard-protocol is dit vrijwel niet meer het geval. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> haalt met NordLynx gemiddeld 420 Mbps op Nederlandse servers, meer dan voldoende voor 4K-streaming en meerdere HD-video-calls tegelijk.',
           'Als je toch snelheidsproblemen ervaart tijdens video-calls: gebruik split tunneling om Teams of Zoom buiten de VPN-tunnel te houden. Dit geeft die apps direct internettoegang zonder VPN-overhead, terwijl al je andere verkeer nog steeds beschermd blijft.',
         ],
         cta: 'nordvpn',
@@ -1338,23 +1338,23 @@ export const posts: BlogPost[] = [
       {
         heading: 'VPN instellen voor thuiswerken: stap voor stap',
         body: [
-          '<strong>Stap 1 — Kies een VPN:</strong> NordVPN is de beste keuze voor thuiswerkers door de hoge snelheid en uitgebreide split tunneling. Surfshark is het beste budget-alternatief. Beide kosten minder dan €3,50 per maand bij een 2-jaarsplan.',
-          '<strong>Stap 2 — Installeer en configureer:</strong> Download de app voor je besturingssysteem. Activeer de kill switch (zodat werk-data nooit lekt als de VPN wegvalt). Stel split tunneling in om video-call-apps buiten de VPN te houden.',
-          '<strong>Stap 3 — Test:</strong> Ga naar ipleak.net met de VPN ingeschakeld en controleer of je IP-adres vervangen is door dat van de VPN-server. Test ook je internetsnelheid via speedtest.net — het verschil met WireGuard is minimaal.',
-          '<strong>Stap 4 — Gebruik dagelijks:</strong> Schakel de VPN in als eerste handeling wanneer je begint met werken. Veel VPN-apps hebben een optie om automatisch te verbinden bij het opstarten van je computer.',
+          '<strong>Stap 1, Kies een VPN:</strong> NordVPN is de beste keuze voor thuiswerkers door de hoge snelheid en uitgebreide split tunneling. Surfshark is het beste budget-alternatief. Beide kosten minder dan €3,50 per maand bij een 2-jaarsplan.',
+          '<strong>Stap 2, Installeer en configureer:</strong> Download de app voor je besturingssysteem. Activeer de kill switch (zodat werk-data nooit lekt als de VPN wegvalt). Stel split tunneling in om video-call-apps buiten de VPN te houden.',
+          '<strong>Stap 3, Test:</strong> Ga naar ipleak.net met de VPN ingeschakeld en controleer of je IP-adres vervangen is door dat van de VPN-server. Test ook je internetsnelheid via speedtest.net, het verschil met WireGuard is minimaal.',
+          '<strong>Stap 4, Gebruik dagelijks:</strong> Schakel de VPN in als eerste handeling wanneer je begint met werken. Veel VPN-apps hebben een optie om automatisch te verbinden bij het opstarten van je computer.',
         ],
       },
     ],
     faqs: [
       {
-        question: 'Heeft mijn werkgever al een VPN — moet ik dan ook een persoonlijke VPN?',
+        question: 'Heeft mijn werkgever al een VPN, moet ik dan ook een persoonlijke VPN?',
         answer:
           'Een zakelijke VPN van je werkgever geeft toegang tot bedrijfssystemen, maar beschermt niet je privéverkeer. Met een persoonlijke VPN bescherm je ook je eigen browseactiviteiten en privé-gebruik. Beide hebben een ander doel en vullen elkaar aan.',
       },
       {
         question: 'Welke VPN is het beste voor thuiswerken?',
         answer:
-          'NordVPN is de beste VPN voor thuiswerken: hoge snelheid (NordLynx/WireGuard), uitstekende split tunneling, kill switch en stabiele verbinding. Surfshark is het beste budget-alternatief en staat onbeperkte apparaten toe — ideaal als je meerdere thuiswerkschermen hebt.',
+          'NordVPN is de beste VPN voor thuiswerken: hoge snelheid (NordLynx/WireGuard), uitstekende split tunneling, kill switch en stabiele verbinding. Surfshark is het beste budget-alternatief en staat onbeperkte apparaten toe, ideaal als je meerdere thuiswerkschermen hebt.',
       },
       {
         question: 'Kan mijn werkgever zien wat ik doe als ik een persoonlijke VPN gebruik?',
@@ -1398,9 +1398,9 @@ export const posts: BlogPost[] = [
         heading: 'VPN installeren via de app op Mac (aanbevolen)',
         body: [
           'De app-methode geeft je alle functies: kill switch, split tunneling, automatisch verbinden en de snelste servers. Volg deze stappen:',
-          '<strong>Stap 1 — Download de app:</strong> Ga naar de officiële website van je VPN-aanbieder (bijv. nordvpn.com of surfshark.com) en download de macOS-app. Download altijd van de officiële site, niet via de Mac App Store — daar betaal je soms meer en mist de app functies.',
-          '<strong>Stap 2 — Installeer en log in:</strong> Open het .dmg-bestand, sleep de app naar je Programmamap en open hem. Log in met je account. Bij de eerste start vraagt macOS toestemming om een VPN-configuratie toe te voegen — klik op "Sta toe" in Systeeminstellingen.',
-          '<strong>Stap 3 — Verbinden:</strong> Klik op de grote verbindingsknop. De app kiest automatisch de snelste server. In de menubalk verschijnt een VPN-icoon. Test via ipleak.net in Safari of je IP correct is veranderd.',
+          '<strong>Stap 1, Download de app:</strong> Ga naar de officiële website van je VPN-aanbieder (bijv. nordvpn.com of surfshark.com) en download de macOS-app. Download altijd van de officiële site, niet via de Mac App Store, daar betaal je soms meer en mist de app functies.',
+          '<strong>Stap 2, Installeer en log in:</strong> Open het .dmg-bestand, sleep de app naar je Programmamap en open hem. Log in met je account. Bij de eerste start vraagt macOS toestemming om een VPN-configuratie toe te voegen, klik op "Sta toe" in Systeeminstellingen.',
+          '<strong>Stap 3, Verbinden:</strong> Klik op de grote verbindingsknop. De app kiest automatisch de snelste server. In de menubalk verschijnt een VPN-icoon. Test via ipleak.net in Safari of je IP correct is veranderd.',
         ],
         highlight: {
           type: 'tip',
@@ -1414,7 +1414,7 @@ export const posts: BlogPost[] = [
           'De kill switch is de belangrijkste instelling na de installatie. Hij blokkeert je internetverkeer als de VPN-verbinding wegvalt, zodat je IP-adres nooit per ongeluk zichtbaar wordt.',
           '<strong>In NordVPN voor Mac:</strong> Klik op het tandwiel → Verbinding → schakel "Kill Switch" in. Er zijn twee varianten: "Kill Switch" (blokkeert internet bij VPN-uitval) en "App Kill Switch" (sluit specifieke apps bij uitval). Voor maximale bescherming activeer je beide.',
           '<strong>In Surfshark voor Mac:</strong> Ga naar Instellingen → Verbindingsopties → Kill Switch aan. Activeer ook "Auto-connect" om de VPN automatisch te starten bij het opstarten van je Mac.',
-          'macOS heeft zelf geen ingebouwde kill switch voor VPN-apps — dat verschilt van iOS. Je bent volledig afhankelijk van de kill switch in de VPN-app zelf. Controleer altijd of deze is ingeschakeld na installatie.',
+          'macOS heeft zelf geen ingebouwde kill switch voor VPN-apps, dat verschilt van iOS. Je bent volledig afhankelijk van de kill switch in de VPN-app zelf. Controleer altijd of deze is ingeschakeld na installatie.',
         ],
         highlight: {
           type: 'warning',
@@ -1425,7 +1425,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'VPN handmatig instellen op macOS via IKEv2',
         body: [
-          'Handmatig instellen is handig voor zakelijke VPN\'s of als je een aanbieder gebruikt zonder macOS-app. macOS ondersteunt IKEv2/IPSec, L2TP/IPSec en Cisco IPSec — IKEv2 is de beste keuze.',
+          'Handmatig instellen is handig voor zakelijke VPN\'s of als je een aanbieder gebruikt zonder macOS-app. macOS ondersteunt IKEv2/IPSec, L2TP/IPSec en Cisco IPSec, IKEv2 is de beste keuze.',
           '<strong>Stap 1:</strong> Ga naar Systeeminstellingen (Apple-menu) → VPN → Klik op het plusje → "VPN-configuratie toevoegen".',
           '<strong>Stap 2:</strong> Kies type "IKEv2". Vul in: weergavenaam (bijv. "NordVPN Amsterdam"), server (bijv. nl123.nordvpn.com), extern ID (zelfde als server) en lokaal ID (je e-mailadres). Kies bij Authenticatie "Gebruikersnaam" en vul je VPN-inloggegevens in.',
           '<strong>Stap 3:</strong> Klik op "Verbinden". Het VPN-sleuteltje verschijnt in de menubalk.',
@@ -1436,7 +1436,7 @@ export const posts: BlogPost[] = [
         heading: 'Problemen oplossen: VPN werkt niet op Mac',
         body: [
           '<strong>VPN verbindt niet?</strong> Controleer of macOS toestemming heeft gegeven voor de VPN-configuratie: Systeeminstellingen → Privacy & Beveiliging → VPN. Staat er een melding dat de extensie is geblokkeerd? Klik op "Sta toe" en herstart de app.',
-          '<strong>VPN traag of instabiel?</strong> Wissel van protocol — ga in de app-instellingen van OpenVPN naar NordLynx (WireGuard) of IKEv2. WireGuard is op Macs significant sneller door de efficiënte implementatie op Apple Silicon.',
+          '<strong>VPN traag of instabiel?</strong> Wissel van protocol, ga in de app-instellingen van OpenVPN naar NordLynx (WireGuard) of IKEv2. WireGuard is op Macs significant sneller door de efficiënte implementatie op Apple Silicon.',
           '<strong>Firewall of beveiligingssoftware blokkeert VPN?</strong> Sommige Mac-firewalls (Little Snitch, LuLu) blokkeren VPN-verbindingen. Voeg je VPN-app toe aan de uitzonderingenlijst van je firewall. In macOS-firewall (Systeeminstellingen → Netwerk → Firewall) schakel je inkomende verbindingen in voor de VPN-app.',
           '<strong>Split tunneling werkt niet?</strong> NordVPN en Surfshark bieden split tunneling op Mac, maar het heet in NordVPN "Gesplitste tunnel" en in Surfshark "Bypasser". Voeg apps toe die je buiten de VPN-tunnel wilt houden, zoals online games of videobel-apps.',
         ],
@@ -1463,7 +1463,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Heeft een VPN invloed op de batterijduur van mijn MacBook?',
-        answer: 'Minimaal met moderne protocollen. NordLynx (WireGuard) verbruikt significant minder stroom dan OpenVPN door de efficiëntere implementatie — ideaal voor MacBook-gebruik onderweg. Verwacht 3–8% extra batterijverbruik, afhankelijk van serverafstand en protocol.',
+        answer: 'Minimaal met moderne protocollen. NordLynx (WireGuard) verbruikt significant minder stroom dan OpenVPN door de efficiëntere implementatie, ideaal voor MacBook-gebruik onderweg. Verwacht 3–8% extra batterijverbruik, afhankelijk van serverafstand en protocol.',
       },
       {
         question: 'Kan ik een VPN gebruiken op meerdere Macs tegelijk?',
@@ -1475,7 +1475,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Hoe weet ik of de VPN actief is op mijn Mac?',
-        answer: 'Een actieve VPN toont een sleuteltje-icoon in de macOS-menubalk rechtsboven. Extra zekerheid: ga naar ipleak.net in je browser — als je het IP van de VPN-server ziet en niet je eigen ISP-IP, werkt alles correct. Controleer ook de DNS-sectie op eventuele lekken.',
+        answer: 'Een actieve VPN toont een sleuteltje-icoon in de macOS-menubalk rechtsboven. Extra zekerheid: ga naar ipleak.net in je browser, als je het IP van de VPN-server ziet en niet je eigen ISP-IP, werkt alles correct. Controleer ook de DNS-sectie op eventuele lekken.',
       },
     ],
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
@@ -1750,7 +1750,7 @@ export const posts: BlogPost[] = [
     slug: 'vpn-smart-tv-instellen',
     title: 'VPN instellen op Smart TV (2026): Samsung, LG en Android TV',
     metaTitle: 'VPN instellen op Smart TV (2026) | Samsung, LG, Android TV | vpnr.nl',
-    metaDescription: 'VPN instellen op je Smart TV: stap-voor-stap voor Android TV, Samsung Tizen en LG webOS. Directe app, SmartDNS of via router — welke methode past bij jou?',
+    metaDescription: 'VPN instellen op je Smart TV: stap-voor-stap voor Android TV, Samsung Tizen en LG webOS. Directe app, SmartDNS of via router, welke methode past bij jou?',
     excerpt: 'Een VPN op je Smart TV instellen is makkelijker dan je denkt. Via een app, SmartDNS of via je router bescherm je je kijkgedrag en ontgrendel je buitenlandse streamingcontent.',
     category: 'Gids',
     date: '17 juni 2026',
@@ -1766,8 +1766,8 @@ export const posts: BlogPost[] = [
         heading: 'Waarom een VPN op je Smart TV?',
         body: [
           'De meeste Smart TVs zijn verbonden met het internet maar bieden weinig privacy. Je kijkgedrag, zoekopdrachten en IP-adres zijn zichtbaar voor je provider, de TV-fabrikant én de streamingdiensten die je gebruikt. Samsung en LG verzamelen standaard gebruiksdata, tenzij je dit expliciet uitschakelt.',
-          'Een VPN op je Smart TV lost meerdere problemen tegelijk op. Je verbergt je IP-adres en locatie, waardoor je toegang krijgt tot content die in Nederland niet beschikbaar is — denk aan de Amerikaanse Netflix-catalogus, BBC iPlayer of Streamz uit België. Bovendien ben je beter beschermd op openbare netwerken, handig als je een TV meeneemt naar een vakantiepark of hotel.',
-          'Het nadeel: Smart TVs zijn gesloten systemen. Alleen Android TV en Google TV ondersteunen directe VPN-apps. Samsung (Tizen OS) en LG (webOS) niet — daar moet je een omweg nemen via SmartDNS of de router.',
+          'Een VPN op je Smart TV lost meerdere problemen tegelijk op. Je verbergt je IP-adres en locatie, waardoor je toegang krijgt tot content die in Nederland niet beschikbaar is, denk aan de Amerikaanse Netflix-catalogus, BBC iPlayer of Streamz uit België. Bovendien ben je beter beschermd op openbare netwerken, handig als je een TV meeneemt naar een vakantiepark of hotel.',
+          'Het nadeel: Smart TVs zijn gesloten systemen. Alleen Android TV en Google TV ondersteunen directe VPN-apps. Samsung (Tizen OS) en LG (webOS) niet, daar moet je een omweg nemen via SmartDNS of de router.',
         ],
         highlight: {
           type: 'tip',
@@ -1780,7 +1780,7 @@ export const posts: BlogPost[] = [
         body: [
           'Android TV en Google TV (gebruikt op Sony, TCL, Nvidia Shield en Chromecast met Google TV) draaien op Android en hebben toegang tot de Google Play Store. Hierdoor kun je VPN-apps direct installeren, net zoals op je telefoon.',
           '<strong>Stap 1:</strong> Open de Google Play Store op je TV. Zoek op de naam van je VPN-provider, bijvoorbeeld "NordVPN" of "Surfshark".',
-          '<strong>Stap 2:</strong> Download en installeer de app. Log in met je bestaande account — je hebt geen apart TV-abonnement nodig.',
+          '<strong>Stap 2:</strong> Download en installeer de app. Log in met je bestaande account, je hebt geen apart TV-abonnement nodig.',
           '<strong>Stap 3:</strong> Kies een serverlocatie. Voor Netflix US kies je een Amerikaanse server. Voor BBC iPlayer een server in het Verenigd Koninkrijk.',
           '<strong>Stap 4:</strong> Verbinden. Je TV is nu beveiligd. Open je streamingapp en geniet van de uitgebreide catalogus.',
           '<a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> en <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> hebben beiden een volwaardige Android TV-app met interface aangepast voor afstandsbediening. <a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> heeft speciale streaming-geoptimaliseerde servers die je per land kunt kiezen.',
@@ -1791,10 +1791,10 @@ export const posts: BlogPost[] = [
         heading: 'Methode 2: SmartDNS voor Samsung (Tizen) en LG (webOS)',
         body: [
           'Samsung Smart TVs draaien op Tizen OS en LG-toestellen op webOS. Geen van beide ondersteunt directe VPN-apps. De eenvoudigste oplossing is <strong>SmartDNS</strong>: je wijzigt de DNS-instellingen van je TV zodat streamingdiensten denken dat je in een ander land bent.',
-          'SmartDNS verbergt je IP-adres niet volledig en versleutelt je verbinding niet — het is dus geen volwaardige VPN. Maar voor het ontgrendelen van streamingcontent werkt het uitstekend en heeft het vrijwel geen invloed op je kijksnelheid.',
+          'SmartDNS verbergt je IP-adres niet volledig en versleutelt je verbinding niet, het is dus geen volwaardige VPN. Maar voor het ontgrendelen van streamingcontent werkt het uitstekend en heeft het vrijwel geen invloed op je kijksnelheid.',
           '<strong>SmartDNS instellen op Samsung TV:</strong> Ga naar <em>Instellingen → Algemeen → Netwerk → Netwerkstatus → IP-instellingen</em>. Verander "DNS-instelling" van automatisch naar handmatig. Voer het SmartDNS-adres van je VPN-provider in.',
           '<strong>SmartDNS instellen op LG webOS:</strong> Ga naar <em>Instellingen → Netwerk → Geavanceerde wifi-instellingen → DNS-server</em>. De verdere stappen zijn identiek. Herstart je streamingapp na het opslaan.',
-          'NordVPN en Surfshark bieden SmartDNS aan bij elk betaald abonnement zonder meerkosten. Activeer SmartDNS eerst in je accountdashboard — je thuisadres moet geregistreerd zijn bij de provider.',
+          'NordVPN en Surfshark bieden SmartDNS aan bij elk betaald abonnement zonder meerkosten. Activeer SmartDNS eerst in je accountdashboard, je thuisadres moet geregistreerd zijn bij de provider.',
         ],
         highlight: {
           type: 'warning',
@@ -1805,9 +1805,9 @@ export const posts: BlogPost[] = [
       {
         heading: 'Methode 3: VPN via de router (werkt op alle Smart TVs)',
         body: [
-          'De meest universele methode: installeer de VPN op je router. Elk apparaat dat via die router verbinding maakt — inclusief je Smart TV, ongeacht het merk — is dan automatisch via de VPN beschermd.',
+          'De meest universele methode: installeer de VPN op je router. Elk apparaat dat via die router verbinding maakt, inclusief je Smart TV, ongeacht het merk, is dan automatisch via de VPN beschermd.',
           'Het voordeel: je hoeft niets in te stellen op de TV zelf en alle apparaten in huis zijn in één keer beveiligd. Het nadeel: je router moet VPN-ondersteuning hebben. Routers van je internetprovider (KPN, Ziggo, Odido) ondersteunen dit vrijwel nooit.',
-          'Je hebt een eigen router nodig met firmware zoals DD-WRT, Asus Merlin of OpenWRT — of een router die natively WireGuard ondersteunt. Populaire opties zijn de <strong>Asus RT-AX88U</strong> (natively VPN-ready) of de <strong>GL.iNet Beryl AX</strong> (compacte reisrouter met ingebouwde VPN).',
+          'Je hebt een eigen router nodig met firmware zoals DD-WRT, Asus Merlin of OpenWRT, of een router die natively WireGuard ondersteunt. Populaire opties zijn de <strong>Asus RT-AX88U</strong> (natively VPN-ready) of de <strong>GL.iNet Beryl AX</strong> (compacte reisrouter met ingebouwde VPN).',
           'Lees onze uitgebreide handleiding voor alle details: <a href="/blog/vpn-router-instellen" class="text-blue-600 hover:underline font-medium">VPN instellen op je router</a>.',
         ],
         cta: 'surfshark',
@@ -1816,9 +1816,9 @@ export const posts: BlogPost[] = [
         heading: 'Welke VPN is het beste voor Smart TV in 2026?',
         body: [
           'Niet elke VPN is even geschikt voor gebruik op een televisie. Dit zijn de drie beste opties:',
-          '<strong><a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> — Beste overall:</strong> Volledige Android TV-app, SmartDNS inbegrepen, snelle NordLynx-verbindingen voor 4K-streaming en betrouwbare werking met Netflix US, Disney+ en BBC iPlayer.',
-          '<strong><a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> — Beste voor meerdere TVs:</strong> Onbeperkt aantal apparaten gelijktijdig, scherpe prijs (€2,19/maand bij 2 jaar), Android TV-app én SmartDNS beschikbaar.',
-          '<strong><a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> — Beste streaming-servers:</strong> Speciale servers geoptimaliseerd voor Netflix, Disney+ en Amazon Prime per land, met Android TV-app en uitstekende router-ondersteuning.',
+          '<strong><a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a>, Beste overall:</strong> Volledige Android TV-app, SmartDNS inbegrepen, snelle NordLynx-verbindingen voor 4K-streaming en betrouwbare werking met Netflix US, Disney+ en BBC iPlayer.',
+          '<strong><a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a>, Beste voor meerdere TVs:</strong> Onbeperkt aantal apparaten gelijktijdig, scherpe prijs (€2,19/maand bij 2 jaar), Android TV-app én SmartDNS beschikbaar.',
+          '<strong><a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a>, Beste streaming-servers:</strong> Speciale servers geoptimaliseerd voor Netflix, Disney+ en Amazon Prime per land, met Android TV-app en uitstekende router-ondersteuning.',
         ],
         table: {
           headers: ['VPN', 'Android TV-app', 'SmartDNS', 'Router-ondersteuning', 'Prijs/mnd'],
@@ -1833,11 +1833,11 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         question: 'Kan ik een VPN instellen op elke Smart TV?',
-        answer: 'Niet via een directe app. Android TV en Google TV ondersteunen VPN-apps via de Play Store. Samsung (Tizen) en LG (webOS) niet — daarvoor gebruik je SmartDNS of de router-methode. De router-methode werkt op elke Smart TV, ongeacht het merk of besturingssysteem.',
+        answer: 'Niet via een directe app. Android TV en Google TV ondersteunen VPN-apps via de Play Store. Samsung (Tizen) en LG (webOS) niet, daarvoor gebruik je SmartDNS of de router-methode. De router-methode werkt op elke Smart TV, ongeacht het merk of besturingssysteem.',
       },
       {
         question: 'Vertraagt een VPN de streamingkwaliteit op mijn Smart TV?',
-        answer: 'Een goede VPN heeft minimale impact op je snelheid. Via WireGuard of NordLynx haal je makkelijk 100–500 Mbps — ruim voldoende voor 4K-streaming (vereist circa 25 Mbps). Kies een server dichtbij voor de beste snelheid. SmartDNS heeft vrijwel geen snelheidsinvloed omdat er geen encryptie plaatsvindt.',
+        answer: 'Een goede VPN heeft minimale impact op je snelheid. Via WireGuard of NordLynx haal je makkelijk 100–500 Mbps, ruim voldoende voor 4K-streaming (vereist circa 25 Mbps). Kies een server dichtbij voor de beste snelheid. SmartDNS heeft vrijwel geen snelheidsinvloed omdat er geen encryptie plaatsvindt.',
       },
       {
         question: 'Werkt Netflix US via een VPN op mijn Smart TV?',
@@ -1849,7 +1849,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Hoeveel apparaten kan ik gelijktijdig verbinden met één VPN-abonnement?',
-        answer: 'Dat verschilt per provider. NordVPN staat 10 gelijktijdige verbindingen toe, Surfshark heeft geen limiet. Als je een VPN op je router installeert, telt het hele thuisnetwerk als één verbinding — ongeacht hoeveel TVs, telefoons en computers erachter zitten.',
+        answer: 'Dat verschilt per provider. NordVPN staat 10 gelijktijdige verbindingen toe, Surfshark heeft geen limiet. Als je een VPN op je router installeert, telt het hele thuisnetwerk als één verbinding, ongeacht hoeveel TVs, telefoons en computers erachter zitten.',
       },
     ],
     relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
@@ -1859,10 +1859,10 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'surfshark-korting',
-    title: 'Surfshark korting juni 2026 — bespaar tot 87% op je abonnement',
-    metaTitle: 'Surfshark Korting Juni 2026 — Actuele Deals & Aanbiedingen',
+    title: 'Surfshark korting juni 2026, bespaar tot 87% op je abonnement',
+    metaTitle: 'Surfshark Korting Juni 2026, Actuele Deals & Aanbiedingen',
     metaDescription: 'Actuele Surfshark korting voor juni 2026. Bespaar tot 87% op het 2-jarig abonnement + 3 maanden gratis. Vergelijk plannen en activeer de beste deal vandaag.',
-    excerpt: 'Ontdek de actuele Surfshark kortingen voor juni 2026 en bespaar tot 87% op je abonnement — inclusief onbeperkt apparaten voor minder dan €2,50 per maand.',
+    excerpt: 'Ontdek de actuele Surfshark kortingen voor juni 2026 en bespaar tot 87% op je abonnement, inclusief onbeperkt apparaten voor minder dan €2,50 per maand.',
     category: 'Deals',
     date: '22 juni 2026',
     dateISO: '2026-06-22',
@@ -1883,7 +1883,7 @@ export const posts: BlogPost[] = [
         highlight: {
           type: 'stat',
           title: 'Actuele besparing',
-          text: 'Met de juni 2026-deal betaal je €53,73 voor 27 maanden in plaats van €416,65 bij maandelijks betalen — een besparing van ruim €360.',
+          text: 'Met de juni 2026-deal betaal je €53,73 voor 27 maanden in plaats van €416,65 bij maandelijks betalen, een besparing van ruim €360.',
         },
         cta: 'surfshark',
       },
@@ -1892,7 +1892,7 @@ export const posts: BlogPost[] = [
         body: [
           'Surfshark biedt drie abonnementen aan: <strong>Starter</strong>, <strong>One</strong> en <strong>One+</strong>. Het Starter-plan bevat de VPN-functies, CleanWeb (advertentie- en trackerblokkering) en toegang tot alle 3.200+ servers.',
           'Surfshark One voegt daaraan toe: een virusscanner, een alternatief ID-adres, en realtime datalek-meldingen. One+ telt er ook nog een data removal-service bij, die je gegevens van datamakelaars laat verwijderen.',
-          'Voor de meeste thuisgebruikers is het <strong>Starter-plan meer dan voldoende</strong>. Het unieke voordeel van Surfshark — onbeperkt apparaten — zit in alle drie de plannen inbegrepen.',
+          'Voor de meeste thuisgebruikers is het <strong>Starter-plan meer dan voldoende</strong>. Het unieke voordeel van Surfshark, onbeperkt apparaten, zit in alle drie de plannen inbegrepen.',
         ],
         table: {
           headers: ['Abonnement', 'Prijs/maand (2-jarig)', 'Korting', "Extra's"],
@@ -1906,7 +1906,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Hoe activeer je de Surfshark korting?',
         body: [
-          'De Surfshark korting activeer je in drie stappen: klik op een actielink van onze <a href="/vpn-reviews/surfshark">Surfshark-reviewpagina</a>, kies je abonnement en afrekeningsduur op de Surfshark-website, en rond de bestelling af. De korting wordt <strong>automatisch verrekend</strong> — je hoeft geen aparte kortingscode in te voeren.',
+          'De Surfshark korting activeer je in drie stappen: klik op een actielink van onze <a href="/vpn-reviews/surfshark">Surfshark-reviewpagina</a>, kies je abonnement en afrekeningsduur op de Surfshark-website, en rond de bestelling af. De korting wordt <strong>automatisch verrekend</strong>, je hoeft geen aparte kortingscode in te voeren.',
           'Krijg je niet de verwachte prijs te zien? Probeer dan je browsercookies te wissen of open de pagina in een incognitovenster. Sommige browsers slaan oude prijzen op uit eerdere bezoeken, waardoor de actiekorting niet altijd direct zichtbaar is.',
           'Controleer voor het afrekenen altijd het besteloverzicht. Het totaalbedrag en de looptijd moeten overeenkomen met de actie. Pas als je de actieprijs ziet, voltooi je de betaling.',
         ],
@@ -1937,7 +1937,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Wanneer zijn de beste Surfshark-aanbiedingen te verwachten?',
         body: [
-          'Surfshark houdt traditioneel vier grote actieperiodes per jaar: <strong>zomer</strong> (juni–augustus), <strong>Black Friday</strong> (november), <strong>Cyber Monday</strong> en <strong>Nieuwjaar</strong>. De huidige zomerdeal met 87% is al erg scherp — vergelijkbaar met de Black Friday-prijzen.',
+          'Surfshark houdt traditioneel vier grote actieperiodes per jaar: <strong>zomer</strong> (juni–augustus), <strong>Black Friday</strong> (november), <strong>Cyber Monday</strong> en <strong>Nieuwjaar</strong>. De huidige zomerdeal met 87% is al erg scherp, vergelijkbaar met de Black Friday-prijzen.',
           'Buiten de grote salesperiodes schommelt de korting op het tweejarig plan tussen de 75% en 83%. Wachten op een nog betere deal is dus zelden zinvol: het verschil bedraagt hooguit een paar euro over de volledige looptijd.',
           'Surfshark biedt ook soms flash sales via nieuwsbrief of social media. Abonneer je op de Surfshark-mailinglist om als eerste te horen over tijdelijke extra kortingen.',
         ],
@@ -1950,7 +1950,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Is Surfshark de moeite waard met korting?',
         body: [
-          'Surfshark levert voor €1,99 per maand een volwaardige premium VPN die je complete netwerk beschermt — van laptop tot smart-tv — zonder limiet op het aantal apparaten. Dat maakt het een van de beste prijs-kwaliteitsopties op de markt.',
+          'Surfshark levert voor €1,99 per maand een volwaardige premium VPN die je complete netwerk beschermt, van laptop tot smart-tv, zonder limiet op het aantal apparaten. Dat maakt het een van de beste prijs-kwaliteitsopties op de markt.',
           'In onze tests scoort Surfshark een <strong>9.2/10 overall</strong>: uitstekend op beveiliging (AES-256, kill switch, no-logs), solide snelheden via WireGuard en betrouwbare deblokkering van Netflix, Disney+ en Videoland. Lees de volledige <a href="/vpn-reviews/surfshark">Surfshark review</a> voor alle testresultaten.',
           'Voor gezinnen, huishoudens met veel apparaten of iedereen die op prijs let, is dit de sterkste VPN-deal in juni 2026. Het tweejarig plan met 3 maanden gratis is het meest voordelig en dekt je tot het derde kwartaal van 2028.',
         ],
@@ -1968,7 +1968,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Kan ik Surfshark op meerdere apparaten gebruiken?',
-        answer: 'Ja, Surfshark staat een onbeperkt aantal gelijktijdige verbindingen toe. Dat is uniek onder premium VPN-aanbieders. Je kunt dus het hele gezin beschermen — telefoons, laptops, tablets en smart-tv\'s — met één abonnement.',
+        answer: 'Ja, Surfshark staat een onbeperkt aantal gelijktijdige verbindingen toe. Dat is uniek onder premium VPN-aanbieders. Je kunt dus het hele gezin beschermen, telefoons, laptops, tablets en smart-tv\'s, met één abonnement.',
       },
       {
         question: 'Wat gebeurt er met de prijs na afloop van de 2-jaar actieperiode?',
@@ -1976,7 +1976,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Biedt Surfshark een gratis proefversie?',
-        answer: 'Surfshark heeft geen gratis tier, maar biedt wel een 30-daagse geld-terug-garantie. Je kunt de dienst dus een maand volledig uitproberen en je geld terugvragen als je niet tevreden bent — geen vragen gesteld.',
+        answer: 'Surfshark heeft geen gratis tier, maar biedt wel een 30-daagse geld-terug-garantie. Je kunt de dienst dus een maand volledig uitproberen en je geld terugvragen als je niet tevreden bent, geen vragen gesteld.',
       },
     ],
     relatedProviders: ['surfshark', 'nordvpn', 'cyberghost'],
@@ -1988,7 +1988,7 @@ export const posts: BlogPost[] = [
     slug: 'gratis-vpn-gevaren',
     title: 'De gevaren van gratis VPN: waarom je beter betaalt (2026)',
     metaTitle: 'Gevaren van Gratis VPN: 7 Risico\'s die je Moet Kennen (2026)',
-    metaDescription: 'Gratis VPN klinkt aantrekkelijk, maar de risico\'s zijn groot: datalogging, malware, DNS-lekken en zwakke encryptie. Ontdek waarom je beter betaalt — en welke uitzondering er is.',
+    metaDescription: 'Gratis VPN klinkt aantrekkelijk, maar de risico\'s zijn groot: datalogging, malware, DNS-lekken en zwakke encryptie. Ontdek waarom je beter betaalt, en welke uitzondering er is.',
     excerpt: 'Een gratis VPN kost je geen geld, maar mogelijk wel je privacy. Van datalogging tot malware: dit zijn de zeven concrete gevaren van gratis VPN-diensten in 2026.',
     category: 'Uitleg',
     date: '25 juni 2026',
@@ -1998,13 +1998,13 @@ export const posts: BlogPost[] = [
     author: 'vpnr.nl Redactie',
     image: '/blog/gratis-vpn-gevaren.svg',
     imageAlt: 'Gratis VPN gevaren 2026, rood waarschuwingssymbool over VPN-schild op donkere achtergrond',
-    intro: 'Een VPN hoeft niets te kosten — althans, dat is wat de App Store je wil laten geloven. Maar een VPN-dienst draaiende houden kost geld: servers, bandbreedte, personeel, audits. Als jij niet betaalt, betaalt iemand anders — en die iemand wil rendement op zijn investering. In dit artikel laten we aan de hand van concrete gevallen zien hoe gratis VPN-diensten in werkelijkheid verdienen, welke risico\'s dat voor jou oplevert, en welke zeldzame uitzondering betrouwbaar is.',
+    intro: 'Een VPN hoeft niets te kosten, althans, dat is wat de App Store je wil laten geloven. Maar een VPN-dienst draaiende houden kost geld: servers, bandbreedte, personeel, audits. Als jij niet betaalt, betaalt iemand anders, en die iemand wil rendement op zijn investering. In dit artikel laten we aan de hand van concrete gevallen zien hoe gratis VPN-diensten in werkelijkheid verdienen, welke risico\'s dat voor jou oplevert, en welke zeldzame uitzondering betrouwbaar is.',
     sections: [
       {
         heading: 'Waarom bestaat er zoiets als een "gratis" VPN?',
         body: [
           'In de tech-industrie geldt een vuistregel: als je niet voor het product betaalt, bén jij het product. VPN-diensten zijn hierop geen uitzondering. Een servernetwerk in tientallen landen runnen, bandbreedte inkopen en een app onderhouden kost al snel honderdduizenden euro\'s per jaar. Gratis VPN-aanbieders dekken die kosten op alternatieve manieren.',
-          'De meestgebruikte verdienmodellen zijn: <strong>gebruikersdata verkopen aan adverteerders</strong>, <strong>bandbreedte doorverkopen aan andere bedrijven</strong>, of de gratis versie gebruiken als <strong>lokkertje voor een betaald abonnement</strong>. Alleen de laatste categorie is in principe onschuldig. De eerste twee leveren concrete privacyrisico\'s op — juist het risico dat een VPN zou moeten voorkomen.',
+          'De meestgebruikte verdienmodellen zijn: <strong>gebruikersdata verkopen aan adverteerders</strong>, <strong>bandbreedte doorverkopen aan andere bedrijven</strong>, of de gratis versie gebruiken als <strong>lokkertje voor een betaald abonnement</strong>. Alleen de laatste categorie is in principe onschuldig. De eerste twee leveren concrete privacyrisico\'s op, juist het risico dat een VPN zou moeten voorkomen.',
           'Onderzoek van de CSIRO (Commonwealth Scientific and Industrial Research Organisation) analyseerde 283 Android VPN-apps en concludeerde dat <strong>38% malware of adware bevatte</strong>, 84% het verkeer niet goed versleutelde en 75% trackingbibliotheken van derden gebruikte. Dat zijn geen obscure apps: het gaat om diensten met miljoenen downloads.',
         ],
         highlight: {
@@ -2016,43 +2016,43 @@ export const posts: BlogPost[] = [
       {
         heading: 'Gevaar 1: jouw data is het product',
         body: [
-          'Het meest voorkomende verdienmodel van gratis VPN-diensten is dataverzameling en -verkoop. Je VPN-aanbieder ziet <em>al</em> je internetverkeer — dat is inherent aan hoe een VPN werkt. Een oneerlijke aanbieder logt dat verkeer en verkoopt het door aan data-makelaars, advertentienetwerken of zelfs overheden.',
-          'Hola VPN, met meer dan 250 miljoen gebruikers ooit een van de populairste gratis VPN\'s, bleek in 2015 de bandbreedte van zijn gebruikers te verkopen als een botnet. Wie Hola installeerde, werd onbewust een exit-node: anderen konden via jouw internetverbinding en IP-adres verkeer sturen. Een aanvaller gebruikte dit netwerk voor gerichte DDoS-aanvallen. <strong>Jij was niet de klant — jij was de server.</strong>',
-          'SuperVPN (meer dan 100 miljoen downloads in de Play Store) werd in 2020 door VPNpro onderzocht en bleek gevoelige gebruikersdata te lekken en verbinding te maken met Chinese servers. In 2022 dook een database op met persoonlijke gegevens van 360 miljoen gebruikers — e-mailadressen, originele IP-adressen en locatiedata. Een VPN hoort die gegevens juist te beschermen.',
+          'Het meest voorkomende verdienmodel van gratis VPN-diensten is dataverzameling en -verkoop. Je VPN-aanbieder ziet <em>al</em> je internetverkeer, dat is inherent aan hoe een VPN werkt. Een oneerlijke aanbieder logt dat verkeer en verkoopt het door aan data-makelaars, advertentienetwerken of zelfs overheden.',
+          'Hola VPN, met meer dan 250 miljoen gebruikers ooit een van de populairste gratis VPN\'s, bleek in 2015 de bandbreedte van zijn gebruikers te verkopen als een botnet. Wie Hola installeerde, werd onbewust een exit-node: anderen konden via jouw internetverbinding en IP-adres verkeer sturen. Een aanvaller gebruikte dit netwerk voor gerichte DDoS-aanvallen. <strong>Jij was niet de klant, jij was de server.</strong>',
+          'SuperVPN (meer dan 100 miljoen downloads in de Play Store) werd in 2020 door VPNpro onderzocht en bleek gevoelige gebruikersdata te lekken en verbinding te maken met Chinese servers. In 2022 dook een database op met persoonlijke gegevens van 360 miljoen gebruikers, e-mailadressen, originele IP-adressen en locatiedata. Een VPN hoort die gegevens juist te beschermen.',
         ],
         highlight: {
           type: 'warning',
           title: 'Hola VPN-casus',
-          text: 'Hola verkocht de bandbreedte van zijn 250 miljoen gebruikers als een commercieel botnet. Aanvallers konden via jouw IP-adres verkeer sturen — en jij had daar geen weet van.',
+          text: 'Hola verkocht de bandbreedte van zijn 250 miljoen gebruikers als een commercieel botnet. Aanvallers konden via jouw IP-adres verkeer sturen, en jij had daar geen weet van.',
         },
       },
       {
         heading: 'Gevaar 2: malware vermomd als VPN-app',
         body: [
           'Een VPN-app heeft verregaande rechten op je apparaat: het verwerkt al je internetverkeer, kan DNS-verzoeken onderscheppen en heeft vaak toestemming om op de achtergrond te draaien. Dat maakt het een ideaal voertuig voor malware.',
-          'In 2023 ontdekte Kaspersky Lab dat <strong>SpeedVPN, Unlimited Free VPN en Fast VPN</strong> (samen meer dan 15 miljoen downloads) adware bevatten die automatisch op advertenties klikte en betaalde abonnementen activeerde zonder toestemming van de gebruiker. De apps waren beschikbaar in de officiële Google Play Store en hadden hoge beoordelingen — deels door neppe reviews.',
+          'In 2023 ontdekte Kaspersky Lab dat <strong>SpeedVPN, Unlimited Free VPN en Fast VPN</strong> (samen meer dan 15 miljoen downloads) adware bevatten die automatisch op advertenties klikte en betaalde abonnementen activeerde zonder toestemming van de gebruiker. De apps waren beschikbaar in de officiële Google Play Store en hadden hoge beoordelingen, deels door neppe reviews.',
           'Hoe herken je een verdachte VPN-app? Let op: enorme beloftes ("snelst ter wereld", "100% anoniem"), geen vermeldbare bedrijfsnaam of contactadres, geen transparantierapport of onafhankelijke audit, rechten die niets met VPN te maken hebben (toegang tot je contacten, camera of sms). Een VPN heeft geen van die extra rechten nodig.',
         ],
         highlight: {
           type: 'warning',
           title: 'App Store is geen garantie',
-          text: 'Zowel Google Play als de App Store van Apple laten regelmatig malafide VPN-apps door. Hoge beoordelingen en veel downloads zijn geen veiligheidsbewijs — kijk altijd naar de bedrijfsnaam achter de app en zoek naar onafhankelijke reviews.',
+          text: 'Zowel Google Play als de App Store van Apple laten regelmatig malafide VPN-apps door. Hoge beoordelingen en veel downloads zijn geen veiligheidsbewijs, kijk altijd naar de bedrijfsnaam achter de app en zoek naar onafhankelijke reviews.',
         },
       },
       {
         heading: 'Gevaar 3: bandbreedtelimieten en bewust trage servers',
         body: [
           'Vrijwel alle gratis VPN-diensten beperkten je bandbreedte: 500 MB, 2 GB of 10 GB per maand. Dat is voldoende om te checken of een dienst werkt, maar niet voor dagelijks gebruik. Een Netflix-aflevering in HD verbruikt al 1,5–3 GB.',
-          'Nog problematischer zijn gratis VPN\'s die geen harde limiet hanteren, maar hun gratis gebruikers op opzettelijk trage servers plaatsen. De servers zijn overbelast door te veel gebruikers of worden technisch gebottleneckt om je richting het betaalde plan te sturen. Dat leidt tot VPN-verbindingen die trager zijn dan je onbeveiligde verbinding — wat sommige gebruikers ertoe aanzet de VPN uit te zetten als het er echt op aankomt.',
+          'Nog problematischer zijn gratis VPN\'s die geen harde limiet hanteren, maar hun gratis gebruikers op opzettelijk trage servers plaatsen. De servers zijn overbelast door te veel gebruikers of worden technisch gebottleneckt om je richting het betaalde plan te sturen. Dat leidt tot VPN-verbindingen die trager zijn dan je onbeveiligde verbinding, wat sommige gebruikers ertoe aanzet de VPN uit te zetten als het er echt op aankomt.',
           'Een VPN die je uitschakelt omdat hij te traag is, beschermt je niet. Paradoxaal genoeg kun je door een slechte gratis VPN dus uiteindelijk slechter af zijn dan zonder VPN, omdat je een vals gevoel van veiligheid had.',
         ],
       },
       {
         heading: 'Gevaar 4: DNS-lekken en IP-lekken',
         body: [
-          'Een VPN werkt alleen als <em>al</em> je internetverkeer door de versleutelde tunnel gaat — inclusief DNS-verzoeken. DNS-verzoeken zijn de "telefoonboek-zoekopdrachten" waarbij je apparaat een domeinnaam (vpnr.nl) omzet naar een IP-adres. Als die verzoeken buiten de VPN-tunnel gaan, ziet je internetprovider precies welke websites je bezoekt — ook al denk je dat je beschermd bent.',
-          'Onderzoek van vpnMentor en Comparitech toonde aan dat <strong>meer dan een kwart van de geteste gratis VPN-apps DNS-lekken vertoonde</strong>. Bij sommige apps lekte ook het echte IP-adres via WebRTC — een protocol dat browsers gebruiken voor peer-to-peer communicatie, zoals videobellen. Dat IP-lek was zichtbaar voor elke website die je bezocht, ondanks de actieve VPN.',
-          'Je kunt dit zelf testen: activeer je VPN en ga naar <strong>ipleak.net</strong> of <strong>dnsleaktest.com</strong>. Als je eigen ISP-IP-adres of je eigen DNS-servers zichtbaar zijn, lekt je VPN. Alle geteste betaalde VPN\'s in onze top — NordVPN, Surfshark, ProtonVPN — slaagden voor deze test. De gratis alternatieven lang niet altijd.',
+          'Een VPN werkt alleen als <em>al</em> je internetverkeer door de versleutelde tunnel gaat, inclusief DNS-verzoeken. DNS-verzoeken zijn de "telefoonboek-zoekopdrachten" waarbij je apparaat een domeinnaam (vpnr.nl) omzet naar een IP-adres. Als die verzoeken buiten de VPN-tunnel gaan, ziet je internetprovider precies welke websites je bezoekt, ook al denk je dat je beschermd bent.',
+          'Onderzoek van vpnMentor en Comparitech toonde aan dat <strong>meer dan een kwart van de geteste gratis VPN-apps DNS-lekken vertoonde</strong>. Bij sommige apps lekte ook het echte IP-adres via WebRTC, een protocol dat browsers gebruiken voor peer-to-peer communicatie, zoals videobellen. Dat IP-lek was zichtbaar voor elke website die je bezocht, ondanks de actieve VPN.',
+          'Je kunt dit zelf testen: activeer je VPN en ga naar <strong>ipleak.net</strong> of <strong>dnsleaktest.com</strong>. Als je eigen ISP-IP-adres of je eigen DNS-servers zichtbaar zijn, lekt je VPN. Alle geteste betaalde VPN\'s in onze top, NordVPN, Surfshark, ProtonVPN, slaagden voor deze test. De gratis alternatieven lang niet altijd.',
         ],
         highlight: {
           type: 'tip',
@@ -2063,18 +2063,18 @@ export const posts: BlogPost[] = [
       {
         heading: 'Gevaar 5: zwakke of nep-encryptie',
         body: [
-          'Een serieuze VPN gebruikt <strong>AES-256-encryptie</strong> — de standaard die ook door overheden en militairen wordt gebruikt voor geclassificeerde communicatie. Het kraken van AES-256 is met huidige technologie rekenkundig onmogelijk.',
+          'Een serieuze VPN gebruikt <strong>AES-256-encryptie</strong>, de standaard die ook door overheden en militairen wordt gebruikt voor geclassificeerde communicatie. Het kraken van AES-256 is met huidige technologie rekenkundig onmogelijk.',
           'Veel gratis VPN\'s adverteren met "militaire encryptie" of "bankbeveiliging", maar implementeren het anders. In het CSIRO-onderzoek bleken 18% van de onderzochte gratis VPN-apps geen encryptie te gebruiken. Volledig nul. Het verkeer werd onversleuteld doorgestuurd terwijl de app claimde je te beschermen.',
-          'Andere apps gebruikten verouderde protocollen zoals PPTP (Point-to-Point Tunneling Protocol), dat al in 2012 door Microsoft als onveilig werd bestempeld en door beveiligingsonderzoekers in minuten kan worden gekraakt. Versleuteling die kraakbaar is, biedt geen bescherming — maar geeft wel een vals gevoel van veiligheid.',
+          'Andere apps gebruikten verouderde protocollen zoals PPTP (Point-to-Point Tunneling Protocol), dat al in 2012 door Microsoft als onveilig werd bestempeld en door beveiligingsonderzoekers in minuten kan worden gekraakt. Versleuteling die kraakbaar is, biedt geen bescherming, maar geeft wel een vals gevoel van veiligheid.',
         ],
         table: {
           headers: ['Protocol', 'Encryptieniveau', 'Status in 2026'],
           rows: [
-            ['WireGuard', 'ChaCha20 (256-bit)', '✅ Aanbevolen — snel en veilig'],
-            ['OpenVPN', 'AES-256', '✅ Bewezen veilig — iets trager'],
-            ['IKEv2/IPSec', 'AES-256', '✅ Goed — stabiel op mobiel'],
-            ['L2TP/IPSec', 'AES-128/256', '⚠️ Acceptabel — langzaam'],
-            ['PPTP', '128-bit (gebroken)', '❌ Onveilig — niet gebruiken'],
+            ['WireGuard', 'ChaCha20 (256-bit)', '✅ Aanbevolen, snel en veilig'],
+            ['OpenVPN', 'AES-256', '✅ Bewezen veilig, iets trager'],
+            ['IKEv2/IPSec', 'AES-256', '✅ Goed, stabiel op mobiel'],
+            ['L2TP/IPSec', 'AES-128/256', '⚠️ Acceptabel, langzaam'],
+            ['PPTP', '128-bit (gebroken)', '❌ Onveilig, niet gebruiken'],
           ],
         },
       },
@@ -2082,7 +2082,7 @@ export const posts: BlogPost[] = [
         heading: 'Gevaar 6: dubieuze eigendomsstructuren en jurisdicties',
         body: [
           'Veel populaire gratis VPN-apps zijn in handen van Chinese bedrijven of bedrijven geregistreerd in belastingparadijzen zonder transparantie over de uiteindelijke eigenaren. Dat is relevant omdat een VPN-aanbieder in theorie verplicht kan worden door overheden om gebruikersdata te overhandigen.',
-          'In 2019 ontdekte onderzoeker Zach Edwards dat zeven populaire gratis VPN-apps — waaronder Turbo VPN, VPN Proxy Master en Thunder VPN — allemaal eigendom waren van hetzelfde Chinese bedrijf, Innovative Connecting. Geen van de apps vermeldde die Chinese eigenaar in de App Store-beschrijving. Samen hadden ze meer dan 90 miljoen downloads.',
+          'In 2019 ontdekte onderzoeker Zach Edwards dat zeven populaire gratis VPN-apps, waaronder Turbo VPN, VPN Proxy Master en Thunder VPN, allemaal eigendom waren van hetzelfde Chinese bedrijf, Innovative Connecting. Geen van de apps vermeldde die Chinese eigenaar in de App Store-beschrijving. Samen hadden ze meer dan 90 miljoen downloads.',
           'Een VPN-aanbieder in China valt onder de Chinese cyberveiligheidswetgeving, die aanbieders verplicht gebruikersdata te bewaren en op verzoek te overhandigen aan de autoriteiten. Een VPN die claimt "geen logs bij te houden" maar gevestigd is in een land met verplichte dataretentie, is een tegenstrijdigheid in zichzelf.',
         ],
         highlight: {
@@ -2095,8 +2095,8 @@ export const posts: BlogPost[] = [
         heading: 'De uitzondering: ProtonVPN gratis',
         body: [
           'Na al het bovenstaande is de vraag gerechtvaardigd: bestaat er dan helemaal geen betrouwbare gratis VPN? Het antwoord is: één. <a href="/vpn-reviews/protonvpn">ProtonVPN</a> biedt een gratis versie die fundamenteel anders is dan de rest.',
-          'ProtonVPN Gratis heeft <strong>geen datalimiet</strong>, een <strong>strikt no-logs-beleid</strong> dat onafhankelijk is geauditeerd door Securitum, <strong>open-source apps</strong> (de code is publiek beschikbaar en door iedereen te controleren) en is gevestigd in <strong>Zwitserland</strong> — een van de sterkste privacyrechtsstelsels ter wereld. Proton AG heeft ook ProtonMail, de versleutelde e-maildienst die door journalisten en activisten wereldwijd wordt gebruikt.',
-          'De beperkingen van de gratis versie zijn eerlijk en transparant: je hebt toegang tot servers in slechts drie landen (Nederland, de VS en Japan), je verbindingssnelheid is lager dan bij betaalde gebruikers en er zijn geen streaming-geoptimaliseerde servers. Maar er worden <em>geen</em> advertenties getoond, <em>geen</em> data verkocht en <em>geen</em> bandbreedte doorverkocht. Proton verdient geld via betaalde abonnementen — gratis gebruikers zijn hun reclamemateriaal, niet hun product.',
+          'ProtonVPN Gratis heeft <strong>geen datalimiet</strong>, een <strong>strikt no-logs-beleid</strong> dat onafhankelijk is geauditeerd door Securitum, <strong>open-source apps</strong> (de code is publiek beschikbaar en door iedereen te controleren) en is gevestigd in <strong>Zwitserland</strong>, een van de sterkste privacyrechtsstelsels ter wereld. Proton AG heeft ook ProtonMail, de versleutelde e-maildienst die door journalisten en activisten wereldwijd wordt gebruikt.',
+          'De beperkingen van de gratis versie zijn eerlijk en transparant: je hebt toegang tot servers in slechts drie landen (Nederland, de VS en Japan), je verbindingssnelheid is lager dan bij betaalde gebruikers en er zijn geen streaming-geoptimaliseerde servers. Maar er worden <em>geen</em> advertenties getoond, <em>geen</em> data verkocht en <em>geen</em> bandbreedte doorverkocht. Proton verdient geld via betaalde abonnementen, gratis gebruikers zijn hun reclamemateriaal, niet hun product.',
         ],
         highlight: {
           type: 'tip',
@@ -2109,8 +2109,8 @@ export const posts: BlogPost[] = [
         heading: 'Wanneer heeft een betaalde VPN de voorkeur?',
         body: [
           'ProtonVPN Gratis volstaat voor incidenteel gebruik: veilig browsen op openbaar wifi, je IP verbergen of een enkel bezoek aan een geblokkeerde website. Maar voor dagelijks gebruik, streaming, torrenten of het werken met gevoelige bedrijfsdata is een betaald abonnement verstandiger.',
-          '<a href="/vpn-reviews/surfshark">Surfshark</a> kost al <strong>€1,99 per maand</strong> bij een tweejarig abonnement — minder dan een kop koffie per maand. Je krijgt daarvoor 3.200+ servers in 100 landen, onbeperkt apparaten, een onafhankelijk geauditeerd no-logs-beleid en betrouwbare Netflix-deblokkering. <a href="/vpn-reviews/nordvpn">NordVPN</a> biedt dezelfde garanties met een groter netwerk en hogere snelheden voor €3,39 per maand.',
-          'Voor wie privacy echt serieus neemt — journalisten, activisten, zakenreizigers — is <a href="/vpn-reviews/protonvpn">ProtonVPN Plus</a> de logische keuze: open-source, Zwitsers recht, Secure Core-servers en het Stealth-protocol voor landen met VPN-censuur. Dat kost €5,99 per maand, maar levert de meest transparante en verifieerbare privacygaranties op de markt.',
+          '<a href="/vpn-reviews/surfshark">Surfshark</a> kost al <strong>€1,99 per maand</strong> bij een tweejarig abonnement, minder dan een kop koffie per maand. Je krijgt daarvoor 3.200+ servers in 100 landen, onbeperkt apparaten, een onafhankelijk geauditeerd no-logs-beleid en betrouwbare Netflix-deblokkering. <a href="/vpn-reviews/nordvpn">NordVPN</a> biedt dezelfde garanties met een groter netwerk en hogere snelheden voor €3,39 per maand.',
+          'Voor wie privacy echt serieus neemt, journalisten, activisten, zakenreizigers, is <a href="/vpn-reviews/protonvpn">ProtonVPN Plus</a> de logische keuze: open-source, Zwitsers recht, Secure Core-servers en het Stealth-protocol voor landen met VPN-censuur. Dat kost €5,99 per maand, maar levert de meest transparante en verifieerbare privacygaranties op de markt.',
         ],
         table: {
           headers: ['Gebruik', 'Aanbeveling', 'Prijs'],
@@ -2139,11 +2139,11 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Is ProtonVPN Gratis echt gratis en veilig?',
-        answer: 'Ja. ProtonVPN Gratis heeft geen datalimiet, geen advertenties en geen dataverzameling. De apps zijn open-source en onafhankelijk geauditeerd door Securitum. Proton AG verdient geld via betaalde abonnementen — gratis gebruikers zijn de reclamefunctie, niet het product. Beperkingen zijn: drie serverlanden, lagere snelheid en geen streaming-servers.',
+        answer: 'Ja. ProtonVPN Gratis heeft geen datalimiet, geen advertenties en geen dataverzameling. De apps zijn open-source en onafhankelijk geauditeerd door Securitum. Proton AG verdient geld via betaalde abonnementen, gratis gebruikers zijn de reclamefunctie, niet het product. Beperkingen zijn: drie serverlanden, lagere snelheid en geen streaming-servers.',
       },
       {
         question: 'Wat is het goedkoopste betrouwbare betaalde alternatief voor een gratis VPN?',
-        answer: 'Surfshark kost vanaf €1,99 per maand bij een tweejarig abonnement — het goedkoopste premium-VPN in onze test. Je krijgt onbeperkt apparaten, 3.200+ servers in 100 landen, een onafhankelijk geauditeerd no-logs-beleid en betrouwbare streaming-deblokkering. Hide.me biedt een middenweg: een gratis versie met 10 GB per maand én een betaald plan met volledige functionaliteit.',
+        answer: 'Surfshark kost vanaf €1,99 per maand bij een tweejarig abonnement, het goedkoopste premium-VPN in onze test. Je krijgt onbeperkt apparaten, 3.200+ servers in 100 landen, een onafhankelijk geauditeerd no-logs-beleid en betrouwbare streaming-deblokkering. Hide.me biedt een middenweg: een gratis versie met 10 GB per maand én een betaald plan met volledige functionaliteit.',
       },
     ],
     relatedProviders: ['protonvpn', 'hideme', 'nordvpn'],

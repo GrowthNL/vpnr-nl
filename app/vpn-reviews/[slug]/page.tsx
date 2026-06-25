@@ -25,7 +25,7 @@ export async function generateMetadata({
     description: `Lees onze uitgebreide ${p.naam} review 2026. Score: ${p.scores.overall}/10. Getest op snelheid, beveiliging en Netflix. Vanaf €${p.prijzen.tweeJaar ?? p.prijzen.jaarlijks}/maand. ${p.prijzen.gratisPeriode ?? ''}.`,
     alternates: { canonical: `https://vpnr.nl/vpn-reviews/${slug}` },
     openGraph: {
-      title: `${p.naam} Review 2026 — Score ${p.scores.overall}/10 | vpnr.nl`,
+      title: `${p.naam} Review 2026: Score ${p.scores.overall}/10 | vpnr.nl`,
       description: `Onze eerlijke ${p.naam} review: snelheid, beveiliging, streaming en prijs getest. Is ${p.naam} de beste VPN voor jou in 2026?`,
       url: `https://vpnr.nl/vpn-reviews/${slug}`,
       type: 'article',

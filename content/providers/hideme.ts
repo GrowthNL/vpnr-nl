@@ -38,7 +38,7 @@ const hideme: VPNProvider = {
   },
 
   voordelen: [
-    'Gevestigd in Maleisië — buiten de 5/9/14 Eyes surveillance alliantie',
+    'Gevestigd in Maleisië, buiten de 5/9/14 Eyes surveillance alliantie',
     'Onafhankelijk gecontroleerd no-logs beleid (VPN Trust Initiative, 2025)',
     'Vijf protocollen inclusief WireGuard en SoftEther',
     'Royale gratis versie met 10 GB data per maand',

@@ -41,7 +41,7 @@ export const comparisons: Comparison[] = [
     provider1: 'nordvpn',
     provider2: 'surfshark',
     intro:
-      'NordVPN en Surfshark zijn de twee populairste VPN-diensten van 2026. Ze lijken op het eerste gezicht op elkaar — beide bieden sterke beveiliging, werken met Netflix en hebben een strikt no-logs beleid — maar er zijn duidelijke verschillen in prijs, apparaatlimiet, servernetwerk en snelheid. In deze vergelijking leggen we beide diensten naast elkaar zodat jij de juiste keuze maakt.',
+      'NordVPN en Surfshark zijn de twee populairste VPN-diensten van 2026. Ze lijken op het eerste gezicht op elkaar, beide bieden sterke beveiliging, werken met Netflix en hebben een strikt no-logs beleid, maar er zijn duidelijke verschillen in prijs, apparaatlimiet, servernetwerk en snelheid. In deze vergelijking leggen we beide diensten naast elkaar zodat jij de juiste keuze maakt.',
     verdict:
       'NordVPN wint op snelheid, servernetwerk en totale beveiliging. Surfshark wint op prijs en apparaatlimiet. Voor de meeste gebruikers is NordVPN de betere keuze als je maximale prestaties wilt. Kies Surfshark als je een groot gezin hebt, meerdere apparaten wilt beschermen of een lager budget hebt.',
     winner: 'nordvpn',
@@ -135,7 +135,7 @@ export const comparisons: Comparison[] = [
       {
         heading: 'Prijs: Surfshark wint duidelijk',
         body: [
-          'Surfshark is significant goedkoper: €2,49 per maand bij een 2-jaarsabonnement versus €3,39 voor NordVPN. Op jaarbasis scheelt dat €10,80. Over twee jaar is dat ruim €21 verschil — voor identieke basisfuncties.',
+          'Surfshark is significant goedkoper: €2,49 per maand bij een 2-jaarsabonnement versus €3,39 voor NordVPN. Op jaarbasis scheelt dat €10,80. Over twee jaar is dat ruim €21 verschil, voor identieke basisfuncties.',
           'Surfshark heeft ook een doorslaggevend voordeel: onbeperkt apparaten. NordVPN limiteert je op 10 gelijktijdige verbindingen. Voor een gezin of iemand met veel apparaten (laptop, telefoon, tablet, TV, router) is Surfshark veel voordeliger per apparaat.',
         ],
       },
@@ -291,7 +291,7 @@ export const comparisons: Comparison[] = [
         heading: 'Prijs: Surfshark is significant goedkoper',
         body: [
           'Het prijsverschil is aanzienlijk. Surfshark kost €2,49 per maand bij een 2-jaarsabonnement. ProtonVPN heeft geen 2-jaarsplan en kost €5,99 per maand bij een jaarabonnement. Op jaarbasis is Surfshark €41,88 goedkoper voor dezelfde basisfuncties.',
-          'ProtonVPN biedt als compensatie een unieke gratis tier zonder datalimiet — iets wat Surfshark niet heeft. Voor licht gebruik is ProtonVPN Free een uitstekende gratis optie met servers in Nederland, de VS en Japan.',
+          'ProtonVPN biedt als compensatie een unieke gratis tier zonder datalimiet, iets wat Surfshark niet heeft. Voor licht gebruik is ProtonVPN Free een uitstekende gratis optie met servers in Nederland, de VS en Japan.',
         ],
       },
       {

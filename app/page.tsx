@@ -252,12 +252,12 @@ export default function HomePage() {
                     <td className="text-center px-4 py-4">
                       {p.features.werktMetNetflix
                         ? <Check className="w-4 h-4 text-green-500 mx-auto" strokeWidth={2.5} />
-                        : <span className="text-gray-300">—</span>}
+                        : <span className="text-gray-300">-</span>}
                     </td>
                     <td className="text-center px-4 py-4">
                       {p.features.noLogs
                         ? <Check className="w-4 h-4 text-green-500 mx-auto" strokeWidth={2.5} />
-                        : <span className="text-gray-300">—</span>}
+                        : <span className="text-gray-300">-</span>}
                     </td>
                     <td className="px-4 py-4">
                       <Link
@@ -336,7 +336,7 @@ export default function HomePage() {
               {
                 Icon: ShieldCheck,
                 title: 'Privacy beschermen',
-                desc: 'Jouw internetprovider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt al je verkeer met AES-256-encryptie — dezelfde standaard die banken gebruiken. Niemand kan meelezen, ook niet op openbaar wifi.',
+                desc: 'Jouw internetprovider, werkgever of overheid kan zien welke sites je bezoekt. Een VPN versleutelt al je verkeer met AES-256-encryptie, dezelfde standaard die banken gebruiken. Niemand kan meelezen, ook niet op openbaar wifi.',
               },
               {
                 Icon: Wifi,
@@ -351,7 +351,7 @@ export default function HomePage() {
               {
                 Icon: Download,
                 title: 'Anoniem downloaden',
-                desc: 'Bij torrenten is je IP-adres zichtbaar voor iedereen in de swarm — inclusief rechthouders en anti-piracy bedrijven. Een VPN vervangt je IP-adres door dat van de VPN-server, zodat jouw identiteit verborgen blijft.',
+                desc: 'Bij torrenten is je IP-adres zichtbaar voor iedereen in de swarm, inclusief rechthouders en anti-piracy bedrijven. Een VPN vervangt je IP-adres door dat van de VPN-server, zodat jouw identiteit verborgen blijft.',
               },
             ].map(({ Icon, title, desc }) => (
               <div key={title} className="card-main bg-gray-50 rounded-2xl p-6">
@@ -379,7 +379,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-black mb-3">Hoe testen wij VPN-diensten?</h2>
             <p className="text-blue-200 text-sm max-w-xl mx-auto">
               Onze beoordelingen zijn gebaseerd op uitgebreide, reproduceerbare tests. Geen gesponsorde
-              scores — alleen onze eigen meetresultaten.
+              scores, alleen onze eigen meetresultaten.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -548,7 +548,7 @@ export default function HomePage() {
               },
               {
                 q: 'Wat kost een goede VPN per maand?',
-                a: 'Een betrouwbare VPN kost tussen €2,19 en €4,99 per maand bij een 2-jaarsabonnement. Surfshark begint bij €2,19/maand, NordVPN bij €3,39/maand en ProtonVPN bij €3,99/maand. Maandelijkse abonnementen zijn 3 tot 4 keer duurder — een jaar- of 2-jaarsplan is altijd voordeliger.',
+                a: 'Een betrouwbare VPN kost tussen €2,19 en €4,99 per maand bij een 2-jaarsabonnement. Surfshark begint bij €2,19/maand, NordVPN bij €3,39/maand en ProtonVPN bij €3,99/maand. Maandelijkse abonnementen zijn 3 tot 4 keer duurder; een jaar- of 2-jaarsplan is altijd voordeliger.',
               },
               {
                 q: 'Werkt een VPN met Netflix?',
@@ -556,11 +556,11 @@ export default function HomePage() {
               },
               {
                 q: 'Hoeveel apparaten kan ik tegelijk verbinden?',
-                a: 'Dat verschilt per provider. NordVPN staat 10 gelijktijdige verbindingen toe, Surfshark heeft geen limiet. Je kunt ook een VPN op je router installeren — dan telt het hele thuisnetwerk als één verbinding en zijn alle apparaten automatisch beschermd.',
+                a: 'Dat verschilt per provider. NordVPN staat 10 gelijktijdige verbindingen toe, Surfshark heeft geen limiet. Je kunt ook een VPN op je router installeren; dan telt het hele thuisnetwerk als één verbinding en zijn alle apparaten automatisch beschermd.',
               },
               {
                 q: 'Wat is het beste VPN-protocol?',
-                a: 'WireGuard (ook bekend als NordLynx bij NordVPN) is in 2026 het snelste en veiligste protocol. Voor maximale compatibiliteit kies je OpenVPN. IKEv2 is stabiel op mobiel. Vermijd oudere protocollen zoals PPTP en L2TP — die bieden onvoldoende beveiliging.',
+                a: 'WireGuard (ook bekend als NordLynx bij NordVPN) is in 2026 het snelste en veiligste protocol. Voor maximale compatibiliteit kies je OpenVPN. IKEv2 is stabiel op mobiel. Vermijd oudere protocollen zoals PPTP en L2TP, die bieden onvoldoende beveiliging.',
               },
             ].map(({ q, a }) => (
               <details key={q} className="bg-white rounded-2xl border border-gray-100 group">
