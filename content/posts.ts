@@ -1996,7 +1996,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-06-25',
     readTime: '9 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/gratis-vpn-gevaren.svg',
+    image: '/blog/gratis-vpn-gevaren.jpg',
     imageAlt: 'Gratis VPN gevaren 2026, rood waarschuwingssymbool over VPN-schild op donkere achtergrond',
     intro: 'Een VPN hoeft niets te kosten, althans, dat is wat de App Store je wil laten geloven. Maar een VPN-dienst draaiende houden kost geld: servers, bandbreedte, personeel, audits. Als jij niet betaalt, betaalt iemand anders, en die iemand wil rendement op zijn investering. In dit artikel laten we aan de hand van concrete gevallen zien hoe gratis VPN-diensten in werkelijkheid verdienen, welke risico\'s dat voor jou oplevert, en welke zeldzame uitzondering betrouwbaar is.',
     sections: [
