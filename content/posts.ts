@@ -1983,6 +1983,173 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['nordvpn-korting', 'goedkoopste-vpn-deals', 'vpn-reviews/surfshark'],
     tags: ['surfshark korting', 'surfshark aanbieding', 'surfshark deal 2026', 'surfshark prijs', 'goedkope vpn'],
   },
+
+  {
+    slug: 'gratis-vpn-gevaren',
+    title: 'De gevaren van gratis VPN: waarom je beter betaalt (2026)',
+    metaTitle: 'Gevaren van Gratis VPN: 7 Risico\'s die je Moet Kennen (2026)',
+    metaDescription: 'Gratis VPN klinkt aantrekkelijk, maar de risico\'s zijn groot: datalogging, malware, DNS-lekken en zwakke encryptie. Ontdek waarom je beter betaalt — en welke uitzondering er is.',
+    excerpt: 'Een gratis VPN kost je geen geld, maar mogelijk wel je privacy. Van datalogging tot malware: dit zijn de zeven concrete gevaren van gratis VPN-diensten in 2026.',
+    category: 'Uitleg',
+    date: '25 juni 2026',
+    dateISO: '2026-06-25',
+    updatedISO: '2026-06-25',
+    readTime: '9 min',
+    author: 'vpnr.nl Redactie',
+    image: '/blog/gratis-vpn-gevaren.svg',
+    imageAlt: 'Gratis VPN gevaren 2026, rood waarschuwingssymbool over VPN-schild op donkere achtergrond',
+    intro: 'Een VPN hoeft niets te kosten — althans, dat is wat de App Store je wil laten geloven. Maar een VPN-dienst draaiende houden kost geld: servers, bandbreedte, personeel, audits. Als jij niet betaalt, betaalt iemand anders — en die iemand wil rendement op zijn investering. In dit artikel laten we aan de hand van concrete gevallen zien hoe gratis VPN-diensten in werkelijkheid verdienen, welke risico\'s dat voor jou oplevert, en welke zeldzame uitzondering betrouwbaar is.',
+    sections: [
+      {
+        heading: 'Waarom bestaat er zoiets als een "gratis" VPN?',
+        body: [
+          'In de tech-industrie geldt een vuistregel: als je niet voor het product betaalt, bén jij het product. VPN-diensten zijn hierop geen uitzondering. Een servernetwerk in tientallen landen runnen, bandbreedte inkopen en een app onderhouden kost al snel honderdduizenden euro\'s per jaar. Gratis VPN-aanbieders dekken die kosten op alternatieve manieren.',
+          'De meestgebruikte verdienmodellen zijn: <strong>gebruikersdata verkopen aan adverteerders</strong>, <strong>bandbreedte doorverkopen aan andere bedrijven</strong>, of de gratis versie gebruiken als <strong>lokkertje voor een betaald abonnement</strong>. Alleen de laatste categorie is in principe onschuldig. De eerste twee leveren concrete privacyrisico\'s op — juist het risico dat een VPN zou moeten voorkomen.',
+          'Onderzoek van de CSIRO (Commonwealth Scientific and Industrial Research Organisation) analyseerde 283 Android VPN-apps en concludeerde dat <strong>38% malware of adware bevatte</strong>, 84% het verkeer niet goed versleutelde en 75% trackingbibliotheken van derden gebruikte. Dat zijn geen obscure apps: het gaat om diensten met miljoenen downloads.',
+        ],
+        highlight: {
+          type: 'stat',
+          title: '38%',
+          text: 'Van de onderzochte gratis VPN-apps bevatte malware of adware, volgens CSIRO-onderzoek.',
+        },
+      },
+      {
+        heading: 'Gevaar 1: jouw data is het product',
+        body: [
+          'Het meest voorkomende verdienmodel van gratis VPN-diensten is dataverzameling en -verkoop. Je VPN-aanbieder ziet <em>al</em> je internetverkeer — dat is inherent aan hoe een VPN werkt. Een oneerlijke aanbieder logt dat verkeer en verkoopt het door aan data-makelaars, advertentienetwerken of zelfs overheden.',
+          'Hola VPN, met meer dan 250 miljoen gebruikers ooit een van de populairste gratis VPN\'s, bleek in 2015 de bandbreedte van zijn gebruikers te verkopen als een botnet. Wie Hola installeerde, werd onbewust een exit-node: anderen konden via jouw internetverbinding en IP-adres verkeer sturen. Een aanvaller gebruikte dit netwerk voor gerichte DDoS-aanvallen. <strong>Jij was niet de klant — jij was de server.</strong>',
+          'SuperVPN (meer dan 100 miljoen downloads in de Play Store) werd in 2020 door VPNpro onderzocht en bleek gevoelige gebruikersdata te lekken en verbinding te maken met Chinese servers. In 2022 dook een database op met persoonlijke gegevens van 360 miljoen gebruikers — e-mailadressen, originele IP-adressen en locatiedata. Een VPN hoort die gegevens juist te beschermen.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'Hola VPN-casus',
+          text: 'Hola verkocht de bandbreedte van zijn 250 miljoen gebruikers als een commercieel botnet. Aanvallers konden via jouw IP-adres verkeer sturen — en jij had daar geen weet van.',
+        },
+      },
+      {
+        heading: 'Gevaar 2: malware vermomd als VPN-app',
+        body: [
+          'Een VPN-app heeft verregaande rechten op je apparaat: het verwerkt al je internetverkeer, kan DNS-verzoeken onderscheppen en heeft vaak toestemming om op de achtergrond te draaien. Dat maakt het een ideaal voertuig voor malware.',
+          'In 2023 ontdekte Kaspersky Lab dat <strong>SpeedVPN, Unlimited Free VPN en Fast VPN</strong> (samen meer dan 15 miljoen downloads) adware bevatten die automatisch op advertenties klikte en betaalde abonnementen activeerde zonder toestemming van de gebruiker. De apps waren beschikbaar in de officiële Google Play Store en hadden hoge beoordelingen — deels door neppe reviews.',
+          'Hoe herken je een verdachte VPN-app? Let op: enorme beloftes ("snelst ter wereld", "100% anoniem"), geen vermeldbare bedrijfsnaam of contactadres, geen transparantierapport of onafhankelijke audit, rechten die niets met VPN te maken hebben (toegang tot je contacten, camera of sms). Een VPN heeft geen van die extra rechten nodig.',
+        ],
+        highlight: {
+          type: 'warning',
+          title: 'App Store is geen garantie',
+          text: 'Zowel Google Play als de App Store van Apple laten regelmatig malafide VPN-apps door. Hoge beoordelingen en veel downloads zijn geen veiligheidsbewijs — kijk altijd naar de bedrijfsnaam achter de app en zoek naar onafhankelijke reviews.',
+        },
+      },
+      {
+        heading: 'Gevaar 3: bandbreedtelimieten en bewust trage servers',
+        body: [
+          'Vrijwel alle gratis VPN-diensten beperkten je bandbreedte: 500 MB, 2 GB of 10 GB per maand. Dat is voldoende om te checken of een dienst werkt, maar niet voor dagelijks gebruik. Een Netflix-aflevering in HD verbruikt al 1,5–3 GB.',
+          'Nog problematischer zijn gratis VPN\'s die geen harde limiet hanteren, maar hun gratis gebruikers op opzettelijk trage servers plaatsen. De servers zijn overbelast door te veel gebruikers of worden technisch gebottleneckt om je richting het betaalde plan te sturen. Dat leidt tot VPN-verbindingen die trager zijn dan je onbeveiligde verbinding — wat sommige gebruikers ertoe aanzet de VPN uit te zetten als het er echt op aankomt.',
+          'Een VPN die je uitschakelt omdat hij te traag is, beschermt je niet. Paradoxaal genoeg kun je door een slechte gratis VPN dus uiteindelijk slechter af zijn dan zonder VPN, omdat je een vals gevoel van veiligheid had.',
+        ],
+      },
+      {
+        heading: 'Gevaar 4: DNS-lekken en IP-lekken',
+        body: [
+          'Een VPN werkt alleen als <em>al</em> je internetverkeer door de versleutelde tunnel gaat — inclusief DNS-verzoeken. DNS-verzoeken zijn de "telefoonboek-zoekopdrachten" waarbij je apparaat een domeinnaam (vpnr.nl) omzet naar een IP-adres. Als die verzoeken buiten de VPN-tunnel gaan, ziet je internetprovider precies welke websites je bezoekt — ook al denk je dat je beschermd bent.',
+          'Onderzoek van vpnMentor en Comparitech toonde aan dat <strong>meer dan een kwart van de geteste gratis VPN-apps DNS-lekken vertoonde</strong>. Bij sommige apps lekte ook het echte IP-adres via WebRTC — een protocol dat browsers gebruiken voor peer-to-peer communicatie, zoals videobellen. Dat IP-lek was zichtbaar voor elke website die je bezocht, ondanks de actieve VPN.',
+          'Je kunt dit zelf testen: activeer je VPN en ga naar <strong>ipleak.net</strong> of <strong>dnsleaktest.com</strong>. Als je eigen ISP-IP-adres of je eigen DNS-servers zichtbaar zijn, lekt je VPN. Alle geteste betaalde VPN\'s in onze top — NordVPN, Surfshark, ProtonVPN — slaagden voor deze test. De gratis alternatieven lang niet altijd.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Test je VPN nu',
+          text: 'Ga naar ipleak.net met je VPN actief. Zie je je eigen IP-adres of de DNS-servers van je provider? Dan lekt je VPN en ben je niet anoniem.',
+        },
+      },
+      {
+        heading: 'Gevaar 5: zwakke of nep-encryptie',
+        body: [
+          'Een serieuze VPN gebruikt <strong>AES-256-encryptie</strong> — de standaard die ook door overheden en militairen wordt gebruikt voor geclassificeerde communicatie. Het kraken van AES-256 is met huidige technologie rekenkundig onmogelijk.',
+          'Veel gratis VPN\'s adverteren met "militaire encryptie" of "bankbeveiliging", maar implementeren het anders. In het CSIRO-onderzoek bleken 18% van de onderzochte gratis VPN-apps geen encryptie te gebruiken. Volledig nul. Het verkeer werd onversleuteld doorgestuurd terwijl de app claimde je te beschermen.',
+          'Andere apps gebruikten verouderde protocollen zoals PPTP (Point-to-Point Tunneling Protocol), dat al in 2012 door Microsoft als onveilig werd bestempeld en door beveiligingsonderzoekers in minuten kan worden gekraakt. Versleuteling die kraakbaar is, biedt geen bescherming — maar geeft wel een vals gevoel van veiligheid.',
+        ],
+        table: {
+          headers: ['Protocol', 'Encryptieniveau', 'Status in 2026'],
+          rows: [
+            ['WireGuard', 'ChaCha20 (256-bit)', '✅ Aanbevolen — snel en veilig'],
+            ['OpenVPN', 'AES-256', '✅ Bewezen veilig — iets trager'],
+            ['IKEv2/IPSec', 'AES-256', '✅ Goed — stabiel op mobiel'],
+            ['L2TP/IPSec', 'AES-128/256', '⚠️ Acceptabel — langzaam'],
+            ['PPTP', '128-bit (gebroken)', '❌ Onveilig — niet gebruiken'],
+          ],
+        },
+      },
+      {
+        heading: 'Gevaar 6: dubieuze eigendomsstructuren en jurisdicties',
+        body: [
+          'Veel populaire gratis VPN-apps zijn in handen van Chinese bedrijven of bedrijven geregistreerd in belastingparadijzen zonder transparantie over de uiteindelijke eigenaren. Dat is relevant omdat een VPN-aanbieder in theorie verplicht kan worden door overheden om gebruikersdata te overhandigen.',
+          'In 2019 ontdekte onderzoeker Zach Edwards dat zeven populaire gratis VPN-apps — waaronder Turbo VPN, VPN Proxy Master en Thunder VPN — allemaal eigendom waren van hetzelfde Chinese bedrijf, Innovative Connecting. Geen van de apps vermeldde die Chinese eigenaar in de App Store-beschrijving. Samen hadden ze meer dan 90 miljoen downloads.',
+          'Een VPN-aanbieder in China valt onder de Chinese cyberveiligheidswetgeving, die aanbieders verplicht gebruikersdata te bewaren en op verzoek te overhandigen aan de autoriteiten. Een VPN die claimt "geen logs bij te houden" maar gevestigd is in een land met verplichte dataretentie, is een tegenstrijdigheid in zichzelf.',
+        ],
+        highlight: {
+          type: 'info',
+          title: 'Jurisdictie doet ertoe',
+          text: 'Controleer altijd waar het bedrijf achter je VPN is geregistreerd. Panama (NordVPN), Nederland (Surfshark) en Zwitserland (ProtonVPN) hebben geen verplichte dataretentie. China, de VS en het VK wel.',
+        },
+      },
+      {
+        heading: 'De uitzondering: ProtonVPN gratis',
+        body: [
+          'Na al het bovenstaande is de vraag gerechtvaardigd: bestaat er dan helemaal geen betrouwbare gratis VPN? Het antwoord is: één. <a href="/vpn-reviews/protonvpn">ProtonVPN</a> biedt een gratis versie die fundamenteel anders is dan de rest.',
+          'ProtonVPN Gratis heeft <strong>geen datalimiet</strong>, een <strong>strikt no-logs-beleid</strong> dat onafhankelijk is geauditeerd door Securitum, <strong>open-source apps</strong> (de code is publiek beschikbaar en door iedereen te controleren) en is gevestigd in <strong>Zwitserland</strong> — een van de sterkste privacyrechtsstelsels ter wereld. Proton AG heeft ook ProtonMail, de versleutelde e-maildienst die door journalisten en activisten wereldwijd wordt gebruikt.',
+          'De beperkingen van de gratis versie zijn eerlijk en transparant: je hebt toegang tot servers in slechts drie landen (Nederland, de VS en Japan), je verbindingssnelheid is lager dan bij betaalde gebruikers en er zijn geen streaming-geoptimaliseerde servers. Maar er worden <em>geen</em> advertenties getoond, <em>geen</em> data verkocht en <em>geen</em> bandbreedte doorverkocht. Proton verdient geld via betaalde abonnementen — gratis gebruikers zijn hun reclamemateriaal, niet hun product.',
+        ],
+        highlight: {
+          type: 'tip',
+          title: 'Beste gratis optie',
+          text: 'ProtonVPN Gratis is de enige gratis VPN die we zonder voorbehoud aanbevelen. Geen datalimiet, open-source, onafhankelijk geaudit en gevestigd in Zwitserland. Beperkingen zijn er wel: drie landen, lagere snelheid, geen streaming.',
+        },
+        cta: 'protonvpn',
+      },
+      {
+        heading: 'Wanneer heeft een betaalde VPN de voorkeur?',
+        body: [
+          'ProtonVPN Gratis volstaat voor incidenteel gebruik: veilig browsen op openbaar wifi, je IP verbergen of een enkel bezoek aan een geblokkeerde website. Maar voor dagelijks gebruik, streaming, torrenten of het werken met gevoelige bedrijfsdata is een betaald abonnement verstandiger.',
+          '<a href="/vpn-reviews/surfshark">Surfshark</a> kost al <strong>€1,99 per maand</strong> bij een tweejarig abonnement — minder dan een kop koffie per maand. Je krijgt daarvoor 3.200+ servers in 100 landen, onbeperkt apparaten, een onafhankelijk geauditeerd no-logs-beleid en betrouwbare Netflix-deblokkering. <a href="/vpn-reviews/nordvpn">NordVPN</a> biedt dezelfde garanties met een groter netwerk en hogere snelheden voor €3,39 per maand.',
+          'Voor wie privacy echt serieus neemt — journalisten, activisten, zakenreizigers — is <a href="/vpn-reviews/protonvpn">ProtonVPN Plus</a> de logische keuze: open-source, Zwitsers recht, Secure Core-servers en het Stealth-protocol voor landen met VPN-censuur. Dat kost €5,99 per maand, maar levert de meest transparante en verifieerbare privacygaranties op de markt.',
+        ],
+        table: {
+          headers: ['Gebruik', 'Aanbeveling', 'Prijs'],
+          rows: [
+            ['Incidenteel, geen streaming', 'ProtonVPN Gratis', 'Gratis'],
+            ['Dagelijks + streaming + budget', 'Surfshark Starter', 'Vanaf €1,99/mnd'],
+            ['Dagelijks + snelheid + betrouwbaarheid', 'NordVPN Basis', 'Vanaf €3,39/mnd'],
+            ['Privacy-kritisch gebruik', 'ProtonVPN Plus', '€5,99/mnd'],
+          ],
+        },
+        cta: 'nordvpn',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Zijn alle gratis VPN-apps gevaarlijk?',
+        answer: 'Niet allemaal, maar de grote meerderheid wel. CSIRO-onderzoek toonde aan dat 38% van de gratis VPN-apps malware of adware bevatte en 84% het verkeer niet goed versleutelde. ProtonVPN Gratis is de enige gratis VPN die we zonder voorbehoud aanbevelen: open-source, geen datalimiet, onafhankelijk geauditeerd no-logs-beleid en gevestigd in Zwitserland.',
+      },
+      {
+        question: 'Kan een gratis VPN mijn data echt verkopen?',
+        answer: 'Ja. Omdat een gratis VPN al je internetverkeer verwerkt, heeft de aanbieder volledige toegang tot wat je online doet. Diensten als Hola VPN en SuperVPN bleken gebruikersdata door te verkopen aan derden of zelfs via gebruikersverbindingen een botnet te exploiteren. Controleer altijd het privacybeleid en kijk of er onafhankelijke audits zijn voordat je een gratis VPN installeert.',
+      },
+      {
+        question: 'Hoe weet ik of mijn VPN een DNS-lek heeft?',
+        answer: 'Activeer je VPN en ga naar ipleak.net of dnsleaktest.com. Als je eigen IP-adres of de DNS-servers van je provider zichtbaar zijn, lekt je VPN en ben je niet anoniem. Een correcte VPN toont alleen het IP-adres van de VPN-server en de DNS-servers van de VPN-aanbieder. Alle premium VPN\'s in onze top slagen voor deze test.',
+      },
+      {
+        question: 'Is ProtonVPN Gratis echt gratis en veilig?',
+        answer: 'Ja. ProtonVPN Gratis heeft geen datalimiet, geen advertenties en geen dataverzameling. De apps zijn open-source en onafhankelijk geauditeerd door Securitum. Proton AG verdient geld via betaalde abonnementen — gratis gebruikers zijn de reclamefunctie, niet het product. Beperkingen zijn: drie serverlanden, lagere snelheid en geen streaming-servers.',
+      },
+      {
+        question: 'Wat is het goedkoopste betrouwbare betaalde alternatief voor een gratis VPN?',
+        answer: 'Surfshark kost vanaf €1,99 per maand bij een tweejarig abonnement — het goedkoopste premium-VPN in onze test. Je krijgt onbeperkt apparaten, 3.200+ servers in 100 landen, een onafhankelijk geauditeerd no-logs-beleid en betrouwbare streaming-deblokkering. Hide.me biedt een middenweg: een gratis versie met 10 GB per maand én een betaald plan met volledige functionaliteit.',
+      },
+    ],
+    relatedProviders: ['protonvpn', 'hideme', 'nordvpn'],
+    relatedSlugs: ['goedkoopste-vpn-deals', 'vpn-ip-adres-verbergen', 'kill-switch-vpn'],
+    tags: ['gratis vpn gevaren', 'gratis vpn veilig', 'gratis vpn risicos', 'vpn privacy 2026'],
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
