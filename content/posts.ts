@@ -1869,7 +1869,7 @@ export const posts: BlogPost[] = [
     updatedISO: '2026-06-22',
     readTime: '6 min',
     author: 'vpnr.nl Redactie',
-    image: '/blog/surfshark-korting.svg',
+    image: '/blog/surfshark-korting.jpg',
     imageAlt: 'Surfshark korting 2026, teal VPN app interface met kortingspercentage en schildlogo',
     intro: 'Surfshark is al jaren een van de voordeligste premium VPN\'s, maar met de juiste korting wordt het nóg aantrekkelijker. In juni 2026 biedt Surfshark tot 87% korting op het tweejarig abonnement, inclusief 3 extra maanden gratis. In dit artikel vind je alle actuele deals, een vergelijking van de abonnementen en praktische tips om zeker de laagste prijs te pakken.',
     sections: [
