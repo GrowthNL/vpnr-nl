@@ -2150,6 +2150,160 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['goedkoopste-vpn-deals', 'vpn-ip-adres-verbergen', 'kill-switch-vpn'],
     tags: ['gratis vpn gevaren', 'gratis vpn veilig', 'gratis vpn risicos', 'vpn privacy 2026'],
   },
+  {
+    "slug": "vpn-openbaar-wifi",
+    "title": "VPN op openbaar wifi: waarom dit in 2026 essentieel is",
+    "metaTitle": "VPN openbaar wifi beveiliging: gids voor 2026",
+    "metaDescription": "VPN openbaar wifi beveiliging beschermt je tegen hackers in café, hotel en luchthaven. Lees hoe het werkt en welke VPN je het beste kiest in 2026.",
+    "excerpt": "Openbaar wifi is een paradijs voor hackers. Ontdek waarom VPN openbaar wifi beveiliging in 2026 onmisbaar is en welke VPN je het beste beschermt.",
+    "category": "Uitleg",
+    "date": "29 juni 2026",
+    "dateISO": "2026-06-29",
+    "updatedISO": "2026-06-29",
+    "readTime": "8 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/vpn-openbaar-wifi.jpg",
+    "imageAlt": "Laptop met VPN-verbinding op openbaar wifi-netwerk in een druk café",
+    "intro": "VPN openbaar wifi beveiliging is in 2026 geen luxe meer, maar pure noodzaak. Wie inlogt op gratis wifi in een café, hotel of luchthaven loopt het risico dat criminelen meekijken met alles wat je verstuurt. Een VPN versleutelt je verkeer volledig, zodat je veilig kunt internetten op elk netwerk. Let op: vpnr.nl ontvangt affiliate commissies, maar dit beïnvloedt onze onafhankelijke beoordeling niet.",
+    "sections": [
+      {
+        "heading": "Waarom openbaar wifi zo gevaarlijk is",
+        "body": [
+          "Gratis wifi-netwerken zijn vrijwel nooit goed beveiligd. Vaak ontbreekt een wachtwoord volledig, of delen honderden gebruikers hetzelfde wachtwoord dat op een bordje aan de muur hangt. Dat betekent dat iedereen op hetzelfde netwerk in theorie jouw dataverkeer kan onderscheppen.",
+          "Hackers maken hier dankbaar gebruik van. Met goedkope apparatuur en gratis software kunnen ze meekijken met onbeveiligd verkeer, valse netwerken opzetten of je naar nepwebsites lokken. Vooral op druk bezochte locaties zoals luchthavens en treinstations is het risico groot.",
+          "Een <a href='/wat-is-een-vpn' class='text-blue-600 hover:underline font-medium'>VPN</a> lost dit probleem op door al je internetverkeer te versleutelen voordat het je apparaat verlaat. Zelfs als iemand de data onderschept, ziet hij alleen onleesbare code."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Verontrustend cijfer",
+          "text": "Onderzoek toont aan dat een groot deel van de openbare hotspots geen of zwakke encryptie gebruikt, waardoor onderschepping van data kinderlijk eenvoudig is."
+        }
+      },
+      {
+        "heading": "De drie grootste bedreigingen op openbaar wifi",
+        "body": [
+          "Op openbare netwerken zijn er drie aanvalstechnieken die je het vaakst tegenkomt. Het begrijpen hiervan maakt direct duidelijk waarom <strong>VPN openbaar wifi beveiliging</strong> zo belangrijk is.",
+          "Bij een <strong>man-in-the-middle-aanval</strong> plaatst een hacker zich tussen jou en de website die je bezoekt. Hij kan dan meelezen, gegevens aanpassen of inloggegevens stelen zonder dat jij er iets van merkt.",
+          "Een <strong>evil twin hotspot</strong> is een nepnetwerk dat lijkt op het officiële wifi van bijvoorbeeld een hotel of café. Maak je hiermee verbinding, dan loopt al je verkeer rechtstreeks via de apparatuur van de aanvaller.",
+          "Tot slot is er <strong>packet sniffing</strong>: met speciale software vangt een hacker datapakketjes op die over het netwerk reizen. Op onbeveiligde verbindingen kan dit wachtwoorden, e-mails en andere gevoelige informatie opleveren."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Let op nepnetwerken",
+          "text": "Controleer altijd bij het personeel wat de exacte naam van het officiële wifi-netwerk is. Een naam als 'Hotel_Gratis_WiFi' kan een valstrik zijn."
+        }
+      },
+      {
+        "heading": "HTTPS versus volledige VPN-encryptie",
+        "body": [
+          "Veel mensen denken dat het slotje in de browser (HTTPS) voldoende bescherming biedt. HTTPS versleutelt inderdaad de inhoud van wat je met een specifieke website uitwisselt, maar het beschermt lang niet alles.",
+          "HTTPS laat namelijk wél zien welke websites je bezoekt en versleutelt geen verkeer van apps die het protocol niet gebruiken. Bovendien kunnen geavanceerde aanvallen je naar een onveilige variant van een site dwingen.",
+          "Een VPN versleutelt daarentegen <em>al</em> je internetverkeer, ongeacht de app of website. Bovendien verbergt het je echte IP-adres en je locatie. Wil je weten hoe dat precies werkt? Lees dan onze uitleg over <a href='/blog/vpn-ip-adres-verbergen' class='text-blue-600 hover:underline font-medium'>je IP-adres verbergen met een VPN</a>.",
+          "Kortom: HTTPS en een VPN vullen elkaar aan, maar alleen een VPN biedt complete bescherming op onbetrouwbare netwerken."
+        ]
+      },
+      {
+        "heading": "Praktische tips voor café, hotel en luchthaven",
+        "body": [
+          "Met een paar simpele gewoontes verklein je het risico op openbaar wifi aanzienlijk. De belangrijkste regel: schakel je VPN in vóórdat je verbinding maakt met een openbaar netwerk.",
+          "Daarnaast helpt het om automatisch verbinden met wifi op je telefoon uit te zetten, zodat je niet ongemerkt verbinding maakt met een evil twin. Vermijd ook gevoelige handelingen zoals internetbankieren als je geen VPN actief hebt.",
+          "Veel van deze instellingen zijn snel geregeld. Bekijk onze gidsen voor <a href='/blog/vpn-iphone-instellen' class='text-blue-600 hover:underline font-medium'>VPN op iPhone</a> en <a href='/blog/vpn-android-instellen' class='text-blue-600 hover:underline font-medium'>VPN op Android</a> om je toestel goed in te stellen."
+        ],
+        "table": {
+          "headers": [
+            "Locatie",
+            "Risico",
+            "Aanbevolen actie"
+          ],
+          "rows": [
+            [
+              "Café",
+              "Gedeeld wachtwoord, packet sniffing",
+              "VPN aan, geen bankzaken zonder VPN"
+            ],
+            [
+              "Hotel",
+              "Evil twin hotspots",
+              "Netwerknaam verifiëren bij receptie"
+            ],
+            [
+              "Luchthaven",
+              "Drukke open netwerken",
+              "Auto-connect VPN inschakelen"
+            ],
+            [
+              "Trein/OV",
+              "Wisselende netwerken",
+              "Mobiele VPN-app gebruiken"
+            ]
+          ]
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Auto-connect: bescherming zonder erover na te denken",
+        "body": [
+          "De handigste functie voor openbaar wifi is auto-connect. Hiermee schakelt je VPN automatisch in zodra je verbinding maakt met een onbekend of openbaar netwerk. Je hoeft er dus nooit meer aan te denken.",
+          "<a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> biedt deze functie standaard en laat je per netwerk instellen of de VPN automatisch moet starten. In combinatie met een ingebouwde <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> blijft je verbinding altijd beschermd, ook als de VPN even wegvalt.",
+          "Ook <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a> en <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>Proton VPN</a> bieden vergelijkbare automatische beveiliging. Voor wie veel onderweg is, is dit de belangrijkste functie om op te letten."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Stel auto-connect goed in",
+          "text": "Markeer je thuis- en werknetwerk als vertrouwd, zodat de VPN alleen automatisch start op onbekende openbare hotspots."
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Welke VPN kies je voor openbaar wifi?",
+        "body": [
+          "Voor optimale <strong>VPN openbaar wifi beveiliging</strong> let je op sterke encryptie (AES-256), moderne protocollen, een betrouwbare kill switch en auto-connect. Snelheid is eveneens belangrijk, zodat je zonder vertraging kunt streamen of werken.",
+          "Onze testen wijzen NordVPN aan als de meest complete keuze dankzij snelheid, beveiligingsfuncties en gebruiksgemak. Surfshark is een uitstekend betaalbaar alternatief met onbeperkte apparaten, terwijl Proton VPN scoort op privacy en transparantie.",
+          "Wil je de opties naast elkaar zien? Gebruik onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijker</a> of bekijk de directe vergelijking in <a href='/blog/nordvpn-vs-surfshark' class='text-blue-600 hover:underline font-medium'>NordVPN vs Surfshark</a> om de juiste keuze te maken."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Heb ik echt een VPN nodig op openbaar wifi?",
+        "answer": "Ja. Op openbare netwerken kunnen hackers eenvoudig meekijken met onbeveiligd verkeer. Een VPN versleutelt al je data, waardoor onderschepte gegevens onleesbaar zijn. Het is de beste bescherming op café-, hotel- en luchthavenwifi."
+      },
+      {
+        "question": "Is HTTPS niet genoeg om mij te beschermen?",
+        "answer": "HTTPS versleutelt alleen het verkeer met een specifieke website en laat zien welke sites je bezoekt. Een VPN beschermt al je internetverkeer en verbergt bovendien je IP-adres en locatie. Voor openbaar wifi is een VPN dus veel veiliger."
+      },
+      {
+        "question": "Wat is een evil twin hotspot?",
+        "answer": "Een evil twin is een nepnetwerk dat de naam van een legitiem wifi-netwerk nabootst, bijvoorbeeld dat van een hotel. Maak je verbinding, dan loopt al je verkeer via de apparatuur van de aanvaller. Een VPN beschermt je ook tegen deze valstrik."
+      },
+      {
+        "question": "Wat is auto-connect bij een VPN?",
+        "answer": "Auto-connect schakelt je VPN automatisch in zodra je verbinding maakt met een openbaar of onbekend netwerk. Zo ben je altijd beschermd zonder er handmatig aan te denken. NordVPN, Surfshark en Proton VPN bieden deze functie."
+      },
+      {
+        "question": "Welke VPN is het beste voor openbaar wifi?",
+        "answer": "NordVPN is onze topkeuze vanwege snelheid, sterke encryptie, auto-connect en een betrouwbare kill switch. Surfshark is een betaalbaar alternatief en Proton VPN is ideaal voor wie maximale privacy wil."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "protonvpn"
+    ],
+    "relatedSlugs": [
+      "kill-switch-vpn",
+      "vpn-ip-adres-verbergen",
+      "vpn-thuiswerken"
+    ],
+    "tags": [
+      "openbaar wifi",
+      "vpn beveiliging",
+      "man-in-the-middle",
+      "wifi hacken",
+      "veilig internetten",
+      "nordvpn"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {

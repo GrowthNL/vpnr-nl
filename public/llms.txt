@@ -91,3 +91,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/nordvpn-vs-surfshark — NordVPN vs Surfshark blog: welke VPN is beter?
 - https://vpnr.nl/blog/vpn-thuiswerken — VPN voor thuiswerken: veilig thuis werken in 2026
 - https://vpnr.nl/blog/vpn-china-gebruiken — VPN gebruiken in China (2026): welke werken nog écht?
+- https://vpnr.nl/blog/vpn-openbaar-wifi — VPN op openbaar wifi: waarom dit in 2026 essentieel is
