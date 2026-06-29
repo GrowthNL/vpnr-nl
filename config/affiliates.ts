@@ -20,7 +20,7 @@ export const affiliateLinks: Record<string, string> = {
   hideme:       'https://rkn3.net/c/?si=14381&li=1804212&wi=421843&ws=',
   cyberghost:   'https://ho-app.cyberghostvpn.com/aff_c?offer_id=2631&aff_id=7868',
   purevpn:      'https://www.anrdoezrs.net/click-8068741-13842739',
-  mcafee:       'https://www.mcafee.com/en-nl/index.html?ref=JOUWCODE',
+  mcafee:       'https://glp8.net/c/?si=20283&li=1865393&wi=421843&ws=&dl=nl-nl%2Fvpn.html',
   vpnnederland: 'https://fr135.net/c/?si=15398&li=1667864&wi=421843&ws=',
 }
 
