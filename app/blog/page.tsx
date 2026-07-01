@@ -18,7 +18,7 @@ const categoryPillColor: Record<string, string> = {
 }
 
 export default function BlogPage() {
-  const [featured, ...rest] = posts
+  const [featured, ...rest] = [...posts].reverse()
 
   return (
     <>
