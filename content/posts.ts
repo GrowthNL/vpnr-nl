@@ -2450,6 +2450,157 @@ export const posts: BlogPost[] = [
       "vpn installeren"
     ]
   },
+  {
+    "slug": "vpn-ipad-instellen",
+    "title": "VPN instellen op iPad (2026): complete stap-voor-stap handleiding",
+    "metaTitle": "VPN iPad instellen 2026: stap-voor-stap gids",
+    "metaDescription": "VPN op iPad instellen in 2026? Volg onze stap-voor-stap handleiding via de App Store of handmatig met IKEv2. Snel en veilig geregeld.",
+    "excerpt": "Leer hoe je een VPN op je iPad instelt in 2026 — via de App Store of handmatig met IKEv2. Compleet stappenplan voor iPadOS.",
+    "category": "Gids",
+    "date": "6 juli 2026",
+    "dateISO": "2026-07-06",
+    "updatedISO": "2026-07-06",
+    "readTime": "7 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/vpn-ipad-instellen.jpg",
+    "imageAlt": "iPad op bureau met geopende VPN-app en actieve beveiligde verbinding in iPadOS",
+    "intro": "Een VPN op je iPad instellen kan in 2026 op twee manieren: via een kant-en-klare app uit de App Store of via een handmatige IKEv2-configuratie. In deze handleiding laten we stap voor stap zien hoe je vpn ipad instellen in enkele minuten voor elkaar krijgt. Let op: vpnr.nl ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze onafhankelijke beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "VPN op iPad instellen via de App Store (aanbevolen)",
+        "body": [
+          "De eenvoudigste manier om een <strong>vpn op je iPad in te stellen</strong> is via een app uit de App Store. Vrijwel alle grote aanbieders bieden een speciale iPadOS-app die geoptimaliseerd is voor het grotere scherm en de multitasking-functies van de iPad.",
+          "Open de App Store, zoek op de naam van je VPN-aanbieder (bijvoorbeeld NordVPN of Surfshark) en tik op 'Download'. Nadat de app is geïnstalleerd, log je in met je account. Bij de eerste verbinding vraagt iPadOS toestemming om een VPN-configuratie toe te voegen — bevestig dit met Face ID, Touch ID of je toegangscode.",
+          "Vanaf dat moment verbind je met één tik op de grote verbindknop. De app installeert automatisch het juiste protocol (meestal WireGuard of OpenVPN), dus je hoeft niets handmatig in te stellen. Dit is de meest gebruiksvriendelijke methode voor de meeste mensen."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Kies een iPadOS-app",
+          "text": "Controleer voor het downloaden of de VPN een specifieke iPad-app heeft, zodat je optimaal profiteert van het grote scherm en Split View."
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Handmatig een VPN instellen met IKEv2 op iPadOS",
+        "body": [
+          "Wil je geen app gebruiken, of biedt je aanbieder alleen handmatige configuratie? Dan stel je de VPN in via de systeeminstellingen met het IKEv2-protocol. Dit is stabiel, snel en volledig ondersteund door iPadOS.",
+          "Ga naar <strong>Instellingen → Algemeen → VPN en apparaatbeheer → VPN → Voeg VPN-configuratie toe</strong>. Kies bij 'Type' voor IKEv2. Vul vervolgens de gegevens in die je van je VPN-aanbieder hebt gekregen: de serveradres, externe ID, gebruikersnaam en wachtwoord.",
+          "Nadat je de configuratie hebt bewaard, verschijnt er een schakelaar bovenaan het VPN-menu. Zet deze op 'aan' om te verbinden. Bij twijfel over welk protocol het beste past, lees dan onze <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>VPN-protocol vergelijking</a>."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Gegevens opvragen",
+          "text": "De serveradressen en inloggegevens voor handmatige IKEv2-configuratie vind je meestal in het accountdashboard van je VPN-aanbieder."
+        }
+      },
+      {
+        "heading": "VPN snel aan- en uitzetten via het Bedieningspaneel",
+        "body": [
+          "In iPadOS kun je een VPN razendsnel in- en uitschakelen zonder de app te openen. Zodra je een VPN-configuratie hebt toegevoegd, verschijnt er een VPN-schakelaar in Instellingen die je met één tik bedient.",
+          "Handiger nog: veel VPN-apps ondersteunen een widget of Siri-snelkoppeling. Zo verbind je met je stem of vanaf je beginscherm. Sleep vanuit de rechterbovenhoek naar beneden om het Bedieningspaneel te openen — sommige apps plaatsen hier een snelknop.",
+          "Voor extra beveiliging raden we aan de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> in te schakelen. Deze verbreekt automatisch je internetverbinding als de VPN wegvalt, zodat je IP-adres nooit onbedoeld lekt."
+        ]
+      },
+      {
+        "heading": "Verschil tussen VPN instellen op iPad en iPhone",
+        "body": [
+          "De basisstappen voor het instellen van een VPN zijn op iPad en iPhone vrijwel identiek, omdat beide op iPadOS respectievelijk iOS draaien met dezelfde systeeminstellingen. Toch zijn er praktische verschillen.",
+          "Op de iPad profiteer je van een groter scherm en multitasking-functies zoals Split View en Stage Manager, waardoor je bijvoorbeeld tegelijk kunt streamen en werken via de VPN. Ook zijn iPad-apps vaak visueel uitgebreider met een overzichtelijke serverkaart.",
+          "Verder ondersteunen iPads met alleen wifi (zonder simkaart) geen mobiele data, waardoor je VPN uitsluitend over wifi werkt. Wil je ook je iPhone beveiligen? Bekijk dan onze aparte <a href='/blog/vpn-iphone-instellen' class='text-blue-600 hover:underline font-medium'>handleiding voor iPhone</a>."
+        ]
+      },
+      {
+        "heading": "Welke VPN werkt het beste op iPadOS in 2026?",
+        "body": [
+          "Niet elke VPN presteert even goed op de iPad. De beste aanbieders bieden een speciale iPadOS-app, hoge snelheden voor streaming en betrouwbare deblokkering van diensten zoals Netflix en Disney+.",
+          "Op basis van onze tests komen NordVPN, Surfshark en Proton VPN naar voren als de sterkste keuzes voor iPad-gebruikers in 2026. Ze combineren gebruiksgemak met sterke beveiliging en snelle WireGuard-verbindingen.",
+          "In de onderstaande tabel zie je hoe deze drie zich verhouden. Bekijk ook onze volledige <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN review</a> voor een gedetailleerde beoordeling."
+        ],
+        "table": {
+          "headers": [
+            "VPN",
+            "iPadOS-app",
+            "Streaming",
+            "Vanaf prijs/mnd"
+          ],
+          "rows": [
+            [
+              "NordVPN",
+              "Ja, geoptimaliseerd",
+              "Uitstekend",
+              "€ 3,39"
+            ],
+            [
+              "Surfshark",
+              "Ja, onbeperkt apparaten",
+              "Zeer goed",
+              "€ 2,19"
+            ],
+            [
+              "Proton VPN",
+              "Ja, privacygericht",
+              "Goed",
+              "€ 4,49"
+            ]
+          ]
+        },
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Problemen met de VPN op je iPad oplossen",
+        "body": [
+          "Werkt je VPN niet naar behoren? Controleer eerst of je iPadOS up-to-date is en of de VPN-app de nieuwste versie draait. Een simpele herstart van zowel de app als de iPad lost veel problemen op.",
+          "Krijg je een foutmelding bij handmatige configuratie? Controleer dan of het serveradres, de gebruikersnaam en het wachtwoord exact kloppen. Bij streaming-problemen kun je proberen een andere server te kiezen — lees hierover meer in ons artikel <a href='/blog/netflix-vpn-werkt-niet' class='text-blue-600 hover:underline font-medium'>Netflix VPN werkt niet</a>.",
+          "Blijft de verbinding traag? Schakel dan over naar het WireGuard-protocol (indien beschikbaar in de app) en verbind met een server dichter bij Nederland voor de laagste latentie."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Vermijd gratis VPN's",
+          "text": "Gratis VPN-apps op de iPad zijn vaak traag en verzamelen je gegevens. Lees waarom in ons artikel over de gevaren van gratis VPN's."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Hoe stel ik een VPN in op mijn iPad?",
+        "answer": "Download een VPN-app uit de App Store, log in en bevestig de VPN-configuratie met Face ID of je toegangscode. Daarna verbind je met één tik. Alternatief stel je de VPN handmatig in via Instellingen → Algemeen → VPN met het IKEv2-protocol."
+      },
+      {
+        "question": "Werkt een VPN op iPad hetzelfde als op iPhone?",
+        "answer": "Ja, de instelmethode is vrijwel identiek omdat beide op hetzelfde besturingssysteem draaien. Het verschil zit vooral in het grotere scherm en de multitasking-functies van de iPad, plus dat wifi-only iPads geen mobiele data ondersteunen."
+      },
+      {
+        "question": "Welke VPN is het beste voor een iPad in 2026?",
+        "answer": "NordVPN, Surfshark en Proton VPN zijn in 2026 de beste keuzes voor iPad. Ze bieden een geoptimaliseerde iPadOS-app, hoge streaming-snelheden en sterke beveiliging met het WireGuard-protocol."
+      },
+      {
+        "question": "Kan ik een VPN op mijn iPad zonder app instellen?",
+        "answer": "Ja, dat kan handmatig via Instellingen → Algemeen → VPN en apparaatbeheer. Kies IKEv2 als type en vul de serveradressen en inloggegevens van je aanbieder in. Deze methode werkt zonder aparte app te downloaden."
+      },
+      {
+        "question": "Hoe zet ik de VPN snel aan of uit op mijn iPad?",
+        "answer": "Na het toevoegen van een configuratie verschijnt er een VPN-schakelaar bovenaan in Instellingen. Veel apps bieden ook een widget of Siri-snelkoppeling, zodat je met één tik of stemcommando verbindt en verbreekt."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "protonvpn"
+    ],
+    "relatedSlugs": [
+      "vpn-iphone-instellen",
+      "vpn-protocol-vergelijking",
+      "netflix-vpn-werkt-niet"
+    ],
+    "tags": [
+      "vpn ipad instellen",
+      "ipad vpn",
+      "ipados vpn",
+      "ikev2",
+      "vpn handleiding",
+      "vpn instellen"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
