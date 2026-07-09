@@ -2601,6 +2601,151 @@ export const posts: BlogPost[] = [
       "vpn instellen"
     ]
   },
+  {
+    "slug": "vpn-encryptie-uitgelegd",
+    "title": "VPN encryptie uitgelegd: zo werkt AES-256 écht (2026)",
+    "metaTitle": "VPN encryptie uitgelegd: AES-256 simpel (2026)",
+    "metaDescription": "VPN encryptie uitgelegd in gewone taal: hoe werkt AES-256, wat is de handshake en waarom is het onkraakbaar? Ontdek welke encryptie topproviders gebruiken.",
+    "excerpt": "VPN encryptie uitgelegd zonder jargon: leer hoe AES-256 werkt, wat de handshake doet en waarom jouw data praktisch onkraakbaar blijft.",
+    "category": "Uitleg",
+    "date": "9 juli 2026",
+    "dateISO": "2026-07-09",
+    "updatedISO": "2026-07-09",
+    "readTime": "8 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/vpn-encryptie-uitgelegd.jpg",
+    "imageAlt": "Laptop met VPN-verbinding en versleuteld datastroomlicht dat AES-256 encryptie symboliseert",
+    "intro": "VPN encryptie uitgelegd in begrijpelijke taal: encryptie is het proces dat jouw internetverkeer omzet in onleesbare code, zodat niemand kan meekijken. In dit artikel leggen we uit hoe AES-256 werkt, wat een handshake is en waarom deze bescherming vandaag de dag praktisch onkraakbaar is. Voor de volledigheid: vpnr.nl ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "Wat is VPN-encryptie eigenlijk?",
+        "body": [
+          "Encryptie is het versleutelen van gegevens met een wiskundig algoritme, zodat alleen iemand met de juiste sleutel de informatie kan lezen. Bij een VPN wordt al jouw internetverkeer door een versleutelde 'tunnel' gestuurd tussen jouw apparaat en de VPN-server.",
+          "Zonder encryptie kan je internetprovider, een hacker op openbaar wifi of een overheid precies zien welke websites je bezoekt en welke data je verstuurt. Met sterke encryptie zien zij enkel een onbegrijpelijke reeks tekens.",
+          "Wil je eerst de basis begrijpen? Lees dan ook <a href='/wat-is-een-vpn' class='text-blue-600 hover:underline font-medium'>wat is een VPN</a> voor een compleet overzicht van hoe de technologie werkt."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Kort samengevat",
+          "text": "Encryptie verandert leesbare data in code. Alleen wie de sleutel bezit, kan de informatie weer ontcijferen."
+        }
+      },
+      {
+        "heading": "AES-256 uitgelegd: de gouden standaard",
+        "body": [
+          "AES staat voor <strong>Advanced Encryption Standard</strong>, een encryptiemethode die wereldwijd wordt gebruikt door banken, overheden en legers. De '256' verwijst naar de sleutellengte in bits: hoe langer de sleutel, hoe meer mogelijke combinaties en hoe moeilijker te kraken.",
+          "AES-256 heeft 2 tot de macht 256 mogelijke sleutels. Dat zijn ongeveer 115 quattuorvigintiljoen combinaties — een getal met 78 cijfers. Zelfs de snelste supercomputer ter wereld zou miljarden jaren nodig hebben om alle combinaties te proberen.",
+          "AES-128 gebruikt een kortere sleutel van 128 bits. Dat is nog steeds extreem veilig, maar AES-256 biedt een grotere veiligheidsmarge en is daarom de voorkeur bij de meeste premium VPN-aanbieders."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Onkraakbaar in de praktijk",
+          "text": "Om AES-256 met brute kracht te kraken zou je meer tijd nodig hebben dan de leeftijd van het heelal — meerdere keren over."
+        }
+      },
+      {
+        "heading": "Symmetrisch versus asymmetrisch: de handshake",
+        "body": [
+          "Encryptie kent twee vormen. Bij <strong>symmetrische encryptie</strong> (zoals AES) gebruiken beide partijen dezelfde sleutel om te versleutelen en te ontsleutelen. Dat is snel, maar er is een probleem: hoe wissel je die geheime sleutel veilig uit?",
+          "Daarvoor bestaat <strong>asymmetrische encryptie</strong>, met een publieke en een private sleutel (zoals RSA of ECC). Tijdens de zogenaamde 'handshake' gebruikt jouw VPN deze methode om veilig een symmetrische AES-sleutel af te spreken met de server.",
+          "Zodra de handshake voltooid is, schakelt de verbinding over op snelle AES-encryptie voor al het verdere verkeer. Zo krijg je het beste van twee werelden: veilige sleuteluitwisseling én hoge snelheid."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Perfect Forward Secrecy",
+          "text": "Goede VPN's genereren regelmatig een nieuwe sleutel. Zelfs als één sleutel ooit uitlekt, blijft eerder verkeer beschermd."
+        }
+      },
+      {
+        "heading": "Welke encryptie gebruiken de topproviders?",
+        "body": [
+          "Alle grote VPN-aanbieders gebruiken AES-256 of het even sterke ChaCha20, maar de protocollen verschillen. Het protocol bepaalt hoe de encryptie wordt toegepast en beïnvloedt snelheid en stabiliteit.",
+          "In de onderstaande tabel zie je hoe drie topproviders hun encryptie inrichten. Wil je dieper ingaan op protocollen? Bekijk dan onze <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>VPN-protocol vergelijking</a>."
+        ],
+        "table": {
+          "headers": [
+            "Provider",
+            "Encryptie",
+            "Hoofdprotocol"
+          ],
+          "rows": [
+            [
+              "NordVPN",
+              "AES-256 / ChaCha20",
+              "NordLynx (WireGuard)"
+            ],
+            [
+              "ProtonVPN",
+              "AES-256 / ChaCha20",
+              "WireGuard & OpenVPN"
+            ],
+            [
+              "Surfshark",
+              "AES-256 / ChaCha20",
+              "WireGuard"
+            ]
+          ]
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Waarom encryptie in de praktijk niet te kraken is",
+        "body": [
+          "In theorie kun je elke encryptie kraken door alle sleutels te proberen. In de praktijk is dat bij AES-256 volstrekt onhaalbaar: er zijn simpelweg te veel combinaties en te weinig rekenkracht op aarde om dat binnen een mensenleven te doen.",
+          "Hackers proberen daarom zelden de encryptie zelf te breken. Ze mikken op zwakke wachtwoorden, verouderde software of onveilige netwerken. Een VPN met een goede <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> voorkomt dat je data lekt als de verbinding wegvalt.",
+          "Zeker op onbeveiligde netwerken is encryptie onmisbaar. Lees hoe je jezelf beschermt in onze gids over <a href='/blog/vpn-openbaar-wifi' class='text-blue-600 hover:underline font-medium'>VPN op openbaar wifi</a>."
+        ],
+        "cta": "protonvpn"
+      },
+      {
+        "heading": "Waar moet je op letten bij een veilige VPN?",
+        "body": [
+          "Sterke encryptie is de basis, maar niet het hele verhaal. Let ook op een strikt no-logs beleid, moderne protocollen zoals WireGuard en extra functies zoals Perfect Forward Secrecy en DNS-lekbescherming.",
+          "Vermijd gratis VPN's die vaak zwakke encryptie of dubieuze verdienmodellen hanteren. Waarom dat gevaarlijk is, lees je in ons artikel over <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>de gevaren van gratis VPN's</a>.",
+          "Wil je providers naast elkaar zetten op basis van veiligheid en prijs? Gebruik dan onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijker</a> om de beste keuze te maken."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat betekent AES-256 encryptie?",
+        "answer": "AES-256 is een encryptiestandaard met een sleutellengte van 256 bits. Het wordt gebruikt door banken en overheden en geldt als praktisch onkraakbaar door het astronomische aantal mogelijke sleutelcombinaties."
+      },
+      {
+        "question": "Is AES-256 veiliger dan AES-128?",
+        "answer": "Ja, AES-256 heeft een langere sleutel en dus meer mogelijke combinaties. Beide zijn in de praktijk niet te kraken, maar AES-256 biedt een grotere veiligheidsmarge en is de standaard bij premium VPN's."
+      },
+      {
+        "question": "Kan een hacker VPN-encryptie kraken?",
+        "answer": "Nee, AES-256 kraken met brute kracht zou miljarden jaren duren, zelfs met supercomputers. Hackers richten zich daarom op zwakke wachtwoorden of verouderde software in plaats van de encryptie zelf."
+      },
+      {
+        "question": "Wat is een VPN-handshake?",
+        "answer": "De handshake is het proces waarbij jouw apparaat en de VPN-server veilig een geheime sleutel afspreken via asymmetrische encryptie. Daarna schakelt de verbinding over op snelle symmetrische AES-encryptie."
+      },
+      {
+        "question": "Wat is Perfect Forward Secrecy?",
+        "answer": "Perfect Forward Secrecy zorgt dat er regelmatig een nieuwe encryptiesleutel wordt gegenereerd. Zelfs als één sleutel ooit uitlekt, blijft eerder en later verkeer volledig beschermd."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "protonvpn",
+      "surfshark"
+    ],
+    "relatedSlugs": [
+      "vpn-protocol-vergelijking",
+      "kill-switch-vpn",
+      "gratis-vpn-gevaren"
+    ],
+    "tags": [
+      "vpn encryptie",
+      "aes-256",
+      "vpn beveiliging",
+      "encryptie uitgelegd",
+      "vpn veiligheid"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
