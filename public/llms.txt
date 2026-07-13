@@ -95,3 +95,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-firestick-instellen — VPN op Firestick instellen (2026): stap voor stap uitgelegd
 - https://vpnr.nl/blog/vpn-ipad-instellen — VPN instellen op iPad (2026): complete stap-voor-stap handleiding
 - https://vpnr.nl/blog/vpn-encryptie-uitgelegd — VPN encryptie uitgelegd: zo werkt AES-256 écht (2026)
+- https://vpnr.nl/blog/vpn-anoniem-internetten — VPN anoniem internetten: wat verbergt een VPN echt in 2026?
