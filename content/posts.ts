@@ -2309,7 +2309,7 @@ export const posts: BlogPost[] = [
     "title": "VPN op Firestick instellen (2026): stap voor stap uitgelegd",
     "metaTitle": "VPN Firestick instellen 2026: stap-voor-stap gids",
     "metaDescription": "VPN firestick instellen in 2026? Volg onze stap-voor-stap gids voor de Amazon Appstore én sideloading. Zo stream je vrij en veilig!",
-    "excerpt": "Leer hoe je een VPN op je Amazon Firestick instelt in 2026 — via de app of sideloading. Complete gids voor veilig en vrij streamen.",
+    "excerpt": "Leer hoe je een VPN op je Amazon Firestick instelt in 2026, via de app of sideloading. Complete gids voor veilig en vrij streamen.",
     "category": "Gids",
     "date": "2 juli 2026",
     "dateISO": "2026-07-02",
@@ -2318,7 +2318,7 @@ export const posts: BlogPost[] = [
     "author": "vpnr.nl Redactie",
     "image": "/blog/vpn-firestick-instellen.jpg",
     "imageAlt": "Amazon Fire TV Stick aangesloten op televisie met VPN-app geopend op het startscherm",
-    "intro": "Een vpn firestick instellen is eenvoudiger dan veel mensen denken en duurt vaak minder dan vijf minuten. In deze gids laten we stap voor stap zien hoe je een VPN op je Amazon Fire TV Stick installeert — zowel via de officiële Appstore als via sideloading. Let op: vpnr.nl ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze onafhankelijke beoordelingen niet.",
+    "intro": "Een vpn firestick instellen is eenvoudiger dan veel mensen denken en duurt vaak minder dan vijf minuten. In deze gids laten we stap voor stap zien hoe je een VPN op je Amazon Fire TV Stick installeert, zowel via de officiële Appstore als via sideloading. Let op: vpnr.nl ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze onafhankelijke beoordelingen niet.",
     "sections": [
       {
         "heading": "Waarom een VPN op je Firestick gebruiken?",
@@ -2352,7 +2352,7 @@ export const posts: BlogPost[] = [
         "body": [
           "Is de app van jouw VPN niet in de Appstore beschikbaar? Dan kun je de APK sideloaden via een app als 'Downloader'. Deze methode werkt goed, maar vereist wat meer stappen.",
           "Activeer eerst <strong>Apps uit onbekende bronnen</strong> via Instellingen → My Fire TV → Ontwikkelaarsopties. Installeer daarna de Downloader-app uit de Appstore, voer de download-URL van de VPN-APK in en volg de installatie-aanwijzingen.",
-          "Houd er rekening mee dat je bij sideloading zelf updates moet bijhouden en dat je alleen APK's van de officiële website van je provider moet gebruiken. Download nooit een VPN-bestand van een onbekende bron — de risico's daarvan bespreken we in ons artikel over <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>gratis VPN-gevaren</a>."
+          "Houd er rekening mee dat je bij sideloading zelf updates moet bijhouden en dat je alleen APK's van de officiële website van je provider moet gebruiken. Download nooit een VPN-bestand van een onbekende bron, de risico's daarvan bespreken we in ons artikel over <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>gratis VPN-gevaren</a>."
         ],
         "highlight": {
           "type": "warning",
@@ -2363,7 +2363,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Welke methode werkt het beste voor streaming?",
         "body": [
-          "Voor de meeste gebruikers is de directe Appstore-app (methode 1) de beste keuze. Deze is stabieler, sneller ingesteld en krijgt automatisch updates — cruciaal voor het ontwijken van streaming-blokkades.",
+          "Voor de meeste gebruikers is de directe Appstore-app (methode 1) de beste keuze. Deze is stabieler, sneller ingesteld en krijgt automatisch updates, cruciaal voor het ontwijken van streaming-blokkades.",
           "Sideloading is alleen nodig als je provider geen native Fire TV-app aanbiedt. Voor vloeiend streamen in 4K zonder buffering raden we sterk aan om te kiezen voor een provider met een goed geoptimaliseerde Firestick-app.",
           "Ontdek in onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijking</a> welke aanbieders de beste snelheden en Firestick-ondersteuning bieden."
         ],
@@ -2397,7 +2397,7 @@ export const posts: BlogPost[] = [
         "heading": "Problemen oplossen en tips",
         "body": [
           "Werkt je VPN niet zoals verwacht? Probeer eerst een andere server, want streamingdiensten blokkeren regelmatig specifieke IP-adressen. Sluit de streaming-app volledig af en start opnieuw na het wisselen van server.",
-          "Zorg dat de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> is ingeschakeld, zodat je verbinding wordt verbroken als de VPN wegvalt. Kies daarnaast een snel protocol zoals WireGuard voor de beste prestaties — lees meer in onze <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>protocolvergelijking</a>.",
+          "Zorg dat de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> is ingeschakeld, zodat je verbinding wordt verbroken als de VPN wegvalt. Kies daarnaast een snel protocol zoals WireGuard voor de beste prestaties. Lees meer in onze <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>protocolvergelijking</a>.",
           "Herstart je Firestick af en toe volledig om vastlopers te voorkomen. Bij aanhoudende problemen helpt het om de VPN-app opnieuw te installeren met de nieuwste versie."
         ]
       },
@@ -2455,7 +2455,7 @@ export const posts: BlogPost[] = [
     "title": "VPN instellen op iPad (2026): complete stap-voor-stap handleiding",
     "metaTitle": "VPN iPad instellen 2026: stap-voor-stap gids",
     "metaDescription": "VPN op iPad instellen in 2026? Volg onze stap-voor-stap handleiding via de App Store of handmatig met IKEv2. Snel en veilig geregeld.",
-    "excerpt": "Leer hoe je een VPN op je iPad instelt in 2026 — via de App Store of handmatig met IKEv2. Compleet stappenplan voor iPadOS.",
+    "excerpt": "Leer hoe je een VPN op je iPad instelt in 2026, via de App Store of handmatig met IKEv2. Compleet stappenplan voor iPadOS.",
     "category": "Gids",
     "date": "6 juli 2026",
     "dateISO": "2026-07-06",
@@ -2470,7 +2470,7 @@ export const posts: BlogPost[] = [
         "heading": "VPN op iPad instellen via de App Store (aanbevolen)",
         "body": [
           "De eenvoudigste manier om een <strong>vpn op je iPad in te stellen</strong> is via een app uit de App Store. Vrijwel alle grote aanbieders bieden een speciale iPadOS-app die geoptimaliseerd is voor het grotere scherm en de multitasking-functies van de iPad.",
-          "Open de App Store, zoek op de naam van je VPN-aanbieder (bijvoorbeeld NordVPN of Surfshark) en tik op 'Download'. Nadat de app is geïnstalleerd, log je in met je account. Bij de eerste verbinding vraagt iPadOS toestemming om een VPN-configuratie toe te voegen — bevestig dit met Face ID, Touch ID of je toegangscode.",
+          "Open de App Store, zoek op de naam van je VPN-aanbieder (bijvoorbeeld NordVPN of Surfshark) en tik op 'Download'. Nadat de app is geïnstalleerd, log je in met je account. Bij de eerste verbinding vraagt iPadOS toestemming om een VPN-configuratie toe te voegen. Bevestig dit met Face ID, Touch ID of je toegangscode.",
           "Vanaf dat moment verbind je met één tik op de grote verbindknop. De app installeert automatisch het juiste protocol (meestal WireGuard of OpenVPN), dus je hoeft niets handmatig in te stellen. Dit is de meest gebruiksvriendelijke methode voor de meeste mensen."
         ],
         "highlight": {
@@ -2497,7 +2497,7 @@ export const posts: BlogPost[] = [
         "heading": "VPN snel aan- en uitzetten via het Bedieningspaneel",
         "body": [
           "In iPadOS kun je een VPN razendsnel in- en uitschakelen zonder de app te openen. Zodra je een VPN-configuratie hebt toegevoegd, verschijnt er een VPN-schakelaar in Instellingen die je met één tik bedient.",
-          "Handiger nog: veel VPN-apps ondersteunen een widget of Siri-snelkoppeling. Zo verbind je met je stem of vanaf je beginscherm. Sleep vanuit de rechterbovenhoek naar beneden om het Bedieningspaneel te openen — sommige apps plaatsen hier een snelknop.",
+          "Handiger nog: veel VPN-apps ondersteunen een widget of Siri-snelkoppeling. Zo verbind je met je stem of vanaf je beginscherm. Sleep vanuit de rechterbovenhoek naar beneden om het Bedieningspaneel te openen, sommige apps plaatsen hier een snelknop.",
           "Voor extra beveiliging raden we aan de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> in te schakelen. Deze verbreekt automatisch je internetverbinding als de VPN wegvalt, zodat je IP-adres nooit onbedoeld lekt."
         ]
       },
@@ -2550,7 +2550,7 @@ export const posts: BlogPost[] = [
         "heading": "Problemen met de VPN op je iPad oplossen",
         "body": [
           "Werkt je VPN niet naar behoren? Controleer eerst of je iPadOS up-to-date is en of de VPN-app de nieuwste versie draait. Een simpele herstart van zowel de app als de iPad lost veel problemen op.",
-          "Krijg je een foutmelding bij handmatige configuratie? Controleer dan of het serveradres, de gebruikersnaam en het wachtwoord exact kloppen. Bij streaming-problemen kun je proberen een andere server te kiezen — lees hierover meer in ons artikel <a href='/blog/netflix-vpn-werkt-niet' class='text-blue-600 hover:underline font-medium'>Netflix VPN werkt niet</a>.",
+          "Krijg je een foutmelding bij handmatige configuratie? Controleer dan of het serveradres, de gebruikersnaam en het wachtwoord exact kloppen. Bij streaming-problemen kun je proberen een andere server te kiezen. Lees hierover meer in ons artikel <a href='/blog/netflix-vpn-werkt-niet' class='text-blue-600 hover:underline font-medium'>Netflix VPN werkt niet</a>.",
           "Blijft de verbinding traag? Schakel dan over naar het WireGuard-protocol (indien beschikbaar in de app) en verbind met een server dichter bij Nederland voor de laagste latentie."
         ],
         "highlight": {
@@ -2634,13 +2634,13 @@ export const posts: BlogPost[] = [
         "heading": "AES-256 uitgelegd: de gouden standaard",
         "body": [
           "AES staat voor <strong>Advanced Encryption Standard</strong>, een encryptiemethode die wereldwijd wordt gebruikt door banken, overheden en legers. De '256' verwijst naar de sleutellengte in bits: hoe langer de sleutel, hoe meer mogelijke combinaties en hoe moeilijker te kraken.",
-          "AES-256 heeft 2 tot de macht 256 mogelijke sleutels. Dat zijn ongeveer 115 quattuorvigintiljoen combinaties — een getal met 78 cijfers. Zelfs de snelste supercomputer ter wereld zou miljarden jaren nodig hebben om alle combinaties te proberen.",
+          "AES-256 heeft 2 tot de macht 256 mogelijke sleutels. Dat zijn ongeveer 115 quattuorvigintiljoen combinaties, een getal met 78 cijfers. Zelfs de snelste supercomputer ter wereld zou miljarden jaren nodig hebben om alle combinaties te proberen.",
           "AES-128 gebruikt een kortere sleutel van 128 bits. Dat is nog steeds extreem veilig, maar AES-256 biedt een grotere veiligheidsmarge en is daarom de voorkeur bij de meeste premium VPN-aanbieders."
         ],
         "highlight": {
           "type": "stat",
           "title": "Onkraakbaar in de praktijk",
-          "text": "Om AES-256 met brute kracht te kraken zou je meer tijd nodig hebben dan de leeftijd van het heelal — meerdere keren over."
+          "text": "Om AES-256 met brute kracht te kraken zou je meer tijd nodig hebben dan de leeftijd van het heelal, meerdere keren over."
         }
       },
       {
@@ -2760,14 +2760,14 @@ export const posts: BlogPost[] = [
     "author": "vpnr.nl Redactie",
     "image": "/blog/vpn-anoniem-internetten.svg",
     "imageAlt": "Laptop met VPN-verbinding actief en privévenster open voor anoniem internetten thuis",
-    "intro": "VPN anoniem internetten is populair, maar rond het begrip 'anonimiteit' bestaan veel misverstanden. Een VPN verbergt uw IP-adres, locatie en beschermt tegen tracking door uw internetprovider — maar niet alles blijft verborgen. In dit eerlijke overzicht leest u precies wat een VPN wél en níét afschermt, en hoe u met de juiste combinatie van instellingen echt anoniem online gaat.",
+    "intro": "VPN anoniem internetten is populair, maar rond het begrip 'anonimiteit' bestaan veel misverstanden. Een VPN verbergt uw IP-adres, locatie en beschermt tegen tracking door uw internetprovider. Maar niet alles blijft verborgen. In dit eerlijke overzicht leest u precies wat een VPN wél en níét afschermt, en hoe u met de juiste combinatie van instellingen echt anoniem online gaat.",
     "sections": [
       {
         "heading": "Wat betekent anoniem internetten met een VPN?",
         "body": [
           "Wanneer u met een VPN anoniem internetten wilt, leidt de VPN uw verkeer via een versleutelde tunnel naar een server elders. Websites zien vervolgens het IP-adres van die server in plaats van uw eigen adres. Daardoor lijkt het alsof u vanuit een andere locatie surft.",
           "Belangrijk om te begrijpen: een VPN maakt u <strong>pseudoniem</strong>, niet volledig anoniem. Uw verkeer is afgeschermd voor buitenstaanders, maar volledige onzichtbaarheid vereist meer dan alleen een VPN inschakelen.",
-          "Bij vpnr.nl ontvangen wij affiliate commissies wanneer u via onze links een VPN afsluit. Dit heeft géén invloed op onze beoordelingen — wij testen en adviseren onafhankelijk."
+          "Bij vpnr.nl ontvangen wij affiliate commissies wanneer u via onze links een VPN afsluit. Dit heeft géén invloed op onze beoordelingen. Wij testen en adviseren onafhankelijk."
         ],
         "highlight": {
           "type": "info",
@@ -2779,8 +2779,8 @@ export const posts: BlogPost[] = [
         "heading": "Wat verbergt een VPN wél?",
         "body": [
           "Een VPN is uitstekend in het afschermen van een aantal concrete zaken. Het belangrijkste is uw <strong>IP-adres</strong>: websites, adverteerders en trackers zien niet langer uw echte adres, maar dat van de VPN-server. Wilt u weten wat uw huidige adres is? Bekijk dan <a href='/blog/wat-is-mijn-ip-adres' class='text-blue-600 hover:underline font-medium'>wat uw IP-adres is</a>.",
-          "Daarnaast verbergt een VPN uw <strong>geografische locatie</strong>. Door een server in een ander land te kiezen, lijkt u vanaf daar te surfen — handig voor toegang tot buitenlandse diensten. Lees meer over <a href='/blog/vpn-buitenland-gebruiken' class='text-blue-600 hover:underline font-medium'>een VPN in het buitenland gebruiken</a>.",
-          "Ook beschermt een VPN tegen <strong>tracking door uw internetprovider (ISP)</strong>. Zonder VPN ziet uw provider welke websites u bezoekt; met een VPN is dat verkeer versleuteld. Op openbaar wifi voorkomt dit bovendien dat kwaadwillenden meekijken — zie <a href='/blog/vpn-openbaar-wifi' class='text-blue-600 hover:underline font-medium'>VPN op openbaar wifi</a>."
+          "Daarnaast verbergt een VPN uw <strong>geografische locatie</strong>. Door een server in een ander land te kiezen, lijkt u vanaf daar te surfen, handig voor toegang tot buitenlandse diensten. Lees meer over <a href='/blog/vpn-buitenland-gebruiken' class='text-blue-600 hover:underline font-medium'>een VPN in het buitenland gebruiken</a>.",
+          "Ook beschermt een VPN tegen <strong>tracking door uw internetprovider (ISP)</strong>. Zonder VPN ziet uw provider welke websites u bezoekt; met een VPN is dat verkeer versleuteld. Op openbaar wifi voorkomt dit bovendien dat kwaadwillenden meekijken. Zie ook: <a href='/blog/vpn-openbaar-wifi' class='text-blue-600 hover:underline font-medium'>VPN op openbaar wifi</a>."
         ],
         "table": {
           "headers": [
@@ -2810,21 +2810,21 @@ export const posts: BlogPost[] = [
       {
         "heading": "Wat verbergt een VPN NIET?",
         "body": [
-          "Hier gaat het bij veel gebruikers mis. Een VPN verbergt níét dat u bent <strong>ingelogd op accounts</strong> zoals Google, Facebook of uw webmail. Zodra u inlogt, weten die diensten precies wie u bent — ongeacht uw IP-adres.",
+          "Hier gaat het bij veel gebruikers mis. Een VPN verbergt níét dat u bent <strong>ingelogd op accounts</strong> zoals Google, Facebook of uw webmail. Zodra u inlogt, weten die diensten precies wie u bent, ongeacht uw IP-adres.",
           "Ook <strong>cookies en trackers</strong> blijven werken. Websites plaatsen kleine bestandjes in uw browser die u herkennen bij een volgend bezoek. Een VPN raakt deze cookies niet aan. Daarnaast is er <strong>browser fingerprinting</strong>: een techniek waarbij websites u identificeren aan de hand van uw schermresolutie, lettertypes, browserversie en instellingen.",
           "Kortom: als u met een VPN anoniem internetten wilt maar tegelijk ingelogd bent bij Google en cookies accepteert, is de anonimiteit grotendeels verdwenen. Een VPN is een belangrijk onderdeel van privacy, maar geen wondermiddel."
         ],
         "highlight": {
           "type": "warning",
           "title": "VPN is geen totaaloplossing",
-          "text": "Blijf ingelogde accounts, cookies en fingerprinting in de gaten houden — een VPN alleen maakt u niet onzichtbaar."
+          "text": "Blijf ingelogde accounts, cookies en fingerprinting in de gaten houden. Een VPN alleen maakt u niet onzichtbaar."
         }
       },
       {
         "heading": "De perfecte combinatie voor maximale anonimiteit",
         "body": [
           "Wilt u echt anoniem internetten, combineer dan een VPN met twee extra maatregelen. Ten eerste een <strong>privévenster (incognitomodus)</strong>: dit voorkomt dat cookies en sessies worden opgeslagen, waardoor trackers u lastiger kunnen volgen.",
-          "Ten tweede <strong>DNS over HTTPS (DoH)</strong>. Normaal worden uw DNS-verzoeken — de vertaling van websitenamen naar IP-adressen — onversleuteld verstuurd. Met DoH wordt ook dit versleuteld, zodat niemand kan zien welke domeinen u opvraagt. Veel moderne browsers en goede VPN's ondersteunen dit standaard.",
+          "Ten tweede <strong>DNS over HTTPS (DoH)</strong>. Normaal worden uw DNS-verzoeken, de vertaling van websitenamen naar IP-adressen, onversleuteld verstuurd. Met DoH wordt ook dit versleuteld, zodat niemand kan zien welke domeinen u opvraagt. Veel moderne browsers en goede VPN's ondersteunen dit standaard.",
           "Voor de volledige techniek achter versleuteling raden wij aan om <a href='/blog/vpn-encryptie-uitgelegd' class='text-blue-600 hover:underline font-medium'>VPN-encryptie uitgelegd</a> te lezen. Zo begrijpt u waarom deze combinatie zoveel sterker is dan een VPN alleen."
         ],
         "cta": "protonvpn"
@@ -2841,7 +2841,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Veelgemaakte fouten bij anoniem internetten",
         "body": [
-          "De grootste fout is denken dat een VPN u volledig onzichtbaar maakt. Wie tijdens het surfen ingelogd blijft bij Google of sociale media, geeft zijn identiteit gewoon prijs — de VPN doet daar niets aan.",
+          "De grootste fout is denken dat een VPN u volledig onzichtbaar maakt. Wie tijdens het surfen ingelogd blijft bij Google of sociale media, geeft zijn identiteit gewoon prijs. De VPN doet daar niets aan.",
           "Een tweede fout is het gebruik van een <strong>gratis VPN</strong>. Veel gratis diensten verdienen geld door uw gegevens te verkopen of loggen, wat volledig tegen het doel van anoniem internetten ingaat. Lees waarom in <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>de gevaren van gratis VPN's</a>.",
           "Tot slot: vergeet niet uw browser goed in te stellen. Blokkeer trackers, wis cookies regelmatig en overweeg een privacyvriendelijke browser. Alleen zo haalt u het maximale uit uw VPN."
         ],
