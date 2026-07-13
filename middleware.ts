@@ -9,8 +9,14 @@ function isVercelUrl(host: string): boolean {
 }
 
 export async function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl
+  const { pathname, search } = request.nextUrl
   const host = request.headers.get('host') ?? ''
+
+  // www → non-www canonieke redirect (301)
+  if (host === `www.${PRODUCTION_HOST}`) {
+    const url = `https://${PRODUCTION_HOST}${pathname}${search}`
+    return NextResponse.redirect(url, { status: 301 })
+  }
 
   // Blokkeer indexering van Vercel preview/deployment URLs
   if (isVercelUrl(host)) {
