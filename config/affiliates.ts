@@ -22,6 +22,7 @@ export const affiliateLinks: Record<string, string> = {
   purevpn:      'https://www.anrdoezrs.net/click-8068741-13842739',
   mcafee:       'https://www.mcafee.com/en-nl/index.html?ref=JOUWCODE',
   vpnnederland: 'https://fr135.net/c/?si=15398&li=1667864&wi=421843&ws=',
+  jambovpn:     'https://connect.jambovpn.com/c/?si=22022&li=1930107&wi=421843&ws=',
 }
 
 /**

@@ -17,6 +17,7 @@ const PROVIDER_LABELS: Record<string, string> = {
   purevpn:      'PureVPN',
   mcafee:       'McAfee VPN',
   vpnnederland: 'VPN Nederland',
+  jambovpn:     'JamboVPN',
 }
 
 function isPlaceholder(url: string) {

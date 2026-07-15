@@ -31,6 +31,7 @@ export default function Footer() {
                 { slug: 'protonvpn', label: 'ProtonVPN' },
                 { slug: 'purevpn', label: 'PureVPN' },
                 { slug: 'hideme', label: 'Hide.me' },
+                { slug: 'jambovpn', label: 'JamboVPN' },
               ].map(({ slug, label }) => (
                 <li key={slug}>
                   <Link href={`/vpn-reviews/${slug}`} className="hover:text-white transition-colors">{label}</Link>

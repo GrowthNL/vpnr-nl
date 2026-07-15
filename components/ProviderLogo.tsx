@@ -4,7 +4,7 @@ import Image from 'next/image'
 const pngLogos = new Set(['nordvpn', 'mcafee', 'purevpn', 'hideme', 'cyberghost', 'vpnnederland'])
 
 // Providers with official SVG icons (Simple Icons — official brand vectors)
-const svgLogos = new Set(['surfshark', 'protonvpn'])
+const svgLogos = new Set(['surfshark', 'protonvpn', 'jambovpn'])
 
 const brandColors: Record<string, string> = {
   nordvpn:      '#ffffff',
@@ -15,6 +15,7 @@ const brandColors: Record<string, string> = {
   vpnnederland: '#ffffff',
   mcafee:       '#ffffff',
   hideme:       '#ffffff',
+  jambovpn:     '#3FC7BC',
 }
 
 interface Props {
