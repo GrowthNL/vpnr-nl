@@ -9,7 +9,7 @@ function isVercelUrl(host: string): boolean {
 }
 
 export async function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl
+  const { pathname, search } = request.nextUrl
   const host = request.headers.get('host') ?? ''
 
   // Canonicalisatie: forceer non-www (www.vpnr.nl → vpnr.nl) met een 301.

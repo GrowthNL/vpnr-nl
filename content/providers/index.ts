@@ -6,6 +6,7 @@ import cyberghost from './cyberghost'
 import purevpn from './purevpn'
 import mcafee from './mcafee'
 import vpnnederland from './vpnnederland'
+import jambovpn from './jambovpn'
 import type { VPNProvider } from './types'
 
 export const providers: VPNProvider[] = [
@@ -17,6 +18,7 @@ export const providers: VPNProvider[] = [
   purevpn,
   mcafee,
   vpnnederland,
+  jambovpn,
 ]
 
 export function getProvider(slug: string): VPNProvider | undefined {

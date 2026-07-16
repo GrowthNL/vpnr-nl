@@ -17,6 +17,7 @@ const badges: Record<string, string> = {
   cyberghost:   'Grootste netwerk',
   purevpn:      'KPMG-geauditeerd',
   vpnnederland: 'Nederlandse keuze',
+  jambovpn:     'Zonder abonnement',
 }
 
 export default function ReviewsPage() {
