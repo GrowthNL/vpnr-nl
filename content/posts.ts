@@ -2893,6 +2893,147 @@ export const posts: BlogPost[] = [
       "dns over https"
     ]
   },
+  {
+    "slug": "vpn-split-tunneling",
+    "title": "VPN split tunneling uitgelegd: wat het is en wanneer je het gebruikt",
+    "metaTitle": "VPN split tunneling uitgelegd 2026 | vpnr.nl",
+    "metaDescription": "VPN split tunneling laat je kiezen welk verkeer via de VPN loopt. Ontdek hoe het werkt, de beste use cases en welke VPN's het goed doen in 2026.",
+    "excerpt": "VPN split tunneling laat je bepaalde apps via de VPN sturen en andere via je gewone verbinding. Zo werkt het en wanneer je het inzet.",
+    "category": "Uitleg",
+    "date": "16 juli 2026",
+    "dateISO": "2026-07-16",
+    "updatedISO": "2026-07-16",
+    "readTime": "7 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/vpn-split-tunneling.jpg",
+    "imageAlt": "Laptop met VPN split tunneling instellingen naast een routekaart met twee gescheiden verkeersstromen",
+    "intro": "VPN split tunneling is een functie waarmee je zelf bepaalt welk internetverkeer via de versleutelde VPN-tunnel loopt en welk verkeer je gewone verbinding gebruikt. Zo kun je bijvoorbeeld Netflix via een buitenlandse server streamen terwijl je bankieren gewoon via je Nederlandse IP-adres verloopt. In dit artikel leggen we uit hoe split tunneling werkt, wanneer het handig is en welke aanbieders het goed implementeren. Let op: vpnr.nl ontvangt affiliate commissies, maar dit beïnvloedt onze onafhankelijke beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "Wat is VPN split tunneling precies?",
+        "body": [
+          "Normaal gesproken loopt bij een VPN al je internetverkeer door één versleutelde tunnel. Met <strong>VPN split tunneling</strong> splits je dat verkeer op: je kiest zelf welke apps of websites via de VPN gaan en welke rechtstreeks via je normale internetverbinding lopen.",
+          "Het woord 'split' (splitsen) zegt het eigenlijk al. In plaats van alles-of-niets krijg je fijnmazige controle. Je kunt bijvoorbeeld je browser wél beveiligen, maar een streamingdienst of lokale netwerkprinter buiten de tunnel houden.",
+          "Deze functie is vooral nuttig als je tegelijk wilt profiteren van de voordelen van een VPN én van je snelle, lokale verbinding. Wil je eerst weten hoe een VPN in de basis werkt? Lees dan onze uitleg over <a href='/wat-is-een-vpn' class='text-blue-600 hover:underline font-medium'>wat een VPN is</a>."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Kort samengevat",
+          "text": "Split tunneling laat je per app of website kiezen of het verkeer via de VPN of via je gewone verbinding loopt."
+        }
+      },
+      {
+        "heading": "Hoe werkt split tunneling in de praktijk?",
+        "body": [
+          "In de VPN-app selecteer je welke applicaties of adressen worden opgenomen in of uitgesloten van de tunnel. Er zijn twee manieren om dit in te stellen, en het is belangrijk om het verschil te begrijpen.",
+          "Bij <strong>standaard split tunneling</strong> loopt al je verkeer via de VPN, behalve de apps die je uitsluit. Bij <strong>inverse split tunneling</strong> is het omgekeerd: standaard loopt alles via je gewone verbinding, en alleen de apps die je selecteert gaan door de VPN-tunnel.",
+          "De meeste gebruikers kiezen voor de inverse variant wanneer ze slechts één of twee apps willen beveiligen, en voor de standaardvariant wanneer ze bijna alles via de VPN willen sturen met een paar uitzonderingen."
+        ],
+        "table": {
+          "headers": [
+            "Type",
+            "Standaard gedrag",
+            "Beste voor"
+          ],
+          "rows": [
+            [
+              "Standaard split tunneling",
+              "Alles via VPN, gekozen apps erbuiten",
+              "Maximale beveiliging met enkele uitzonderingen"
+            ],
+            [
+              "Inverse split tunneling",
+              "Alles via gewone verbinding, gekozen apps via VPN",
+              "Slechts één of twee apps beveiligen"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Populaire use cases voor split tunneling",
+        "body": [
+          "De klassieke toepassing is streaming combineren met lokale diensten. Je stuurt <a href='/beste-vpn/voor-netflix' class='text-blue-600 hover:underline font-medium'>Netflix via een VPN-server</a> in bijvoorbeeld de VS, terwijl je internetbankieren gewoon via je Nederlandse IP-adres verloopt. Zo voorkom je dat je bank je verbinding blokkeert vanwege een buitenlands IP.",
+          "Ook handig: je downloadt via een torrentclient met VPN-bescherming, maar je gaming of videobellen loopt buiten de tunnel voor de laagste latency en snelste snelheid. Voor thuiswerkers is het ideaal om alleen zakelijke apps door de tunnel te sturen. Meer daarover lees je in ons artikel over <a href='/blog/vpn-thuiswerken' class='text-blue-600 hover:underline font-medium'>VPN gebruiken tijdens thuiswerken</a>.",
+          "Een derde voordeel is toegang tot je lokale netwerk. Zonder split tunneling kun je soms je netwerkprinter of NAS niet bereiken zolang de VPN actief is. Door die apparaten uit te sluiten, blijft je thuisnetwerk gewoon beschikbaar."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Snelheidswinst",
+          "text": "Verkeer buiten de VPN-tunnel is vaak sneller. Sluit apps die geen beveiliging nodig hebben uit voor de beste prestaties."
+        }
+      },
+      {
+        "heading": "Welke VPN's implementeren split tunneling het beste?",
+        "body": [
+          "Niet elke aanbieder biedt split tunneling even goed aan. <strong>NordVPN</strong> heeft een uitgebreide implementatie op Windows en Android, met zowel de standaard- als inverse variant. Lees onze volledige <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN review</a> voor de details.",
+          "<strong>Surfshark</strong> noemt de functie 'Bypasser' en biedt vergelijkbare mogelijkheden, inclusief het uitsluiten van specifieke websites naast apps. <strong>Proton VPN</strong> ondersteunt split tunneling op Windows en Android en is een sterke keuze voor privacybewuste gebruikers.",
+          "Wil je zeker weten welke aanbieder bij jouw wensen past? Vergelijk de opties in ons overzicht om <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN's te vergelijken</a> op functies en prijs."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Beperkingen: niet beschikbaar op iOS",
+        "body": [
+          "Een belangrijke beperking om te weten: <strong>split tunneling is niet beschikbaar op iOS</strong> (iPhone en iPad). Dit komt door de manier waarop Apple het besturingssysteem afschermt en VPN-verbindingen afhandelt. Geen enkele aanbieder kan deze functie daar aanbieden.",
+          "Op Windows en Android werkt split tunneling meestal probleemloos. Op macOS is de ondersteuning wisselend en afhankelijk van de aanbieder. Wil je split tunneling gebruiken, kies dan bij voorkeur een Windows- of Android-apparaat.",
+          "Gebruik je een iPhone en wil je toch bepaald verkeer buiten de VPN houden? Dan is de enige optie handmatig de VPN in- en uitschakelen. Bekijk onze uitleg over het <a href='/blog/vpn-iphone-instellen' class='text-blue-600 hover:underline font-medium'>instellen van een VPN op iPhone</a> voor de mogelijkheden."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Let op iOS-gebruikers",
+          "text": "Split tunneling ontbreekt volledig op iPhone en iPad. Dit ligt aan Apple, niet aan de VPN-aanbieder."
+        }
+      },
+      {
+        "heading": "Is split tunneling veilig om te gebruiken?",
+        "body": [
+          "Split tunneling is veilig zolang je bewust kiest welk verkeer je buiten de tunnel houdt. Het verkeer dat je uitsluit, is namelijk niet versleuteld en zichtbaar voor je internetprovider. Sluit dus nooit gevoelige apps uit die je juist wilt beschermen.",
+          "Combineer split tunneling bij voorkeur met een <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a>. Zo weet je zeker dat het verkeer dat wél door de tunnel loopt, direct wordt geblokkeerd als de VPN-verbinding wegvalt.",
+          "Voor de meeste thuisgebruikers is split tunneling een handige toevoeging die comfort en snelheid combineert met bescherming waar het nodig is. Twijfel je? Stuur dan gewoon al je verkeer door de VPN voor maximale privacy."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat is VPN split tunneling?",
+        "answer": "VPN split tunneling is een functie waarmee je zelf bepaalt welk internetverkeer via de versleutelde VPN-tunnel loopt en welk verkeer je gewone verbinding gebruikt. Zo kun je per app of website kiezen of deze wordt beveiligd."
+      },
+      {
+        "question": "Is split tunneling beschikbaar op iPhone?",
+        "answer": "Nee, split tunneling is niet beschikbaar op iOS-apparaten zoals de iPhone en iPad. Dit komt door beperkingen van Apple, waardoor geen enkele VPN-aanbieder deze functie op iOS kan aanbieden."
+      },
+      {
+        "question": "Wat is het verschil tussen standaard en inverse split tunneling?",
+        "answer": "Bij standaard split tunneling loopt al je verkeer via de VPN behalve de apps die je uitsluit. Bij inverse split tunneling loopt alles via je gewone verbinding en gaan alleen de door jou geselecteerde apps door de VPN-tunnel."
+      },
+      {
+        "question": "Welke VPN heeft de beste split tunneling?",
+        "answer": "NordVPN, Surfshark en Proton VPN bieden goede split tunneling op Windows en Android. NordVPN heeft een uitgebreide implementatie, Surfshark noemt het 'Bypasser' en Proton VPN is sterk voor privacybewuste gebruikers."
+      },
+      {
+        "question": "Is split tunneling veilig?",
+        "answer": "Split tunneling is veilig zolang je bewust kiest welk verkeer je buiten de tunnel houdt. Uitgesloten verkeer is niet versleuteld en zichtbaar voor je provider, dus sluit nooit gevoelige apps uit die je wilt beschermen."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "protonvpn"
+    ],
+    "relatedSlugs": [
+      "kill-switch-vpn",
+      "vpn-thuiswerken",
+      "vpn-protocol-vergelijking"
+    ],
+    "tags": [
+      "vpn split tunneling",
+      "split tunneling",
+      "vpn functies",
+      "vpn uitleg",
+      "netflix vpn",
+      "vpn beveiliging"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
