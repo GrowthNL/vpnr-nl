@@ -3034,6 +3034,150 @@ export const posts: BlogPost[] = [
       "vpn beveiliging"
     ]
   },
+  {
+    "slug": "vpn-dns-lek-test",
+    "title": "DNS-lek bij VPN: hoe test en verhelp je het? (2026)",
+    "metaTitle": "DNS Lek VPN Testen en Oplossen (2026) | vpnr.nl",
+    "metaDescription": "Een DNS lek bij je VPN verraadt je surfgedrag. Leer hoe je het test met gratis tools én los het definitief op. Stap-voor-stap uitleg 2026.",
+    "excerpt": "Een DNS lek bij je VPN kan je surfgedrag verraden ondanks bescherming. Ontdek hoe je het test en in enkele stappen oplost.",
+    "category": "Uitleg",
+    "date": "20 juli 2026",
+    "dateISO": "2026-07-20",
+    "updatedISO": "2026-07-20",
+    "readTime": "7 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/vpn-dns-lek-test.jpg",
+    "imageAlt": "Laptop met VPN-instellingen open om een DNS lek te testen en op te lossen",
+    "intro": "Een DNS lek bij je VPN betekent dat je internetprovider alsnog kan zien welke websites je bezoekt, ondanks je actieve VPN-verbinding. In dit artikel leggen we uit hoe zo'n lek ontstaat, hoe je het gratis test met tools als ipleak.net, en hoe je het definitief verhelpt. Let op: vpnr.nl ontvangt affiliate commissies, maar dit beïnvloedt onze onafhankelijke beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "Wat is een DNS-lek precies?",
+        "body": [
+          "Elke keer dat je een website bezoekt, vertaalt een DNS-server (Domain Name System) de domeinnaam zoals 'vpnr.nl' naar een IP-adres. Normaal gesproken hoort dit verzoek via de versleutelde VPN-tunnel te lopen, zodat niemand meekijkt. Bij een <strong>dns lek vpn</strong>-situatie gaan die DNS-verzoeken echter buiten de tunnel om — rechtstreeks naar de DNS-server van je internetprovider.",
+          "Het gevolg: hoewel je IP-adres verborgen lijkt, kan je provider (of een aanvaller op openbaar wifi) alsnog een lijst opbouwen van álle sites die je bezoekt. Je privacy is dan grotendeels teniet gedaan, terwijl je in de veronderstelling bent volledig beschermd te zijn.",
+          "Een DNS-lek is daarmee een van de meest onderschatte privacyproblemen bij VPN-gebruik. Gelukkig is het eenvoudig te detecteren en in de meeste gevallen ook snel op te lossen."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Kort samengevat",
+          "text": "Bij een DNS-lek lekken je website-verzoeken buiten de VPN-tunnel, waardoor je provider alsnog je surfgedrag kan zien."
+        }
+      },
+      {
+        "heading": "Hoe test je op een DNS-lek?",
+        "body": [
+          "Het testen op een DNS-lek kost minder dan een minuut. Zorg eerst dat je VPN actief is en verbonden met een server in bijvoorbeeld het buitenland. Open vervolgens een van de gratis testtools in je browser.",
+          "De twee bekendste tools zijn <strong>dnsleaktest.com</strong> en <strong>ipleak.net</strong>. Op dnsleaktest.com kies je de 'Extended test' voor het meest volledige resultaat. Ipleak.net toont in één oogopslag zowel je IP-adres, DNS-servers als eventuele IPv6-lekken.",
+          "Wat moet je zien? De weergegeven DNS-servers en het land moeten overeenkomen met de VPN-server waarmee je verbonden bent — niet met je eigen internetprovider of woonplaats. Zie je de naam van je Nederlandse provider (zoals Ziggo of KPN) of je eigen regio verschijnen, dan heb je een lek.",
+          "Wil je ook je zichtbare IP-adres controleren? Gebruik dan onze eigen tool om te zien <a href='/blog/wat-is-mijn-ip-adres' class='text-blue-600 hover:underline font-medium'>wat je IP-adres is</a> met en zonder VPN."
+        ],
+        "table": {
+          "headers": [
+            "Testtool",
+            "Wat het controleert",
+            "Aanbevolen"
+          ],
+          "rows": [
+            [
+              "dnsleaktest.com",
+              "DNS-servers (standaard + extended test)",
+              "Ja"
+            ],
+            [
+              "ipleak.net",
+              "IP, DNS én IPv6-lekken tegelijk",
+              "Ja"
+            ],
+            [
+              "browserleaks.com",
+              "Uitgebreide browser- en WebRTC-lekken",
+              "Gevorderd"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Waarom ontstaan DNS-lekken?",
+        "body": [
+          "De meest voorkomende oorzaak op Windows is de functie <strong>Smart Multi-Homed Name Resolution</strong>. Dit systeem stuurt DNS-verzoeken naar meerdere netwerkadapters tegelijk om de snelste reactie te krijgen. Het gevolg: verzoeken lekken langs je VPN heen naar je provider.",
+          "Een tweede oorzaak zijn <strong>IPv6-lekken</strong>. Veel oudere VPN's ondersteunen alleen IPv4. Als je netwerk ook IPv6 gebruikt, gaan die verzoeken onversleuteld naar buiten omdat de VPN ze simpelweg niet afvangt.",
+          "Ook handmatig ingestelde DNS-servers, verouderde VPN-clients en een uitgeschakelde <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> kunnen lekken veroorzaken. Bij het verbreken van de verbinding valt je systeem dan terug op de DNS van je provider."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Gratis VPN's lekken vaker",
+          "text": "Veel gratis diensten missen eigen DNS-servers en IPv6-bescherming. Lees waarom dit risicovol is in ons artikel over gratis VPN-gevaren."
+        }
+      },
+      {
+        "heading": "Zo los je een DNS-lek definitief op",
+        "body": [
+          "Stap één is kiezen voor een VPN met <strong>eigen, versleutelde DNS-servers</strong>. Betrouwbare aanbieders routeren al je DNS-verzoeken automatisch door de tunnel, zodat lekken vrijwel onmogelijk worden. Diensten als <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> en <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>Proton VPN</a> beheren hun eigen DNS-infrastructuur.",
+          "Schakel daarnaast <strong>DNS over HTTPS (DoH)</strong> in je browser in. In Chrome en Firefox vind je dit onder de privacy-instellingen als 'Beveiligde DNS gebruiken'. Hiermee worden je DNS-verzoeken extra versleuteld, ook los van je VPN.",
+          "Op Windows kun je Smart Multi-Homed Name Resolution uitschakelen via de Groepsbeleid-editor of via de instellingen van je VPN-app. De meeste moderne VPN-clients hebben hiervoor een aparte optie onder 'DNS-lekbescherming'.",
+          "Blokkeer tot slot IPv6-verkeer als je VPN dit niet ondersteunt, of kies een aanbieder met volledige IPv6-lekbescherming. Zet altijd de kill switch aan zodat er geen verkeer weglekt als de verbinding onverwacht wegvalt."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Welke VPN's beschermen het best tegen DNS-lekken?",
+        "body": [
+          "Niet elke VPN biedt dezelfde bescherming. De sterkste diensten combineren eigen DNS-servers, ingebouwde DNS-lekbescherming, IPv6-afscherming en een automatische kill switch. Dat maakt lekken in de praktijk vrijwel uitgesloten.",
+          "NordVPN scoort al jaren uitstekend op dit vlak dankzij eigen DNS-servers en een strikt no-logsbeleid. Proton VPN, opgericht door beveiligingsexperts, biedt daarnaast volledige IPv6-lekbescherming. Voor gebruikers die waarde hechten aan een gratis instapoptie is <a href='/vpn-reviews/hideme' class='text-blue-600 hover:underline font-medium'>hide.me</a> een betrouwbare keuze met lekbescherming ingebouwd.",
+          "Wil je alle opties naast elkaar zien? Bekijk dan onze volledige <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijking</a> om de dienst te vinden die het best bij jouw wensen past."
+        ],
+        "cta": "protonvpn"
+      },
+      {
+        "heading": "Regelmatig testen blijft belangrijk",
+        "body": [
+          "Een succesvolle test vandaag betekent niet dat je systeem voorgoed veilig is. Na een Windows-update, een nieuwe browserversie of een wijziging in je netwerk kan een lek opnieuw ontstaan. Test daarom periodiek, zeker als je op <a href='/blog/vpn-openbaar-wifi' class='text-blue-600 hover:underline font-medium'>openbare wifi-netwerken</a> zit.",
+          "Maak van het testen een gewoonte: doe direct na het installeren van een nieuwe VPN een controle op ipleak.net, en herhaal dit maandelijks. Zo weet je zeker dat je surfgedrag privé blijft.",
+          "Combineer een lekvrije VPN met andere privacymaatregelen om echt <a href='/blog/vpn-anoniem-internetten' class='text-blue-600 hover:underline font-medium'>anoniem te internetten</a>. Een goede VPN vormt de basis, maar bewustzijn en regelmatige controle maken het verschil."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat is een DNS-lek bij een VPN?",
+        "answer": "Een DNS-lek betekent dat je website-verzoeken buiten de VPN-tunnel om naar de DNS-server van je internetprovider gaan. Daardoor kan je provider alsnog zien welke sites je bezoekt, ondanks je actieve VPN."
+      },
+      {
+        "question": "Hoe test ik of mijn VPN lekt?",
+        "answer": "Verbind met je VPN en open dnsleaktest.com of ipleak.net. Als de getoonde DNS-servers of het land overeenkomen met je eigen provider of woonplaats in plaats van de VPN-server, heb je een lek."
+      },
+      {
+        "question": "Hoe los ik een DNS-lek op in Windows?",
+        "answer": "Schakel Smart Multi-Homed Name Resolution uit, activeer de DNS-lekbescherming in je VPN-app en zet DNS over HTTPS aan in je browser. Kies bovendien een VPN met eigen DNS-servers."
+      },
+      {
+        "question": "Wat is een IPv6-lek?",
+        "answer": "Een IPv6-lek treedt op wanneer je VPN alleen IPv4-verkeer versleutelt maar je netwerk ook IPv6 gebruikt. De IPv6-verzoeken gaan dan onversleuteld naar buiten. Kies een VPN met IPv6-lekbescherming of blokkeer IPv6."
+      },
+      {
+        "question": "Voorkomen alle VPN's DNS-lekken?",
+        "answer": "Nee. Vooral gratis en verouderde VPN's missen eigen DNS-servers en IPv6-bescherming. Betrouwbare diensten zoals NordVPN en Proton VPN routeren alle DNS-verzoeken door de versleutelde tunnel en voorkomen lekken zo effectief."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "protonvpn",
+      "hideme"
+    ],
+    "relatedSlugs": [
+      "kill-switch-vpn",
+      "vpn-openbaar-wifi",
+      "vpn-anoniem-internetten"
+    ],
+    "tags": [
+      "dns lek vpn",
+      "vpn testen",
+      "dns leak test",
+      "ipv6 lek",
+      "vpn privacy",
+      "vpn beveiliging"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
