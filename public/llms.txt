@@ -99,3 +99,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-split-tunneling — VPN split tunneling uitgelegd: wat het is en wanneer je het gebruikt
 - https://vpnr.nl/blog/vpn-dns-lek-test — DNS-lek bij VPN: hoe test en verhelp je het? (2026)
 - https://vpnr.nl/blog/nordvpn-vs-protonvpn — NordVPN vs ProtonVPN (2026): snelheid tegenover privacy vergeleken
+- https://vpnr.nl/blog/surfshark-vs-cyberghost — Surfshark vs CyberGhost (2026): welke budget-VPN wint echt?
