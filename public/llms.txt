@@ -100,3 +100,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-dns-lek-test — DNS-lek bij VPN: hoe test en verhelp je het? (2026)
 - https://vpnr.nl/blog/nordvpn-vs-protonvpn — NordVPN vs ProtonVPN (2026): snelheid tegenover privacy vergeleken
 - https://vpnr.nl/blog/surfshark-vs-cyberghost — Surfshark vs CyberGhost (2026): welke budget-VPN wint echt?
+- https://vpnr.nl/blog/beste-vpn-voor-studenten — Beste VPN voor studenten 2026: goedkoop, snel en veilig
