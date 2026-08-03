@@ -3641,6 +3641,152 @@ export const posts: BlogPost[] = [
       "vpn openbaar wifi"
     ]
   },
+  {
+    "slug": "vpn-op-playstation",
+    "title": "VPN instellen op PS4 en PS5 (2026): compleet stappenplan",
+    "metaTitle": "VPN PlayStation instellen 2026: PS4 & PS5 gids",
+    "metaDescription": "VPN PlayStation instellen zonder gedoe? Ontdek de 3 beste methoden voor PS4 en PS5 in 2026. Complete stappenplannen + veilige aanraders.",
+    "excerpt": "Een VPN op je PlayStation instellen? Ontdek 3 werkende methoden voor PS4 en PS5 in 2026, inclusief router, PC-hotspot en Mac.",
+    "category": "Gids",
+    "date": "3 augustus 2026",
+    "dateISO": "2026-08-03",
+    "updatedISO": "2026-08-03",
+    "readTime": "8 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/vpn-op-playstation.svg",
+    "imageAlt": "PlayStation 5 console aangesloten op tv met VPN-verbinding via router in Nederlandse woonkamer",
+    "intro": "Een VPN op je PlayStation instellen kan niet rechtstreeks, want zowel de PS4 als de PS5 heeft geen ingebouwde VPN-app. Toch kun je met drie beproefde methoden je console volledig via een VPN laten draaien. In deze gids leggen we stap voor stap uit hoe je dit doet, welke methode het best bij jou past en welke VPN's het meest geschikt zijn voor gamen.",
+    "sections": [
+      {
+        "heading": "Waarom een VPN op je PlayStation gebruiken?",
+        "body": [
+          "Een VPN op je PlayStation biedt meerdere voordelen die verder gaan dan alleen privacy. De bekendste reden is toegang tot games die in andere regio's eerder uitkomen. Door je verbinding via een server in bijvoorbeeld Japan of de VS te laten lopen, kun je releases soms uren of dagen eerder bereiken.",
+          "Daarnaast beschermt een VPN je tegen <strong>DDoS-aanvallen</strong> tijdens online multiplayer-games. Vooral bij competitief spelen komt het voor dat tegenstanders je IP-adres proberen te achterhalen om je verbinding plat te leggen. Met een VPN blijft je echte IP-adres verborgen.",
+          "Tot slot kun je met een VPN toegang krijgen tot streamingdiensten en regio-specifieke content op je console. Wil je meer weten over hoe een VPN je IP verbergt? Lees dan onze uitleg over <a href='/blog/vpn-ip-adres-verbergen' class='text-blue-600 hover:underline font-medium'>je IP-adres verbergen met een VPN</a>."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Onafhankelijk advies",
+          "text": "vpnr.nl ontvangt affiliate commissies als je via onze links een VPN afsluit. Dit beïnvloedt onze beoordelingen niet — we adviseren altijd eerlijk en onafhankelijk."
+        }
+      },
+      {
+        "heading": "Methode 1: VPN instellen via je router",
+        "body": [
+          "De betrouwbaarste manier om een VPN op je PlayStation te gebruiken is via je router. Zodra je de VPN op je router installeert, gaat al het internetverkeer van elk aangesloten apparaat — inclusief je PS4 of PS5 — automatisch via de VPN-verbinding.",
+          "Volg deze stappen: log in op je router via het beheerpaneel (meestal 192.168.1.1), controleer of je router VPN-firmware ondersteunt (zoals DD-WRT, OpenWRT of Tomato), voer de OpenVPN-configuratiegegevens van je VPN-provider in en selecteer een server. Verbind daarna je PlayStation zoals gebruikelijk met dit netwerk.",
+          "Het voordeel is dat je maar één keer hoeft in te stellen. Het nadeel: niet alle routers ondersteunen VPN-firmware. Bekijk onze uitgebreide <a href='/blog/vpn-router-instellen' class='text-blue-600 hover:underline font-medium'>gids voor VPN op je router instellen</a> voor de details."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Kies een VPN-router",
+          "text": "Heeft je huidige router geen VPN-ondersteuning? Overweeg een router met vooraf geïnstalleerde firmware, of gebruik één van de andere methoden hieronder."
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Methode 2: PC als hotspot met gedeelde VPN-verbinding",
+        "body": [
+          "Heb je een Windows-pc met wifi? Dan kun je die als mobiele hotspot gebruiken en de VPN-verbinding delen met je PlayStation. Deze methode werkt goed als je router geen VPN ondersteunt.",
+          "Installeer eerst de VPN-app op je pc en verbind met een server. Ga vervolgens naar <em>Instellingen &gt; Netwerk en internet &gt; Mobiele hotspot</em> en schakel deze in. Ga daarna naar de netwerkadapter van je VPN, klik op eigenschappen, tabblad 'Delen', en sta toe dat andere apparaten via deze verbinding verbinden. Selecteer je hotspot-netwerk als doel.",
+          "Verbind tot slot je PS4 of PS5 met de wifi-hotspot van je pc. Al het verkeer loopt nu via de VPN. Zorg wel dat je pc aan blijft tijdens het spelen. Meer over installatie op Windows lees je in onze <a href='/blog/vpn-windows-instellen' class='text-blue-600 hover:underline font-medium'>VPN Windows-gids</a>."
+        ]
+      },
+      {
+        "heading": "Methode 3: Mac Internet Sharing gebruiken",
+        "body": [
+          "MacOS-gebruikers kunnen de ingebouwde functie 'Internetdeling' benutten om een VPN-verbinding door te geven aan hun PlayStation. Dit werkt vergelijkbaar met de Windows-methode maar via een ethernetkabel.",
+          "Verbind je Mac met de VPN, sluit je PlayStation via een netwerkkabel aan op je Mac, ga naar <em>Systeeminstellingen &gt; Delen &gt; Internetdeling</em> en kies de VPN-verbinding als bron en ethernet als doel. Activeer daarna de functie.",
+          "Let op: bij standaard VPN-apps op Mac werkt Internetdeling niet altijd met protocollen zoals IKEv2. Gebruik in dat geval de OpenVPN-configuratie. Zie ook onze <a href='/blog/vpn-mac-instellen' class='text-blue-600 hover:underline font-medium'>VPN Mac-installatiegids</a> voor extra hulp."
+        ],
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Beste VPN's voor PS4 en PS5 in 2026",
+        "body": [
+          "Niet elke VPN is geschikt voor gamen. Snelheid, lage ping en betrouwbare server-dekking zijn cruciaal. Op basis van onze tests presteren NordVPN, Surfshark en CyberGhost het beste voor consolegaming.",
+          "NordVPN valt op door zijn hoge snelheden en ingebouwde DDoS-bescherming. Surfshark is aantrekkelijk vanwege de onbeperkte apparaten en scherpe prijs. CyberGhost biedt speciale gaming-geoptimaliseerde servers. Bekijk de volledige vergelijking hieronder."
+        ],
+        "table": {
+          "headers": [
+            "VPN",
+            "Snelheid gaming",
+            "Servers"
+          ],
+          "rows": [
+            [
+              "NordVPN",
+              "Zeer hoog",
+              "6.400+"
+            ],
+            [
+              "Surfshark",
+              "Hoog",
+              "3.200+"
+            ],
+            [
+              "CyberGhost",
+              "Hoog",
+              "11.000+"
+            ]
+          ]
+        },
+        "highlight": {
+          "type": "stat",
+          "title": "Snelheid telt",
+          "text": "Een goede gaming-VPN kost gemiddeld minder dan 3% aan snelheidsverlies — nauwelijks merkbaar tijdens online spelen."
+        }
+      },
+      {
+        "heading": "Veelgemaakte fouten en tips",
+        "body": [
+          "De meest voorkomende fout is het gebruik van een <a href='/beste-vpn/gratis' class='text-blue-600 hover:underline font-medium'>gratis VPN</a>. Deze zijn te traag voor gamen en verkopen vaak je data. Lees waarom in ons artikel over <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>de gevaren van gratis VPN's</a>.",
+          "Kies bij het instellen altijd een server dicht bij je locatie voor de laagste ping, tenzij je specifiek een andere regio wilt bereiken. Test na installatie je verbinding met een DNS-lektest om te controleren of je echte IP niet lekt.",
+          "Werkt je verbinding niet? Controleer of de VPN het OpenVPN-protocol gebruikt bij router- en hotspot-methoden. Meer protocolinformatie vind je in onze <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>vergelijking van VPN-protocollen</a>."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Kun je een VPN direct op de PS4 of PS5 installeren?",
+        "answer": "Nee, PlayStation-consoles hebben geen native VPN-app. Je moet de VPN instellen via je router, een pc-hotspot of Mac Internetdeling. Alle drie de methoden werken goed voor zowel de PS4 als de PS5."
+      },
+      {
+        "question": "Welke methode is het beste voor een VPN op PlayStation?",
+        "answer": "De routermethode is het meest betrouwbaar en stabiel, omdat je hem maar één keer hoeft in te stellen. Als je router geen VPN ondersteunt, is de PC-hotspot een goed alternatief dat snel op te zetten is."
+      },
+      {
+        "question": "Maakt een VPN mijn PlayStation langzamer?",
+        "answer": "Een goede gaming-VPN zoals NordVPN of Surfshark zorgt voor minimaal snelheidsverlies, vaak minder dan 3%. Kies een server dicht bij je locatie voor de laagste ping tijdens online spelen."
+      },
+      {
+        "question": "Kan ik met een VPN games eerder spelen op mijn PlayStation?",
+        "answer": "Ja, door verbinding te maken met een server in een land waar de game eerder uitkomt (zoals Japan of Nieuw-Zeeland), kun je releases soms uren eerder bereiken. Dit werkt afhankelijk van de regio-instellingen van de game."
+      },
+      {
+        "question": "Beschermt een VPN tegen DDoS-aanvallen op PlayStation?",
+        "answer": "Ja, een VPN verbergt je echte IP-adres, waardoor kwaadwillenden je niet kunnen aanvallen met een DDoS. Dit is vooral nuttig bij competitief online gamen waar spelers je verbinding proberen plat te leggen."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "cyberghost"
+    ],
+    "relatedSlugs": [
+      "vpn-router-instellen",
+      "vpn-windows-instellen",
+      "vpn-protocol-vergelijking"
+    ],
+    "tags": [
+      "vpn playstation",
+      "vpn ps5",
+      "vpn ps4",
+      "gaming vpn",
+      "vpn router instellen",
+      "ddos bescherming"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
