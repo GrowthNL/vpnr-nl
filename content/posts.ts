@@ -4083,6 +4083,148 @@ export const posts: BlogPost[] = [
       "vpn protocollen"
     ]
   },
+  {
+    "slug": "cyberghost-korting",
+    "title": "CyberGhost korting 2026: bespaar tot 84% op het grootste VPN-netwerk",
+    "metaTitle": "CyberGhost korting 2026: tot 84% + 4 maanden gratis",
+    "metaDescription": "CyberGhost korting aanbieding 2026: 2-jarig abonnement vanaf €2,03/mnd + 4 gratis maanden en 45 dagen geld-terug. Bekijk de deal!",
+    "excerpt": "Met de actuele CyberGhost korting aanbieding betaal je nog maar €2,03/mnd + 4 gratis maanden. Ontdek of deze deal het waard is.",
+    "category": "Deals",
+    "date": "13 augustus 2026",
+    "dateISO": "2026-08-13",
+    "updatedISO": "2026-08-13",
+    "readTime": "7 min",
+    "author": "vpnr.nl Redactie",
+    "image": "/blog/cyberghost-korting.jpg",
+    "imageAlt": "Persoon bekijkt CyberGhost korting aanbieding op laptop met VPN-abonnement op het scherm",
+    "intro": "Met de huidige CyberGhost korting aanbieding profiteer je van maar liefst 84% korting: het 2-jarige abonnement kost slechts ~€2,03 per maand, inclusief 4 gratis maanden en 45 dagen geld-terug-garantie. In dit artikel leggen we uit wanneer de deals het scherpst zijn, hoe CyberGhost zich verhoudt tot concurrenten en of het de moeite waard is. Let op: vpnr.nl ontvangt affiliate commissies wanneer je via onze links een abonnement afsluit, maar dit beïnvloedt onze eerlijke beoordeling niet.",
+    "sections": [
+      {
+        "heading": "De actuele CyberGhost aanbieding: tot 84% korting",
+        "body": [
+          "De beste CyberGhost korting aanbieding van dit moment is het <strong>2-jarige abonnement</strong>. Je betaalt hiermee omgerekend ongeveer <strong>€2,03 per maand</strong>, plus je krijgt <strong>4 maanden gratis</strong> bovenop de looptijd. Dat komt neer op een totale korting van maar liefst 84% ten opzichte van het maandtarief.",
+          "Uniek aan CyberGhost is de royale <strong>45 dagen geld-terug-garantie</strong>. Waar de meeste VPN-aanbieders 30 dagen bieden, geeft CyberGhost je anderhalve maand de tijd om alles risicoloos te testen. Bevalt de dienst niet? Dan krijg je zonder gedoe je geld terug.",
+          "Het maandabonnement en het jaarabonnement zijn aanzienlijk duurder per maand. De echte besparing zit dus in het langlopende contract. Wil je alleen kort een VPN gebruiken, dan is dat prima met de geld-terug-garantie op te vangen."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Beste deal",
+          "text": "2 jaar CyberGhost voor ~€2,03/mnd + 4 gratis maanden en 45 dagen geld-terug-garantie."
+        },
+        "cta": "cyberghost"
+      },
+      {
+        "heading": "Wat krijg je voor die prijs?",
+        "body": [
+          "CyberGhost heeft met meer dan 11.000 servers in ruim 100 landen een van de <strong>grootste servernetwerken</strong> ter wereld. Dat betekent snelle verbindingen, weinig overvolle servers en veel keuze aan locaties, ook voor Nederlandse gebruikers.",
+          "De dienst biedt gespecialiseerde servers voor <a href='/beste-vpn/voor-streaming' class='text-blue-600 hover:underline font-medium'>streaming</a> en <a href='/beste-vpn/voor-torrenten' class='text-blue-600 hover:underline font-medium'>torrenten</a>, een betrouwbare <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> en sterke AES-256-encryptie. Je kunt tot 7 apparaten tegelijk beschermen met één abonnement.",
+          "Voor de prijs van rond de €2 per maand krijg je dus een volwaardige VPN met een no-logs-beleid, DNS-lekbescherming en apps voor Windows, macOS, Android, iOS en meer. Voor de gemiddelde thuisgebruiker is dat ruim voldoende."
+        ]
+      },
+      {
+        "heading": "Wanneer is de CyberGhost korting het scherpst?",
+        "body": [
+          "De allerbeste CyberGhost deals verschijnen traditioneel rond <strong>Black Friday en Cyber Monday</strong> in november. In die periode dalen de prijzen vaak naar hun laagste punt van het jaar en worden extra gratis maanden toegevoegd.",
+          "Ook rond de jaarwisseling en tijdens zomeracties zijn er regelmatig aantrekkelijke aanbiedingen. Toch is het 2-jarige abonnement met 84% korting het hele jaar door al een uitstekende deal, dus je hoeft niet per se te wachten.",
+          "Tip: sluit je een abonnement af buiten een grote actieperiode, gebruik dan de 45 dagen geld-terug-garantie als vangnet. Verschijnt er kort daarna een betere aanbieding? Dan kun je overstappen zonder verlies."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Wacht op Black Friday",
+          "text": "Voor de allerlaagste prijzen kun je het beste rond eind november toeslaan."
+        }
+      },
+      {
+        "heading": "CyberGhost vergelijken met NordVPN en Surfshark",
+        "body": [
+          "CyberGhost is prijstechnisch scherp, maar hoe verhoudt de deal zich tot de concurrentie? Hieronder vergelijken we de actuele langlopende abonnementen van drie populaire aanbieders in Nederland.",
+          "<a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> is doorgaans wat sneller en heeft geavanceerde functies, terwijl <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a> onbeperkte apparaten toestaat. CyberGhost onderscheidt zich met het grootste servernetwerk en de langste geld-terug-garantie.",
+          "Wil je een uitgebreide vergelijking, bekijk dan onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijker</a> of de pagina met de <a href='/blog/goedkoopste-vpn-deals' class='text-blue-600 hover:underline font-medium'>goedkoopste VPN-deals</a>."
+        ],
+        "table": {
+          "headers": [
+            "Aanbieder",
+            "Prijs/mnd",
+            "Extra's",
+            "Geld-terug"
+          ],
+          "rows": [
+            [
+              "CyberGhost",
+              "~€2,03",
+              "+4 mnd gratis, 11.000+ servers",
+              "45 dagen"
+            ],
+            [
+              "NordVPN",
+              "~€3,09",
+              "Snelste snelheden, Threat Protection",
+              "30 dagen"
+            ],
+            [
+              "Surfshark",
+              "~€2,19",
+              "Onbeperkt apparaten, CleanWeb",
+              "30 dagen"
+            ]
+          ]
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Is CyberGhost de deal waard?",
+        "body": [
+          "Voor gebruikers die vooral willen <strong>streamen, torrenten en veilig internetten</strong> tegen een lage prijs, is CyberGhost absoluut de moeite waard. De combinatie van een enorm servernetwerk, gebruiksvriendelijke apps en de laagste instapprijs maakt het een uitstekende keuze voor beginners.",
+          "Ben je op zoek naar de allerhoogste snelheden of extra beveiligingsfuncties, dan kan NordVPN een betere keuze zijn. Voor prijsbewuste huishoudens met veel apparaten is Surfshark dan weer interessant vanwege de onbeperkte verbindingen.",
+          "Dankzij de 45 dagen geld-terug-garantie neem je met CyberGhost hoe dan ook geen enkel risico. Bevalt het niet, dan krijg je je geld gewoon terug. Voor rond de €2 per maand is dit een van de scherpste VPN-aanbiedingen van 2026."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Onze conclusie",
+          "text": "CyberGhost biedt de laagste prijs en langste garantie; ideaal voor streaming en dagelijks gebruik."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Hoeveel korting geeft de CyberGhost aanbieding?",
+        "answer": "De actuele CyberGhost korting aanbieding geeft tot 84% korting op het 2-jarige abonnement. Je betaalt dan ongeveer €2,03 per maand en krijgt bovendien 4 maanden gratis bovenop je looptijd."
+      },
+      {
+        "question": "Wanneer zijn de beste CyberGhost deals?",
+        "answer": "De scherpste CyberGhost deals verschijnen traditioneel rond Black Friday en Cyber Monday in november. Ook tijdens de jaarwisseling en zomeracties zijn er regelmatig aantrekkelijke aanbiedingen."
+      },
+      {
+        "question": "Heeft CyberGhost een geld-terug-garantie?",
+        "answer": "Ja, CyberGhost biedt een van de langste garanties in de branche: 45 dagen geld-terug-garantie op het langlopende abonnement. Je kunt de dienst dus ruim anderhalve maand risicoloos uitproberen."
+      },
+      {
+        "question": "Op hoeveel apparaten kan ik CyberGhost tegelijk gebruiken?",
+        "answer": "Met één CyberGhost-abonnement bescherm je tot 7 apparaten tegelijk. Dit is ruim voldoende voor de meeste huishoudens met meerdere telefoons, laptops en tablets."
+      },
+      {
+        "question": "Is CyberGhost beter dan NordVPN of Surfshark?",
+        "answer": "CyberGhost heeft het grootste servernetwerk en de langste geld-terug-garantie tegen een lage prijs. NordVPN is doorgaans sneller en Surfshark biedt onbeperkte apparaten. Voor streaming en dagelijks gebruik is CyberGhost een uitstekende, voordelige keuze."
+      }
+    ],
+    "relatedProviders": [
+      "cyberghost",
+      "nordvpn",
+      "surfshark"
+    ],
+    "relatedSlugs": [
+      "goedkoopste-vpn-deals",
+      "surfshark-vs-cyberghost",
+      "nordvpn-korting"
+    ],
+    "tags": [
+      "cyberghost korting",
+      "vpn deals",
+      "cyberghost aanbieding",
+      "goedkope vpn",
+      "black friday vpn"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
