@@ -106,3 +106,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-obfuscatie-uitgelegd — VPN obfuscatie uitgelegd: verberg dat je een VPN gebruikt (2026)
 - https://vpnr.nl/blog/cyberghost-korting — CyberGhost korting 2026: bespaar tot 84% op het grootste VPN-netwerk
 - https://vpnr.nl/blog/netflix-us-kijken-vpn — Netflix US kijken met VPN vanuit Nederland (2026): stap-voor-stap
+- https://vpnr.nl/blog/vpn-gaming-lag-verlagen — VPN en gaming lag: kun je je ping verlagen met een VPN? (2026)
