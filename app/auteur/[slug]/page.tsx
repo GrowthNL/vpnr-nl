@@ -92,8 +92,13 @@ export default async function AuthorPage({
           </nav>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-7">
-            <div className="w-24 h-24 rounded-2xl bg-blue-600 border-4 border-white/20 flex items-center justify-center text-white font-black text-3xl flex-shrink-0 shadow-xl select-none">
-              {author.name.split(' ').map((n) => n[0]).join('')}
+            <div className="w-24 h-24 rounded-2xl border-4 border-white/20 flex-shrink-0 shadow-xl overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={author.image}
+                alt={author.imageAlt}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h1 className="text-3xl sm:text-4xl font-black mb-1">{author.name}</h1>

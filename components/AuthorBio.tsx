@@ -14,8 +14,13 @@ export default function AuthorBio({ author = 'Redactie vpnr.nl', updatedDate }: 
   if (authorData) {
     return (
       <div className="flex items-start gap-4 bg-gray-50 rounded-2xl p-5 border border-gray-100 my-8">
-        <div className="w-14 h-14 rounded-full flex-shrink-0 overflow-hidden bg-blue-700 flex items-center justify-center text-white font-black text-lg shadow-sm select-none">
-          TV
+        <div className="w-14 h-14 rounded-full flex-shrink-0 overflow-hidden shadow-sm">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={authorData.image}
+            alt={authorData.imageAlt}
+            className="w-full h-full object-cover"
+          />
         </div>
         <div className="flex-1 min-w-0">
           <Link
