@@ -106,7 +106,11 @@ export default async function BlogPostPage({
     datePublished: post.dateISO,
     dateModified: post.updatedISO,
     image: `https://vpnr.nl${post.image}`,
-    author: { '@type': 'Organization', name: 'vpnr.nl', url: 'https://vpnr.nl' },
+    author: {
+      '@type': 'Person',
+      name: post.author ?? 'Tim Verhoeven',
+      url: `https://vpnr.nl/auteur/tim-verhoeven`,
+    },
     publisher: {
       '@type': 'Organization',
       name: 'vpnr.nl',

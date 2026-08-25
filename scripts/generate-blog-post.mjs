@@ -431,7 +431,7 @@ async function main() {
     dateISO: formatISO(now),
     updatedISO: formatISO(now),
     readTime: postData.readTime ?? '6 min',
-    author: 'vpnr.nl Redactie',
+    author: 'Tim Verhoeven',
     image: imagePath,
     imageAlt: postData.imageAlt ?? `${topic.keyword} — vpnr.nl`,
     intro: postData.intro,

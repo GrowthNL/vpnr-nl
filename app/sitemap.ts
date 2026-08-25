@@ -3,6 +3,7 @@ import { providers } from '@/content/providers'
 import { usecases } from '@/content/usecases'
 import { posts } from '@/content/posts'
 import { comparisons } from '@/content/comparisons'
+import { authors } from '@/content/authors'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://vpnr.nl'
@@ -38,6 +39,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(post.updatedISO),
       changeFrequency: 'weekly' as const,
       priority: 0.65,
+    })),
+    ...authors.map((a) => ({
+      url: `${base}/auteur/${a.slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.5,
     })),
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/over-ons`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
