@@ -3053,7 +3053,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Wat is een DNS-lek precies?",
         "body": [
-          "Elke keer dat je een website bezoekt, vertaalt een DNS-server (Domain Name System) de domeinnaam zoals 'vpnr.nl' naar een IP-adres. Normaal gesproken hoort dit verzoek via de versleutelde VPN-tunnel te lopen, zodat niemand meekijkt. Bij een <strong>dns lek vpn</strong>-situatie gaan die DNS-verzoeken echter buiten de tunnel om — rechtstreeks naar de DNS-server van je internetprovider.",
+          "Elke keer dat je een website bezoekt, vertaalt een DNS-server (Domain Name System) de domeinnaam zoals 'vpnr.nl' naar een IP-adres. Normaal gesproken hoort dit verzoek via de versleutelde VPN-tunnel te lopen, zodat niemand meekijkt. Bij een <strong>dns lek vpn</strong>-situatie gaan die DNS-verzoeken echter buiten de tunnel om, rechtstreeks naar de DNS-server van je internetprovider.",
           "Het gevolg: hoewel je IP-adres verborgen lijkt, kan je provider (of een aanvaller op openbaar wifi) alsnog een lijst opbouwen van álle sites die je bezoekt. Je privacy is dan grotendeels teniet gedaan, terwijl je in de veronderstelling bent volledig beschermd te zijn.",
           "Een DNS-lek is daarmee een van de meest onderschatte privacyproblemen bij VPN-gebruik. Gelukkig is het eenvoudig te detecteren en in de meeste gevallen ook snel op te lossen."
         ],
@@ -3068,7 +3068,7 @@ export const posts: BlogPost[] = [
         "body": [
           "Het testen op een DNS-lek kost minder dan een minuut. Zorg eerst dat je VPN actief is en verbonden met een server in bijvoorbeeld het buitenland. Open vervolgens een van de gratis testtools in je browser.",
           "De twee bekendste tools zijn <strong>dnsleaktest.com</strong> en <strong>ipleak.net</strong>. Op dnsleaktest.com kies je de 'Extended test' voor het meest volledige resultaat. Ipleak.net toont in één oogopslag zowel je IP-adres, DNS-servers als eventuele IPv6-lekken.",
-          "Wat moet je zien? De weergegeven DNS-servers en het land moeten overeenkomen met de VPN-server waarmee je verbonden bent — niet met je eigen internetprovider of woonplaats. Zie je de naam van je Nederlandse provider (zoals Ziggo of KPN) of je eigen regio verschijnen, dan heb je een lek.",
+          "Wat moet je zien? De weergegeven DNS-servers en het land moeten overeenkomen met de VPN-server waarmee je verbonden bent, en niet met je eigen internetprovider of woonplaats. Zie je de naam van je Nederlandse provider (zoals Ziggo of KPN) of je eigen regio verschijnen, dan heb je een lek.",
           "Wil je ook je zichtbare IP-adres controleren? Gebruik dan onze eigen tool om te zien <a href='/blog/wat-is-mijn-ip-adres' class='text-blue-600 hover:underline font-medium'>wat je IP-adres is</a> met en zonder VPN."
         ],
         "table": {
@@ -3511,7 +3511,7 @@ export const posts: BlogPost[] = [
         "body": [
           "Als student zit je vaker dan gemiddeld op onbeveiligde netwerken: de campus, de bibliotheek, een café tijdens het studeren of het openbaar vervoer op weg naar college. Op deze <strong>openbare wifi-netwerken</strong> kunnen kwaadwillenden relatief eenvoudig je gegevens onderscheppen. Een VPN versleutelt je verbinding zodat wachtwoorden, betalingsgegevens en berichten onleesbaar blijven.",
           "Daarnaast studeren steeds meer Nederlandse studenten (deels) in het buitenland of gebruiken ze buitenlandse streamingdiensten. Met een VPN krijg je weer toegang tot je vertrouwde Nederlandse diensten en je studieplatform, waar je ook bent. Lees meer in onze gids over <a href='/blog/vpn-buitenland-gebruiken' class='text-blue-600 hover:underline font-medium'>een VPN in het buitenland gebruiken</a>.",
-          "Kortom: een VPN is niet alleen handig voor streaming, maar vooral een slimme investering in je digitale veiligheid — en tegen studentvriendelijke prijzen goed betaalbaar."
+          "Kortom: een VPN is niet alleen handig voor streaming, maar vooral een slimme investering in je digitale veiligheid, en tegen studentvriendelijke prijzen goed betaalbaar."
         ],
         "highlight": {
           "type": "info",
@@ -3522,7 +3522,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "VPN studenten goedkoop: de beste budgetkeuzes",
         "body": [
-          "De grootste zorg voor studenten is meestal de prijs. Gelukkig zijn premium VPN's tegenwoordig verrassend goedkoop wanneer je een langlopend abonnement kiest. <strong>Surfshark</strong> is al jaren de favoriet onder studenten dankzij prijzen vanaf ongeveer €1,99 per maand en het feit dat je op <em>onbeperkt veel apparaten</em> tegelijk mag inloggen — ideaal als je een laptop, telefoon en tablet deelt met je huisgenoten.",
+          "De grootste zorg voor studenten is meestal de prijs. Gelukkig zijn premium VPN's tegenwoordig verrassend goedkoop wanneer je een langlopend abonnement kiest. <strong>Surfshark</strong> is al jaren de favoriet onder studenten dankzij prijzen vanaf ongeveer €1,99 per maand en het feit dat je op <em>onbeperkt veel apparaten</em> tegelijk mag inloggen, ideaal als je een laptop, telefoon en tablet deelt met je huisgenoten.",
           "Wil je nóg meer besparen? Bekijk dan onze actuele <a href='/blog/goedkoopste-vpn-deals' class='text-blue-600 hover:underline font-medium'>goedkoopste VPN-deals</a> en de <a href='/blog/surfshark-korting' class='text-blue-600 hover:underline font-medium'>Surfshark-kortingscodes</a>. Veel aanbieders bieden bovendien een 30-dagen-niet-goed-geld-terug-garantie, zodat je risicoloos kunt testen tijdens je tentamenperiode.",
           "Let wel op: het maandtarief lijkt laag, maar je betaalt vaak in één keer voor twee jaar vooruit. Reken dus uit of dat binnen je studentenbudget past, of splits de kosten met je studiegenoten."
         ],
@@ -3559,7 +3559,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Werkt een VPN op het universiteitsnetwerk?",
         "body": [
-          "Sommige onderwijsinstellingen blokkeren standaard VPN-poorten om het netwerk te beheren. Dat betekent niet dat een VPN onbruikbaar is — je moet alleen een aanbieder kiezen met <strong>obfuscatie</strong> (verhulde servers) die VPN-verkeer laat lijken op normaal verkeer.",
+          "Sommige onderwijsinstellingen blokkeren standaard VPN-poorten om het netwerk te beheren. Dat betekent niet dat een VPN onbruikbaar is. Je moet alleen een aanbieder kiezen met <strong>obfuscatie</strong> (verhulde servers) die VPN-verkeer laat lijken op normaal verkeer.",
           "NordVPN en Surfshark beschikken beide over obfuscated servers en ondersteunen meerdere protocollen, waardoor je bijna altijd verbinding houdt. In onze <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>VPN-protocolvergelijking</a> lees je welk protocol het beste door restrictieve netwerken heen komt.",
           "Kun je geen verbinding maken? Probeer dan te wisselen tussen protocollen (bijvoorbeeld van WireGuard naar OpenVPN via TCP poort 443) of schakel de obfuscatie-optie in de app in. Dit lost het probleem in de meeste gevallen op."
         ],
@@ -3572,7 +3572,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Gratis VPN of toch een goedkope betaalde optie?",
         "body": [
-          "Als student is de verleiding groot om voor een volledig gratis VPN te kiezen. Toch raden we dat sterk af. Gratis diensten verdienen vaak geld door je surfgedrag te verkopen, beperken je datalimiet tot een paar GB per maand en bieden lagere snelheden — funest wanneer je video-colleges streamt of grote bestanden downloadt.",
+          "Als student is de verleiding groot om voor een volledig gratis VPN te kiezen. Toch raden we dat sterk af. Gratis diensten verdienen vaak geld door je surfgedrag te verkopen, beperken je datalimiet tot een paar GB per maand en bieden lagere snelheden, funest wanneer je video-colleges streamt of grote bestanden downloadt.",
           "Wil je toch beginnen met een gratis oplossing, kies dan een betrouwbare zoals de gratis versie van <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>Proton VPN</a>, die géén datalimiet heeft en niet je gegevens verkoopt. Lees vooral eerst onze waarschuwing over de <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>gevaren van gratis VPN's</a>.",
           "Het verschil tussen gratis en een goedkope betaalde VPN is voor minder dan de prijs van een kop koffie per week meestal het overwegen waard: onbeperkt data, hogere snelheden en echte privacy."
         ],
@@ -3585,7 +3585,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Onze aanbevelingen per studentenbudget",
         "body": [
-          "<strong>Krap budget:</strong> Ga voor <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a>. Voor rond de €2 per maand krijg je onbeperkt apparaten, snelle servers en uitstekende beveiliging — de perfecte allrounder voor studenten.",
+          "<strong>Krap budget:</strong> Ga voor <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a>. Voor rond de €2 per maand krijg je onbeperkt apparaten, snelle servers en uitstekende beveiliging, de perfecte allrounder voor studenten.",
           "<strong>Beste balans:</strong> Kies <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> als je de snelste verbinding en topprestaties bij streaming wilt. Ideaal voor wie ook Netflix en gaming combineert. Vergelijk beide in onze <a href='/blog/nordvpn-vs-surfshark' class='text-blue-600 hover:underline font-medium'>NordVPN vs Surfshark-vergelijking</a>.",
           "<strong>Privacy voorop:</strong> Studeer je iets gevoeligs zoals recht, journalistiek of politiek? Dan is Proton VPN met zijn Zwitserse privacywetgeving en open-source apps de veiligste keuze."
         ],
@@ -3619,7 +3619,7 @@ export const posts: BlogPost[] = [
       },
       {
         "question": "Op hoeveel apparaten mag ik een studenten-VPN gebruiken?",
-        "answer": "Dat verschilt per aanbieder. Surfshark biedt onbeperkt apparaten op één account, terwijl NordVPN en Proton VPN tot 10 gelijktijdige verbindingen toestaan — ruim voldoende voor laptop, telefoon en tablet."
+        "answer": "Dat verschilt per aanbieder. Surfshark biedt onbeperkt apparaten op één account, terwijl NordVPN en Proton VPN tot 10 gelijktijdige verbindingen toestaan, ruim voldoende voor laptop, telefoon en tablet."
       }
     ],
     "relatedProviders": [
@@ -3667,13 +3667,13 @@ export const posts: BlogPost[] = [
         "highlight": {
           "type": "info",
           "title": "Onafhankelijk advies",
-          "text": "vpnr.nl ontvangt affiliate commissies als je via onze links een VPN afsluit. Dit beïnvloedt onze beoordelingen niet — we adviseren altijd eerlijk en onafhankelijk."
+          "text": "vpnr.nl ontvangt affiliate commissies als je via onze links een VPN afsluit. Dit beïnvloedt onze beoordelingen niet. We adviseren altijd eerlijk en onafhankelijk."
         }
       },
       {
         "heading": "Methode 1: VPN instellen via je router",
         "body": [
-          "De betrouwbaarste manier om een VPN op je PlayStation te gebruiken is via je router. Zodra je de VPN op je router installeert, gaat al het internetverkeer van elk aangesloten apparaat — inclusief je PS4 of PS5 — automatisch via de VPN-verbinding.",
+          "De betrouwbaarste manier om een VPN op je PlayStation te gebruiken is via je router. Zodra je de VPN op je router installeert, gaat al het internetverkeer van elk aangesloten apparaat, inclusief je PS4 of PS5, automatisch via de VPN-verbinding.",
           "Volg deze stappen: log in op je router via het beheerpaneel (meestal 192.168.1.1), controleer of je router VPN-firmware ondersteunt (zoals DD-WRT, OpenWRT of Tomato), voer de OpenVPN-configuratiegegevens van je VPN-provider in en selecteer een server. Verbind daarna je PlayStation zoals gebruikelijk met dit netwerk.",
           "Het voordeel is dat je maar één keer hoeft in te stellen. Het nadeel: niet alle routers ondersteunen VPN-firmware. Bekijk onze uitgebreide <a href='/blog/vpn-router-instellen' class='text-blue-600 hover:underline font-medium'>gids voor VPN op je router instellen</a> voor de details."
         ],
@@ -3734,7 +3734,7 @@ export const posts: BlogPost[] = [
         "highlight": {
           "type": "stat",
           "title": "Snelheid telt",
-          "text": "Een goede gaming-VPN kost gemiddeld minder dan 3% aan snelheidsverlies — nauwelijks merkbaar tijdens online spelen."
+          "text": "Een goede gaming-VPN kost gemiddeld minder dan 3% aan snelheidsverlies, nauwelijks merkbaar tijdens online spelen."
         }
       },
       {
@@ -3820,7 +3820,7 @@ export const posts: BlogPost[] = [
         "heading": "Native VPN-app installeren op Apple TV 4K",
         "body": [
           "De eenvoudigste methode is een <strong>native tvOS-app</strong>. Op dit moment bieden NordVPN en ProtonVPN volwaardige apps aan voor de Apple TV. Deze installeer je net zo makkelijk als elke andere app via de App Store.",
-          "Volg deze stappen: open de App Store op je Apple TV, zoek naar je VPN-provider (bijvoorbeeld 'NordVPN'), klik op <em>Downloaden</em> en open de app. Log in met je account, kies een serverlocatie en verbind. Klaar — al je Apple TV-verkeer loopt nu via de VPN.",
+          "Volg deze stappen: open de App Store op je Apple TV, zoek naar je VPN-provider (bijvoorbeeld 'NordVPN'), klik op <em>Downloaden</em> en open de app. Log in met je account, kies een serverlocatie en verbind. Al je Apple TV-verkeer loopt nu via de VPN.",
           "Wil je bijvoorbeeld Amerikaanse Netflix bekijken? Kies dan een server in de Verenigde Staten. Werkt streaming toch niet? Bekijk onze tips in het artikel <a href='/blog/netflix-vpn-werkt-niet' class='text-blue-600 hover:underline font-medium'>Netflix VPN werkt niet</a>."
         ],
         "cta": "nordvpn"
@@ -4246,7 +4246,7 @@ export const posts: BlogPost[] = [
         "body": [
           "De Amerikaanse Netflix-catalogus is aanzienlijk groter dan de Nederlandse: honderden extra films en series die hier niet beschikbaar zijn door licentieafspraken. Denk aan populaire titels die pas maanden later (of nooit) in de Nederlandse bibliotheek verschijnen.",
           "Netflix bepaalt welke content je ziet op basis van je IP-adres. Wanneer je verbinding maakt met een VPN-server in de Verenigde Staten, krijg je een Amerikaans IP-adres en denkt Netflix dat je fysiek in de VS zit. Zo krijg je toegang tot de US-catalogus.",
-          "Belangrijk: je hebt hiervoor gewoon een bestaand Netflix-abonnement nodig. Een VPN geeft je geen gratis toegang — het verandert alleen welke regionale bibliotheek je te zien krijgt. Meer over hoe dit technisch werkt lees je in <a href='/blog/vpn-ip-adres-verbergen' class='text-blue-600 hover:underline font-medium'>onze uitleg over je IP-adres verbergen</a>."
+          "Belangrijk: je hebt hiervoor gewoon een bestaand Netflix-abonnement nodig. Een VPN geeft je geen gratis toegang. Het verandert alleen welke regionale bibliotheek je te zien krijgt. Meer over hoe dit technisch werkt lees je in <a href='/blog/vpn-ip-adres-verbergen' class='text-blue-600 hover:underline font-medium'>onze uitleg over je IP-adres verbergen</a>."
         ],
         "highlight": {
           "type": "info",
@@ -4269,7 +4269,7 @@ export const posts: BlogPost[] = [
         "body": [
           "Een veelgemaakte fout: je verbindt met een US-server maar Netflix blijft de Nederlandse catalogus tonen. De oorzaak zit meestal in je browser. Netflix bewaart cookies en cache-gegevens die je oorspronkelijke locatie verraden.",
           "De oplossing is simpel: open Netflix altijd in een <strong>incognitovenster</strong> (of privémodus) nadat je met de VPN bent verbonden. Een incognitovenster gebruikt geen opgeslagen cookies, waardoor Netflix alleen naar je huidige (Amerikaanse) IP-adres kijkt.",
-          "Kijk je via de Netflix-app op een smart-tv of streamingapparaat? Wis dan de app-cache of log opnieuw in nadat de VPN actief is. Voor tv's raden we aan om de VPN op routerniveau in te stellen — lees hoe in onze <a href='/blog/vpn-router-instellen' class='text-blue-600 hover:underline font-medium'>router-gids</a>."
+          "Kijk je via de Netflix-app op een smart-tv of streamingapparaat? Wis dan de app-cache of log opnieuw in nadat de VPN actief is. Voor tv's raden we aan om de VPN op routerniveau in te stellen. Lees hoe in onze <a href='/blog/vpn-router-instellen' class='text-blue-600 hover:underline font-medium'>router-gids</a>."
         ],
         "highlight": {
           "type": "tip",
@@ -4280,7 +4280,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Foutmelding 'proxy gedetecteerd'? Zo los je het op",
         "body": [
-          "De meest voorkomende blokkade is de foutmelding met code M7111-5059: 'Je gebruikt mogelijk een unblocker of proxy'. Netflix herkent dan dat je een VPN gebruikt en blokkeert de stream. Geen paniek — dit is bijna altijd op te lossen.",
+          "De meest voorkomende blokkade is de foutmelding met code M7111-5059: 'Je gebruikt mogelijk een unblocker of proxy'. Netflix herkent dan dat je een VPN gebruikt en blokkeert de stream. Geen paniek, dit is bijna altijd op te lossen.",
           "Probeer deze oplossingen in volgorde: wissel naar een <strong>andere US-server</strong> (VPN's hebben vaak tientallen locaties), wis je browsercookies of gebruik incognito, schakel over naar een ander VPN-protocol, of herstart de app volledig. Vaak is één specifieke server geblokkeerd terwijl andere prima werken.",
           "Werkt het nog steeds niet? Dan is je VPN mogelijk niet krachtig genoeg voor Netflix. Kwaliteits-VPN's vernieuwen constant hun IP-adressen om Netflix voor te blijven. Lees onze uitgebreide <a href='/blog/netflix-vpn-werkt-niet' class='text-blue-600 hover:underline font-medium'>oplossingsgids als Netflix niet werkt met VPN</a> voor alle scenario's."
         ],
@@ -4390,12 +4390,12 @@ export const posts: BlogPost[] = [
     "author": "vpnr.nl Redactie",
     "image": "/blog/vpn-gaming-lag-verlagen.jpg",
     "imageAlt": "Gamer met headset aan controller op scherm met ping-meter tijdens online multiplayer sessie",
-    "intro": "De vraag of je met een VPN gaming lag en ping kunt verlagen heeft geen simpel ja of nee als antwoord. In sommige gevallen verlaagt een VPN je ping daadwerkelijk — bijvoorbeeld bij bandbreedte-throttling door je provider of een inefficiënte route naar de game-server — maar in de meeste situaties voegt een VPN juist extra latency toe. In dit artikel leggen we technisch uit hoe dit precies werkt. Voor de volledigheid: vpnr.nl ontvangt affiliate commissies wanneer je via onze links een VPN afsluit, maar dit beïnvloedt onze onafhankelijke beoordeling niet.",
+    "intro": "De vraag of je met een VPN gaming lag en ping kunt verlagen heeft geen simpel ja of nee als antwoord. In sommige gevallen verlaagt een VPN je ping daadwerkelijk, bijvoorbeeld bij bandbreedte-throttling door je provider of een inefficiënte route naar de game-server. Maar in de meeste situaties voegt een VPN juist extra latency toe. In dit artikel leggen we technisch uit hoe dit precies werkt. Voor de volledigheid: vpnr.nl ontvangt affiliate commissies wanneer je via onze links een VPN afsluit, maar dit beïnvloedt onze onafhankelijke beoordeling niet.",
     "sections": [
       {
         "heading": "Hoe beïnvloedt een VPN je ping en latency?",
         "body": [
-          "Om te begrijpen wanneer een VPN je ping verlaagt, moet je weten wat ping eigenlijk is. Ping (of latency) is de tijd in milliseconden die een datapakket nodig heeft om van jouw apparaat naar de game-server en terug te reizen. Hoe lager de ping, hoe responsiever je game aanvoelt — cruciaal bij shooters en andere reactiesnelle games.",
+          "Om te begrijpen wanneer een VPN je ping verlaagt, moet je weten wat ping eigenlijk is. Ping (of latency) is de tijd in milliseconden die een datapakket nodig heeft om van jouw apparaat naar de game-server en terug te reizen. Hoe lager de ping, hoe responsiever je game aanvoelt, cruciaal bij shooters en andere reactiesnelle games.",
           "Een VPN werkt door je internetverkeer via een tussenliggende server te leiden. In principe betekent dit een <strong>extra tussenstop</strong>: je data gaat eerst naar de VPN-server en pas daarna naar de game-server. Deze omweg voegt normaal gesproken latency toe, waardoor je ping hoger wordt.",
           "Toch is dit niet het hele verhaal. De route die je verkeer aflegt is niet altijd de kortste of snelste. Soms stuurt jouw internetprovider je verkeer via een inefficiënt pad, en dan kan een VPN met een beter geoptimaliseerd netwerk de reisduur juist verkorten. Het draait dus om de balans tussen extra hops en betere routing."
         ]
@@ -4403,7 +4403,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Wanneer een VPN je gaming lag WEL verlaagt",
         "body": [
-          "Er zijn een aantal concrete situaties waarin een VPN je gaming lag en ping daadwerkelijk kan verlagen. De belangrijkste is <strong>bandbreedte-throttling</strong>. Sommige internetproviders knijpen gamingverkeer af tijdens piekuren. Doordat een VPN je verkeer versleutelt, kan je provider niet meer zien dat het om gaming gaat en wordt de throttling omzeild — met een lagere en stabielere ping als resultaat.",
+          "Er zijn een aantal concrete situaties waarin een VPN je gaming lag en ping daadwerkelijk kan verlagen. De belangrijkste is <strong>bandbreedte-throttling</strong>. Sommige internetproviders knijpen gamingverkeer af tijdens piekuren. Doordat een VPN je verkeer versleutelt, kan je provider niet meer zien dat het om gaming gaat en wordt de throttling omzeild, met een lagere en stabielere ping als resultaat.",
           "Een tweede scenario is <strong>betere routing naar de game-server</strong>. Grote VPN-aanbieders zoals NordVPN beschikken over premium netwerkverbindingen. Als jouw provider een omslachtige route naar bijvoorbeeld een server in de VS gebruikt, kan een VPN-server dichter bij die game-server een directer pad bieden.",
           "Een concreet voorbeeld: een speler in Nederland die verbindt met een game-server in Los Angeles meet zonder VPN 165 ms ping via een omweg door meerdere netwerken. Met een goed gerouteerde VPN-server daalt dit naar 140 ms. Het verschil is niet gigantisch, maar in competitieve games merkbaar."
         ],
@@ -4429,7 +4429,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "DDoS-bescherming: de belangrijkste gaming-use case",
         "body": [
-          "Los van ping is er één reden waarom serieuze gamers een VPN gebruiken: <strong>bescherming tegen DDoS-aanvallen</strong>. Bij een DDoS-aanval overspoelt een aanvaller jouw IP-adres met verkeer, waardoor je verbinding volledig instort — game over, letterlijk. Dit komt vooral voor in competitieve games waar tegenstanders vals willen spelen.",
+          "Los van ping is er één reden waarom serieuze gamers een VPN gebruiken: <strong>bescherming tegen DDoS-aanvallen</strong>. Bij een DDoS-aanval overspoelt een aanvaller jouw IP-adres met verkeer, waardoor je verbinding volledig instort. Game over, letterlijk. Dit komt vooral voor in competitieve games waar tegenstanders vals willen spelen.",
           "Een VPN verbergt je echte IP-adres achter dat van de VPN-server. Een aanvaller kan je thuisverbinding dan simpelweg niet meer bereiken. In plaats daarvan raakt de aanval de VPN-server, die is uitgerust met professionele DDoS-mitigatie. Meer over hoe dit werkt lees je in ons artikel over <a href='/blog/vpn-ip-adres-verbergen' class='text-blue-600 hover:underline font-medium'>je IP-adres verbergen</a>.",
           "Voor console-gamers op PlayStation of Xbox is dit extra relevant, aangezien peer-to-peer verbindingen in sommige games je IP kunnen blootstellen. Een VPN op je router of console lost dit op. Bekijk ook onze uitleg over <a href='/blog/vpn-op-playstation' class='text-blue-600 hover:underline font-medium'>VPN op de PlayStation</a>."
         ],
@@ -4438,7 +4438,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "WireGuard: het protocol met de laagste latency",
         "body": [
-          "Wil je gaming lag zoveel mogelijk beperken, dan is je keuze van VPN-protocol doorslaggevend. <strong>WireGuard</strong> is anno 2026 het snelste en meest efficiënte protocol met de laagste latency. Het heeft een compacte codebasis, snelle verbindingsopbouw en minimale overhead — precies wat je wilt voor gaming.",
+          "Wil je gaming lag zoveel mogelijk beperken, dan is je keuze van VPN-protocol doorslaggevend. <strong>WireGuard</strong> is anno 2026 het snelste en meest efficiënte protocol met de laagste latency. Het heeft een compacte codebasis, snelle verbindingsopbouw en minimale overhead, precies wat je wilt voor gaming.",
           "Vergeleken met oudere protocollen zoals OpenVPN presteert WireGuard aanzienlijk beter qua ping. NordVPN gebruikt een eigen variant genaamd NordLynx, gebaseerd op WireGuard, die vaak de allerlaagste latency levert. Surfshark en CyberGhost bieden WireGuard eveneens standaard aan.",
           "Zorg dus altijd dat WireGuard (of NordLynx) is geselecteerd in je VPN-instellingen als je gaat gamen. Een diepgaande vergelijking vind je in ons overzicht van <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>VPN-protocollen</a>."
         ],
@@ -4477,7 +4477,7 @@ export const posts: BlogPost[] = [
         "body": [
           "Wil je met een VPN het maximale uit je gaming-verbinding halen, houd dan de volgende punten aan. Kies een VPN-server zo dicht mogelijk bij de game-server, gebruik altijd WireGuard, en test je ping met en zonder VPN voordat je speelt. Voor consequente resultaten is een <a href='/blog/vpn-router-instellen' class='text-blue-600 hover:underline font-medium'>VPN op je router</a> handig, omdat je dan al je apparaten in één keer beschermt.",
           "Onze drie aanbevolen VPN's voor gaming zijn NordVPN (snelste dankzij NordLynx en sterke DDoS-bescherming), Surfshark (uitstekende prijs-kwaliteit met onbeperkt aantal apparaten) en CyberGhost (met dedicated gaming-servers). Een uitgebreide vergelijking staat op onze pagina <a href='/beste-vpn/voor-gaming' class='text-blue-600 hover:underline font-medium'>beste VPN voor gaming</a>.",
-          "Realiseer je wel: een VPN is geen wondermiddel voor slechte ping. Als je basisverbinding traag is of je speelt op een server ver weg, lost een VPN dat niet volledig op. Het is een gereedschap dat in specifieke situaties helpt — throttling omzeilen, betere routing en vooral DDoS-bescherming."
+          "Realiseer je wel: een VPN is geen wondermiddel voor slechte ping. Als je basisverbinding traag is of je speelt op een server ver weg, lost een VPN dat niet volledig op. Het is een gereedschap dat in specifieke situaties helpt: throttling omzeilen, betere routing en vooral DDoS-bescherming."
         ],
         "cta": "surfshark"
       }
