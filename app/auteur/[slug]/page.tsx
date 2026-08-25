@@ -19,7 +19,7 @@ export async function generateMetadata({
   const author = getAuthor(slug)
   if (!author) return {}
   return {
-    title: `${author.name} — ${author.title} | vpnr.nl`,
+    title: `${author.name}: ${author.title} | vpnr.nl`,
     description: author.shortBio,
     alternates: { canonical: `https://vpnr.nl/auteur/${author.slug}` },
   }
