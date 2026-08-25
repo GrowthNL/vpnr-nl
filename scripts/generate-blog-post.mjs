@@ -214,6 +214,7 @@ Geef UITSLUITEND een geldig JSON-object terug als antwoord. Geen uitleg, geen ma
 - ALLEEN Nederlands (nl-NL), formeel maar toegankelijk, geen anglicismen
 - Schrijf vanuit een onafhankelijke expert die eerlijk en betrouwbaar adviseert
 - Vermeld in de intro of eerste section kort dat vpnr.nl affiliate commissies ontvangt maar dat dit de beoordeling niet beïnvloedt
+- VERBODEN: em dashes (—). Gebruik NOOIT het teken —. Vervang altijd door een komma, punt of dubbele punt, of herschrijf de zin. Dit is een harde vereiste.
 
 ### Internal links (gebruik 3-5 links)
 Gebruik UITSLUITEND links die hieronder zijn opgesomd:
@@ -383,6 +384,17 @@ async function main() {
     console.error('--- EINDE OUTPUT ---')
     process.exit(1)
   }
+
+  // Verwijder em dashes die toch zijn ingeslopen (vangnet)
+  function stripEmDashes(val) {
+    if (typeof val === 'string') return val.replace(/ — /g, ', ').replace(/—/g, ', ')
+    if (Array.isArray(val)) return val.map(stripEmDashes)
+    if (val && typeof val === 'object') {
+      return Object.fromEntries(Object.entries(val).map(([k, v]) => [k, stripEmDashes(v)]))
+    }
+    return val
+  }
+  postData = stripEmDashes(postData)
 
   // Valideer verplichte velden
   const required = ['title', 'metaTitle', 'metaDescription', 'excerpt', 'intro', 'sections', 'faqs']
