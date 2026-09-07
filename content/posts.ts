@@ -5255,6 +5255,164 @@ export const posts: BlogPost[] = [
       "vpn gids"
     ]
   },
+  {
+    "slug": "vpn-op-linux-instellen",
+    "title": "VPN instellen op Linux (2026): Ubuntu, Debian en Mint gids",
+    "metaTitle": "VPN Linux Ubuntu instellen 2026: complete gids",
+    "metaDescription": "VPN op Linux (Ubuntu, Debian, Mint) instellen in 2026? Stap voor stap via CLI, NetworkManager of WireGuard. Complete gids met commando's.",
+    "excerpt": "Leer hoe je een VPN op Linux instelt: Ubuntu, Debian en Mint via CLI, NetworkManager of WireGuard, met kant-en-klare commando's.",
+    "category": "Gids",
+    "date": "7 september 2026",
+    "dateISO": "2026-09-07",
+    "updatedISO": "2026-09-07",
+    "readTime": "8 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-op-linux-instellen.jpg",
+    "imageAlt": "Laptop met Ubuntu-terminal waarin een VPN-verbinding op Linux wordt ingesteld",
+    "intro": "Een vpn op Linux (Ubuntu) instellen is eenvoudiger dan veel mensen denken, ook op Debian en Linux Mint. In deze gids laten we drie methodes zien: de officiële CLI-client, NetworkManager met een grafische interface en een handmatige WireGuard-configuratie. vpnr.nl is onafhankelijk en ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "Welke VPN werkt het best op Linux?",
+        "body": [
+          "Niet elke VPN-aanbieder heeft een fatsoenlijke Linux-app. De providers die op Linux echt goed werken zijn <strong>NordVPN</strong>, <strong>ProtonVPN</strong> en <strong>Surfshark</strong>. Alle drie bieden een native command line client die je via de pakketbeheerder installeert, plus ondersteuning voor WireGuard.",
+          "NordVPN heeft de meest verfijnde CLI-client voor Ubuntu en Debian, inclusief kill switch, split tunneling en automatische verbinding. ProtonVPN biedt naast een CLI ook een grafische app en staat bekend om zijn sterke privacybeleid. Surfshark is een goede budgetkeuze met onbeperkt aantal apparaten.",
+          "Wil je alleen vergelijken op prijs? Bekijk dan onze pagina met <a href='/beste-vpn/goedkoop' class='text-blue-600 hover:underline font-medium'>goedkope VPN's</a> of de actuele <a href='/blog/goedkoopste-vpn-deals' class='text-blue-600 hover:underline font-medium'>VPN-deals</a>."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Kies WireGuard",
+          "text": "Op Linux geeft het WireGuard-protocol vrijwel altijd de beste snelheid en de laagste latency. Gebruik het waar mogelijk."
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Methode 1: NordVPN CLI installeren op Ubuntu en Debian",
+        "body": [
+          "De snelste manier om een <strong>vpn op Linux (Ubuntu) in te stellen</strong> is via de officiële NordVPN CLI. Open een terminal en voer het installatiescript uit met dit commando: <em>sh &lt;(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)</em>. Dit werkt op Ubuntu, Debian en Mint.",
+          "Voeg daarna je gebruiker toe aan de nordvpn-groep zodat je zonder root kunt verbinden: <em>sudo usermod -aG nordvpn $USER</em>. Log daarna uit en weer in, of herstart je systeem. Log vervolgens in met <em>nordvpn login</em> en volg de link in je browser.",
+          "Verbinden doe je met <em>nordvpn connect</em> voor de snelste server, of bijvoorbeeld <em>nordvpn connect Netherlands</em> voor een specifiek land. Zet de kill switch aan met <em>nordvpn set killswitch on</em> en kies WireGuard via <em>nordvpn set technology nordlynx</em>.",
+          "Meer weten over besparen? Bekijk onze <a href='/blog/nordvpn-korting' class='text-blue-600 hover:underline font-medium'>NordVPN korting</a> of lees de volledige <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN review</a>."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Methode 2: ProtonVPN op Linux installeren",
+        "body": [
+          "ProtonVPN biedt een officiële repository voor Debian-gebaseerde systemen zoals Ubuntu en Mint. Download eerst het configuratiepakket van de ProtonVPN-website en installeer het met <em>sudo dpkg -i protonvpn-stable-release_*.deb</em>, gevolgd door <em>sudo apt update</em>.",
+          "Installeer daarna de grafische app met <em>sudo apt install proton-vpn-gnome-desktop</em>, of kies de CLI met <em>sudo apt install protonvpn-cli</em>. De grafische app is handig voor wie liever klikt dan typt, terwijl de CLI ideaal is voor servers zonder desktopomgeving.",
+          "Log in de app in met je Proton-account, kies een server en verbind. ProtonVPN gebruikt standaard WireGuard voor de beste prestaties. Lees onze volledige <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN review</a> voor alle details over snelheid en privacy."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Gratis optie",
+          "text": "ProtonVPN heeft als enige grote aanbieder een echte gratis versie zonder datalimiet, al is de serverkeuze beperkt."
+        },
+        "cta": "protonvpn"
+      },
+      {
+        "heading": "Methode 3: VPN via NetworkManager (grafisch)",
+        "body": [
+          "Wil je geen aparte app installeren? Dan kun je op Ubuntu, Debian en Mint een VPN toevoegen via NetworkManager, de ingebouwde netwerkbeheerder met een grafische interface. Dit werkt met OpenVPN- en WireGuard-configuratiebestanden die je bij je provider downloadt.",
+          "Installeer eerst de benodigde plugins met <em>sudo apt install network-manager-openvpn-gnome network-manager-wireguard</em> (voor WireGuard kan de pakketnaam per distributie verschillen). Ga daarna naar Instellingen, Netwerk, klik op het plusje bij VPN en importeer je .ovpn- of .conf-bestand.",
+          "Deze methode is handig omdat de VPN-verbinding netjes in je systeemtray verschijnt en automatisch kan herverbinden. Het nadeel: je mist geavanceerde functies zoals split tunneling en een systeembrede kill switch die de officiële apps wel bieden."
+        ]
+      },
+      {
+        "heading": "Methode 4: WireGuard handmatig instellen",
+        "body": [
+          "Voor maximale controle stel je WireGuard handmatig in. Installeer de tools met <em>sudo apt install wireguard resolvconf</em>. Vraag daarna een WireGuard-configuratiebestand aan bij je provider (NordVPN, ProtonVPN en Surfshark bieden dit allemaal aan) en sla het op als bijvoorbeeld <em>/etc/wireguard/wg0.conf</em>.",
+          "Start de verbinding met <em>sudo wg-quick up wg0</em> en verbreek hem met <em>sudo wg-quick down wg0</em>. Controleer de status met <em>sudo wg show</em>. Wil je automatisch verbinden bij het opstarten? Gebruik dan <em>sudo systemctl enable wg-quick@wg0</em>.",
+          "Vergeet niet je verbinding te testen op lekken. Onze <a href='/blog/vpn-dns-lek-test' class='text-blue-600 hover:underline font-medium'>DNS-lek test</a> laat zien of je echte IP-adres verborgen blijft, en op <a href='/blog/wat-is-mijn-ip-adres' class='text-blue-600 hover:underline font-medium'>wat is mijn IP-adres</a> controleer je meteen je nieuwe locatie."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Bescherm je configbestand",
+          "text": "Een WireGuard .conf bevat je privésleutel. Beperk de rechten met sudo chmod 600 /etc/wireguard/wg0.conf zodat anderen het niet kunnen lezen."
+        }
+      },
+      {
+        "heading": "Vergelijking: welke methode kies je?",
+        "body": [
+          "De juiste methode hangt af van je ervaring en wensen. De officiële CLI-clients van NordVPN en ProtonVPN zijn het gebruiksvriendelijkst en bieden alle beveiligingsfuncties. NetworkManager is ideaal voor wie een grafische interface wil, en handmatig WireGuard geeft de meeste controle.",
+          "Voor de meeste Linux-gebruikers raden we een native app met WireGuard aan. Twijfel je nog tussen aanbieders? Lees dan onze vergelijking <a href='/blog/nordvpn-vs-protonvpn' class='text-blue-600 hover:underline font-medium'>NordVPN vs ProtonVPN</a> of bekijk het complete <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-overzicht</a>."
+        ],
+        "table": {
+          "headers": [
+            "Methode",
+            "Moeilijkheid",
+            "Kill switch",
+            "Beste voor"
+          ],
+          "rows": [
+            [
+              "NordVPN CLI",
+              "Makkelijk",
+              "Ja",
+              "Meeste gebruikers"
+            ],
+            [
+              "ProtonVPN app",
+              "Makkelijk",
+              "Ja",
+              "Privacy en gratis"
+            ],
+            [
+              "NetworkManager",
+              "Gemiddeld",
+              "Beperkt",
+              "Grafische interface"
+            ],
+            [
+              "WireGuard handmatig",
+              "Gevorderd",
+              "Nee (zelf regelen)",
+              "Maximale controle"
+            ]
+          ]
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Hoe stel ik een VPN in op Ubuntu?",
+        "answer": "Installeer de officiële CLI-client van je provider, bijvoorbeeld NordVPN via een installatiescript, log in met je account en verbind met het commando nordvpn connect. Alternatief kun je een VPN toevoegen via NetworkManager of WireGuard handmatig instellen."
+      },
+      {
+        "question": "Werkt NordVPN op Linux?",
+        "answer": "Ja, NordVPN heeft een volwaardige command line client voor Ubuntu, Debian, Mint en andere distributies. Je installeert hem via een script en gebruikt commando's zoals nordvpn connect. Kill switch en split tunneling worden ondersteund."
+      },
+      {
+        "question": "Wat is de beste VPN voor Linux in 2026?",
+        "answer": "NordVPN, ProtonVPN en Surfshark werken het best op Linux dankzij native CLI-clients en WireGuard-ondersteuning. NordVPN heeft de meest complete client, ProtonVPN biedt ook een gratis versie en een grafische app."
+      },
+      {
+        "question": "Kan ik WireGuard gebruiken op Debian?",
+        "answer": "Ja, installeer WireGuard met sudo apt install wireguard, plaats een configuratiebestand van je provider in /etc/wireguard en start de verbinding met sudo wg-quick up wg0. Dit werkt op Debian, Ubuntu en Mint."
+      },
+      {
+        "question": "Heb ik een grafische interface nodig voor een VPN op Linux?",
+        "answer": "Nee. De CLI-clients werken volledig via de terminal en zijn ideaal voor servers. Wil je toch klikken, dan bieden ProtonVPN een grafische app en NetworkManager een menu in je systeemtray."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "protonvpn",
+      "surfshark"
+    ],
+    "relatedSlugs": [
+      "vpn-protocol-vergelijking",
+      "nordvpn-vs-protonvpn",
+      "vpn-dns-lek-test"
+    ],
+    "tags": [
+      "vpn linux",
+      "ubuntu vpn",
+      "debian vpn",
+      "wireguard",
+      "linux mint vpn",
+      "nordvpn linux"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {

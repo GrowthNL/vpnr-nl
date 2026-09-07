@@ -112,3 +112,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-snelheid-verbeteren — VPN te traag? 8 tips om je VPN-snelheid te verbeteren (2026)
 - https://vpnr.nl/blog/vpn-legaal-in-nederland — Is een VPN legaal in Nederland? Alles wat je moet weten (2026)
 - https://vpnr.nl/blog/vpn-op-chromebook — VPN op Chromebook instellen (2026): app, Linux of ingebouwd
+- https://vpnr.nl/blog/vpn-op-linux-instellen — VPN instellen op Linux (2026): Ubuntu, Debian en Mint gids
