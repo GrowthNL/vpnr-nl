@@ -824,31 +824,31 @@ export const posts: BlogPost[] = [
   // ─── AUTO-GEGENEREERD ────────────────────────────────────────────
   {
     slug: "nordvpn-korting",
-    title: "NordVPN korting juni 2026: actuele deals en aanbiedingen",
-    metaTitle: "NordVPN korting juni 2026: bespaar tot 74% vandaag",
-    metaDescription: "Actuele NordVPN korting en deals voor juni 2026. Ontdek de beste aanbiedingen, vergelijk prijzen en bespaar tot 74% op je VPN-abonnement.",
-    excerpt: "Ontdek de actuele NordVPN kortingen voor juni 2026 en bespaar tot 74% op je abonnement met onze exclusieve deals.",
+    title: "NordVPN korting september 2026: actuele deals en aanbiedingen",
+    metaTitle: "NordVPN korting september 2026: bespaar tot 74% vandaag",
+    metaDescription: "Actuele NordVPN korting en deals voor september 2026. Ontdek de beste aanbiedingen, vergelijk prijzen en bespaar tot 74% op je VPN-abonnement.",
+    excerpt: "Ontdek de actuele NordVPN kortingen voor september 2026 en bespaar tot 74% op je abonnement met onze exclusieve deals.",
     category: "Deals",
-    date: "26 mei 2026",
-    dateISO: "2026-05-26",
-    updatedISO: "2026-05-26",
+    date: "7 september 2026",
+    dateISO: "2026-09-07",
+    updatedISO: "2026-09-07",
     readTime: "6 min",
     author: "Tim Verhoeven",
     image: "/blog/nordvpn-korting.jpg",
     imageAlt: "NordVPN korting 2026, donkerblauw tech concept met kortingspercentage symbool",
-    intro: "Zoek je de beste NordVPN korting voor juni 2026? Je betaalt al snel te veel als je zonder deal een VPN afsluit. In dit artikel vind je alle actuele aanbiedingen, exclusieve kortingscodes en slimme bespaartips om NordVPN voor de laagste prijs te krijgen.",
+    intro: "Zoek je de beste NordVPN korting voor september 2026? Je betaalt al snel te veel als je zonder deal een VPN afsluit. In dit artikel vind je alle actuele aanbiedingen, exclusieve kortingscodes en slimme bespaartips om NordVPN voor de laagste prijs te krijgen.",
     sections: [
       {
-        heading: "Wat is de huidige NordVPN korting in juni 2026?",
+        heading: "Wat is de huidige NordVPN korting in september 2026?",
         body: [
-          "De huidige NordVPN korting in juni 2026 bedraagt tot <strong>74% korting</strong> op het 2-jarig abonnement, plus 3 maanden gratis. Dit betekent dat je €2,99 per maand betaalt in plaats van de reguliere maandprijs van €11,99.",
-          "NordVPN past zijn prijzen regelmatig aan op basis van seizoensgebonden acties. De beste deals verschijnen meestal rond Black Friday, Cyber Monday en de zomerperiode. Op dit moment loopt de zomercampagne die nog tot eind juni 2026 geldig is.",
+          "De huidige NordVPN korting in september 2026 bedraagt tot <strong>74% korting</strong> op het 2-jarig abonnement, plus 3 maanden gratis. Dit betekent dat je €2,99 per maand betaalt in plaats van de reguliere maandprijs van €11,99.",
+          "NordVPN past zijn prijzen regelmatig aan op basis van seizoensgebonden acties. De beste deals verschijnen meestal rond Black Friday, Cyber Monday en de zomerperiode. Op dit moment loopt de najaarsactie, traditioneel de laatste grote campagne voor Black Friday in november.",
           "Let op: deze korting geldt alleen voor nieuwe klanten. Bestaande gebruikers kunnen soms profiteren van verlengingskortingen via de NordVPN-app of via speciale e-mailaanbiedingen."
         ],
         highlight: {
           type: "stat",
           title: "Actuele besparing",
-          text: "Met de juni 2026-deal bespaar je €243,72 over 2 jaar vergeleken met maandelijkse betalingen."
+          text: "Met de september 2026-deal bespaar je €243,72 over 2 jaar vergeleken met maandelijkse betalingen."
         },
         cta: "nordvpn"
       },
@@ -902,7 +902,7 @@ export const posts: BlogPost[] = [
         body: [
           "De beste NordVPN-aanbiedingen verschijnen tijdens <strong>Black Friday</strong> (november), <strong>Cyber Monday</strong> en de <strong>zomeruitverkoop</strong> (juni-juli). Tijdens deze periodes stijgen kortingen soms tot 77% met extra gratis maanden.",
           "NordVPN lanceert ook regelmatig flash sales die slechts 24-48 uur duren. Deze worden aangekondigd via de nieuwsbrief en sociale media. Schrijf je in voor de NordVPN-nieuwsbrief om geen deal te missen.",
-          "Wacht je op een betere deal? Dat kan riskant zijn. De huidige juni-korting van 74% is historisch gezien een van de hoogste die NordVPN buiten Black Friday aanbiedt. Het verschil met de absolute topdeals bedraagt meestal slechts 2-3%."
+          "Wacht je op Black Friday in november? De huidige september-korting van 74% zit al dicht bij de Black Friday-prijzen. Het verschil bedraagt historisch gezien slechts 2-3%, terwijl je nu al 30 dagen geld-terug-garantie hebt."
         ],
         highlight: {
           type: "info",
@@ -922,8 +922,8 @@ export const posts: BlogPost[] = [
     ],
     faqs: [
       {
-        question: "Hoe lang is de NordVPN korting van juni 2026 geldig?",
-        answer: "De huidige NordVPN-actie met 74% korting loopt tot en met 30 juni 2026. Daarna kunnen de prijzen wijzigen, hoewel NordVPN vaak naadloos overgaat naar een nieuwe campagne met vergelijkbare kortingen."
+        question: "Hoe lang is de NordVPN korting van september 2026 geldig?",
+        answer: "De huidige NordVPN-actie met 74% korting loopt tot het begin van de Black Friday-periode in november 2026. Daarna volgt normaal een vergelijkbare of soms iets scherpere Black Friday-deal."
       },
       {
         question: "Kan ik NordVPN korting combineren met een kortingscode?",
@@ -1859,31 +1859,31 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'surfshark-korting',
-    title: 'Surfshark korting juni 2026, bespaar tot 87% op je abonnement',
-    metaTitle: 'Surfshark Korting Juni 2026, Actuele Deals & Aanbiedingen',
-    metaDescription: 'Actuele Surfshark korting voor juni 2026. Bespaar tot 87% op het 2-jarig abonnement + 3 maanden gratis. Vergelijk plannen en activeer de beste deal vandaag.',
-    excerpt: 'Ontdek de actuele Surfshark kortingen voor juni 2026 en bespaar tot 87% op je abonnement, inclusief onbeperkt apparaten voor minder dan €2,50 per maand.',
+    title: 'Surfshark korting september 2026, bespaar tot 87% op je abonnement',
+    metaTitle: 'Surfshark Korting September 2026, Actuele Deals & Aanbiedingen',
+    metaDescription: 'Actuele Surfshark korting voor september 2026. Bespaar tot 87% op het 2-jarig abonnement + 3 maanden gratis. Vergelijk plannen en activeer de beste deal vandaag.',
+    excerpt: 'Ontdek de actuele Surfshark kortingen voor september 2026 en bespaar tot 87% op je abonnement, inclusief onbeperkt apparaten voor minder dan €2,50 per maand.',
     category: 'Deals',
-    date: '22 juni 2026',
-    dateISO: '2026-06-22',
-    updatedISO: '2026-06-22',
+    date: '7 september 2026',
+    dateISO: '2026-09-07',
+    updatedISO: '2026-09-07',
     readTime: '6 min',
     author: 'Tim Verhoeven',
     image: '/blog/surfshark-korting.jpg',
     imageAlt: 'Surfshark korting 2026, teal VPN app interface met kortingspercentage en schildlogo',
-    intro: 'Surfshark is al jaren een van de voordeligste premium VPN\'s, maar met de juiste korting wordt het nóg aantrekkelijker. In juni 2026 biedt Surfshark tot 87% korting op het tweejarig abonnement, inclusief 3 extra maanden gratis. In dit artikel vind je alle actuele deals, een vergelijking van de abonnementen en praktische tips om zeker de laagste prijs te pakken.',
+    intro: 'Surfshark is al jaren een van de voordeligste premium VPN\'s, maar met de juiste korting wordt het nóg aantrekkelijker. In september 2026 biedt Surfshark tot 87% korting op het tweejarig abonnement, inclusief 3 extra maanden gratis. In dit artikel vind je alle actuele deals, een vergelijking van de abonnementen en praktische tips om zeker de laagste prijs te pakken.',
     sections: [
       {
-        heading: 'Wat is de huidige Surfshark korting in juni 2026?',
+        heading: 'Wat is de huidige Surfshark korting in september 2026?',
         body: [
-          'De actuele Surfshark korting in juni 2026 bedraagt tot <strong>87% op het 2-jarig abonnement</strong>, plus 3 maanden gratis. Daarmee kom je uit op <strong>€1,99 per maand</strong> (Starter-plan) voor een totaalperiode van 27 maanden.',
-          'Surfshark past zijn aanbiedingen meerdere keren per jaar aan, met de grootste kortingen rond de zomer, Black Friday en Nieuwjaar. De huidige zomercampagne is historisch gezien een van de sterkste en loopt naar verwachting tot eind juni 2026.',
+          'De actuele Surfshark korting in september 2026 bedraagt tot <strong>87% op het 2-jarig abonnement</strong>, plus 3 maanden gratis. Daarmee kom je uit op <strong>€1,99 per maand</strong> (Starter-plan) voor een totaalperiode van 27 maanden.',
+          'Surfshark past zijn aanbiedingen meerdere keren per jaar aan, met de grootste kortingen rond de zomer, Black Friday en Nieuwjaar. De huidige najaarsactie is historisch gezien een van de sterkste buiten Black Friday en loopt naar verwachting tot begin november 2026.',
           'Let op: de scherpe introductieprijs geldt voor de eerste abonnementsperiode. Bij automatische verlenging na 2 jaar gelden de reguliere tarieven. Plan vooruit en stap in tijdens de actieperiode om maximaal te besparen.',
         ],
         highlight: {
           type: 'stat',
           title: 'Actuele besparing',
-          text: 'Met de juni 2026-deal betaal je €53,73 voor 27 maanden in plaats van €416,65 bij maandelijks betalen, een besparing van ruim €360.',
+          text: 'Met de september 2026-deal betaal je €53,73 voor 27 maanden in plaats van €416,65 bij maandelijks betalen, een besparing van ruim €360.',
         },
         cta: 'surfshark',
       },
@@ -1917,7 +1917,7 @@ export const posts: BlogPost[] = [
         },
       },
       {
-        heading: 'Surfshark vs. NordVPN: welke deal is beter in juni 2026?',
+        heading: 'Surfshark vs. NordVPN: welke deal is beter in september 2026?',
         body: [
           'Surfshark en NordVPN zijn de twee populairste VPN\'s voor Nederlandse gebruikers. Op prijs wint Surfshark duidelijk: €1,99/maand tegenover €3,39/maand bij NordVPN. Maar er zijn meer verschillen om rekening mee te houden.',
           '<a href="/vpn-reviews/nordvpn">NordVPN</a> is sneller (NordLynx-protocol) en heeft een groter servernetwerk (6.400+ vs. 3.200+). Surfshark compenseert dat met onbeperkt apparaten en een lagere prijs. Ben je niet de enige gebruiker of heb je meerdere apparaten? Dan is Surfshark vrijwel altijd de slimmere keuze.',
@@ -1937,7 +1937,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Wanneer zijn de beste Surfshark-aanbiedingen te verwachten?',
         body: [
-          'Surfshark houdt traditioneel vier grote actieperiodes per jaar: <strong>zomer</strong> (juni–augustus), <strong>Black Friday</strong> (november), <strong>Cyber Monday</strong> en <strong>Nieuwjaar</strong>. De huidige zomerdeal met 87% is al erg scherp, vergelijkbaar met de Black Friday-prijzen.',
+          'Surfshark houdt traditioneel vier grote actieperiodes per jaar: <strong>zomer</strong> (juni–augustus), <strong>Black Friday</strong> (november), <strong>Cyber Monday</strong> en <strong>Nieuwjaar</strong>. De huidige najaarsactie met 87% is al erg scherp, vergelijkbaar met de Black Friday-prijzen die in november volgen.',
           'Buiten de grote salesperiodes schommelt de korting op het tweejarig plan tussen de 75% en 83%. Wachten op een nog betere deal is dus zelden zinvol: het verschil bedraagt hooguit een paar euro over de volledige looptijd.',
           'Surfshark biedt ook soms flash sales via nieuwsbrief of social media. Abonneer je op de Surfshark-mailinglist om als eerste te horen over tijdelijke extra kortingen.',
         ],
@@ -1952,15 +1952,15 @@ export const posts: BlogPost[] = [
         body: [
           'Surfshark levert voor €1,99 per maand een volwaardige premium VPN die je complete netwerk beschermt, van laptop tot smart-tv, zonder limiet op het aantal apparaten. Dat maakt het een van de beste prijs-kwaliteitsopties op de markt.',
           'In onze tests scoort Surfshark een <strong>9.2/10 overall</strong>: uitstekend op beveiliging (AES-256, kill switch, no-logs), solide snelheden via WireGuard en betrouwbare deblokkering van Netflix, Disney+ en Videoland. Lees de volledige <a href="/vpn-reviews/surfshark">Surfshark review</a> voor alle testresultaten.',
-          'Voor gezinnen, huishoudens met veel apparaten of iedereen die op prijs let, is dit de sterkste VPN-deal in juni 2026. Het tweejarig plan met 3 maanden gratis is het meest voordelig en dekt je tot het derde kwartaal van 2028.',
+          'Voor gezinnen, huishoudens met veel apparaten of iedereen die op prijs let, is dit de sterkste VPN-deal in september 2026. Het tweejarig plan met 3 maanden gratis is het meest voordelig en dekt je tot het derde kwartaal van 2028.',
         ],
         cta: 'surfshark',
       },
     ],
     faqs: [
       {
-        question: 'Hoe lang is de Surfshark korting van juni 2026 geldig?',
-        answer: 'De huidige actie met 87% korting en 3 maanden gratis loopt naar verwachting tot eind juni 2026. Daarna stapt Surfshark doorgaans over op een nieuwe campagne met vergelijkbare kortingen.',
+        question: 'Hoe lang is de Surfshark korting van september 2026 geldig?',
+        answer: 'De huidige actie met 87% korting en 3 maanden gratis loopt naar verwachting tot begin november 2026, waarna de Black Friday-campagne start. Die is soms iets scherper, maar het verschil is minimaal.',
       },
       {
         question: 'Heb ik een kortingscode nodig voor Surfshark?',
