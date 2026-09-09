@@ -5413,6 +5413,147 @@ export const posts: BlogPost[] = [
       "nordvpn linux"
     ]
   },
+  {
+    "slug": "vpn-no-logs-beleid",
+    "title": "VPN no-logs beleid uitgelegd: wat betekent het echt? (2026)",
+    "metaTitle": "VPN no-logs beleid uitgelegd: eerlijk overzicht 2026",
+    "metaDescription": "VPN no-logs beleid uitgelegd: leer het verschil tussen verbindings- en activiteitslogs, welke audits tellen en welke VPN je echt kunt vertrouwen.",
+    "excerpt": "VPN no-logs beleid uitgelegd: ontdek wat providers echt bijhouden, welke audits betrouwbaar zijn en hoe RAM-only servers je privacy beschermen.",
+    "category": "Uitleg",
+    "date": "9 september 2026",
+    "dateISO": "2026-09-09",
+    "updatedISO": "2026-09-09",
+    "readTime": "8 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-no-logs-beleid.jpg",
+    "imageAlt": "Serverruimte met blauwe verlichting die staat voor een VPN no-logs beleid en privacybescherming",
+    "intro": "Een vpn no-logs beleid klinkt geruststellend, maar wat betekent het nou echt? In dit artikel leggen we uit welke gegevens VPN-aanbieders wel en niet bijhouden, waarom onafhankelijke audits belangrijk zijn en hoe je een echt logvrije provider herkent. Zo weet je precies waar je op moet letten voordat je je privacy toevertrouwt aan een VPN.",
+    "sections": [
+      {
+        "heading": "Wat betekent een no-logs beleid precies?",
+        "body": [
+          "Een no-logs beleid houdt in dat een VPN-aanbieder geen gegevens bewaart over wat je online doet. In theorie kan de provider dan niets overhandigen aan autoriteiten of hackers, simpelweg omdat de informatie niet bestaat. Maar 'no logs' is geen wettelijk beschermde term, dus in de praktijk verschilt het enorm per aanbieder wat er precies wordt vastgelegd.",
+          "Het is belangrijk om te weten dat vpnr.nl affiliate commissies ontvangt wanneer je via onze links een abonnement afsluit. Dit beïnvloedt onze beoordelingen niet: we baseren adviezen op onafhankelijke audits, transparantie en bewezen praktijkgevallen.",
+          "Om een goede keuze te maken, moet je begrijpen dat er twee soorten logs bestaan. Het verschil daartussen bepaalt of een claim van 'geen logs' daadwerkelijk iets waard is."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Geen wettelijke definitie",
+          "text": "De term 'no logs' is niet beschermd. Alleen een onafhankelijke audit kan bevestigen wat een aanbieder werkelijk opslaat."
+        }
+      },
+      {
+        "heading": "Verbindingslogs versus activiteitslogs",
+        "body": [
+          "Er is een cruciaal onderscheid tussen twee typen gegevens. <strong>Verbindingslogs</strong> (ook wel metadata) omvatten zaken als het tijdstip waarop je verbindt, de duur van de sessie, de hoeveelheid verbruikte data en soms je oorspronkelijke IP-adres. Deze gegevens onthullen niet wat je bekeek, maar kunnen wel worden gebruikt om patronen te herleiden.",
+          "<strong>Activiteitslogs</strong> zijn veel gevoeliger. Hierbij worden je bezochte websites, gedownloade bestanden, gebruikte diensten en zoekgeschiedenis vastgelegd. Een VPN die dit bijhoudt biedt in feite geen privacy. Een echt no-logs beleid betekent dat noch verbindings-, noch activiteitslogs permanent worden bewaard.",
+          "Let goed op de kleine lettertjes. Sommige aanbieders claimen 'geen activiteitslogs' maar houden wel verbindingsgegevens bij. Dat is een belangrijk verschil wanneer je écht anoniem wilt internetten. Lees hierover meer in ons artikel over <a href='/blog/vpn-anoniem-internetten' class='text-blue-600 hover:underline font-medium'>anoniem internetten met een VPN</a>."
+        ],
+        "table": {
+          "headers": [
+            "Type log",
+            "Wat wordt vastgelegd",
+            "Privacyrisico"
+          ],
+          "rows": [
+            [
+              "Verbindingslogs",
+              "Tijdstip, sessieduur, dataverbruik, soms IP",
+              "Gemiddeld"
+            ],
+            [
+              "Activiteitslogs",
+              "Bezochte sites, downloads, zoekopdrachten",
+              "Hoog"
+            ],
+            [
+              "Geen logs",
+              "Niets permanents opgeslagen",
+              "Minimaal"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Waarom onafhankelijke audits het verschil maken",
+        "body": [
+          "Een belofte op een website is makkelijk gemaakt. Daarom is een onafhankelijke audit door een gerenommeerd accountantskantoor de enige echte manier om een no-logs claim te controleren. Bij zo'n audit krijgen externe experts toegang tot de servers en systemen om te verifiëren dat er inderdaad niets wordt opgeslagen.",
+          "<a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> heeft zijn no-logs beleid meerdere keren laten controleren door Deloitte, een van de grootste accountantskantoren ter wereld. <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN</a> gaat nog een stap verder door de broncode van zijn apps volledig open source te maken, zodat iedereen kan meekijken. Deze transparantie is precies wat je zoekt.",
+          "Kijk niet alleen óf er een audit is uitgevoerd, maar ook wanneer en door wie. Een audit uit 2018 zegt weinig over de situatie in 2026. Regelmatige, recente controles wijzen op een serieuze inzet voor privacy."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Controleer de auditdatum",
+          "text": "Kies bij voorkeur een VPN die zijn no-logs beleid recent en herhaaldelijk heeft laten auditen door een onafhankelijke partij."
+        },
+        "cta": "protonvpn"
+      },
+      {
+        "heading": "Bewijs uit de praktijk: rechtszaken en RAM-only servers",
+        "body": [
+          "De sterkste bevestiging van een no-logs beleid komt niet uit marketing, maar uit de rechtszaal. Er zijn diverse gevallen bekend waarbij autoriteiten een VPN-aanbieder verplichtten om gebruikersgegevens te overhandigen. Bij providers met een echt logvrij beleid kon er simpelweg niets worden geleverd, omdat de data nooit had bestaan.",
+          "Een moderne technische maatregel die hierbij helpt zijn <strong>RAM-only servers</strong>. Deze servers slaan alle gegevens uitsluitend op in werkgeheugen. Bij elke herstart wordt alles gewist, waardoor er fysiek geen permanente opslag van gegevens mogelijk is. Zowel NordVPN als ProtonVPN zetten deze technologie in.",
+          "Deze combinatie van bewezen rechtszaken en RAM-only infrastructuur geeft veel meer zekerheid dan een simpele belofte. Het laat zien dat het no-logs beleid niet alleen op papier bestaat, maar ook technisch is afgedwongen."
+        ]
+      },
+      {
+        "heading": "Het belang van jurisdictie",
+        "body": [
+          "Waar een VPN-aanbieder juridisch is gevestigd, bepaalt aan welke wetten hij moet voldoen. Landen binnen internationale inlichtingenallianties kunnen aanbieders in principe dwingen gegevens te bewaren. Toch is dit minder problematisch als een provider aantoonbaar geen logs bijhoudt, want dan valt er niets te overhandigen.",
+          "ProtonVPN is gevestigd in Zwitserland, dat bekendstaat om sterke privacywetgeving. <a href='/vpn-reviews/hideme' class='text-blue-600 hover:underline font-medium'>hide.me</a> zit in Maleisië, buiten de gebruikelijke inlichtingenallianties. Deze factoren dragen bij aan een sterkere privacypositie, hoewel een geaudit no-logs beleid uiteindelijk zwaarder weegt.",
+          "Wil je zeker weten dat een VPN legaal en veilig te gebruiken is in ons land? Lees dan ons artikel over <a href='/blog/vpn-legaal-in-nederland' class='text-blue-600 hover:underline font-medium'>VPN's en de wet in Nederland</a> voor de details."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Hoe herken je een betrouwbaar no-logs beleid?",
+        "body": [
+          "Een echt betrouwbare VPN combineert meerdere factoren. Let op een recent uitgevoerde onafhankelijke audit, RAM-only servers, een gunstige jurisdictie en idealiter bewezen gevallen waarin de provider geen gegevens kon overhandigen. Een transparant privacybeleid dat duidelijk beschrijft wat wel en niet wordt opgeslagen, is een goed teken.",
+          "Wees kritisch op gratis VPN's. Deze verdienen vaak geld door juist wél gegevens te verzamelen en te verkopen. In ons artikel over de <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>gevaren van gratis VPN's</a> lees je waarom een betaalde dienst met een geaudit no-logs beleid je privacy beter beschermt.",
+          "Op basis van bewezen audits en transparantie behoren ProtonVPN, NordVPN en hide.me tot de betrouwbaarste keuzes van 2026. Wil je zelf verder vergelijken? Gebruik dan onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijker</a> om providers naast elkaar te zetten."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat betekent een no-logs beleid bij een VPN?",
+        "answer": "Een no-logs beleid betekent dat de VPN-aanbieder geen gegevens bewaart over je online activiteiten. Idealiter worden noch verbindingslogs (zoals tijdstippen) noch activiteitslogs (zoals bezochte sites) permanent opgeslagen, zodat er niets te overhandigen valt aan derden."
+      },
+      {
+        "question": "Kan een VPN echt garanderen dat er geen logs zijn?",
+        "answer": "De sterkste garantie komt van onafhankelijke audits en RAM-only servers. Aanbieders zoals NordVPN (geaudit door Deloitte) en ProtonVPN (open source) hebben laten verifiëren dat ze geen logs bewaren, wat betrouwbaarder is dan een simpele belofte op de website."
+      },
+      {
+        "question": "Wat is het verschil tussen verbindingslogs en activiteitslogs?",
+        "answer": "Verbindingslogs bevatten metadata zoals tijdstip, sessieduur en dataverbruik. Activiteitslogs leggen vast welke websites je bezoekt en wat je downloadt. Activiteitslogs zijn veel gevoeliger. Een echt no-logs beleid bewaart geen van beide permanent."
+      },
+      {
+        "question": "Wat zijn RAM-only servers en waarom zijn ze belangrijk?",
+        "answer": "RAM-only servers slaan alle gegevens uitsluitend in werkgeheugen op. Bij elke herstart wordt alles gewist, waardoor permanente opslag van gebruikersdata technisch onmogelijk is. Dit versterkt een no-logs beleid aanzienlijk."
+      },
+      {
+        "question": "Welke VPN heeft het meest betrouwbare no-logs beleid?",
+        "answer": "ProtonVPN, NordVPN en hide.me behoren tot de betrouwbaarste keuzes in 2026. Ze combineren onafhankelijke audits, RAM-only servers en gunstige jurisdicties, wat samen zorgt voor een sterk en verifieerbaar no-logs beleid."
+      }
+    ],
+    "relatedProviders": [
+      "protonvpn",
+      "nordvpn",
+      "hideme"
+    ],
+    "relatedSlugs": [
+      "vpn-anoniem-internetten",
+      "gratis-vpn-gevaren",
+      "vpn-legaal-in-nederland"
+    ],
+    "tags": [
+      "no-logs beleid",
+      "vpn privacy",
+      "vpn audit",
+      "ram-only servers",
+      "anoniem internetten"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {

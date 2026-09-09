@@ -113,3 +113,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-legaal-in-nederland — Is een VPN legaal in Nederland? Alles wat je moet weten (2026)
 - https://vpnr.nl/blog/vpn-op-chromebook — VPN op Chromebook instellen (2026): app, Linux of ingebouwd
 - https://vpnr.nl/blog/vpn-op-linux-instellen — VPN instellen op Linux (2026): Ubuntu, Debian en Mint gids
+- https://vpnr.nl/blog/vpn-no-logs-beleid — VPN no-logs beleid uitgelegd: wat betekent het echt? (2026)
