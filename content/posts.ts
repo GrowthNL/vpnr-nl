@@ -399,22 +399,22 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'goedkoopste-vpn-deals',
-    title: 'De goedkoopste VPN-deals van juni 2026',
-    metaTitle: 'Goedkoopste VPN-deals juni 2026 | Beste Aanbiedingen & Kortingen | vpnr.nl',
-    metaDescription: 'Overzicht van de beste VPN-aanbiedingen van juni 2026. Bespaar tot 87% met de juiste deal. Inclusief onze eerlijke beoordeling per budget en tips voor de laagste prijs.',
-    excerpt: 'Een overzicht van de beste VPN-aanbiedingen van juni 2026. Bespaar tot 87% met onze verzamelde deals en ontdek welke VPN de beste prijs-kwaliteit biedt.',
+    title: 'De goedkoopste VPN-deals van september 2026',
+    metaTitle: 'Goedkoopste VPN-deals september 2026 | Beste Aanbiedingen & Kortingen | vpnr.nl',
+    metaDescription: 'Overzicht van de beste VPN-aanbiedingen van september 2026. Bespaar tot 87% met de juiste deal. Inclusief onze eerlijke beoordeling per budget en tips voor de laagste prijs.',
+    excerpt: 'Een overzicht van de beste VPN-aanbiedingen van september 2026. Bespaar tot 87% met onze verzamelde deals en ontdek welke VPN de beste prijs-kwaliteit biedt.',
     category: 'Deals',
-    date: '1 mei 2026',
-    dateISO: '2026-05-01',
-    updatedISO: '2026-06-22',
+    date: '10 september 2026',
+    dateISO: '2026-09-10',
+    updatedISO: '2026-09-10',
     readTime: '3 min',
     author: 'Tim Verhoeven',
     image: '/blog/goedkoopste-vpn-deals.jpg',
     imageAlt: 'Goedkope VPN deals 2026, kortingssymbolen in donkerblauwe digitale omgeving',
-    intro: 'Een goede VPN hoeft helemaal niet duur te zijn. Met de juiste deal betaal je soms minder dan €2 per maand voor premium bescherming van topmerken. Dit zijn de beste VPN-aanbiedingen van juni 2026, van budgetvriendelijk tot premium.',
+    intro: 'Een goede VPN hoeft helemaal niet duur te zijn. Met de juiste deal betaal je soms minder dan €2 per maand voor premium bescherming van topmerken. Dit zijn de beste VPN-aanbiedingen van september 2026, van budgetvriendelijk tot premium.',
     sections: [
       {
-        heading: 'De beste VPN-aanbiedingen van juni 2026',
+        heading: 'De beste VPN-aanbiedingen van september 2026',
         body: [
           'De grootste kortingen zitten in 2-jaarsabonnementen van gerenommeerde aanbieders. <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is op dit moment de goedkoopste premium VPN: al vanaf <strong>€1,99/maand</strong> bij het 2-jaarsabonnement, inclusief 3 maanden gratis. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> start bij <strong>€3,39/maand</strong> voor 2 jaar.',
           '<a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> biedt met <strong>€2,19/maand</strong> het grootste servernetwerk van 11.500+ servers én de langste geld-terug-garantie: 45 dagen. <a href="/vpn-reviews/purevpn" class="text-blue-600 hover:underline font-medium">PureVPN</a> is met €1,99/maand een goedkope tweede optie met door KPMG gecertificeerd no-logs-beleid.',
@@ -478,7 +478,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         question: 'Wat is de goedkoopste betrouwbare VPN?',
-        answer: 'Surfshark en PureVPN zijn in juni 2026 beide de goedkoopste premium VPN\'s: vanaf €1,99/maand bij een 2-jaarsabonnement. Surfshark heeft onbeperkt apparaten; PureVPN heeft een door KPMG gecertificeerd no-logs-beleid. CyberGhost (€2,19/mnd) is een goede derde met het grootste servernetwerk.',
+        answer: 'Surfshark en PureVPN zijn in september 2026 beide de goedkoopste premium VPN\'s: vanaf €1,99/maand bij een 2-jaarsabonnement. Surfshark heeft onbeperkt apparaten; PureVPN heeft een door KPMG gecertificeerd no-logs-beleid. CyberGhost (€2,19/mnd) is een goede derde met het grootste servernetwerk.',
       },
       {
         question: 'Zijn VPN-aanbiedingen te goed om waar te zijn?',
@@ -486,7 +486,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Wanneer zijn VPN-abonnementen het goedkoopst?',
-        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80–90% korting. Zomerdeals (juni–augustus) zijn eveneens sterk, de huidige aanbiedingen zitten op historisch hoge kortingen. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
+        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80–90% korting. De huidige najaarsdeals (september–oktober) zijn al sterk. Met Black Friday (27 november) in zicht komen er nog scherpere aanbiedingen aan. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
       },
       {
         question: 'Is een gratis VPN veilig?',
@@ -495,7 +495,7 @@ export const posts: BlogPost[] = [
     ],
     relatedProviders: ['surfshark', 'nordvpn', 'cyberghost'],
     relatedSlugs: ['surfshark-korting', 'nordvpn-korting', 'vpn-buitenland-gebruiken'],
-    tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting juni 2026'],
+    tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting september 2026', 'vpn black friday 2026'],
   },
   // ─── POST 7: VPN op Android ───────────────────────────────────────────────
   {

@@ -18,6 +18,24 @@
 
 export const BLOG_TOPICS = [
 
+  // ─── BLACK FRIDAY URGENTIE (publiceer voor 1 oktober voor rankingtijd) ────
+  {
+    keyword: 'nordvpn black friday aanbieding',
+    slug: 'nordvpn-black-friday',
+    title: 'NordVPN Black Friday 2026: zo pak je de beste kortingsdeal',
+    category: 'Deals',
+    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
+    context: 'DIT IS EEN DEALS-ARTIKEL, geen review. NordVPN Black Friday biedt typisch 67-74% korting op het 2-jarig abonnement. Historisch overzicht van NordVPN Black Friday deals. Vergelijk met reguliere prijs en Surfshark Black Friday. Wanneer en hoe kopen. Welk plan de beste waarde biedt (Standard vs Plus vs Complete). 30 dagen geld-terug-garantie als vangnet.',
+  },
+  {
+    keyword: 'surfshark black friday aanbieding',
+    slug: 'surfshark-black-friday',
+    title: 'Surfshark Black Friday 2026: beste VPN-deal van het jaar',
+    category: 'Deals',
+    relatedProviders: ['surfshark', 'nordvpn', 'cyberghost'],
+    context: 'DIT IS EEN DEALS-ARTIKEL, geen review. Surfshark Black Friday biedt typisch tot 86% korting op het 2-jarig abonnement, soms inclusief 3 gratis maanden. Vergeleken met reguliere prijs en concurrenten (NordVPN Black Friday, CyberGhost Black Friday). Wanneer de deal beschikbaar is (traditioneel de week voor Black Friday tot Cyber Monday). Is de deal echt of kunstmatig opgeblazen? Tips om de beste prijs te pakken. Geld-terug-garantie als vangnet.',
+  },
+
   // ─── HOGE PRIORITEIT ───────────────────────────────────────────────────────
   {
     keyword: 'vpn china',
@@ -401,22 +419,6 @@ export const BLOG_TOPICS = [
     category: 'Gids',
     relatedProviders: ['nordvpn', 'surfshark', 'protonvpn'],
     context: 'WhatsApp is geblokkeerd in landen zoals China, Iran, VAE (gedeeltelijk), Cuba en Noord-Korea. Leg uit waarom overheden WhatsApp blokkeren (controle over communicatie). Hoe een VPN helpt: jouw verkeer lijkt te komen uit een land waar WhatsApp wel beschikbaar is. Obfuscatie is nodig in China en Iran omdat standaard VPN-protocollen daar geblokkeerd zijn. Welke VPNs werken in die landen (NordVPN Obfuscated Servers, Surfshark Camouflage, ProtonVPN Stealth). Installeer de VPN-app VOOR vertrek want de App Store/Play Store kan ook geblokkeerd zijn.',
-  },
-  {
-    keyword: 'surfshark black friday aanbieding',
-    slug: 'surfshark-black-friday',
-    title: 'Surfshark Black Friday 2026: beste VPN-deal van het jaar',
-    category: 'Deals',
-    relatedProviders: ['surfshark', 'nordvpn', 'cyberghost'],
-    context: 'DIT IS EEN DEALS-ARTIKEL, geen review. Surfshark Black Friday biedt typisch tot 86% korting op het 2-jarig abonnement, soms inclusief 3 gratis maanden. Vergeleken met reguliere prijs en concurrenten (NordVPN Black Friday, CyberGhost Black Friday). Wanneer de deal beschikbaar is (traditioneel de week voor Black Friday tot Cyber Monday). Is de deal echt of kunstmatig opgeblazen? Tips om de beste prijs te pakken. Geld-terug-garantie als vangnet.',
-  },
-  {
-    keyword: 'nordvpn black friday aanbieding',
-    slug: 'nordvpn-black-friday',
-    title: 'NordVPN Black Friday 2026: zo pak je de beste kortingsdeal',
-    category: 'Deals',
-    relatedProviders: ['nordvpn', 'surfshark', 'cyberghost'],
-    context: 'DIT IS EEN DEALS-ARTIKEL, geen review. NordVPN Black Friday biedt typisch 67-74% korting op het 2-jarig abonnement. Historisch overzicht van NordVPN Black Friday deals. Vergelijk met reguliere prijs en Surfshark Black Friday. Wanneer en hoe kopen. Welk plan de beste waarde biedt (Standard vs Plus vs Complete). 30 dagen geld-terug-garantie als vangnet.',
   },
   {
     keyword: 'vpn youtube geblokkeerd school werk',
