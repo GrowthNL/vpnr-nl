@@ -84,6 +84,20 @@ const protonvpn: VPNProvider = {
       ],
     },
     {
+      heading: 'Is ProtonVPN veilig?',
+      body: [
+        'ProtonVPN is een van de veiligste VPNs op de markt. De apps zijn volledig <strong>open source</strong>: iedereen kan de broncode inzien en controleren op achterdeurtjes of fouten. Dat is zeldzaam in de VPN-industrie. Bovendien zijn de apps onafhankelijk geaudit door Securitum, een gerenommeerd beveiligingsbedrijf.',
+        'Het hoofdkantoor staat in <strong>Zwitserland</strong>, buiten de EU en de VS, onder strenge Zwitserse privacywetgeving. ProtonVPN beheert zijn eigen DNS-servers, waardoor DNS-lekken vrijwel onmogelijk zijn. Er worden geen activiteits- of verbindingslogs bewaard, geverifieerd door externe audits.',
+      ],
+    },
+    {
+      heading: 'ProtonVPN Free vs Plus: wat zijn de verschillen?',
+      body: [
+        'ProtonVPN is de enige grote VPN-aanbieder met een echt gratis plan zonder datalimiet en zonder advertenties. Met het gratis plan krijg je toegang tot servers in 3 landen (Nederland, VS, Japan) en basisbeveiliging, maar geen streaming-deblokkering en lagere snelheden in piekuren.',
+        '<strong>ProtonVPN Plus</strong> voegt daar de volgende functies aan toe: servers in 112 landen, hogere snelheden via VPN Accelerator, streaming-deblokkering (Netflix, Disney+), Secure Core (verkeer via twee landen), het Stealth-protocol voor landen met VPN-censuur, en NetShield-advertentieblokkering. Plus kost €5,99 per maand bij jaarabonnement. Voor privacybewust dagelijks gebruik is het gratis plan prima. Wil je streamen of gebruik je de VPN in landen met censuur, kies dan Plus.',
+      ],
+    },
+    {
       heading: 'Prijs en conclusie',
       body: [
         'ProtonVPN kost <strong>€5,99 per maand</strong> bij een jaarabonnement; er is geen tweejarig plan. Daarmee is het duurder dan de meeste concurrenten, maar je betaalt voor topbeveiliging en transparantie.',
@@ -115,8 +129,8 @@ const protonvpn: VPNProvider = {
     },
   ],
 
-  lastUpdated: 'juni 2026',
-  lastUpdatedISO: '2026-06-17',
+  lastUpdated: 'september 2026',
+  lastUpdatedISO: '2026-09-11',
 }
 
 export default protonvpn

@@ -5653,6 +5653,162 @@ export const posts: BlogPost[] = [
     "relatedSlugs": ["nordvpn-gratis-proberen", "nordvpn-korting", "goedkoopste-vpn-deals"],
     "tags": ["nordvpn opzeggen", "nordvpn annuleren", "nordvpn geld terug", "nordvpn abonnement stoppen"]
   },
+  {
+    "slug": "protonvpn-gratis",
+    "title": "ProtonVPN gratis: wat krijg je en waar zit de grens?",
+    "metaTitle": "ProtonVPN Gratis Plan (2026): Wat Krijg Je Echt? | vpnr.nl",
+    "metaDescription": "ProtonVPN heeft als enige grote VPN een echt gratis plan zonder datalimiet. Wij leggen uit wat je krijgt, waar de beperkingen zitten en wanneer het Plus-plan de moeite waard is.",
+    "excerpt": "ProtonVPN gratis is de enige betrouwbare gratis VPN zonder datalimiet. Maar wat krijg je precies en wanneer is het de moeite waard om te upgraden naar Plus?",
+    "category": "Uitleg",
+    "date": "11 september 2026",
+    "dateISO": "2026-09-11",
+    "updatedISO": "2026-09-11",
+    "readTime": "4 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/protonvpn-gratis.svg",
+    "imageAlt": "ProtonVPN gratis plan op laptop, Zwitserse VPN zonder datalimiet",
+    "intro": "ProtonVPN is de enige grote VPN-aanbieder met een echt gratis plan: geen datalimiet, geen advertenties, geen data-verkoop. Maar het gratis plan heeft wel degelijk beperkingen. In dit artikel leggen we precies uit wat je krijgt, wat je niet krijgt, en wanneer upgraden naar Plus de moeite waard is.",
+    "sections": [
+      {
+        "heading": "Wat krijg je met ProtonVPN gratis?",
+        "body": [
+          "Het gratis plan van ProtonVPN geeft je toegang tot servers in <strong>3 landen: Nederland, de Verenigde Staten en Japan</strong>. Je krijgt geen datalimiet, de verbinding is versleuteld met AES-256 en WireGuard, en er worden geen logs bijgehouden. De apps zijn open source en onafhankelijk geaudit.",
+          "Dit is fundamenteel anders dan de meeste gratis VPNs, die je data verkopen, je bestoken met advertenties of je verkeer beperken tot een paar honderd megabyte per maand. ProtonVPN gratis is een volwaardig privacyproduct, niet een lokkertje."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Geen datalimiet, wel snelheidslimiet",
+          "text": "ProtonVPN Free heeft geen datalimiet maar geeft prioriteit aan betalende gebruikers op drukke servers. In de praktijk merk je dit vooral tijdens piekuren, de verbinding kan dan iets trager zijn."
+        }
+      },
+      {
+        "heading": "Wat krijg je NIET met het gratis plan?",
+        "body": [
+          "<strong>Geen streaming-deblokkering:</strong> De gratis servers zijn niet geoptimaliseerd voor Netflix, Disney+ of andere streamingdiensten. Je kunt wel gewoon surfen, maar je kunt geen buitenlandse Netflix-catalogus ontgrendelen.",
+          "<strong>Geen Secure Core:</strong> Secure Core stuurt je verkeer via meerdere landen voor extra privacy. Dit is exclusief voor betalende gebruikers.",
+          "<strong>Geen Stealth-protocol:</strong> Het Stealth-protocol omzeilt VPN-blokkades in landen als China. Niet beschikbaar in het gratis plan.",
+          "<strong>Geen NetShield:</strong> De ingebouwde advertentieblokkering (NetShield) is een Plus-functie.",
+          "<strong>1 apparaat tegelijk:</strong> Met het gratis plan kun je slechts op 1 apparaat tegelijk verbinden. Plus geeft 10 apparaten."
+        ]
+      },
+      {
+        "heading": "ProtonVPN Free vs Plus: de vergelijking",
+        "body": [
+          "Hier een overzicht van de belangrijkste verschillen:"
+        ],
+        "table": {
+          "headers": ["Functie", "Free", "Plus (€5,99/mnd)"],
+          "rows": [
+            ["Datalimiet", "Geen", "Geen"],
+            ["Servers", "3 landen", "112 landen"],
+            ["Apparaten", "1", "10"],
+            ["Streaming (Netflix)", "Nee", "Ja"],
+            ["Secure Core", "Nee", "Ja"],
+            ["Stealth-protocol", "Nee", "Ja"],
+            ["NetShield (adblocker)", "Nee", "Ja"],
+            ["Snelheid", "Gemiddeld", "Hoog"]
+          ]
+        },
+        "cta": "protonvpn"
+      },
+      {
+        "heading": "Wanneer is het gratis plan genoeg?",
+        "body": [
+          "Het gratis plan is prima voor: basisbeveiliging op openbaar wifi, privacybescherming bij dagelijks surfen, en incidenteel gebruik in Nederland, de VS of Japan. Voor thuisgebruik in Nederland is de Nederlandse server snel genoeg voor de meeste taken.",
+          "Kies voor Plus als je wil streamen via Netflix US of BBC iPlayer, als je in een land bent met VPN-censuur (China, Turkije, Iran), als je meer dan 1 apparaat tegelijk wil beschermen, of als je maximale snelheid en extra privacylagen zoals Secure Core wilt."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is ProtonVPN echt gratis?",
+        "answer": "Ja, ProtonVPN biedt een permanent gratis plan zonder datalimiet en zonder advertenties. Je hoeft geen creditcard op te geven voor het gratis plan. Je maakt een Proton-account aan en kiest 'Gratis' bij het aanmelden."
+      },
+      {
+        "question": "Werkt ProtonVPN gratis met Netflix?",
+        "answer": "Nee, de gratis servers zijn niet geoptimaliseerd voor streaming. Om Netflix US of andere buitenlandse catalogi te ontgrendelen heb je ProtonVPN Plus nodig."
+      },
+      {
+        "question": "Is ProtonVPN gratis veilig?",
+        "answer": "Ja. Het gratis plan biedt dezelfde encryptie en hetzelfde no-logs-beleid als het betaalde plan. De apps zijn open source en geaudit door Securitum. ProtonVPN verdient geld via betalende gebruikers, niet door het verkopen van jouw data."
+      },
+      {
+        "question": "Wat is het verschil tussen ProtonVPN Free en Plus?",
+        "answer": "Free geeft je 3 landen, 1 apparaat en geen streaming. Plus geeft je 112 landen, 10 apparaten, streaming-deblokkering, Secure Core, Stealth-protocol en NetShield voor €5,99 per maand bij jaarabonnement."
+      }
+    ],
+    "relatedProviders": ["protonvpn", "nordvpn", "surfshark"],
+    "relatedSlugs": ["gratis-vpn-gevaren", "vpn-no-logs-beleid", "nordvpn-gratis-proberen"],
+    "tags": ["protonvpn gratis", "protonvpn free", "gratis vpn zonder limiet", "protonvpn free plan"]
+  },
+  {
+    "slug": "protonvpn-opzeggen",
+    "title": "ProtonVPN opzeggen in 2026: stap voor stap uitgelegd",
+    "metaTitle": "ProtonVPN Opzeggen (2026) | Stap voor Stap + Geld Terug | vpnr.nl",
+    "metaDescription": "ProtonVPN opzeggen doe je via je Proton-accountdashboard in een paar stappen. Lees ook wanneer je recht hebt op terugbetaling en welke alternatieven er zijn.",
+    "excerpt": "ProtonVPN opzeggen is eenvoudig via je Proton-account. Wij leggen het stap voor stap uit, inclusief de geld-terug-garantie en wat er met je data gebeurt.",
+    "category": "Gids",
+    "date": "11 september 2026",
+    "dateISO": "2026-09-11",
+    "updatedISO": "2026-09-11",
+    "readTime": "3 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/protonvpn-opzeggen.svg",
+    "imageAlt": "ProtonVPN accountdashboard op laptop, abonnement opzeggen en annuleren",
+    "intro": "ProtonVPN opzeggen doe je via account.proton.me. Het kost minder dan een minuut. In dit artikel leggen we precies uit hoe, wanneer je recht hebt op geld terug, en wat er met je gratis plan en data gebeurt na opzegging.",
+    "sections": [
+      {
+        "heading": "ProtonVPN opzeggen: stap voor stap",
+        "body": [
+          "<strong>Stap 1:</strong> Ga naar account.proton.me en log in met je Proton-account.",
+          "<strong>Stap 2:</strong> Klik op 'Abonnement' in het linker menu.",
+          "<strong>Stap 3:</strong> Klik op 'Abonnement wijzigen' en kies 'Downgraden naar Free'. Je betaalde abonnement stopt aan het einde van de lopende betaalperiode. Je verliest je Plus-functies maar behoudt je gratis account met toegang tot de 3 gratis landen.",
+          "Wil je je account volledig verwijderen? Ga dan naar 'Accountinstellingen' en kies 'Account verwijderen'. Let op: dit verwijdert ook je Proton Mail, Proton Drive en andere Proton-diensten als je die gebruikt."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Gratis plan blijft actief",
+          "text": "Anders dan bij NordVPN of Surfshark verdwijnt ProtonVPN niet volledig na opzegging. Je account wordt gedowngraded naar het gratis plan. Je houdt toegang tot de VPN in 3 landen."
+        }
+      },
+      {
+        "heading": "Geld terug aanvragen binnen 30 dagen",
+        "body": [
+          "ProtonVPN biedt een 30-daagse geld-terug-garantie op betaalde abonnementen. Stuur een verzoek via support.proton.me of via de livechat in je accountdashboard. Vermeld je ordernummer en de reden voor terugbetaling.",
+          "Het geld wordt teruggestort via dezelfde betaalmethode als je gebruikte bij aankoop. Betaald via creditcard of PayPal duurt dit doorgaans 5 tot 10 werkdagen."
+        ]
+      },
+      {
+        "heading": "Alternatieven na het opzeggen",
+        "body": [
+          "Als je ProtonVPN opzegt vanwege de prijs: <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a> biedt een 2-jaarsplan voor €2,49 per maand, met onbeperkt apparaten. <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> is sneller en kost €3,39 per maand bij 2 jaar.",
+          "Als je ProtonVPN opzegt maar privacy belangrijk blijft: overweeg dan te downgraden naar het gratis plan in plaats van volledig opzeggen. Je behoudt dan de basisbeveiliging zonder kosten."
+        ],
+        "cta": "surfshark"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat gebeurt er na het opzeggen van ProtonVPN?",
+        "answer": "Je betaalde abonnement stopt aan het einde van de lopende periode. Je account wordt gedowngraded naar het gratis plan, je behoudt toegang tot de VPN in 3 landen. Je data wordt niet verwijderd tenzij je je account volledig verwijdert."
+      },
+      {
+        "question": "Kan ik ProtonVPN opzeggen en geld terugkrijgen?",
+        "answer": "Ja, binnen 30 dagen na aankoop heb je recht op volledige terugbetaling. Neem contact op via support.proton.me of de livechat. Na 30 dagen is er geen recht op restitutie."
+      },
+      {
+        "question": "Wordt ProtonVPN automatisch verlengd?",
+        "answer": "Ja, ProtonVPN verlengt automatisch bij het einde van je abonnementsperiode. Schakel automatisch verlengen uit of downgrade naar Free via account.proton.me als je niet wil worden verlengd."
+      },
+      {
+        "question": "Verdwijnt mijn Proton Mail ook als ik ProtonVPN opzeg?",
+        "answer": "Nee. ProtonVPN en Proton Mail zijn aparte diensten binnen je Proton-account. Het opzeggen van ProtonVPN Plus heeft geen invloed op je Proton Mail-account."
+      }
+    ],
+    "relatedProviders": ["protonvpn", "surfshark", "nordvpn"],
+    "relatedSlugs": ["protonvpn-gratis", "nordvpn-opzeggen", "goedkoopste-vpn-deals"],
+    "tags": ["protonvpn opzeggen", "protonvpn annuleren", "protonvpn geld terug", "protonvpn abonnement stoppen"]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
