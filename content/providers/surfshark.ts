@@ -83,6 +83,13 @@ const surfshark: VPNProvider = {
       ],
     },
     {
+      heading: 'Surfshark One: wat is het en heb je het nodig?',
+      body: [
+        'Naast het standaard Surfshark-abonnement bestaat er <strong>Surfshark One</strong>, een uitgebreidere bundel. Naast de reguliere VPN krijg je er een virusscanner (Antivirus), een privacygerichte zoekmachine (Search) en een tool die controleert of je e-mailadres of persoonlijke gegevens in datalekken zijn opgedoken (Alert).',
+        'Voor de meeste gebruikers is het <strong>standaard Surfshark-abonnement voldoende</strong>. Surfshark One is interessant als je ook een betrouwbare virusscanner zoekt en die liever integreert met je VPN dan apart afneemt. Het prijsverschil is klein: Surfshark One kost iets meer dan het reguliere abonnement bij hetzelfde 2-jaarsplan.',
+      ],
+    },
+    {
       heading: 'Prijs en conclusie',
       body: [
         'Surfshark is met <strong>€2,49 per maand</strong> (tweejarig abonnement) een van de voordeligste premium-VPN\'s, inclusief 30 dagen geld-terug-garantie.',
@@ -114,8 +121,8 @@ const surfshark: VPNProvider = {
     },
   ],
 
-  lastUpdated: 'juni 2026',
-  lastUpdatedISO: '2026-06-17',
+  lastUpdated: 'september 2026',
+  lastUpdatedISO: '2026-09-11',
 }
 
 export default surfshark

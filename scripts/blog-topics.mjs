@@ -38,6 +38,14 @@ export const BLOG_TOPICS = [
 
   // ─── HOGE PRIORITEIT ───────────────────────────────────────────────────────
   {
+    keyword: 'surfshark gratis proberen',
+    slug: 'surfshark-gratis-proberen',
+    title: 'Surfshark gratis proberen in 2026: zo werkt de proefperiode',
+    category: 'Gids',
+    relatedProviders: ['surfshark', 'nordvpn', 'protonvpn'],
+    context: 'Surfshark heeft geen officiële gratis trial maar wel een 30-daagse geld-terug-garantie die als risicoloze proefperiode werkt. Leg uit hoe dat precies werkt (aanmelden, betalen, opzeggen voor dag 30, terugbetaling aanvragen). Vergelijk met concurrenten: NordVPN (30 dagen), ProtonVPN (echt gratis plan zonder tijdslimiet). Praktische tips: welk abonnement kiezen voor de trial, wat je kunt testen in 30 dagen. CTA naar Surfshark via affiliate link. Dit is GEEN review maar een informatieve gids over de proefperiode.',
+  },
+  {
     keyword: 'vpn china',
     slug: 'vpn-china-gebruiken',
     title: 'VPN gebruiken in China (2026): welke werken nog?',
