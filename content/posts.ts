@@ -5554,6 +5554,147 @@ export const posts: BlogPost[] = [
       "anoniem internetten"
     ]
   },
+  {
+    "slug": "nordvpn-black-friday",
+    "title": "NordVPN Black Friday 2026: zo pak je de beste kortingsdeal",
+    "metaTitle": "NordVPN Black Friday aanbieding 2026: tot 74% korting",
+    "metaDescription": "NordVPN Black Friday aanbieding 2026: tot 74% korting op het 2-jarig plan. Ontdek wanneer, hoe en welk plan de beste deal oplevert.",
+    "excerpt": "Alles over de NordVPN Black Friday aanbieding 2026: kortingspercentages, beste plan, timing en hoe je de scherpste deal vastzet.",
+    "category": "Deals",
+    "date": "11 september 2026",
+    "dateISO": "2026-09-11",
+    "updatedISO": "2026-09-11",
+    "readTime": "8 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/nordvpn-black-friday.jpg",
+    "imageAlt": "NordVPN Black Friday aanbieding op laptopscherm met kortingsbanner tijdens winkelevenement",
+    "intro": "De NordVPN Black Friday aanbieding is elk jaar één van de scherpste VPN-deals van het jaar, met kortingen die oplopen tot 74% op het tweejarig abonnement. In dit deals-overzicht lees je precies wanneer de korting live gaat, welk plan de beste waarde biedt en hoe je de laagste prijs vastzet. Let op: vpnr.nl ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze onafhankelijke beoordeling niet.",
+    "sections": [
+      {
+        "heading": "Hoeveel korting geeft de NordVPN Black Friday aanbieding?",
+        "body": [
+          "Tijdens Black Friday biedt NordVPN historisch gezien tussen de 67% en 74% korting op het tweejarige abonnement. Daarmee zakt de effectieve maandprijs vaak onder de 3 euro, terwijl je buiten de actie al snel het dubbele betaalt. Voor een premium VPN is dat een uitstekende prijs-kwaliteitverhouding.",
+          "Naast de basiskorting voegt NordVPN meestal extra maanden gratis toe aan het langste plan. Zo krijg je bij een 24-maanden abonnement er soms 3 tot 6 maanden bovenop, wat de werkelijke prijs per maand nog verder drukt.",
+          "Wil je de details van de kortingsstructuur nalezen? Bekijk dan onze uitgebreide <a href='/blog/nordvpn-korting' class='text-blue-600 hover:underline font-medium'>NordVPN korting pagina</a> voor de actuele voorwaarden en looptijden."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Verwachte korting 2026",
+          "text": "Op basis van eerdere jaren verwachten we opnieuw 67% tot 74% korting op het tweejarige NordVPN-abonnement, inclusief enkele gratis extra maanden."
+        }
+      },
+      {
+        "heading": "Wanneer start de NordVPN Black Friday deal in 2026?",
+        "body": [
+          "Black Friday valt in 2026 op vrijdag 27 november. NordVPN start de actie doorgaans al een tot twee weken eerder en laat de korting doorlopen tot en met Cyber Monday, dat op 30 november valt. In veel gevallen blijft de deal zelfs tot begin december actief.",
+          "Onze tip: wacht niet tot de allerlaatste dag. De beste bundels met de meeste gratis maanden zijn soms beperkt beschikbaar. Zet de deal vroeg vast, want dankzij de geld-terug-garantie loop je geen risico als je later twijfelt.",
+          "Historisch gezien week de prijs op de eerste actiedag nauwelijks af van die op Cyber Monday. Je hoeft dus niet obsessief te wachten op één specifiek moment om de scherpste NordVPN Black Friday aanbieding te pakken."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Slim timen",
+          "text": "Koop vroeg in de actieperiode en gebruik de 30 dagen geld-terug-garantie als vangnet mocht je van gedachten veranderen."
+        }
+      },
+      {
+        "heading": "Welk NordVPN plan biedt de beste waarde?",
+        "body": [
+          "NordVPN kent drie abonnementen: Standard, Plus en Complete. Tijdens Black Friday krijgen alle drie dezelfde procentuele korting, maar niet elk plan is voor iedereen de slimste keuze.",
+          "Standard bevat de kern-VPN met alle beveiligingsfuncties zoals de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> en het bewezen <a href='/blog/vpn-no-logs-beleid' class='text-blue-600 hover:underline font-medium'>no-logs beleid</a>. Voor de meeste gebruikers die streamen, torrenten en veilig internetten is dit ruim voldoende.",
+          "Plus voegt een wachtwoordmanager en datalek-scanner toe, terwijl Complete daar 1 TB versleutelde cloudopslag bij levert. Overweeg Plus of Complete alleen als je die extra's daadwerkelijk gebruikt, anders betaal je voor functies die je laat liggen."
+        ],
+        "table": {
+          "headers": [
+            "Plan",
+            "Inbegrepen",
+            "Voor wie"
+          ],
+          "rows": [
+            [
+              "Standard",
+              "VPN, kill switch, malware-bescherming",
+              "Streamers en dagelijkse gebruikers"
+            ],
+            [
+              "Plus",
+              "Standard + wachtwoordmanager + datalek-scan",
+              "Privacybewuste gebruikers"
+            ],
+            [
+              "Complete",
+              "Plus + 1 TB cloudopslag",
+              "Wie alles in één pakket wil"
+            ]
+          ]
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "NordVPN Black Friday vergeleken met Surfshark",
+        "body": [
+          "Surfshark is de grootste concurrent van NordVPN qua prijs en heeft eveneens een sterke Black Friday deal, vaak met kortingen tot 86% en gratis extra maanden. Op basis van pure maandprijs is Surfshark meestal net iets goedkoper.",
+          "Toch is prijs niet alles. NordVPN scoort beter op snelheid en serverbetrouwbaarheid, terwijl Surfshark uitblinkt in onbeperkte gelijktijdige verbindingen. Wil je beide merken naast elkaar leggen? Lees dan onze <a href='/blog/nordvpn-vs-surfshark' class='text-blue-600 hover:underline font-medium'>NordVPN vs Surfshark vergelijking</a>.",
+          "Ook CyberGhost hoort in dit rijtje thuis met een gebruiksvriendelijke app en lange geld-terug-garantie. Bekijk de actuele <a href='/blog/surfshark-korting' class='text-blue-600 hover:underline font-medium'>Surfshark korting</a> en <a href='/blog/cyberghost-korting' class='text-blue-600 hover:underline font-medium'>CyberGhost korting</a> om de beste totaaldeal te vinden."
+        ],
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Zo koop je de NordVPN Black Friday aanbieding stap voor stap",
+        "body": [
+          "Het afsluiten van de deal is eenvoudig. Ga naar de NordVPN-actiepagina, kies het tweejarige abonnement voor de hoogste korting en selecteer het plan dat bij je past. Maak vervolgens een account aan en reken af met iDEAL, creditcard of andere betaalmethodes.",
+          "Na aankoop download je de app voor je apparaat. NordVPN ondersteunt Windows, Mac, Android, iPhone en zelfs je router. Hulp nodig bij de installatie? Onze handleidingen voor <a href='/blog/vpn-windows-instellen' class='text-blue-600 hover:underline font-medium'>Windows</a> en <a href='/blog/vpn-android-instellen' class='text-blue-600 hover:underline font-medium'>Android</a> leiden je er stap voor stap doorheen.",
+          "Twijfel je nog? Elke aankoop valt onder de 30 dagen geld-terug-garantie. Je kunt de VPN dus volledig uitproberen en binnen de termijn kosteloos je geld terugvragen als het niet bevalt."
+        ]
+      },
+      {
+        "heading": "Is de NordVPN Black Friday deal het waard?",
+        "body": [
+          "Voor wie een betrouwbare, snelle VPN zoekt, is de Black Friday aanbieding het meest voordelige instapmoment van het jaar. De korting op het tweejarige plan brengt de maandprijs terug tot een niveau dat je buiten de actie zelden ziet.",
+          "Belangrijk om te beseffen: de laagste prijs geldt bij het langste abonnement. Kies je bewust voor een kortere looptijd, dan valt het kortingsvoordeel per maand lager uit. De tweejarige optie levert dus verreweg de beste waarde op.",
+          "Wil je eerst breder oriënteren voordat je toeslaat? Op onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijker</a> zet je NordVPN, Surfshark en CyberGhost eenvoudig naast elkaar op prijs en functies."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Hoeveel korting geeft NordVPN tijdens Black Friday?",
+        "answer": "NordVPN geeft tijdens Black Friday historisch gezien tussen de 67% en 74% korting op het tweejarige abonnement. Vaak komen daar nog enkele gratis extra maanden bij, waardoor de maandprijs onder de 3 euro kan zakken."
+      },
+      {
+        "question": "Wanneer start de NordVPN Black Friday aanbieding in 2026?",
+        "answer": "Black Friday valt in 2026 op 27 november. NordVPN start de actie doorgaans één tot twee weken eerder en laat de korting doorlopen tot en met Cyber Monday op 30 november, soms tot begin december."
+      },
+      {
+        "question": "Welk NordVPN plan is het voordeligst tijdens Black Friday?",
+        "answer": "Het tweejarige Standard-plan biedt voor de meeste gebruikers de beste prijs-kwaliteitverhouding. Kies alleen Plus of Complete als je daadwerkelijk gebruikmaakt van de extra's zoals de wachtwoordmanager of cloudopslag."
+      },
+      {
+        "question": "Is NordVPN of Surfshark goedkoper tijdens Black Friday?",
+        "answer": "Surfshark is qua pure maandprijs meestal net iets goedkoper, met kortingen tot 86%. NordVPN scoort echter beter op snelheid en serverbetrouwbaarheid, dus de beste keuze hangt af van jouw prioriteiten."
+      },
+      {
+        "question": "Kan ik NordVPN terugvragen als de deal niet bevalt?",
+        "answer": "Ja, elke NordVPN-aankoop valt onder de 30 dagen geld-terug-garantie. Je kunt de VPN dus volledig uitproberen en binnen die termijn kosteloos je geld terugvragen als het niet aan je verwachtingen voldoet."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "cyberghost"
+    ],
+    "relatedSlugs": [
+      "nordvpn-korting",
+      "nordvpn-vs-surfshark",
+      "goedkoopste-vpn-deals"
+    ],
+    "tags": [
+      "nordvpn black friday",
+      "vpn deals",
+      "nordvpn korting",
+      "black friday 2026",
+      "vpn aanbieding"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
