@@ -1596,6 +1596,7 @@ export const posts: BlogPost[] = [
           'SmartDNS verbergt je IP-adres niet volledig en versleutelt je verbinding niet, het is dus geen volwaardige VPN. Maar voor het ontgrendelen van streamingcontent werkt het uitstekend en heeft het vrijwel geen invloed op je kijksnelheid.',
           '<strong>SmartDNS instellen op Samsung TV:</strong> Ga naar <em>Instellingen → Algemeen → Netwerk → Netwerkstatus → IP-instellingen</em>. Verander "DNS-instelling" van automatisch naar handmatig. Voer het SmartDNS-adres van je VPN-provider in.',
           '<strong>SmartDNS instellen op LG webOS:</strong> Ga naar <em>Instellingen → Netwerk → Geavanceerde wifi-instellingen → DNS-server</em>. De verdere stappen zijn identiek. Herstart je streamingapp na het opslaan.',
+          '<strong>NordVPN op Samsung TV</strong>: activeer SmartDNS via my.nordaccount.com, kies "SmartDNS activeren" en registreer je IP-adres. Ga daarna op je Samsung naar <em>Instellingen → Algemeen → Netwerk → IP-instellingen</em> en vul het NordVPN SmartDNS-adres in. Na een herstart van de streamingapp werkt Netflix US meteen. NordVPN SmartDNS ondersteunt meer dan 40 streamingdiensten wereldwijd.',
           'NordVPN en Surfshark bieden SmartDNS aan bij elk betaald abonnement zonder meerkosten. Activeer SmartDNS eerst in je accountdashboard, je thuisadres moet geregistreerd zijn bij de provider.',
         ],
         highlight: {
@@ -5496,6 +5497,161 @@ export const posts: BlogPost[] = [
       "black friday 2026",
       "vpn aanbieding"
     ]
+  },
+  {
+    "slug": "nordvpn-gratis-proberen",
+    "title": "NordVPN gratis proberen in 2026: zo werkt de proefperiode",
+    "metaTitle": "NordVPN Gratis Proberen (2026) | 30 Dagen Risicovrij | vpnr.nl",
+    "metaDescription": "NordVPN heeft geen gratis abonnement, maar wel een 30-daagse geld-terug-garantie. Lees hoe je NordVPN risicovrij uitprobeert en je geld terugkrijgt als het niet bevalt.",
+    "excerpt": "NordVPN gratis proberen kan via de 30-daagse geld-terug-garantie. Wij leggen stap voor stap uit hoe je NordVPN test en je geld terugkrijgt als het niet bevalt.",
+    "category": "Gids",
+    "date": "11 september 2026",
+    "dateISO": "2026-09-11",
+    "updatedISO": "2026-09-11",
+    "readTime": "4 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/nordvpn-gratis-proberen.svg",
+    "imageAlt": "NordVPN app op laptop, 30 dagen gratis proberen via geld-terug-garantie",
+    "intro": "NordVPN heeft geen echte gratis versie, maar biedt wel een 30-daagse geld-terug-garantie die in de praktijk als risicovrije proefperiode werkt. Je betaalt vooraf, test NordVPN uitgebreid en vraagt je geld terug als je niet tevreden bent. Wij leggen precies uit hoe dat werkt.",
+    "sections": [
+      {
+        "heading": "Heeft NordVPN een gratis abonnement?",
+        "body": [
+          "Nee, NordVPN biedt geen permanent gratis abonnement. In tegenstelling tot <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN</a>, dat een echt gratis plan zonder tijdslimiet aanbiedt (maar met beperkte servers), vereist NordVPN altijd een betaald abonnement.",
+          "Wat NordVPN wel biedt is een <strong>30-daagse geld-terug-garantie</strong> op alle abonnementen. Dat betekent dat je NordVPN een maand lang volledig kunt uitproberen, alle servers, alle functies, onbeperkt, en je aankoopbedrag volledig terugkrijgt als je binnen 30 dagen opzegt."
+        ]
+      },
+      {
+        "heading": "Hoe werkt de 30-daagse proefperiode stap voor stap?",
+        "body": [
+          "<strong>Stap 1: Kies een abonnement.</strong> Het tweejarig abonnement geeft de meeste testruimte voor de laagste maandprijs (€3,39/maand). Je betaalt het volledige bedrag vooraf, maar krijgt het volledig terug als je binnen 30 dagen opzegt.",
+          "<strong>Stap 2: Test NordVPN uitgebreid.</strong> Probeer de snelheid (NordLynx voor dagelijks gebruik, OpenVPN voor extra beveiliging), test streaming via Netflix US en BBC iPlayer, en controleer of de apps werken op al je apparaten (Windows, Mac, iOS, Android).",
+          "<strong>Stap 3: Tevreden? Klaar.</strong> Je doet niets, het abonnement loopt gewoon door. Niet tevreden? Log in op je NordVPN-account via my.nordaccount.com, ga naar 'Factuurgeschiedenis' en klik op 'Verzoek tot terugbetaling'. Binnen 5 tot 10 werkdagen staat het geld terug op je rekening.",
+          "<strong>Stap 4: Geld terug via klantenservice.</strong> Lukt het niet via het dashboard? Neem contact op met de 24/7 livechat. NordVPN honoreert de garantie altijd, zonder vragen te stellen over de reden."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Betaal met creditcard of PayPal",
+          "text": "Kies creditcard of PayPal als betaalmethode. Terugbetalingen gaan dan het snelst, doorgaans binnen 5 werkdagen. Bij crypto of andere methoden kan dit langer duren."
+        }
+      },
+      {
+        "heading": "Vergelijking: NordVPN proefperiode versus concurrenten",
+        "body": [
+          "De meeste betaalde VPNs hanteren een vergelijkbare geld-terug-garantie. Hier een overzicht:",
+          "<strong>ProtonVPN</strong>: enige grote aanbieder met een echt gratis plan (geen tijdslimiet, geen datalimiet, maar beperkt tot servers in 3 landen en lagere snelheid). Ideaal als je echt niets wil betalen.",
+          "<strong>Surfshark</strong>: ook 30 dagen geld-terug-garantie, zelfde constructie als NordVPN. Goedkoper (€2,49/maand bij 2 jaar) maar iets minder snel.",
+          "<strong>CyberGhost</strong>: biedt 45 dagen geld-terug-garantie bij het 2-jaarsplan, de langste in de markt."
+        ],
+        "table": {
+          "headers": ["VPN", "Gratis plan", "Proefperiode", "Prijs na proef"],
+          "rows": [
+            ["NordVPN", "Nee", "30 dagen geld-terug", "€3,39/mnd (2 jaar)"],
+            ["ProtonVPN", "Ja (beperkt)", "Onbeperkt gratis", "€4,99/mnd (1 jaar)"],
+            ["Surfshark", "Nee", "30 dagen geld-terug", "€2,49/mnd (2 jaar)"],
+            ["CyberGhost", "Nee", "45 dagen geld-terug", "€2,19/mnd (2 jaar)"]
+          ]
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Wat kun je testen in 30 dagen?",
+        "body": [
+          "Dertig dagen is ruim voldoende om NordVPN grondig te testen. Controleer in ieder geval: snelheid via speedtest.net met VPN aan versus uit, streaming via Netflix US (kies een Amerikaanse server), DNS-lekken via ipleak.net met VPN actief, en gebruiksgemak op elk apparaat dat je dagelijks gebruikt.",
+          "Test ook de kill switch: zet de VPN aan, trek de internetkabel eruit en steek hem er weer in. Kijkt je browser dan automatisch of er een IP-lek was? Dan werkt de kill switch goed. NordVPN scoort hier uitstekend op."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Kan ik NordVPN gratis proberen zonder creditcard?",
+        "answer": "Je kunt betalen met PayPal, cryptocurrency of andere methoden, maar een betaling is altijd vereist. NordVPN heeft geen gratis proefversie zonder betalingsgegevens. De 30-daagse geld-terug-garantie geldt ongeacht de betaalmethode."
+      },
+      {
+        "question": "Hoe vraag ik mijn geld terug bij NordVPN?",
+        "answer": "Log in op my.nordaccount.com, ga naar 'Factuurgeschiedenis' en klik op 'Verzoek tot terugbetaling'. Lukt dat niet, neem dan contact op met de 24/7 livechat. Het geld staat doorgaans binnen 5 tot 10 werkdagen terug op je rekening."
+      },
+      {
+        "question": "Geldt de geld-terug-garantie ook voor het maandabonnement?",
+        "answer": "Ja, de 30-daagse garantie geldt voor alle abonnementsvormen, ook het maandabonnement. Voor het maandabonnement betaal je echter een hogere maandprijs (€12,99). Kies het tweejarig abonnement als je toch overweegt te blijven."
+      },
+      {
+        "question": "Is ProtonVPN echt gratis?",
+        "answer": "Ja, ProtonVPN heeft een echt gratis plan zonder tijdslimiet. Je krijgt servers in 3 landen, geen datalimiet maar wel lagere snelheid en geen streaming-deblokkering. Voor dagelijks privacygebruik kan dat voldoende zijn."
+      }
+    ],
+    "relatedProviders": ["nordvpn", "protonvpn", "surfshark"],
+    "relatedSlugs": ["nordvpn-korting", "gratis-vpn-gevaren", "nordvpn-opzeggen"],
+    "tags": ["nordvpn gratis", "nordvpn free trial", "nordvpn proefperiode", "nordvpn geld terug"]
+  },
+  {
+    "slug": "nordvpn-opzeggen",
+    "title": "NordVPN opzeggen in 2026: stap voor stap uitgelegd",
+    "metaTitle": "NordVPN Opzeggen (2026) | Stap voor Stap + Geld Terug | vpnr.nl",
+    "metaDescription": "NordVPN opzeggen doe je via je accountdashboard in 3 stappen. Lees ook wanneer je recht hebt op terugbetaling en welke alternatieven er zijn.",
+    "excerpt": "NordVPN opzeggen is eenvoudig via je accountdashboard. Wij leggen het stap voor stap uit, inclusief hoe je gebruikmaakt van de 30-daagse geld-terug-garantie.",
+    "category": "Gids",
+    "date": "11 september 2026",
+    "dateISO": "2026-09-11",
+    "updatedISO": "2026-09-11",
+    "readTime": "3 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/nordvpn-opzeggen.svg",
+    "imageAlt": "NordVPN accountdashboard op laptop, abonnement opzeggen en annuleren",
+    "intro": "NordVPN opzeggen is eenvoudiger dan veel mensen denken. Je doet het in een paar stappen via je online accountdashboard, zonder telefoontje of wachttijd. In dit artikel leggen we precies uit hoe, en wanneer je recht hebt op terugbetaling.",
+    "sections": [
+      {
+        "heading": "NordVPN opzeggen: stap voor stap",
+        "body": [
+          "<strong>Stap 1:</strong> Ga naar my.nordaccount.com en log in met je e-mailadres en wachtwoord.",
+          "<strong>Stap 2:</strong> Klik op 'Mijn abonnement' in het linker menu. Je ziet hier je huidige abonnement en de verlengingsdatum.",
+          "<strong>Stap 3:</strong> Klik op 'Automatisch verlengen uitschakelen'. NordVPN werkt met automatische verlenging, je zegt niet het abonnement op maar zet de verlenging uit. Je abonnement blijft actief tot de einddatum.",
+          "Wil je ook je account volledig verwijderen? Ga dan naar 'Accountinstellingen' en kies 'Account verwijderen'. Let op: dit is onomkeerbaar en je verliest alle gegevens."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Abonnement nog actief na opzegging",
+          "text": "NordVPN stopt de dienst niet direct na opzegging. Je kunt de VPN blijven gebruiken tot de betaalde periode afloopt. Zeg dus op tijd op als je niet wil worden verlengd."
+        }
+      },
+      {
+        "heading": "Geld terug aanvragen binnen 30 dagen",
+        "body": [
+          "Zeg je op binnen 30 dagen na aankoop, dan heb je recht op volledige terugbetaling. Ga naar 'Factuurgeschiedenis' in je dashboard en klik op 'Verzoek tot terugbetaling'. Lukt dat niet, neem dan contact op via de 24/7 livechat op nordvpn.com.",
+          "NordVPN honoreert de garantie altijd zonder vragen over de reden. Het bedrag staat doorgaans binnen 5 tot 10 werkdagen terug op je rekening, afhankelijk van je betaalmethode."
+        ]
+      },
+      {
+        "heading": "Wat zijn goede alternatieven na het opzeggen?",
+        "body": [
+          "Als je NordVPN opzegt omdat de prijs te hoog is: <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a> biedt vergelijkbare kwaliteit voor €2,49 per maand bij 2 jaar, met als extra voordeel onbeperkt apparaten.",
+          "Als je NordVPN opzegt vanwege privacyzorgen: <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN</a> is de privacyvriendelijkste keuze, gevestigd in Zwitserland met open-source apps en een gratis plan.",
+          "Als je NordVPN opzegt omdat je functies mist: <a href='/vpn-reviews/cyberghost' class='text-blue-600 hover:underline font-medium'>CyberGhost</a> heeft speciale streaming-servers per dienst en biedt 45 dagen geld-terug-garantie."
+        ],
+        "cta": "surfshark"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Kan ik NordVPN opzeggen en geld terugkrijgen?",
+        "answer": "Ja, binnen 30 dagen na aankoop heb je recht op volledige terugbetaling. Vraag dit aan via je accountdashboard of via de 24/7 livechat. Na 30 dagen is er geen recht op restitutie."
+      },
+      {
+        "question": "Wat gebeurt er met mijn data als ik NordVPN opzeg?",
+        "answer": "NordVPN bewaart geen activiteitenlogs, dus er zijn geen browsegegevens om te verwijderen. Je accountgegevens (naam, e-mail) blijven bewaard tenzij je het account volledig verwijdert via 'Accountinstellingen'."
+      },
+      {
+        "question": "Wordt NordVPN automatisch verlengd?",
+        "answer": "Ja, NordVPN verlengt automatisch bij het einde van je abonnementsperiode. Schakel automatisch verlengen uit via my.nordaccount.com als je wil stoppen. Je ontvangt ook een e-mail vooraf als herinnering."
+      },
+      {
+        "question": "Kan ik NordVPN opzeggen via de app?",
+        "answer": "Nee, opzeggen doe je via de website my.nordaccount.com. In de app zelf kun je alleen de VPN-verbinding beheren, niet je abonnement wijzigen of opzeggen."
+      }
+    ],
+    "relatedProviders": ["nordvpn", "surfshark", "protonvpn"],
+    "relatedSlugs": ["nordvpn-gratis-proberen", "nordvpn-korting", "goedkoopste-vpn-deals"],
+    "tags": ["nordvpn opzeggen", "nordvpn annuleren", "nordvpn geld terug", "nordvpn abonnement stoppen"]
   },
 ]
 

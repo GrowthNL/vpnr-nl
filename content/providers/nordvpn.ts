@@ -84,6 +84,20 @@ const nordvpn: VPNProvider = {
       ],
     },
     {
+      heading: 'NordVPN Standard, Plus of Complete: welk abonnement kies je?',
+      body: [
+        'NordVPN biedt drie abonnementsvormen. <strong>Standard</strong> is de basis-VPN: alle servers, NordLynx, kill switch, Threat Protection Lite en 10 apparaten tegelijk. Voor de meeste gebruikers is dit meer dan voldoende.',
+        '<strong>Plus</strong> voegt daar een volwaardige wachtwoordmanager (NordPass) en uitgebreidere Threat Protection aan toe, inclusief malware-scan bij downloads. <strong>Complete</strong> voegt ook 1 TB versleutelde cloudopslag (NordLocker) toe. Kies Plus of Complete alleen als je die extra\'s daadwerkelijk nodig hebt. De meerprijs is klein, maar Standard is voor VPN-gebruik de slimste keuze.',
+      ],
+    },
+    {
+      heading: 'NordVPN Meshnet: jouw eigen privénetwerk',
+      body: [
+        'Meshnet is een unieke gratis functie van NordVPN waarmee je een privénetwerk kunt opzetten tussen je eigen apparaten, of met vrienden en collega\'s. Het werkt als een soort persoonlijk VPN: je verbindt apparaten rechtstreeks met elkaar via versleutelde tunnels, zonder dat het verkeer via een NordVPN-server gaat.',
+        'Handig voor: veilig toegang tot je thuiscomputer vanaf een andere locatie, LAN-gamen met vrienden zonder dat je op hetzelfde netwerk hoeft te zitten, en het delen van bestanden zonder cloudopslag. Meshnet is gratis beschikbaar voor NordVPN-abonnees en ook voor niet-abonnees (beperkt).',
+      ],
+    },
+    {
       heading: 'Prijs en conclusie',
       body: [
         'NordVPN kost vanaf <strong>€3,39 per maand</strong> bij een tweejarig abonnement, met 30 dagen niet-goed-geld-terug-garantie. Dat is niet de goedkoopste optie, maar je krijgt wel de beste totaalprestaties.',
@@ -115,8 +129,8 @@ const nordvpn: VPNProvider = {
     },
   ],
 
-  lastUpdated: 'juni 2026',
-  lastUpdatedISO: '2026-06-17',
+  lastUpdated: 'september 2026',
+  lastUpdatedISO: '2026-09-11',
 }
 
 export default nordvpn
