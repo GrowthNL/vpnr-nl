@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
         destination: '/vpn-vergelijken/nordvpn-vs-surfshark',
         permanent: true,
       },
+      {
+        source: '/blog/vpn-thuiswerken',
+        destination: '/beste-vpn/voor-thuiswerken',
+        permanent: true,
+      },
     ]
   },
 };
