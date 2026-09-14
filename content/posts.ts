@@ -5809,6 +5809,156 @@ export const posts: BlogPost[] = [
     "relatedSlugs": ["protonvpn-gratis", "nordvpn-opzeggen", "goedkoopste-vpn-deals"],
     "tags": ["protonvpn opzeggen", "protonvpn annuleren", "protonvpn geld terug", "protonvpn abonnement stoppen"]
   },
+  {
+    "slug": "surfshark-black-friday",
+    "title": "Surfshark Black Friday 2026: de beste VPN-deal van het jaar?",
+    "metaTitle": "Surfshark Black Friday Aanbieding 2026: tot 86% Korting",
+    "metaDescription": "Surfshark Black Friday aanbieding 2026: tot 86% korting plus gratis maanden. Ontdek wanneer de deal live gaat en hoe je de laagste prijs pakt.",
+    "excerpt": "Alles over de Surfshark Black Friday aanbieding 2026: kortingen, timing, vergelijking met NordVPN en hoe je de beste prijs scoort.",
+    "category": "Deals",
+    "date": "14 september 2026",
+    "dateISO": "2026-09-14",
+    "updatedISO": "2026-09-14",
+    "readTime": "7 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/surfshark-black-friday.jpg",
+    "imageAlt": "Laptop met Surfshark Black Friday aanbieding op scherm tijdens winkelactie in november",
+    "intro": "De Surfshark Black Friday aanbieding is elk jaar een van de scherpste VPN-deals die je kunt vinden, met kortingen die kunnen oplopen tot 86% op het tweejarige abonnement. In dit artikel leggen we uit wanneer de deal live gaat in 2026, hoeveel je écht bespaart en hoe deze zich verhoudt tot concurrenten. Let op: vpnr.nl ontvangt affiliate commissies, maar dit beïnvloedt onze onafhankelijke beoordeling niet.",
+    "sections": [
+      {
+        "heading": "Wat houdt de Surfshark Black Friday aanbieding in?",
+        "body": [
+          "Tijdens Black Friday verlaagt Surfshark de prijs van zijn langlopende abonnementen fors. In voorgaande jaren zagen we kortingen tot <strong>86%</strong> op het tweejarige pakket, vaak aangevuld met <strong>3 of 4 gratis maanden</strong> bovenop de looptijd. Daarmee zakt de effectieve maandprijs tot ongeveer 2 euro per maand.",
+          "De korting geldt doorgaans op alle drie de abonnementen (Starter, One en One+), maar de grootste besparing zit altijd op de langste looptijd. Kies je voor een maandabonnement, dan profiteer je nauwelijks van de actie.",
+          "Alle Surfshark-abonnementen komen met een <strong>30 dagen geld-terug-garantie</strong>. Dat maakt de Black Friday deal risicovrij: bevalt de dienst niet, dan krijg je je geld terug. In onze <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark review</a> lees je meer over wat je precies krijgt."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Kies de langste looptijd",
+          "text": "De hoogste korting geldt altijd op het tweejarige abonnement. Een maandabonnement is tijdens Black Friday zelden interessant."
+        }
+      },
+      {
+        "heading": "Wanneer is de Surfshark Black Friday deal beschikbaar in 2026?",
+        "body": [
+          "Black Friday valt in 2026 op <strong>27 november</strong>. Surfshark start zijn actie traditioneel al de week ervoor en laat de deal doorlopen tot en met Cyber Monday (30 november). In de praktijk zien we de eerste kortingen vaak al medio november verschijnen.",
+          "Vaak loopt de actie zelfs nog een aantal dagen na Cyber Monday door onder de noemer 'Cyber Week'. Toch is wachten niet aan te raden: de scherpste bundels met extra gratis maanden zijn soms in beperkte oplage beschikbaar.",
+          "Wil je zeker weten dat je de beste prijs pakt? Houd onze pagina met <a href='/blog/goedkoopste-vpn-deals' class='text-blue-600 hover:underline font-medium'>goedkoopste VPN-deals</a> in de gaten, die we tijdens de actieperiode dagelijks bijwerken."
+        ]
+      },
+      {
+        "heading": "Is de korting echt of kunstmatig opgeblazen?",
+        "body": [
+          "Een terechte vraag: veel webshops verhogen prijzen vlak voor Black Friday om de korting groter te laten lijken. Bij VPN-aanbieders werkt het net iets anders. De genoemde percentages (zoals '86% korting') worden berekend ten opzichte van de <strong>maandprijs maal 24 maanden</strong>, niet ten opzichte van de reguliere abonnementsprijs.",
+          "Dat betekent dat het kortingspercentage optisch groter oogt dan de werkelijke besparing tegenover een gewoon tweejarig abonnement. Toch is de Black Friday prijs bij Surfshark aantoonbaar lager dan de rest van het jaar: je betaalt gemiddeld 15 tot 25% minder dan buiten de actieperiode, plus de extra gratis maanden.",
+          "Kortom, de deal is reëel, maar laat je niet gek maken door het percentage alleen. Kijk altijd naar de <strong>totale prijs voor de hele looptijd</strong> en de effectieve maandprijs."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Let op het percentage",
+          "text": "Kortingspercentages worden berekend vanaf de maandprijs. Vergelijk altijd de totaalprijs, niet alleen het percentage."
+        }
+      },
+      {
+        "heading": "Surfshark vs NordVPN en CyberGhost tijdens Black Friday",
+        "body": [
+          "Surfshark is niet de enige met een sterke Black Friday actie. NordVPN en CyberGhost bieden vergelijkbare kortingen. De keuze hangt af van je prioriteiten: prijs, snelheid of aantal functies.",
+          "Surfshark onderscheidt zich met <strong>onbeperkt aantal apparaten</strong> per abonnement, terwijl NordVPN vaak wint op snelheid en betrouwbaarheid. CyberGhost heeft de langste geld-terug-garantie (45 dagen) op de langere abonnementen.",
+          "Hieronder een globale vergelijking van wat je typisch tijdens Black Friday kunt verwachten. Prijzen zijn indicatief en variëren per jaar."
+        ],
+        "table": {
+          "headers": [
+            "Aanbieder",
+            "Typische korting",
+            "Extra maanden",
+            "Geld-terug"
+          ],
+          "rows": [
+            [
+              "Surfshark",
+              "Tot 86%",
+              "3-4 maanden",
+              "30 dagen"
+            ],
+            [
+              "NordVPN",
+              "Tot 74%",
+              "3 maanden",
+              "30 dagen"
+            ],
+            [
+              "CyberGhost",
+              "Tot 84%",
+              "2-4 maanden",
+              "45 dagen"
+            ]
+          ]
+        },
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Zo pak je de beste Surfshark Black Friday prijs",
+        "body": [
+          "Wil je maximaal besparen, volg dan deze stappen. Kies allereerst voor het <strong>tweejarige abonnement</strong>, dat levert de grootste korting op. Controleer daarna of de gratis extra maanden automatisch worden toegevoegd in je winkelmandje.",
+          "Gebruik altijd een geldige actielink of kortingscode; soms schuilt er extra korting achter een specifieke aanbieding. Onze <a href='/blog/surfshark-korting' class='text-blue-600 hover:underline font-medium'>Surfshark kortingspagina</a> houdt de actuele codes bij.",
+          "Twijfel je nog? Maak gebruik van de <strong>30 dagen geld-terug-garantie</strong> als vangnet. Je kunt de dienst rustig uitproberen en binnen die termijn kosteloos annuleren. Zo kun je zonder risico profiteren van de laagste prijs van het jaar."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Effectieve maandprijs",
+          "text": "Tijdens Black Friday zakt de maandprijs van Surfshark bij het tweejarige pakket vaak tot rond de 2 euro per maand."
+        },
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Voor wie is de Surfshark Black Friday deal interessant?",
+        "body": [
+          "De Surfshark Black Friday aanbieding is vooral aantrekkelijk als je een VPN voor de lange termijn zoekt. Door de looptijd van twee jaar betaal je één keer en zit je jaren goed tegen een lage maandprijs.",
+          "Surfshark is een uitstekende keuze voor <a href='/beste-vpn/voor-netflix' class='text-blue-600 hover:underline font-medium'>streaming met Netflix</a>, veilig internetten op <a href='/blog/vpn-openbaar-wifi' class='text-blue-600 hover:underline font-medium'>openbare wifi</a> en gezinnen dankzij het onbeperkt aantal apparaten. Wil je vooral topsnelheid, overweeg dan ook de NordVPN Black Friday actie.",
+          "Heb je slechts kortdurend een VPN nodig, bijvoorbeeld voor één vakantie in het buitenland, dan is een langlopend abonnement minder logisch, ondanks de aantrekkelijke korting."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wanneer start de Surfshark Black Friday aanbieding in 2026?",
+        "answer": "Black Friday valt in 2026 op 27 november. Surfshark start de actie meestal al de week ervoor en laat deze doorlopen tot en met Cyber Monday op 30 november, soms zelfs de hele Cyber Week."
+      },
+      {
+        "question": "Hoeveel korting geeft Surfshark tijdens Black Friday?",
+        "answer": "In voorgaande jaren liep de korting op tot 86% op het tweejarige abonnement, vaak aangevuld met 3 tot 4 gratis maanden. Daarmee zakt de effectieve maandprijs tot ongeveer 2 euro per maand."
+      },
+      {
+        "question": "Is de Surfshark Black Friday deal echt de moeite waard?",
+        "answer": "Ja, de prijs is aantoonbaar lager dan de rest van het jaar. Let wel op dat het kortingspercentage berekend wordt vanaf de maandprijs, dus vergelijk altijd de totaalprijs en de effectieve maandprijs."
+      },
+      {
+        "question": "Kan ik Surfshark opzeggen als de deal tegenvalt?",
+        "answer": "Ja, alle Surfshark-abonnementen komen met een 30 dagen geld-terug-garantie. Je kunt de dienst uitproberen en binnen die termijn kosteloos annuleren en je geld terugvragen."
+      },
+      {
+        "question": "Is Surfshark of NordVPN de beste Black Friday keuze?",
+        "answer": "Surfshark biedt onbeperkt apparaten en vaak de hoogste korting, terwijl NordVPN uitblinkt in snelheid en betrouwbaarheid. Voor gezinnen is Surfshark aantrekkelijker, voor maximale prestaties NordVPN."
+      }
+    ],
+    "relatedProviders": [
+      "surfshark",
+      "nordvpn",
+      "cyberghost"
+    ],
+    "relatedSlugs": [
+      "surfshark-korting",
+      "goedkoopste-vpn-deals",
+      "nordvpn-black-friday"
+    ],
+    "tags": [
+      "surfshark black friday",
+      "vpn deals",
+      "black friday 2026",
+      "vpn korting",
+      "surfshark aanbieding"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
