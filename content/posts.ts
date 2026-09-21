@@ -6251,6 +6251,145 @@ export const posts: BlogPost[] = [
       "teambeheer"
     ]
   },
+  {
+    "slug": "double-vpn-uitgelegd",
+    "title": "Double VPN uitgelegd: wanneer heb je dubbele beveiliging nodig?",
+    "metaTitle": "Double VPN multi-hop uitgelegd (2026 gids)",
+    "metaDescription": "Double VPN multi-hop versleutelt je verkeer via twee servers. Ontdek wanneer dubbele beveiliging zinvol is en welke VPN het beste werkt.",
+    "excerpt": "Wat is double VPN multi-hop en wanneer heb je dubbele versleuteling echt nodig? Complete uitleg met voor- en nadelen.",
+    "category": "Uitleg",
+    "date": "21 september 2026",
+    "dateISO": "2026-09-21",
+    "updatedISO": "2026-09-21",
+    "readTime": "7 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/double-vpn-uitgelegd.jpg",
+    "imageAlt": "Laptop met versleutelde verbinding via twee VPN-servers voor double VPN multi-hop beveiliging",
+    "intro": "Een double VPN multi-hop verbinding stuurt je internetverkeer via twee VPN-servers in plaats van één, waardoor het twee keer versleuteld wordt. Dat klinkt indrukwekkend, maar heb je die extra laag echt nodig? In dit artikel leggen we uit hoe multi-hop werkt en voor wie het zinvol is. Let op: vpnr.nl ontvangt affiliate commissies, maar dit beïnvloedt onze onafhankelijke beoordeling niet.",
+    "sections": [
+      {
+        "heading": "Wat is een double VPN (multi-hop) precies?",
+        "body": [
+          "Bij een normale VPN-verbinding gaat je verkeer via één versleutelde server naar het internet. Bij een <strong>double VPN multi-hop</strong> verbinding wordt je verkeer via twee servers geleid, waarbij het bij elke stap opnieuw wordt versleuteld. Je data verlaat je apparaat, gaat naar server A, vervolgens naar server B en pas daarna naar de bestemming.",
+          "Het grote voordeel is dat geen enkele server het volledige plaatje ziet. De eerste server kent je echte IP-adres maar niet je eindbestemming, en de tweede server kent je bestemming maar niet je oorspronkelijke IP. Deze scheiding maakt het aanzienlijk moeilijker om je online activiteiten te herleiden.",
+          "De term multi-hop verwijst naar het feit dat je verkeer meerdere 'sprongen' maakt. Bij de meeste aanbieders gaat het om precies twee hops, al bieden sommige providers uitgebreidere configuraties. Wil je eerst de basis begrijpen? Lees dan <a href='/wat-is-een-vpn' class='text-blue-600 hover:underline font-medium'>wat een VPN precies is</a>."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Twee servers, twee lagen",
+          "text": "Multi-hop combineert twee VPN-servers zodat je IP-adres en bestemming nooit door dezelfde server bekend zijn."
+        }
+      },
+      {
+        "heading": "Hoe verschilt double VPN van gewone versleuteling?",
+        "body": [
+          "Een standaard VPN gebruikt al sterke versleuteling, meestal AES-256, wat in de praktijk vrijwel onkraakbaar is. Het toevoegen van een tweede laag maakt de versleuteling zelf niet 'sterker', maar het verhoogt de anonimiteit door de route complexer te maken. Wil je meer weten over de techniek? Bekijk onze uitleg over <a href='/blog/vpn-encryptie-uitgelegd' class='text-blue-600 hover:underline font-medium'>VPN-encryptie</a>.",
+          "Het echte verschil zit in de weerbaarheid tegen geavanceerde tegenstanders. Als één server gecompromitteerd raakt of onder juridische druk gegevens moet vrijgeven, beschermt de tweede hop je nog steeds. Voor de gemiddelde gebruiker die Netflix wil kijken of veilig wil internetten op openbare wifi is dit overkill.",
+          "Belangrijk is dat double VPN geen vervanging is voor een goed <a href='/blog/vpn-no-logs-beleid' class='text-blue-600 hover:underline font-medium'>no-logs beleid</a>. Twee servers die allebei logs bijhouden bieden schijnzekerheid. De combinatie van multi-hop én een bewezen no-logs beleid maakt het pas echt waardevol."
+        ]
+      },
+      {
+        "heading": "Wanneer heb je dubbele beveiliging echt nodig?",
+        "body": [
+          "Multi-hop is bedoeld voor situaties met een verhoogd risicoprofiel. Denk aan journalisten die met vertrouwelijke bronnen werken, activisten in landen met streng internettoezicht, of klokkenluiders die informatie delen. Voor deze groepen kan de extra anonimiteit letterlijk het verschil maken.",
+          "Ook bij het gebruik van een VPN in landen met zware censuur, zoals beschreven in ons artikel over <a href='/blog/vpn-china-gebruiken' class='text-blue-600 hover:underline font-medium'>een VPN in China gebruiken</a>, kan een dubbele verbinding extra bescherming bieden. De extra laag maakt het moeilijker voor autoriteiten om VPN-verkeer te analyseren.",
+          "Voor de doorsnee Nederlandse gebruiker die privacy waardeert maar geen doelwit is van gerichte surveillance, volstaat een gewone VPN ruimschoots. Wie vooral streamt, gamet of veilig bankiert op reis heeft geen baat bij de snelheidsverlies van multi-hop."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Niet voor iedereen",
+          "text": "Double VPN is bedoeld voor extreme privacybehoeften. Voor dagelijks gebruik levert het vooral tragere snelheden op zonder merkbaar voordeel."
+        }
+      },
+      {
+        "heading": "Het nadeel: fors snelheidsverlies",
+        "body": [
+          "De belangrijkste keerzijde van double VPN multi-hop is de impact op je verbindingssnelheid. Doordat je verkeer twee keer versleuteld wordt en via twee servers reist, kun je een vertraging van 40 tot 60 procent verwachten ten opzichte van een gewone VPN-verbinding.",
+          "Dat merk je vooral bij snelheidsgevoelige activiteiten. Streaming in hoge kwaliteit, online gaming en grote downloads worden aanzienlijk trager. Voor tekstgebaseerd werk en veilig browsen is de vertraging minder storend.",
+          "Wil je juist de snelste verbinding? Lees dan onze tips over <a href='/blog/vpn-snelheid-verbeteren' class='text-blue-600 hover:underline font-medium'>VPN-snelheid verbeteren</a> en overweeg of multi-hop wel bij jouw gebruik past."
+        ],
+        "table": {
+          "headers": [
+            "Verbinding",
+            "Versleuteling",
+            "Snelheidsverlies",
+            "Aanbevolen voor"
+          ],
+          "rows": [
+            [
+              "Gewone VPN",
+              "1 laag (AES-256)",
+              "5-20%",
+              "Streaming, gaming, dagelijks gebruik"
+            ],
+            [
+              "Double VPN",
+              "2 lagen via 2 servers",
+              "40-60%",
+              "Journalisten, activisten, hoogrisico"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Welke VPN-aanbieders bieden multi-hop?",
+        "body": [
+          "Niet elke VPN ondersteunt double VPN, maar de twee bekendste opties zijn NordVPN en ProtonVPN. Bij <strong>NordVPN</strong> heet de functie simpelweg Dubbele VPN en is deze eenvoudig in te schakelen via de app. Je selecteert een vooraf ingestelde serverketen en de verbinding wordt automatisch dubbel versleuteld.",
+          "<strong>ProtonVPN</strong> gaat een stap verder met de Secure Core functie. Hierbij loopt je verkeer eerst via privacyvriendelijke landen zoals Zwitserland, IJsland of Zweden, voordat het naar de eindserver gaat. Dit voegt een extra juridische beschermingslaag toe, want deze landen hebben sterke privacywetgeving.",
+          "Beide aanbieders combineren multi-hop met een streng no-logs beleid. Twijfel je tussen deze twee? Onze vergelijking <a href='/blog/nordvpn-vs-protonvpn' class='text-blue-600 hover:underline font-medium'>NordVPN vs ProtonVPN</a> helpt je een keuze te maken op basis van jouw wensen."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Multi-hop instellen en alternatieven",
+        "body": [
+          "Het inschakelen van double VPN is bij moderne apps eenvoudig. Bij NordVPN open je de servercategorieën, kies je Dubbele VPN en selecteer je een serverketen. Bij ProtonVPN activeer je Secure Core met één schakelaar in de instellingen. Je hoeft geen technische kennis te hebben.",
+          "Overweeg wel of je niet beter af bent met andere privacyfuncties. Een <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> beschermt je bij verbindingsverlies, en <a href='/blog/vpn-obfuscatie-uitgelegd' class='text-blue-600 hover:underline font-medium'>obfuscatie</a> verbergt dat je überhaupt een VPN gebruikt. Voor veel gebruikers bieden deze functies meer praktisch nut dan een dubbele verbinding.",
+          "Onze conclusie: reserveer double VPN multi-hop voor situaties waarin maximale anonimiteit noodzakelijk is. Voor alles daaronder is een goede gewone VPN met sterke basisbeveiliging de betere, snellere keuze."
+        ],
+        "cta": "protonvpn"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat is double VPN multi-hop?",
+        "answer": "Double VPN, ook wel multi-hop genoemd, stuurt je internetverkeer via twee VPN-servers in plaats van één. Bij elke server wordt je verkeer opnieuw versleuteld, waardoor geen enkele server zowel je IP-adres als je bestemming kent."
+      },
+      {
+        "question": "Heb ik echt een double VPN nodig?",
+        "answer": "Voor de meeste gebruikers niet. Multi-hop is bedoeld voor journalisten, activisten en mensen met extreme privacybehoeften. Voor streaming, gaming en dagelijks veilig internetten volstaat een gewone VPN ruimschoots."
+      },
+      {
+        "question": "Hoeveel trager wordt mijn verbinding met double VPN?",
+        "answer": "Je kunt een snelheidsverlies van 40 tot 60 procent verwachten, omdat je verkeer twee keer versleuteld wordt en via twee servers reist. Bij een gewone VPN is dat verlies meestal maar 5 tot 20 procent."
+      },
+      {
+        "question": "Welke VPN heeft de beste multi-hop functie?",
+        "answer": "NordVPN biedt Dubbele VPN en ProtonVPN heeft Secure Core, waarbij verkeer via privacyvriendelijke landen loopt. Beide combineren multi-hop met een bewezen no-logs beleid en zijn eenvoudig in te schakelen."
+      },
+      {
+        "question": "Is double VPN veiliger dan gewone versleuteling?",
+        "answer": "De versleuteling zelf wordt niet sterker, maar de anonimiteit verbetert doordat de route complexer wordt. Zelfs als één server gecompromitteerd raakt, blijft je identiteit beschermd door de tweede hop."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "protonvpn"
+    ],
+    "relatedSlugs": [
+      "nordvpn-vs-protonvpn",
+      "vpn-encryptie-uitgelegd",
+      "vpn-obfuscatie-uitgelegd"
+    ],
+    "tags": [
+      "double vpn",
+      "multi-hop",
+      "vpn beveiliging",
+      "vpn privacy",
+      "nordvpn",
+      "protonvpn"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
