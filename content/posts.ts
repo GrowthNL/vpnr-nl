@@ -6390,6 +6390,157 @@ export const posts: BlogPost[] = [
       "protonvpn"
     ]
   },
+  {
+    "slug": "vpn-uitschakelen-tijdelijk",
+    "title": "VPN tijdelijk uitschakelen: wanneer en hoe doe je dat? (2026)",
+    "metaTitle": "VPN uitschakelen tijdelijk: hoe & wanneer (2026)",
+    "metaDescription": "VPN uitschakelen tijdelijk op Windows, Mac, iPhone of Android? Ontdek wanneer het slim is en waarom split tunneling vaak beter werkt. Lees de gids.",
+    "excerpt": "Wil je je VPN uitschakelen tijdelijk voor bankieren of een lokaal apparaat? Zo doe je dat veilig op elk toestel, plus een slimmer alternatief.",
+    "category": "Tips",
+    "date": "23 september 2026",
+    "dateISO": "2026-09-23",
+    "updatedISO": "2026-09-23",
+    "readTime": "7 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-uitschakelen-tijdelijk.jpg",
+    "imageAlt": "Persoon schakelt VPN uitschakelen tijdelijk uit op smartphone en laptop aan een bureau",
+    "intro": "Je VPN uitschakelen tijdelijk is soms nodig, bijvoorbeeld bij online bankieren met strenge verificatie of om een lokaal netwerkapparaat te bereiken. In deze gids leggen we uit wanneer dit verstandig is en hoe je het op Windows, Mac, iPhone en Android doet. Ook laten we zien waarom split tunneling vaak een slimmere oplossing is dan volledig uitschakelen.",
+    "sections": [
+      {
+        "heading": "Wanneer wil je je VPN tijdelijk uitschakelen?",
+        "body": [
+          "Een VPN is fantastisch voor je privacy en veiligheid, maar er zijn momenten waarop de versleutelde verbinding voor problemen zorgt. In die gevallen kan het handig zijn om je <strong>VPN uitschakelen tijdelijk</strong> uit te voeren, om daarna gewoon weer verbinding te maken.",
+          "De meest voorkomende situaties zijn: online bankieren met strenge locatieverificatie (banken zien een buitenlands IP soms als verdacht), het bereiken van lokale apparaten zoals je printer, smart-tv of NAS, en het downloaden van grote bestanden waarbij je de absoluut snelste verbinding nodig hebt.",
+          "Ook bij sommige overheidswebsites of betaaldiensten wordt een VPN geblokkeerd. In al deze gevallen hoef je je abonnement niet op te zeggen; even uitschakelen volstaat.",
+          "Ter volledige transparantie: vpnr.nl ontvangt affiliate commissies wanneer je via onze links een VPN aanschaft. Dit beïnvloedt onze beoordelingen niet; wij adviseren onafhankelijk en eerlijk."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Kort of definitief?",
+          "text": "Wil je juist helemaal stoppen? Bekijk dan onze uitleg over het opzeggen van je abonnement, bijvoorbeeld bij NordVPN of ProtonVPN."
+        }
+      },
+      {
+        "heading": "VPN uitschakelen op Windows en Mac",
+        "body": [
+          "Op zowel Windows als Mac schakel je je VPN het snelst uit via de app zelf. Open de applicatie van je provider en klik op de grote verbindingsknop, die verandert van 'Verbonden' naar 'Verbroken'. De verbinding wordt binnen enkele seconden verbroken.",
+          "Bij <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> en <a href='/vpn-reviews/surfshark' class='text-blue-600 hover:underline font-medium'>Surfshark</a> vind je de app-icoon meestal ook in de taakbalk (Windows) of menubalk (Mac). Rechtsklik daarop voor een snelmenu waarmee je direct verbinding kunt verbreken zonder de volledige app te openen.",
+          "Let op de kill switch: als deze staat ingeschakeld, kan je internet volledig geblokkeerd worden zodra de VPN wegvalt. Schakel de kill switch dan eerst uit via de instellingen. Meer daarover lees je in onze uitleg over de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch functie</a>."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Vergeet niet te heractiveren",
+          "text": "Zet je VPN direct weer aan na je taak. Anders surf je onbeschermd verder, zeker riskant op openbare wifi-netwerken."
+        }
+      },
+      {
+        "heading": "VPN uitschakelen op iPhone en Android",
+        "body": [
+          "Op je iPhone open je de VPN-app en tik je op de verbindingsknop om te stoppen. Daarnaast kun je bij iOS naar Instellingen, Algemeen, VPN & apparaatbeheer gaan en daar de schakelaar omzetten. Handig als de app zelf even vastloopt.",
+          "Bij Android werkt het vergelijkbaar: open de app en tik op de statusknop. Je kunt ook via Instellingen, Netwerk & internet, VPN de verbinding beheren. Sommige toestellen tonen een sleutel-icoon in de statusbalk zolang de VPN actief is.",
+          "Wil je stapsgewijze instructies voor jouw toestel? Bekijk dan onze gidsen voor <a href='/blog/vpn-iphone-instellen' class='text-blue-600 hover:underline font-medium'>VPN op iPhone</a> en <a href='/blog/vpn-android-instellen' class='text-blue-600 hover:underline font-medium'>VPN op Android</a>."
+        ]
+      },
+      {
+        "heading": "Split tunneling: het slimmere alternatief",
+        "body": [
+          "In veel gevallen hoef je je VPN helemaal niet uit te schakelen. Met split tunneling bepaal je zelf welke apps of websites wél via de VPN gaan en welke rechtstreeks verbinden. Zo blijft je bankapp buiten de VPN om, terwijl je browser wel beschermd blijft.",
+          "Dit is ideaal voor precies de situaties die we eerder noemden: je bereikt lokale apparaten, je bank herkent je Nederlandse IP, en toch blijft de rest van je verkeer versleuteld. Je hoeft dus niet steeds handmatig te schakelen.",
+          "Split tunneling is beschikbaar bij de meeste topaanbieders zoals NordVPN en Surfshark. In onze uitgebreide uitleg over <a href='/blog/vpn-split-tunneling' class='text-blue-600 hover:underline font-medium'>split tunneling</a> lees je precies hoe je het per toestel instelt."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Stel het één keer in",
+          "text": "Voeg je bankapp toe aan de split-tunneling-uitzonderingen. Zo hoef je nooit meer je hele VPN uit te schakelen om te bankieren."
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Risico's van je VPN uitschakelen",
+        "body": [
+          "Zodra je VPN uit staat, is je echte IP-adres zichtbaar en is je internetverkeer niet meer versleuteld. Op een vertrouwd thuisnetwerk is dat vaak geen probleem, maar op openbare wifi in een café of hotel loop je direct risico.",
+          "Zonder VPN kunnen anderen op hetzelfde netwerk in theorie meekijken. Lees daarom onze gids over de <a href='/blog/vpn-openbaar-wifi' class='text-blue-600 hover:underline font-medium'>gevaren van openbare wifi</a> voordat je je bescherming uitzet buitenshuis.",
+          "Ook je privacy tegenover je internetprovider verdwijnt. Zet je VPN dus alleen uit als het echt nodig is, en het liefst zo kort mogelijk. Split tunneling blijft daarom in bijna alle gevallen de veiligere keuze."
+        ]
+      },
+      {
+        "heading": "Vergelijking: uitschakelen versus split tunneling",
+        "body": [
+          "Twijfel je tussen volledig uitschakelen en split tunneling? Onderstaande tabel zet de belangrijkste verschillen op een rij, zodat je snel de beste keuze maakt voor jouw situatie.",
+          "Voor de meeste gebruikers raden wij split tunneling aan. Wil je toch een betrouwbare provider met beide opties en sterke beveiliging? Bekijk dan <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN</a> of vergelijk alle aanbieders via onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>vergelijkingspagina</a>."
+        ],
+        "table": {
+          "headers": [
+            "Situatie",
+            "Uitschakelen",
+            "Split tunneling"
+          ],
+          "rows": [
+            [
+              "Online bankieren",
+              "Werkt, maar onveilig",
+              "Beste keuze"
+            ],
+            [
+              "Lokaal apparaat bereiken",
+              "Werkt",
+              "Werkt, blijft beschermd"
+            ],
+            [
+              "Snelheid nodig",
+              "Volledig snel",
+              "Alleen voor die app"
+            ],
+            [
+              "Privacy behouden",
+              "Nee",
+              "Ja"
+            ]
+          ]
+        },
+        "cta": "surfshark"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Hoe schakel ik mijn VPN tijdelijk uit?",
+        "answer": "Open de app van je provider en tik op de verbindingsknop, die verandert van 'Verbonden' naar 'Verbroken'. Op iPhone en Android kun je de VPN ook uitzetten via het systeeminstellingenmenu onder VPN."
+      },
+      {
+        "question": "Is het veilig om mijn VPN uit te schakelen?",
+        "answer": "Op een vertrouwd thuisnetwerk is het risico beperkt. Op openbare wifi loop je echter direct gevaar omdat je verkeer niet meer versleuteld is. Schakel de VPN dus alleen kort uit en bij voorkeur alleen thuis."
+      },
+      {
+        "question": "Waarom werkt mijn bankapp niet met een VPN?",
+        "answer": "Banken zien een buitenlands of afwijkend IP-adres soms als verdacht en blokkeren de toegang. Kies daarom een Nederlandse server of gebruik split tunneling om je bankapp buiten de VPN te laten werken."
+      },
+      {
+        "question": "Wat is beter: VPN uitschakelen of split tunneling?",
+        "answer": "Split tunneling is meestal beter. Je laat specifieke apps buiten de VPN om, terwijl de rest van je verkeer beschermd blijft. Zo hoef je de bescherming niet helemaal uit te zetten."
+      },
+      {
+        "question": "Vergeet ik mijn VPN weer aan te zetten?",
+        "answer": "Dat gebeurt makkelijk. Veel VPN-apps hebben een automatische verbindingsfunctie of een kill switch die je beschermt. Schakel deze in zodat je nooit onbeschermd surft."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "protonvpn"
+    ],
+    "relatedSlugs": [
+      "vpn-split-tunneling",
+      "kill-switch-vpn",
+      "vpn-openbaar-wifi"
+    ],
+    "tags": [
+      "vpn uitschakelen",
+      "split tunneling",
+      "vpn tips",
+      "online bankieren",
+      "vpn instellingen"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
