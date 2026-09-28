@@ -121,3 +121,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/double-vpn-uitgelegd — Double VPN uitgelegd: wanneer heb je dubbele beveiliging nodig?
 - https://vpnr.nl/blog/vpn-uitschakelen-tijdelijk — VPN tijdelijk uitschakelen: wanneer en hoe doe je dat? (2026)
 - https://vpnr.nl/blog/hoeveel-kost-een-vpn — Hoeveel kost een VPN per maand? Prijzen en abonnementen (2026)
+- https://vpnr.nl/blog/vpn-werkt-niet-oplossingen — VPN werkt niet? 10 oplossingen voor veelvoorkomende problemen
