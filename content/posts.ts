@@ -6970,6 +6970,147 @@ export const posts: BlogPost[] = [
     relatedSlugs: ['nordvpn-vs-surfshark', 'goedkoopste-vpn-deals', 'vpn-protocol-vergelijking'],
     tags: ['nordvpn vs cyberghost', 'vpn vergelijking', 'beste vpn 2026', 'cyberghost review', 'nordvpn review'],
   },
+  {
+    "slug": "vpn-ipv6-lek-voorkomen",
+    "title": "IPv6-lek bij VPN: wat is het en hoe voorkom je het? (2026)",
+    "metaTitle": "VPN IPv6-lek voorkomen: uitleg en fix (2026)",
+    "metaDescription": "VPN IPv6-lek voorkomen? Ontdek wat een IPv6-lek is, hoe je het test op ipleak.net en hoe je het simpel oplost. Bescherm je echte IP-adres nu.",
+    "excerpt": "Een VPN IPv6-lek verraadt je echte IP-adres. Leer wat een IPv6-lek is, hoe je het test en hoe je het in enkele stappen oplost.",
+    "category": "Uitleg",
+    "date": "30 september 2026",
+    "dateISO": "2026-09-30",
+    "updatedISO": "2026-09-30",
+    "readTime": "7 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-ipv6-lek-voorkomen.jpg",
+    "imageAlt": "Laptopscherm met VPN-verbindingsstatus en netwerkinstellingen om een IPv6-lek te voorkomen",
+    "intro": "Een VPN IPv6-lek voorkomen is belangrijker dan veel mensen denken: zelfs met een actieve VPN kan je echte IPv6-adres uitlekken en zo je locatie en identiteit verraden. In dit artikel leggen we uit wat een IPv6-lek precies is, hoe je erop test via ipleak.net en welke stappen je zet om het probleem definitief op te lossen. vpnr.nl is een onafhankelijke vergelijkingssite; we ontvangen soms affiliate commissies, maar dat beïnvloedt onze beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "Wat is een IPv6-lek bij een VPN?",
+        "body": [
+          "Het internet gebruikt twee soorten IP-adressen: het oudere IPv4 en het nieuwere IPv6. Steeds meer internetproviders in Nederland wijzen naast een IPv4-adres ook een IPv6-adres toe aan je verbinding. Het probleem is dat veel VPN-diensten alleen het IPv4-verkeer door de beveiligde tunnel sturen en het IPv6-verkeer negeren.",
+          "Wanneer dat gebeurt, verlaat je IPv6-verkeer je apparaat buiten de VPN-tunnel om. Websites en trackers kunnen dan alsnog je echte IPv6-adres zien, terwijl je in de veronderstelling verkeert dat je volledig anoniem bent. Dit heet een <strong>IPv6-lek</strong>.",
+          "Een IPv6-lek ondermijnt de belangrijkste reden om een VPN te gebruiken: het verbergen van je echte identiteit en locatie. Zeker als je waarde hecht aan <a href='/blog/vpn-anoniem-internetten' class='text-blue-600 hover:underline font-medium'>anoniem internetten</a>, is dit een lek dat je niet wilt negeren."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Kort samengevat",
+          "text": "Een IPv6-lek ontstaat wanneer je VPN het IPv6-verkeer niet door de tunnel routeert, waardoor je echte IPv6-adres zichtbaar blijft voor websites."
+        }
+      },
+      {
+        "heading": "Waarom lekken sommige VPN's IPv6?",
+        "body": [
+          "IPv6 is jarenlang een randonderwerp geweest, waardoor niet elke VPN-aanbieder er volledig op is voorbereid. Sommige apps sturen alleen IPv4-verkeer door de tunnel en laten IPv6-verkeer 'ongefilterd' passeren. Zonder maatregelen betekent dit een direct lek.",
+          "Er zijn grofweg twee oplossingsstrategieën die aanbieders hanteren. De eerste is native IPv6-ondersteuning, waarbij ook je IPv6-verkeer netjes door de versleutelde tunnel loopt. De tweede is het volledig blokkeren van IPv6-verkeer zolang de VPN actief is, zodat er niets kan uitlekken.",
+          "Betrouwbare aanbieders combineren dit vaak met een <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> en een streng <a href='/blog/vpn-no-logs-beleid' class='text-blue-600 hover:underline font-medium'>no-logs beleid</a>. Zo blijft je verkeer beschermd, zelfs als de verbinding kortstondig wegvalt."
+        ]
+      },
+      {
+        "heading": "Zo test je op een IPv6-lek",
+        "body": [
+          "Testen of jouw VPN een IPv6-lek heeft is snel gedaan. Verbind eerst met je VPN en open vervolgens een lektest-website zoals ipleak.net in je browser. De site toont welke IP-adressen zichtbaar zijn voor de buitenwereld.",
+          "Als je bij het onderdeel IPv6 je echte adres van je internetprovider ziet staan, heb je een lek. Zie je geen IPv6-adres of alleen het adres van je VPN-server, dan zit je goed. Vergeet niet ook een <a href='/blog/vpn-dns-lek-test' class='text-blue-600 hover:underline font-medium'>DNS-lektest</a> uit te voeren, want ook DNS-verzoeken kunnen je identiteit verraden.",
+          "Doe de test bij voorkeur op meerdere servers en op elk apparaat dat je gebruikt. Wil je eerst weten wat er zonder VPN zichtbaar is, kijk dan op onze pagina <a href='/blog/wat-is-mijn-ip-adres' class='text-blue-600 hover:underline font-medium'>wat is mijn IP-adres</a>."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Test in twee stappen",
+          "text": "Voer de ipleak.net-test één keer uit zonder VPN en één keer met VPN. Verschillen de IPv6-adressen niet, dan heb je een lek."
+        }
+      },
+      {
+        "heading": "Zo los je een IPv6-lek op",
+        "body": [
+          "De meest betrouwbare oplossing is een VPN kiezen die IPv6-lekken automatisch afhandelt. Diensten als NordVPN, Surfshark en Proton VPN blokkeren of tunnelen IPv6-verkeer standaard, waardoor je zelf niets hoeft in te stellen.",
+          "Gebruik je toch een VPN zonder deze bescherming, dan kun je IPv6 handmatig uitschakelen op je apparaat. In Windows doe je dit via het Netwerkcentrum bij de eigenschappen van je adapter, door het vinkje bij 'Internet Protocol versie 6 (TCP/IPv6)' uit te zetten. Op macOS kan dit via de netwerkinstellingen of via een terminalcommando per netwerkadapter.",
+          "Op routerniveau kun je IPv6 vaak volledig uitschakelen in de beheeromgeving van je modem of router. Dit is handig als je een <a href='/blog/vpn-router-instellen' class='text-blue-600 hover:underline font-medium'>VPN op je router</a> gebruikt, omdat alle apparaten in je netwerk dan meteen beschermd zijn.",
+          "Let op: het uitschakelen van IPv6 kan in zeldzame gevallen invloed hebben op bepaalde diensten. Test daarom altijd opnieuw op ipleak.net nadat je een aanpassing hebt gedaan."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "VPN's met sterke IPv6-bescherming vergeleken",
+        "body": [
+          "Niet elke VPN gaat op dezelfde manier om met IPv6. Hieronder zetten we drie aanbieders naast elkaar die bekendstaan om hun goede lekbescherming. Alle drie combineren dit met een kill switch en moderne protocollen zoals WireGuard.",
+          "Wil je zeker weten dat je goed zit, kies dan voor een aanbieder die IPv6-lekken standaard afvangt. Zo hoef je zelf geen technische instellingen aan te passen. Bekijk voor meer opties ook onze volledige <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijking</a>."
+        ],
+        "table": {
+          "headers": [
+            "VPN",
+            "IPv6-lekbescherming",
+            "Kill switch"
+          ],
+          "rows": [
+            [
+              "NordVPN",
+              "Blokkeert IPv6-verkeer automatisch",
+              "Ja"
+            ],
+            [
+              "Surfshark",
+              "Blokkeert IPv6-verkeer automatisch",
+              "Ja"
+            ],
+            [
+              "Proton VPN",
+              "Blokkeert IPv6-verkeer automatisch",
+              "Ja"
+            ]
+          ]
+        },
+        "cta": "protonvpn"
+      },
+      {
+        "heading": "Onze conclusie en aanbeveling",
+        "body": [
+          "Een IPv6-lek is een sluipend probleem: je VPN lijkt te werken, maar je echte adres ligt intussen op straat. Gelukkig is het eenvoudig te controleren met een lektest en in de meeste gevallen snel op te lossen.",
+          "De makkelijkste manier om een VPN IPv6-lek te voorkomen is kiezen voor een aanbieder die dit standaard regelt. NordVPN, Surfshark en Proton VPN scoren hier goed op en vragen geen technische kennis van jou als gebruiker.",
+          "Wil je verder verdiepen in hoe VPN's je verkeer beveiligen, lees dan onze uitleg over <a href='/blog/vpn-encryptie-uitgelegd' class='text-blue-600 hover:underline font-medium'>VPN-encryptie</a>. Zo weet je precies waar je op moet letten."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat is een IPv6-lek bij een VPN?",
+        "answer": "Een IPv6-lek ontstaat wanneer je VPN alleen het IPv4-verkeer door de beveiligde tunnel stuurt en het IPv6-verkeer buiten de tunnel om laat gaan. Hierdoor blijft je echte IPv6-adres zichtbaar voor websites en trackers, ondanks dat je VPN actief is."
+      },
+      {
+        "question": "Hoe test ik of mijn VPN een IPv6-lek heeft?",
+        "answer": "Verbind eerst met je VPN en open vervolgens een lektest zoals ipleak.net. Zie je bij het onderdeel IPv6 nog je eigen adres van je internetprovider, dan heb je een lek. Zie je alleen het adres van de VPN-server of geen IPv6-adres, dan zit je goed."
+      },
+      {
+        "question": "Moet ik IPv6 uitschakelen om een lek te voorkomen?",
+        "answer": "Dat kan een oplossing zijn als je VPN geen IPv6-bescherming biedt. In Windows en macOS schakel je IPv6 uit via de netwerkinstellingen. Kies je echter een VPN die IPv6-verkeer automatisch blokkeert of tunnelt, dan hoef je zelf niets aan te passen."
+      },
+      {
+        "question": "Welke VPN's beschermen tegen IPv6-lekken?",
+        "answer": "NordVPN, Surfshark en Proton VPN blokkeren of tunnelen IPv6-verkeer standaard, waardoor je automatisch beschermd bent tegen IPv6-lekken. Ze combineren dit met een kill switch en een streng no-logs beleid."
+      },
+      {
+        "question": "Is IPv6 uitschakelen gevaarlijk?",
+        "answer": "Nee, het uitschakelen van IPv6 is meestal veilig en veroorzaakt zelden problemen, omdat de meeste diensten nog steeds via IPv4 werken. In zeldzame gevallen kan een specifieke dienst hinder ondervinden. Test na elke aanpassing opnieuw via ipleak.net."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "protonvpn",
+      "surfshark"
+    ],
+    "relatedSlugs": [
+      "vpn-dns-lek-test",
+      "kill-switch-vpn",
+      "vpn-anoniem-internetten"
+    ],
+    "tags": [
+      "ipv6 lek",
+      "vpn beveiliging",
+      "ip-adres verbergen",
+      "vpn lektest",
+      "vpn privacy"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
