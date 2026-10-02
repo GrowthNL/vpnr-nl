@@ -7111,6 +7111,158 @@ export const posts: BlogPost[] = [
       "vpn privacy"
     ]
   },
+  {
+    "slug": "vpn-poort-forwarding",
+    "title": "VPN poort forwarding uitleg: zo werkt port forwarding in 2026",
+    "metaTitle": "VPN poort forwarding uitleg 2026: compleet overzicht",
+    "metaDescription": "VPN poort forwarding uitleg: wat het is, waarvoor je het gebruikt en welke VPN's het bieden. Ontdek de beste keuze voor torrenten en gaming.",
+    "excerpt": "VPN poort forwarding uitleg voor 2026: snellere torrents, thuisservers bereiken en gameservers hosten. Lees welke VPN's port forwarding ondersteunen.",
+    "category": "Uitleg",
+    "date": "2 oktober 2026",
+    "dateISO": "2026-10-02",
+    "updatedISO": "2026-10-02",
+    "readTime": "8 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-poort-forwarding.jpg",
+    "imageAlt": "Netwerkrouter met ethernetkabels op een bureau naast laptop met VPN poort forwarding instellingen",
+    "intro": "Een VPN poort forwarding uitleg begint bij een simpele vraag: hoe maak je een apparaat achter een VPN bereikbaar vanaf het internet? Port forwarding opent een specifieke poort in de VPN-server zodat inkomend verkeer je device kan vinden, handig voor torrenten, thuisservers en het hosten van gameservers. In deze gids leggen we precies uit hoe het werkt en welke VPN's het in 2026 ondersteunen. Transparantie: vpnr.nl ontvangt affiliate commissies, maar dit beïnvloedt onze onafhankelijke beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "Wat is poort forwarding via een VPN?",
+        "body": [
+          "Port forwarding (ook wel poortdoorschakeling) zorgt ervoor dat inkomend internetverkeer op een specifieke poort wordt doorgestuurd naar jouw apparaat. Normaal gesproken blokkeert een VPN-server al het ongevraagde inkomende verkeer, wat prima is voor privacy maar nadelig als je juist bereikbaar wilt zijn.",
+          "Met poort forwarding opent de VPN-provider een poort op zijn server en koppelt die aan jouw sessie. Verkeer dat op die poort binnenkomt, wordt dan via de versleutelde tunnel naar jouw computer, NAS of gameserver geleid. Zo blijft je echte IP-adres verborgen terwijl je toch bereikbaar bent.",
+          "Het verschil met klassieke port forwarding op je router is belangrijk: bij een VPN gebeurt het doorsturen op de server van de aanbieder, niet thuis. Je hebt dus een VPN nodig die deze functie expliciet aanbiedt."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Kort gezegd",
+          "text": "Poort forwarding maakt een apparaat achter je VPN bereikbaar vanaf internet, zonder dat je je echte IP-adres prijsgeeft."
+        }
+      },
+      {
+        "heading": "Waarvoor gebruik je VPN port forwarding?",
+        "body": [
+          "De bekendste toepassing is <strong>torrenten</strong>. Zonder open poort kun je alleen downloaden van peers die zelf een open poort hebben. Met poort forwarding word je zelf beter bereikbaar als seeder, wat resulteert in snellere downloads en betere verbindingen binnen de zwerm. Zie ook onze gids over de <a href='/beste-vpn/voor-torrenten' class='text-blue-600 hover:underline font-medium'>beste VPN voor torrenten</a>.",
+          "Een tweede gebruik is het bereikbaar maken van een <strong>thuisserver</strong>. Draai je een NAS, mediaserver of eigen website thuis, dan kun je die via een doorgestuurde poort vanaf het internet benaderen terwijl je thuis-IP afgeschermd blijft.",
+          "Ten derde gebruiken gamers port forwarding om <em>gameservers te hosten</em>. Veel multiplayer-games vereisen een open poort voor inkomende verbindingen van medespelers. Zonder forwarding kunnen anderen vaak niet op je gehoste server komen."
+        ]
+      },
+      {
+        "heading": "Waarom bieden de meeste VPN's het niet aan",
+        "body": [
+          "Hier wringt het: de meeste grote VPN-providers hebben port forwarding juist <strong>uitgeschakeld</strong>. De reden is veiligheid. Een open poort op een gedeelde VPN-server vergroot het risico dat kwaadwillenden misbruik maken van die toegang, bijvoorbeeld voor DDoS-aanvallen of om kwetsbare apparaten te scannen.",
+          "Daarnaast gebruiken aanbieders vaak gedeelde IP-adressen waarbij honderden gebruikers hetzelfde IP delen. Dat maakt netjes doorsturen naar één specifieke gebruiker technisch lastig en potentieel onveilig voor de rest.",
+          "NordVPN en Surfshark hebben port forwarding bijvoorbeeld verwijderd of nooit aangeboden, met privacy en veiligheid als argument. Wil je deze functie, dan kom je uit bij een kleinere groep gespecialiseerde providers. Meer over veilig downloaden lees je in ons artikel over <a href='/blog/vpn-no-logs-beleid' class='text-blue-600 hover:underline font-medium'>no-logs beleid</a>."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Beveiligingsrisico",
+          "text": "Een open poort maakt je apparaat zichtbaarder op het internet. Combineer port forwarding altijd met een firewall en veilige configuratie."
+        }
+      },
+      {
+        "heading": "Welke VPN's ondersteunen port forwarding in 2026?",
+        "body": [
+          "Twee aanbieders springen eruit als het gaat om poort forwarding. <strong>ProtonVPN</strong> heeft de functie ingebouwd in zijn apps, met dynamische poorttoewijzing en focus op privacy. <strong>PureVPN</strong> biedt port forwarding als add-on en is populair bij torrenters die controle willen over hun poorten.",
+          "Ook Hide.me staat bekend om flexibele configuratie-opties en is een solide keuze voor gevorderde gebruikers die hun verbinding willen fijnafstellen. Hieronder zie je een vergelijking van de belangrijkste opties.",
+          "Let goed op: sommige providers bieden port forwarding alleen op specifieke servers of via handmatige instellingen. Controleer altijd de actuele voorwaarden voordat je een abonnement afsluit."
+        ],
+        "table": {
+          "headers": [
+            "VPN",
+            "Port forwarding",
+            "Methode"
+          ],
+          "rows": [
+            [
+              "ProtonVPN",
+              "Ja, ingebouwd",
+              "In de app, dynamische poort"
+            ],
+            [
+              "PureVPN",
+              "Ja, als add-on",
+              "Via dashboard instelbaar"
+            ],
+            [
+              "Hide.me",
+              "Ja",
+              "Handmatig configureerbaar"
+            ],
+            [
+              "NordVPN",
+              "Nee",
+              "Niet beschikbaar"
+            ],
+            [
+              "Surfshark",
+              "Nee",
+              "Niet beschikbaar"
+            ]
+          ]
+        },
+        "cta": "protonvpn"
+      },
+      {
+        "heading": "Zo stel je poort forwarding in",
+        "body": [
+          "Bij <strong>ProtonVPN</strong> schakel je port forwarding in via de instellingen van de app. Nadat je verbinding maakt met een P2P-server, krijgt je sessie automatisch een poort toegewezen. Die poort vul je vervolgens in je torrentclient of serverapplicatie in. Lees ook onze volledige <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN review</a>.",
+          "Bij <strong>PureVPN</strong> stel je de gewenste poort in via het online dashboard of de app. Je kiest zelf welke poort je opent en koppelt die aan je apparaat. Dit geeft meer controle, maar vraagt wat meer technische kennis.",
+          "Vergeet niet om in je torrentclient (zoals qBittorrent) of game de doorgestuurde poort in te vullen bij de verbindingsinstellingen. Controleer daarna of de poort echt open staat met een online poortscanner. Combineer dit altijd met een actieve <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> zodat je nooit onbeschermd online bent."
+        ],
+        "cta": "purevpn"
+      },
+      {
+        "heading": "Is port forwarding via VPN veilig en nodig?",
+        "body": [
+          "Port forwarding is niet voor iedereen noodzakelijk. Voor gewoon streamen, browsen of je <a href='/blog/vpn-ip-adres-verbergen' class='text-blue-600 hover:underline font-medium'>IP-adres verbergen</a> heb je het helemaal niet nodig. Pas als je actief wilt seeden, een server wilt hosten of op afstand wilt inloggen op een thuisapparaat wordt de functie waardevol.",
+          "Qua veiligheid geldt: een open poort maakt je iets kwetsbaarder, maar dat risico blijft beheersbaar zolang je apparaat up-to-date is en je een firewall gebruikt. De versleutelde VPN-tunnel beschermt je identiteit, ook met een open poort.",
+          "Ons advies: kies alleen voor port forwarding als je het echt gebruikt, en ga dan voor een betrouwbare aanbieder met een bewezen no-logs beleid. ProtonVPN is in 2026 de meest gebruiksvriendelijke optie, terwijl PureVPN en Hide.me meer handmatige controle bieden."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat is VPN port forwarding precies?",
+        "answer": "Port forwarding via een VPN stuurt inkomend verkeer op een specifieke poort van de VPN-server door naar jouw apparaat. Zo blijf je bereikbaar vanaf het internet terwijl je echte IP-adres verborgen blijft achter de VPN."
+      },
+      {
+        "question": "Welke VPN's ondersteunen port forwarding in 2026?",
+        "answer": "ProtonVPN biedt port forwarding ingebouwd in de app, PureVPN heeft het als add-on en Hide.me ondersteunt het via handmatige configuratie. Grote aanbieders zoals NordVPN en Surfshark bieden deze functie niet meer aan vanwege beveiliging."
+      },
+      {
+        "question": "Heb ik port forwarding nodig om te torrenten?",
+        "answer": "Niet strikt noodzakelijk, maar met port forwarding word je beter bereikbaar als seeder. Dat levert vaak snellere downloads en stabielere verbindingen binnen de torrent-zwerm op."
+      },
+      {
+        "question": "Is port forwarding via VPN veilig?",
+        "answer": "Een open poort maakt je apparaat iets zichtbaarder online, maar het risico blijft beheersbaar met een actuele firewall en up-to-date systeem. De VPN-tunnel beschermt ondertussen je identiteit en echte IP-adres."
+      },
+      {
+        "question": "Waarom bieden NordVPN en Surfshark geen port forwarding?",
+        "answer": "Beide aanbieders hebben port forwarding verwijderd om veiligheidsredenen. Open poorten op gedeelde servers vergroten het risico op misbruik zoals DDoS-aanvallen en zijn lastig te combineren met gedeelde IP-adressen."
+      }
+    ],
+    "relatedProviders": [
+      "protonvpn",
+      "purevpn",
+      "hideme"
+    ],
+    "relatedSlugs": [
+      "kill-switch-vpn",
+      "vpn-no-logs-beleid",
+      "vpn-split-tunneling"
+    ],
+    "tags": [
+      "port forwarding",
+      "vpn torrenten",
+      "poortdoorschakeling",
+      "protonvpn",
+      "vpn uitleg",
+      "vpn gaming"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {

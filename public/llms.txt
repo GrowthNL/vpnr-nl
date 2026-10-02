@@ -123,3 +123,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/hoeveel-kost-een-vpn — Hoeveel kost een VPN per maand? Prijzen en abonnementen (2026)
 - https://vpnr.nl/blog/vpn-werkt-niet-oplossingen — VPN werkt niet? 10 oplossingen voor veelvoorkomende problemen
 - https://vpnr.nl/blog/vpn-ipv6-lek-voorkomen — IPv6-lek bij VPN: wat is het en hoe voorkom je het? (2026)
+- https://vpnr.nl/blog/vpn-poort-forwarding — VPN poort forwarding uitleg: zo werkt port forwarding in 2026
