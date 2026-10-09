@@ -126,3 +126,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-poort-forwarding — VPN poort forwarding uitleg: zo werkt port forwarding in 2026
 - https://vpnr.nl/blog/protonvpn-korting — ProtonVPN korting 2026: tot 50% besparen op privacy-VPN
 - https://vpnr.nl/blog/vpn-vs-tor-browser — VPN vs Tor Browser: het verschil en wanneer je wat kiest (2026)
+- https://vpnr.nl/blog/vpn-kopen-gids — VPN kopen in 2026: de complete beginnersgids stap voor stap
