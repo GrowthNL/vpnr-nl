@@ -130,3 +130,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-snelheid-vergelijken — VPN snelheidstest 2026: welke VPN is het snelst in Nederland?
 - https://vpnr.nl/blog/vpn-op-reisrouter — VPN op een reisrouter: alle apparaten tegelijk beveiligd (2026)
 - https://vpnr.nl/blog/vpn-kopen-checklist — VPN kopen checklist 2026: waar moet je echt op letten?
+- https://vpnr.nl/blog/vpn-browser-extensie-vs-app — VPN browser-extensie vs VPN-app: wat is het verschil? (2026)
