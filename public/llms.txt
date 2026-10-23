@@ -132,3 +132,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-kopen-checklist — VPN kopen checklist 2026: waar moet je echt op letten?
 - https://vpnr.nl/blog/vpn-browser-extensie-vs-app — VPN browser-extensie vs VPN-app: wat is het verschil? (2026)
 - https://vpnr.nl/blog/vpn-voor-kinderen-familie — VPN voor het gezin: bescherm je kinderen veilig online (2026)
+- https://vpnr.nl/blog/vpn-vs-proxy-verschil — VPN vs Proxy: wat is het verschil en wanneer gebruik je wat?
