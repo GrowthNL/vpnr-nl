@@ -135,3 +135,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-vs-proxy-verschil — VPN vs Proxy: wat is het verschil en wanneer gebruik je wat?
 - https://vpnr.nl/blog/vpn-bbc-iplayer-kijken — BBC iPlayer Nederland kijken met VPN (2026): complete gids
 - https://vpnr.nl/blog/vpn-op-xbox-instellen — VPN instellen op Xbox Series X/S en Xbox One (2026): 3 methoden
+- https://vpnr.nl/blog/vpn-dedicated-ip-uitgelegd — Dedicated IP VPN uitgelegd: wat is het en heb je het nodig?
