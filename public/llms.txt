@@ -137,3 +137,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-op-xbox-instellen — VPN instellen op Xbox Series X/S en Xbox One (2026): 3 methoden
 - https://vpnr.nl/blog/vpn-dedicated-ip-uitgelegd — Dedicated IP VPN uitgelegd: wat is het en heb je het nodig?
 - https://vpnr.nl/blog/vpn-hulu-kijken — Hulu kijken in Nederland met VPN (2026): stap voor stap
+- https://vpnr.nl/blog/vpn-whatsapp-geblokkeerd — WhatsApp geblokkeerd in het buitenland? Zo gebruik je een VPN (2026)

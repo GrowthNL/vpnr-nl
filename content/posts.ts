@@ -9249,6 +9249,156 @@ export const posts: BlogPost[] = [
       "vpn gids"
     ]
   },
+  {
+    "slug": "vpn-whatsapp-geblokkeerd",
+    "title": "WhatsApp geblokkeerd in het buitenland? Zo gebruik je een VPN (2026)",
+    "metaTitle": "WhatsApp geblokkeerd buitenland VPN: gids 2026",
+    "metaDescription": "WhatsApp geblokkeerd in het buitenland? Met een VPN omzeil je blokkades in China, Iran en de VAE. Lees welke VPN werkt en bel weer gratis.",
+    "excerpt": "WhatsApp geblokkeerd in het buitenland? Ontdek hoe je met een VPN blokkades in China, Iran en de VAE omzeilt en veilig blijft bellen.",
+    "category": "Gids",
+    "date": "4 november 2026",
+    "dateISO": "2026-11-04",
+    "updatedISO": "2026-11-04",
+    "readTime": "7 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-whatsapp-geblokkeerd.svg",
+    "imageAlt": "Reiziger die op een smartphone WhatsApp gebruikt in een buitenlandse stad met een actieve VPN-verbinding",
+    "intro": "Is WhatsApp geblokkeerd in het buitenland, dan is een VPN vaak de snelste oplossing om weer te kunnen bellen en chatten. In landen zoals China, Iran en de Verenigde Arabische Emiraten beperken overheden de toegang tot WhatsApp, maar met de juiste VPN laat je jouw verkeer uit een vrij land komen. In deze gids leggen we uit welke VPN werkt en hoe je alles vóór vertrek instelt.",
+    "sections": [
+      {
+        "heading": "Waarom is WhatsApp geblokkeerd in bepaalde landen?",
+        "body": [
+          "WhatsApp is volledig of gedeeltelijk geblokkeerd in landen zoals China, Iran, Cuba, Noord-Korea en de Verenigde Arabische Emiraten. De reden is bijna altijd hetzelfde: overheden willen controle houden over de communicatie van hun burgers en bezoekers.",
+          "WhatsApp gebruikt end-to-end-encryptie, waardoor berichten niet meegelezen kunnen worden. Dat is precies wat autoritaire regimes onwelgevallig is. In de VAE speelt bovendien mee dat gratis bellen via internet (VoIP) de inkomsten van lokale telecomaanbieders ondermijnt, waardoor spraak- en videogesprekken via WhatsApp geblokkeerd zijn.",
+          "Het resultaat is dat je als reiziger plotseling niet meer kunt appen of bellen met het thuisfront. Een <a href='/wat-is-een-vpn' class='text-blue-600 hover:underline font-medium'>VPN</a> biedt in de meeste gevallen een betrouwbare uitweg.",
+          "Voor de volledige transparantie: vpnr.nl ontvangt affiliate commissies wanneer je via onze links een VPN afsluit. Dit beïnvloedt onze beoordelingen niet, wij adviseren uitsluitend op basis van werking en betrouwbaarheid."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Landen met blokkades",
+          "text": "WhatsApp is geheel of deels geblokkeerd in onder meer China, Iran, Cuba, Noord-Korea en de VAE (geen spraak- en videogesprekken)."
+        }
+      },
+      {
+        "heading": "Hoe helpt een VPN tegen de WhatsApp-blokkade?",
+        "body": [
+          "Een VPN versleutelt je internetverkeer en stuurt het via een server in een ander land. Daardoor lijkt het alsof je vanuit bijvoorbeeld Nederland of Duitsland online bent, een land waar WhatsApp gewoon werkt. De lokale blokkade kan jouw verkeer niet meer herkennen of tegenhouden.",
+          "Zodra je verbonden bent met een VPN-server buiten het blokkadeland, functioneren berichten, spraakgesprekken en videobellen weer normaal. Je kiest het beste een serverlocatie dicht in de buurt, zoals een naburig Europees of Aziatisch land, voor de snelste verbinding.",
+          "Wil je meer weten over hoe je een VPN onderweg gebruikt, lees dan onze uitgebreide gids over <a href='/blog/vpn-buitenland-gebruiken' class='text-blue-600 hover:underline font-medium'>een VPN in het buitenland gebruiken</a>."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Obfuscatie: onmisbaar in China en Iran",
+        "body": [
+          "In de meeste landen is een gewone VPN-verbinding voldoende. Maar in China en Iran gaan overheden een stap verder: zij herkennen en blokkeren actief standaard VPN-protocollen. Een gewone VPN-app zal daar vaak geen verbinding maken.",
+          "Daarvoor bestaat <a href='/blog/vpn-obfuscatie-uitgelegd' class='text-blue-600 hover:underline font-medium'>obfuscatie</a> (ook wel stealth-technologie genoemd). Deze functie vermomt je VPN-verkeer als gewoon internetverkeer, zodat de firewall het niet herkent als VPN. Hierdoor blijf je ook achter streng gecensureerde netwerken verbonden.",
+          "Niet elke VPN biedt obfuscatie, dus check dit vooraf als je naar China of Iran reist. Lees ook onze specifieke gids over <a href='/blog/vpn-china-gebruiken' class='text-blue-600 hover:underline font-medium'>een VPN in China gebruiken</a> voor de laatste stand van zaken."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Let op in China en Iran",
+          "text": "Zonder obfuscatie maakt je VPN daar vaak geen verbinding. Kies een provider met expliciete stealth-functies."
+        }
+      },
+      {
+        "heading": "Welke VPN's werken in geblokkeerde landen?",
+        "body": [
+          "Drie providers vallen op door hun betrouwbare obfuscatie-functies en goede werking in landen met zware censuur. Elk heeft een eigen naam voor deze technologie, maar het doel is hetzelfde: je VPN-verkeer onzichtbaar maken.",
+          "<strong>NordVPN</strong> biedt Obfuscated Servers die je in de instellingen activeert, en staat bekend als een van de meest stabiele keuzes in China. <strong>Surfshark</strong> heeft de Camouflage-modus, die automatisch inschakelt op het OpenVPN-protocol. <strong>ProtonVPN</strong> gebruikt Stealth, een eigen protocol dat speciaal ontworpen is om censuur te omzeilen.",
+          "In onderstaande tabel zie je de obfuscatie-functies per provider in één oogopslag."
+        ],
+        "table": {
+          "headers": [
+            "VPN-provider",
+            "Obfuscatie-functie",
+            "Geschikt voor"
+          ],
+          "rows": [
+            [
+              "NordVPN",
+              "Obfuscated Servers",
+              "China, Iran, VAE"
+            ],
+            [
+              "Surfshark",
+              "Camouflage-modus",
+              "China, Iran, VAE"
+            ],
+            [
+              "ProtonVPN",
+              "Stealth-protocol",
+              "China, Iran, VAE"
+            ]
+          ]
+        },
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Installeer de VPN-app vóór je vertrek",
+        "body": [
+          "Dit is de belangrijkste tip van deze gids: download en installeer je VPN-app voordat je naar een geblokkeerd land reist. In landen als China en Iran zijn de Apple App Store en Google Play Store namelijk vaak zelf ook gecensureerd, waardoor je de app ter plaatse niet meer kunt downloaden.",
+          "Test de verbinding bovendien thuis of onderweg, zodat je weet dat obfuscatie correct is ingeschakeld. Log ook in op je account en noteer eventuele back-upservers, want eenmaal achter een firewall is probleemoplossing lastiger.",
+          "Afhankelijk van je toestel helpen onze stap-voor-stap handleidingen je op weg: <a href='/blog/vpn-iphone-instellen' class='text-blue-600 hover:underline font-medium'>VPN op iPhone instellen</a> en <a href='/blog/vpn-android-instellen' class='text-blue-600 hover:underline font-medium'>VPN op Android instellen</a>.",
+          "Overweeg ook een VPN met een goede <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a>, zodat je verkeer nooit onbeschermd naar buiten lekt als de verbinding wegvalt."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Download vooraf",
+          "text": "App stores zijn in China en Iran vaak geblokkeerd. Installeer en test je VPN dus vóór vertrek."
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Is een VPN voor WhatsApp legaal?",
+        "body": [
+          "In Nederland en de meeste westerse landen is het gebruik van een VPN volledig legaal, ook om WhatsApp te gebruiken. In landen met zware censuur ligt dit genuanceerder: VPN-gebruik wordt daar soms getolereerd, maar is officieel beperkt of verboden.",
+          "In de praktijk gebruiken miljoenen reizigers en expats een VPN in landen als China en de VAE zonder problemen. Houd je wel aan de lokale wetgeving en gebruik een betrouwbare, betaalde provider. Gratis VPN's zijn hier af te raden vanwege <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>veiligheidsrisico's</a> en gebrekkige obfuscatie.",
+          "Meer weten over de juridische kant? Lees onze uitleg over <a href='/blog/vpn-legaal-in-nederland' class='text-blue-600 hover:underline font-medium'>of een VPN legaal is in Nederland</a>."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Werkt WhatsApp in China met een VPN?",
+        "answer": "Ja, maar alleen met een VPN die obfuscatie ondersteunt. WhatsApp is in China geblokkeerd en standaard VPN-protocollen worden daar ook tegengehouden. NordVPN, Surfshark en ProtonVPN hebben stealth-functies die hier doorgaans goed werken."
+      },
+      {
+        "question": "Waarom kan ik niet WhatsApp-bellen in Dubai?",
+        "answer": "In de Verenigde Arabische Emiraten zijn spraak- en videogesprekken via WhatsApp geblokkeerd om lokale telecomaanbieders te beschermen. Met een VPN die een server buiten de VAE gebruikt, kun je weer normaal bellen en videobellen."
+      },
+      {
+        "question": "Welke VPN is het beste voor WhatsApp in het buitenland?",
+        "answer": "NordVPN, Surfshark en ProtonVPN zijn de beste keuzes omdat ze alle drie betrouwbare obfuscatie bieden. Voor stabiliteit in zwaar gecensureerde landen zoals China staat NordVPN bekend als een van de sterkste opties."
+      },
+      {
+        "question": "Moet ik de VPN voor of na vertrek installeren?",
+        "answer": "Installeer de VPN altijd vóór vertrek. App stores zijn in landen als China en Iran vaak zelf geblokkeerd, waardoor je de app ter plaatse niet meer kunt downloaden of updaten."
+      },
+      {
+        "question": "Is een gratis VPN voldoende om WhatsApp te deblokkeren?",
+        "answer": "Gratis VPN's zijn af te raden. Ze bieden zelden obfuscatie, zijn vaak traag en kunnen je gegevens verkopen. In landen met zware censuur werken ze bovendien meestal niet. Kies een betrouwbare betaalde provider."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "protonvpn"
+    ],
+    "relatedSlugs": [
+      "vpn-china-gebruiken",
+      "vpn-obfuscatie-uitgelegd",
+      "vpn-buitenland-gebruiken"
+    ],
+    "tags": [
+      "whatsapp vpn",
+      "whatsapp geblokkeerd",
+      "vpn buitenland",
+      "obfuscatie",
+      "vpn china",
+      "vpn dubai"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
