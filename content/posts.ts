@@ -9399,6 +9399,159 @@ export const posts: BlogPost[] = [
       "vpn dubai"
     ]
   },
+  {
+    "slug": "vpn-youtube-deblokkeren",
+    "title": "YouTube geblokkeerd op school of werk? Deblokkeer met VPN (2026)",
+    "metaTitle": "VPN YouTube deblokkeren school & werk 2026",
+    "metaDescription": "YouTube geblokkeerd op school of werk? Met een VPN deblokkeer je YouTube veilig in 2026. Lees welke VPN en instellingen echt werken.",
+    "excerpt": "YouTube geblokkeerd op school of werk? Ontdek hoe je met een VPN YouTube deblokkeert en welke aanpak per situatie het beste werkt in 2026.",
+    "category": "Gids",
+    "date": "6 november 2026",
+    "dateISO": "2026-11-06",
+    "updatedISO": "2026-11-06",
+    "readTime": "7 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-youtube-deblokkeren.svg",
+    "imageAlt": "Student kijkt YouTube op smartphone met VPN-verbinding op schoolwifi",
+    "intro": "Is YouTube geblokkeerd op school of werk? Met een VPN deblokkeer je YouTube binnen enkele minuten door je verkeer via een andere server te leiden, zodat de netwerkbeheerder de blokkade niet meer kan afdwingen. In deze gids leggen we per situatie uit welke aanpak het slimst is. Transparantie vooraf: vpnr.nl ontvangt affiliate commissies via sommige links, maar dit beïnvloedt onze beoordeling niet.",
+    "sections": [
+      {
+        "heading": "Waarom is YouTube geblokkeerd op school of werk?",
+        "body": [
+          "Scholen en bedrijven blokkeren YouTube meestal om afleiding te beperken, bandbreedte te sparen en ongepaste content tegen te houden. De blokkade werkt op netwerkniveau: de router of firewall herkent verzoeken naar youtube.com en weigert ze. Omdat het aan het netwerk hangt, geldt de blokkade voor iedereen die met die wifi verbindt.",
+          "In sommige landen gaat het verder dan een schoolregel. Overheden zoals in China en Rusland censureren YouTube op landelijk niveau via geavanceerde firewalls die zelfs VPN-verkeer proberen te detecteren. Daar heb je een VPN met extra technieken nodig om langs de blokkade te komen.",
+          "Een VPN versleutelt je verbinding en leidt het verkeer via een externe server. De netwerkbeheerder ziet dan alleen een versleutelde tunnel en niet dat je naar YouTube gaat. Daardoor wordt de <a href='/blog/vpn-ip-adres-verbergen' class='text-blue-600 hover:underline font-medium'>blokkade op je IP-adres</a> effectief omzeild."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Zo werkt het",
+          "text": "Een VPN verbergt niet alleen je IP-adres, maar maskeert ook welke websites je bezoekt voor de netwerkbeheerder."
+        }
+      },
+      {
+        "heading": "YouTube deblokkeren op schoolwifi",
+        "body": [
+          "Op schoolnetwerken is YouTube vaak streng geblokkeerd en worden ook bekende VPN-servers soms tegengehouden. De slimste oplossing is simpel: gebruik een VPN op je mobiele data in plaats van de schoolwifi. Je omzeilt dan het schoolnetwerk volledig en de beheerder heeft geen controle meer over je verbinding.",
+          "Wil je toch de schoolwifi gebruiken, bijvoorbeeld om je databundel te sparen? Installeer dan vooraf een VPN-app en verbind met een server in Nederland of een buurland. Kies een protocol als WireGuard of een variant met obfuscatie als de standaardverbinding geblokkeerd wordt. Onze <a href='/blog/vpn-protocol-vergelijking' class='text-blue-600 hover:underline font-medium'>protocolvergelijking</a> helpt je kiezen.",
+          "Studenten die geen geld willen uitgeven, kunnen het gratis plan van ProtonVPN overwegen. Dat biedt onbeperkte data zonder tijdslimiet, al zijn de serverlocaties beperkt. Lees meer in onze gids over de <a href='/beste-vpn/voor-studenten' class='text-blue-600 hover:underline font-medium'>beste VPN voor studenten</a>."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Mobiele data is koning",
+          "text": "VPN op je 4G/5G-data omzeilt de schoolwifi volledig en is vaak de betrouwbaarste manier om YouTube te deblokkeren."
+        },
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "YouTube deblokkeren op het werk",
+        "body": [
+          "Op kantoor ligt de situatie gevoeliger. Controleer eerst het bedrijfsbeleid: het omzeilen van beveiliging op bedrijfsapparatuur kan tegen de regels zijn en zelfs arbeidsrechtelijke gevolgen hebben. Gebruik dus nooit een VPN op een laptop of telefoon van de zaak zonder toestemming.",
+          "Op je eigen apparaat met je eigen mobiele data ben je vrij om een VPN te gebruiken, net als op school. Dit is de veiligste route om YouTube in je pauze te bekijken zonder het bedrijfsnetwerk te raken. Voor zakelijke scenario's bestaan ook legitieme oplossingen, zie onze gids over <a href='/blog/vpn-voor-bedrijven' class='text-blue-600 hover:underline font-medium'>VPN voor bedrijven</a>.",
+          "Een VPN gebruiken is in Nederland volledig legaal, ook om geblokkeerde sites te bereiken. Wil je de juridische kant beter begrijpen, lees dan <a href='/blog/vpn-legaal-in-nederland' class='text-blue-600 hover:underline font-medium'>of een VPN legaal is in Nederland</a>."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Let op bedrijfsregels",
+          "text": "Omzeil nooit beveiliging op apparaten van je werkgever. Gebruik je eigen apparaat en eigen data om problemen te voorkomen."
+        }
+      },
+      {
+        "heading": "YouTube deblokkeren in het buitenland (China en Rusland)",
+        "body": [
+          "Reis je naar een land waar YouTube op nationaal niveau geblokkeerd is, zoals China, dan werkt een gewone VPN-verbinding vaak niet. De Great Firewall herkent standaard VPN-verkeer en blokkeert het. Je hebt dan obfuscatie nodig: een techniek die je VPN-verkeer vermomt als normaal internetverkeer.",
+          "Niet elke aanbieder biedt dit. NordVPN heeft geobfusceerde servers en Surfshark biedt een vergelijkbare camouflagemodus. Belangrijk: installeer en test de VPN vóór je vertrekt, omdat de appwinkels in China vaak geblokkeerd zijn. Meer details lees je in onze <a href='/blog/vpn-china-gebruiken' class='text-blue-600 hover:underline font-medium'>gids over VPN gebruiken in China</a>.",
+          "Ook de werking van <a href='/blog/vpn-obfuscatie-uitgelegd' class='text-blue-600 hover:underline font-medium'>obfuscatie</a> leggen we uitgebreid uit. Zonder deze functie kom je in streng gecensureerde landen niet bij YouTube."
+        ],
+        "cta": "surfshark"
+      },
+      {
+        "heading": "Welke VPN-protocollen werken het best?",
+        "body": [
+          "Voor het deblokkeren van YouTube draait alles om snelheid en betrouwbaarheid. WireGuard (bij NordVPN NordLynx genoemd) is razendsnel en ideaal voor vlot streamen. OpenVPN is iets trager maar zeer stabiel en werkt goed als een ander protocol wordt geblokkeerd.",
+          "In landen met strenge censuur schakel je over naar een geobfusceerd protocol. Dit vermomt het verkeer, waardoor firewalls het niet als VPN herkennen. Onderstaande tabel geeft een overzicht van wanneer je welk protocol kiest.",
+          "Wil je YouTube in hoge kwaliteit zonder haperingen? Kies dan een aanbieder met veel servers in de buurt en een snelle verbinding. Onze tips voor een <a href='/blog/vpn-snelheid-verbeteren' class='text-blue-600 hover:underline font-medium'>betere VPN-snelheid</a> helpen daarbij."
+        ],
+        "table": {
+          "headers": [
+            "Situatie",
+            "Beste protocol"
+          ],
+          "rows": [
+            [
+              "School of werk (NL)",
+              "WireGuard / NordLynx"
+            ],
+            [
+              "Instabiele blokkade",
+              "OpenVPN (TCP)"
+            ],
+            [
+              "China / Rusland",
+              "Obfuscatie / camouflage"
+            ],
+            [
+              "Maximale snelheid",
+              "WireGuard"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Gratis of betaald: wat kies je?",
+        "body": [
+          "Een gratis VPN klinkt aantrekkelijk, maar de meeste gratis diensten hebben datalimieten, trage servers en soms twijfelachtige privacypraktijken. Lees waarom in onze uitleg over de <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>gevaren van gratis VPN's</a>.",
+          "De grote uitzondering is ProtonVPN. Het gratis plan biedt onbeperkte data zonder advertenties, wat het een solide keuze maakt voor studenten die alleen YouTube willen deblokkeren. De snelheid en serverkeuze zijn beperkt, maar voor af en toe kijken volstaat het. Bekijk de details in onze <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN review</a>.",
+          "Wie regelmatig in hoge kwaliteit kijkt of naar het buitenland reist, is beter af met een betaald abonnement. Vergelijk prijzen en kortingen in onze <a href='/blog/goedkoopste-vpn-deals' class='text-blue-600 hover:underline font-medium'>VPN-deals</a> om de voordeligste optie te vinden."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Gratis optie",
+          "text": "ProtonVPN is de enige grote gratis VPN met onbeperkte data, ideaal voor studenten die YouTube willen deblokkeren."
+        },
+        "cta": "protonvpn"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is het legaal om YouTube te deblokkeren met een VPN?",
+        "answer": "Ja, in Nederland is het gebruik van een VPN volledig legaal, ook om geblokkeerde websites zoals YouTube te bereiken. Op bedrijfsapparatuur kan het wel tegen interne regels ingaan, dus controleer altijd het beleid van je werkgever of school."
+      },
+      {
+        "question": "Werkt een gratis VPN om YouTube op school te deblokkeren?",
+        "answer": "Gratis VPN's hebben vaak datalimieten en trage servers, waardoor YouTube hapert. ProtonVPN biedt een gratis plan met onbeperkte data en is daarmee de beste gratis optie, al is de serverkeuze beperkt."
+      },
+      {
+        "question": "Waarom werkt mijn VPN niet op de schoolwifi?",
+        "answer": "Sommige schoolnetwerken blokkeren bekende VPN-servers of -poorten. Probeer een ander protocol zoals OpenVPN TCP of schakel obfuscatie in. De betrouwbaarste oplossing is je VPN op je mobiele data gebruiken in plaats van de schoolwifi."
+      },
+      {
+        "question": "Kan ik met een VPN YouTube kijken in China?",
+        "answer": "Ja, maar alleen met een VPN die obfuscatie ondersteunt, zoals NordVPN of Surfshark. Installeer en test de app voordat je vertrekt, omdat de appwinkels in China vaak geblokkeerd zijn."
+      },
+      {
+        "question": "Welk VPN-protocol is het snelst voor YouTube?",
+        "answer": "WireGuard (bij NordVPN NordLynx genoemd) is het snelst en ideaal voor vlot streamen in hoge kwaliteit. Kies alleen voor OpenVPN of obfuscatie als WireGuard wordt geblokkeerd."
+      }
+    ],
+    "relatedProviders": [
+      "nordvpn",
+      "surfshark",
+      "protonvpn"
+    ],
+    "relatedSlugs": [
+      "vpn-china-gebruiken",
+      "beste-vpn-voor-studenten",
+      "gratis-vpn-gevaren"
+    ],
+    "tags": [
+      "youtube deblokkeren",
+      "vpn school",
+      "vpn werk",
+      "youtube geblokkeerd",
+      "vpn censuur",
+      "gratis vpn"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {

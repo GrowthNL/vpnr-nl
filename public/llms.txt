@@ -138,3 +138,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-dedicated-ip-uitgelegd — Dedicated IP VPN uitgelegd: wat is het en heb je het nodig?
 - https://vpnr.nl/blog/vpn-hulu-kijken — Hulu kijken in Nederland met VPN (2026): stap voor stap
 - https://vpnr.nl/blog/vpn-whatsapp-geblokkeerd — WhatsApp geblokkeerd in het buitenland? Zo gebruik je een VPN (2026)
+- https://vpnr.nl/blog/vpn-youtube-deblokkeren — YouTube geblokkeerd op school of werk? Deblokkeer met VPN (2026)
