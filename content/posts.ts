@@ -9714,6 +9714,141 @@ export const posts: BlogPost[] = [
       "zelf vpn opzetten"
     ]
   },
+  {
+    "slug": "vpn-voor-senioren",
+    "title": "VPN voor senioren: de eenvoudigste opties uitgelegd (2026)",
+    "metaTitle": "VPN voor senioren: eenvoudig & veilig in 2026",
+    "metaDescription": "VPN voor senioren en ouderen: welke apps zijn het eenvoudigst en veiligst? Vergelijk de beste opties en lees onze stap-voor-stap installatietips.",
+    "excerpt": "Een VPN voor senioren moet simpel en betrouwbaar zijn. Ontdek de eenvoudigste opties voor ouderen en hoe u er een installeert.",
+    "category": "Gids",
+    "date": "11 november 2026",
+    "dateISO": "2026-11-11",
+    "updatedISO": "2026-11-11",
+    "readTime": "8 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/vpn-voor-senioren.svg",
+    "imageAlt": "Oudere vrouw bekijkt ontspannen een tablet aan de keukentafel met een veilige vpn voor senioren",
+    "intro": "Een VPN voor senioren moet vooral eenvoudig, stabiel en betrouwbaar zijn. In deze gids leggen we uit welke VPN-apps het makkelijkst te gebruiken zijn voor ouderen (65+), hoe u er één installeert voor een familielid en waarom een gratis VPN juist gevaarlijk kan zijn. vpnr.nl is onafhankelijk en ontvangt affiliate commissies als u via onze links een abonnement afsluit, maar dit beïnvloedt onze beoordelingen niet.",
+    "sections": [
+      {
+        "heading": "Waarom senioren juist baat hebben bij een VPN",
+        "body": [
+          "Ouderen zijn een geliefd doelwit voor online oplichters. Phishingmails, nepberichten van de bank en pogingen tot identiteitsdiefstal komen vaak aan bij mensen die minder vertrouwd zijn met digitale valkuilen. Een VPN beschermt niet tegen elke truc, maar versleutelt wel de internetverbinding en maakt het voor kwaadwillenden veel moeilijker om gegevens te onderscheppen.",
+          "Veel senioren gebruiken buitenshuis gratis wifi in het buurthuis, de bibliotheek of het verzorgingstehuis. Juist op zulke <strong>openbare netwerken</strong> is het eenvoudig om meegluren. Een VPN versleutelt al het verkeer, zodat bankieren of mailen ook op onbeveiligd wifi veilig blijft. Lees meer in onze gids over <a href='/blog/vpn-openbaar-wifi' class='text-blue-600 hover:underline font-medium'>VPN op openbaar wifi</a>.",
+          "Daarnaast maakt een VPN internetten iets anoniemer, waardoor er minder gegevens worden verzameld. Voor wie zich zorgen maakt over privacy is dat een geruststellend extraatje."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Groeiend risico",
+          "text": "Ouderen behoren tot de groepen die relatief vaak slachtoffer worden van online fraude en phishing. Een versleutelde verbinding verkleint dat risico."
+        }
+      },
+      {
+        "heading": "Wat maakt een VPN geschikt voor ouderen?",
+        "body": [
+          "Niet elke VPN is even geschikt voor senioren. De belangrijkste eis is eenvoud: een app met een grote, duidelijke verbindingsknop en automatische serverselectie, zodat er geen ingewikkelde keuzes nodig zijn. Eén druk op de knop en de beveiliging staat aan.",
+          "Daarnaast is <strong>goede klantenservice</strong> cruciaal. Idealiter is er een Nederlandstalige helpdesk of 24/7 chat, zodat bij problemen snel iemand kan helpen. Ook stabiliteit telt zwaar: de verbinding moet niet steeds wegvallen of om bevestiging vragen.",
+          "Tot slot is betrouwbaarheid belangrijk. Kies een gevestigde aanbieder met een bewezen <a href='/blog/vpn-no-logs-beleid' class='text-blue-600 hover:underline font-medium'>no-logs beleid</a> en automatische updates, zodat de software zichzelf veilig houdt zonder dat de gebruiker daar iets voor hoeft te doen."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Kies voor automatisch",
+          "text": "Schakel in de instellingen 'automatisch verbinden bij opstarten' in. Zo is de VPN altijd actief zonder dat uw familielid eraan hoeft te denken."
+        }
+      },
+      {
+        "heading": "De eenvoudigste VPN-apps voor senioren vergeleken",
+        "body": [
+          "Drie aanbieders springen eruit qua gebruiksgemak. <strong>CyberGhost</strong> heeft een bijzonder overzichtelijke app met één grote knop en kant-en-klare profielen, ideaal voor wie het simpel wil houden. <strong>NordVPN</strong> combineert gebruiksgemak met topbeveiliging en een snelle helpdesk. <strong>Surfshark</strong> is voordelig en mag op onbeperkt veel apparaten worden gebruikt, handig als meerdere familieleden mee willen profiteren.",
+          "Alle drie bieden Nederlandse interfaces, automatische serverselectie en 24/7 klantenondersteuning via chat. In onze losse reviews van <a href='/vpn-reviews/cyberghost' class='text-blue-600 hover:underline font-medium'>CyberGhost</a> en <a href='/vpn-reviews/nordvpn' class='text-blue-600 hover:underline font-medium'>NordVPN</a> leest u meer over de gebruikservaring."
+        ],
+        "table": {
+          "headers": [
+            "VPN",
+            "Gebruiksgemak",
+            "Klantenservice",
+            "Prijs vanaf"
+          ],
+          "rows": [
+            [
+              "CyberGhost",
+              "Zeer eenvoudig, grote knoppen",
+              "24/7 chat + Nederlands",
+              "± €2,20/mnd"
+            ],
+            [
+              "NordVPN",
+              "Eenvoudig, snelle Quick Connect",
+              "24/7 chat, zeer snel",
+              "± €3,40/mnd"
+            ],
+            [
+              "Surfshark",
+              "Eenvoudig, onbeperkt apparaten",
+              "24/7 chat",
+              "± €2,30/mnd"
+            ]
+          ]
+        },
+        "cta": "cyberghost"
+      },
+      {
+        "heading": "Een VPN installeren voor een ouder of familielid",
+        "body": [
+          "Veel kinderen of kleinkinderen zetten de VPN in één keer klaar voor hun (groot)ouder. Dat is verstandig: zo hoeft de senior zelf niets ingewikkelds te doen. Kies een abonnement, download de app op de telefoon, tablet of laptop en log in met de accountgegevens.",
+          "Schakel vervolgens de belangrijkste instellingen in: automatisch verbinden bij het opstarten, en de <a href='/blog/kill-switch-vpn' class='text-blue-600 hover:underline font-medium'>kill switch</a> die de internetverbinding blokkeert als de VPN wegvalt. Zo is de beveiliging altijd actief, zonder dat uw familielid handmatig iets hoeft te doen.",
+          "Werkt u met een telefoon of tablet, dan helpen onze stap-voor-stap gidsen voor <a href='/blog/vpn-android-instellen' class='text-blue-600 hover:underline font-medium'>Android</a> en <a href='/blog/vpn-iphone-instellen' class='text-blue-600 hover:underline font-medium'>iPhone</a>. Leg daarna rustig uit welke knop de VPN aan- en uitzet, en schrijf dit eventueel op een papiertje."
+        ],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Waarom een gratis VPN voor senioren juist gevaarlijk is",
+        "body": [
+          "Gratis klinkt aantrekkelijk, maar voor senioren is een gratis VPN vaak een slecht idee. Veel gratis diensten verdienen geld door gebruikersgegevens te verzamelen en door te verkopen, precies het tegenovergestelde van wat u wilt. Sommige bevatten zelfs malware of agressieve reclame.",
+          "Bovendien bieden gratis VPN's zelden telefonische of snelle klantenservice, en zijn ze vaak traag en instabiel. Juist bij de doelgroep die online kwetsbaar is, kan dat tot verwarring en risico's leiden. Lees meer over de valkuilen in onze gids over <a href='/blog/gratis-vpn-gevaren' class='text-blue-600 hover:underline font-medium'>gratis VPN-gevaren</a>.",
+          "Een betrouwbare betaalde VPN kost slechts enkele euro's per maand en biedt wél degelijke beveiliging en ondersteuning. Voor de gemoedsrust van u en uw familie is dat een kleine investering."
+        ],
+        "highlight": {
+          "type": "warning",
+          "title": "Let op bij gratis VPN's",
+          "text": "Gratis VPN's verkopen vaak gegevens of bevatten reclame en malware. Voor senioren is een betrouwbaar betaald abonnement de veiligste keuze."
+        }
+      },
+      {
+        "heading": "Ons advies: zo kiest u de juiste VPN voor senioren",
+        "body": [
+          "Voor de meeste ouderen is CyberGhost de meest toegankelijke keuze dankzij de overzichtelijke app met grote knoppen en automatische instellingen. Wilt u de allerbeste beveiliging en snelheid, dan is NordVPN een uitstekende optie. Surfshark is ideaal als meerdere apparaten in het gezin beschermd moeten worden.",
+          "Begin met een abonnement voor een langere periode, want dat is per maand het voordeligst, en maak gebruik van de niet-goed-geld-terug-garantie om risicoloos te testen. Zet alles vooraf klaar en leg de bediening eenvoudig uit.",
+          "Wilt u meer opties naast elkaar zien? Gebruik dan onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijker</a> of bekijk de <a href='/beste-vpn/goedkoop' class='text-blue-600 hover:underline font-medium'>goedkoopste betrouwbare VPN's</a> van dit moment."
+        ],
+        "cta": "cyberghost"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Wat is de makkelijkste VPN voor senioren?",
+        "answer": "CyberGhost geldt als een van de eenvoudigste VPN's dankzij de app met één grote verbindingsknop en automatische serverselectie. Ook NordVPN en Surfshark zijn gebruiksvriendelijk en bieden 24/7 klantenservice."
+      }
+    ],
+    "relatedProviders": [
+      "cyberghost",
+      "nordvpn",
+      "surfshark"
+    ],
+    "relatedSlugs": [
+      "gratis-vpn-gevaren",
+      "vpn-openbaar-wifi",
+      "vpn-voor-kinderen-familie"
+    ],
+    "tags": [
+      "vpn voor senioren",
+      "vpn ouderen",
+      "eenvoudige vpn",
+      "cyberghost",
+      "online veiligheid",
+      "vpn installeren"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {

@@ -140,3 +140,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-whatsapp-geblokkeerd — WhatsApp geblokkeerd in het buitenland? Zo gebruik je een VPN (2026)
 - https://vpnr.nl/blog/vpn-youtube-deblokkeren — YouTube geblokkeerd op school of werk? Deblokkeer met VPN (2026)
 - https://vpnr.nl/blog/vpn-thuis-netwerk-toegang — Eigen VPN thuis instellen voor toegang op afstand (2026)
+- https://vpnr.nl/blog/vpn-voor-senioren — VPN voor senioren: de eenvoudigste opties uitgelegd (2026)
