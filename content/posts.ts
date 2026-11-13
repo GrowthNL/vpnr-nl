@@ -9849,6 +9849,149 @@ export const posts: BlogPost[] = [
       "vpn installeren"
     ]
   },
+  {
+    "slug": "cyberghost-black-friday",
+    "title": "CyberGhost Black Friday 2026: de goedkoopste VPN-deal van het jaar",
+    "metaTitle": "CyberGhost Black Friday 2026: tot 88% korting",
+    "metaDescription": "CyberGhost Black Friday aanbieding 2026: tot 88% korting plus gratis extra maanden en 45 dagen geld-terug. Bekijk de deal en vergelijk met NordVPN.",
+    "excerpt": "CyberGhost Black Friday aanbieding 2026: tot 88% korting, gratis extra maanden en 45 dagen geld-terug-garantie. Alles over de deal.",
+    "category": "Deals",
+    "date": "13 november 2026",
+    "dateISO": "2026-11-13",
+    "updatedISO": "2026-11-13",
+    "readTime": "7 min",
+    "author": "Tim Verhoeven",
+    "image": "/blog/cyberghost-black-friday.svg",
+    "imageAlt": "Laptop met CyberGhost Black Friday korting op het scherm naast een kop koffie op een houten bureau",
+    "intro": "De CyberGhost Black Friday aanbieding is traditioneel een van de scherpste VPN-deals van het jaar, met kortingen tot 88% en extra gratis maanden bovenop het abonnement. In dit artikel lees je precies wat je dit jaar mag verwachten, wanneer de deal live gaat en of CyberGhost de juiste keuze is. Let op: vpnr.nl ontvangt een affiliate commissie wanneer je via onze links een abonnement afsluit, maar dit beïnvloedt onze beoordeling niet.",
+    "sections": [
+      {
+        "heading": "Wat houdt de CyberGhost Black Friday aanbieding in?",
+        "body": [
+          "Tijdens Black Friday zet CyberGhost zijn meerjarenabonnement standaard flink in de uitverkoop. In de afgelopen jaren zagen we kortingen van <strong>84 tot 88 procent</strong> op het 2-jaarpakket, vaak aangevuld met <strong>4 tot 6 gratis extra maanden</strong>. Daarmee komt de effectieve maandprijs rond de twee euro te liggen.",
+          "Het voordeel van CyberGhost zit vooral in die lange looptijd: hoe langer je abonnement, hoe lager de maandprijs. De eenmalige en maandelijkse abonnementen profiteren nauwelijks van de actie, dus de deal is het aantrekkelijkst voor wie langer vooruit wil.",
+          "Een groot pluspunt is de <strong>45 dagen geld-terug-garantie</strong> op het langere abonnement. Dat is ruimer dan de 30 dagen die de meeste concurrenten bieden, waardoor je de dienst risicoloos kunt uitproberen."
+        ],
+        "highlight": {
+          "type": "stat",
+          "title": "Verwachte korting 2026",
+          "text": "Op basis van voorgaande jaren verwachten we 84-88% korting plus enkele gratis maanden op het 2-jaarabonnement."
+        },
+        "cta": "cyberghost"
+      },
+      {
+        "heading": "Wanneer start de Black Friday deal van CyberGhost?",
+        "body": [
+          "Black Friday valt in 2026 op <strong>27 november</strong>. In de praktijk start CyberGhost zijn actie echter vaak al enkele weken eerder, soms begin november, en loopt deze door tot en met Cyber Monday (30 november) of zelfs tot half december.",
+          "Omdat de korting gedurende deze periode meestal stabiel blijft, hoef je niet exact op de drukste dag toe te slaan. Wel geldt: hoe eerder je kiest, hoe meer tijd je hebt om binnen de bedenktijd te testen.",
+          "Wil je andere opties afwegen? Bekijk dan ook onze pagina over de <a href='/blog/goedkoopste-vpn-deals' class='text-blue-600 hover:underline font-medium'>goedkoopste VPN-deals</a> en de <a href='/blog/surfshark-black-friday' class='text-blue-600 hover:underline font-medium'>Surfshark Black Friday actie</a>."
+        ],
+        "highlight": {
+          "type": "tip",
+          "title": "Wacht niet te lang",
+          "text": "De scherpste prijs is meestal al vanaf begin november beschikbaar, dus je hoeft niet tot de laatste dag te wachten."
+        }
+      },
+      {
+        "heading": "CyberGhost vergelijken met NordVPN en Surfshark",
+        "body": [
+          "CyberGhost is tijdens Black Friday vaak een van de goedkoopste aanbieders, maar het loont om de drie grote namen naast elkaar te leggen. NordVPN scoort hoger op snelheid en beveiligingsfuncties, terwijl Surfshark onbeperkt apparaten toestaat op één abonnement.",
+          "Hieronder een indicatieve vergelijking op basis van de verwachte Black Friday prijzen. De exacte bedragen kunnen per jaar iets variëren."
+        ],
+        "table": {
+          "headers": [
+            "Provider",
+            "Verwachte korting",
+            "Geld-terug",
+            "Sterkste punt"
+          ],
+          "rows": [
+            [
+              "CyberGhost",
+              "tot 88%",
+              "45 dagen",
+              "Groot netwerk en streaming"
+            ],
+            [
+              "NordVPN",
+              "tot 72%",
+              "30 dagen",
+              "Snelheid en beveiliging"
+            ],
+            [
+              "Surfshark",
+              "tot 86%",
+              "30 dagen",
+              "Onbeperkt apparaten"
+            ]
+          ]
+        },
+        "body2": [],
+        "cta": "nordvpn"
+      },
+      {
+        "heading": "Is CyberGhost de juiste keuze voor jou?",
+        "body": [
+          "CyberGhost beschikt over een van de grootste servernetwerken ter wereld, met speciale servers die zijn geoptimaliseerd voor <strong>streaming</strong> van diensten als Netflix, Disney+ en BBC iPlayer. Voor wie vooral buitenlandse content wil ontgrendelen is dat een sterk pluspunt.",
+          "De app is overzichtelijk en geschikt voor beginners, en werkt op alle gangbare apparaten. Wil je weten hoe je aan de slag gaat? Lees dan onze gids over de <a href='/beste-vpn/voor-netflix' class='text-blue-600 hover:underline font-medium'>beste VPN voor Netflix</a>.",
+          "Op het gebied van privacy is CyberGhost prima, maar minder gericht op maximale anonimiteit dan bijvoorbeeld <a href='/vpn-reviews/protonvpn' class='text-blue-600 hover:underline font-medium'>ProtonVPN</a>. Zoek je vooral streaming en gemak voor een lage prijs, dan is CyberGhost een uitstekende keuze. Draait het om geavanceerde privacy, kijk dan verder."
+        ],
+        "cta": "cyberghost"
+      },
+      {
+        "heading": "Zo profiteer je veilig van de CyberGhost Black Friday aanbieding",
+        "body": [
+          "Kies tijdens de actie voor het langste abonnement om de laagste maandprijs te krijgen. De CyberGhost Black Friday aanbieding is bijna altijd het voordeligst op het 2-jaarpakket met gratis extra maanden.",
+          "Maak gebruik van de <strong>45 dagen geld-terug-garantie</strong> om de dienst uitgebreid te testen. Werkt streaming niet zoals gehoopt of bevalt de snelheid niet, dan krijg je je geld terug zonder gedoe.",
+          "Twijfel je nog tussen aanbieders? Gebruik onze <a href='/vpn-vergelijken' class='text-blue-600 hover:underline font-medium'>VPN-vergelijker</a> om prijzen en functies naast elkaar te zetten voordat je beslist."
+        ],
+        "highlight": {
+          "type": "info",
+          "title": "Risicoloos proberen",
+          "text": "Met 45 dagen bedenktijd kun je CyberGhost ruim testen en op tijd opzeggen als het niet bevalt."
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Hoeveel korting geeft CyberGhost tijdens Black Friday?",
+        "answer": "In voorgaande jaren bood CyberGhost 84 tot 88 procent korting op het 2-jaarabonnement, vaak aangevuld met enkele gratis extra maanden. Dit brengt de maandprijs rond de twee euro."
+      },
+      {
+        "question": "Wanneer start de CyberGhost Black Friday deal in 2026?",
+        "answer": "Black Friday valt op 27 november 2026, maar CyberGhost start zijn actie meestal al begin november. De deal loopt vaak door tot en met Cyber Monday of half december."
+      },
+      {
+        "question": "Kan ik CyberGhost risicoloos uitproberen?",
+        "answer": "Ja. Op het langere abonnement geldt een geld-terug-garantie van 45 dagen. Je kunt de dienst dus ruim testen en bij ontevredenheid je geld volledig terugvragen."
+      },
+      {
+        "question": "Is CyberGhost beter dan NordVPN tijdens Black Friday?",
+        "answer": "CyberGhost is vaak goedkoper en sterk in streaming, terwijl NordVPN hoger scoort op snelheid en beveiliging. Welke het beste past hangt af van wat je belangrijk vindt."
+      },
+      {
+        "question": "Is CyberGhost geschikt voor streaming?",
+        "answer": "Ja, CyberGhost heeft speciale servers geoptimaliseerd voor streamingdiensten zoals Netflix, Disney+ en BBC iPlayer. Dat maakt het een populaire keuze voor het kijken van buitenlandse content."
+      }
+    ],
+    "relatedProviders": [
+      "cyberghost",
+      "nordvpn",
+      "surfshark"
+    ],
+    "relatedSlugs": [
+      "goedkoopste-vpn-deals",
+      "surfshark-black-friday",
+      "cyberghost-korting"
+    ],
+    "tags": [
+      "cyberghost black friday",
+      "vpn deals",
+      "black friday vpn",
+      "vpn korting",
+      "goedkope vpn"
+    ]
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
