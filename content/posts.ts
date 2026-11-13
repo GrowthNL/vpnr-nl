@@ -9926,7 +9926,6 @@ export const posts: BlogPost[] = [
             ]
           ]
         },
-        "body2": [],
         "cta": "nordvpn"
       },
       {
