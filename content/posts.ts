@@ -399,22 +399,22 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'goedkoopste-vpn-deals',
-    title: 'De goedkoopste VPN-deals van oktober 2026',
-    metaTitle: 'Goedkoopste VPN-deals oktober 2026 | Beste Aanbiedingen & Kortingen | vpnr.nl',
-    metaDescription: 'Overzicht van de beste VPN-aanbiedingen van oktober 2026. Bespaar tot 87% met de juiste deal. Inclusief onze eerlijke beoordeling per budget en tips voor de laagste prijs.',
-    excerpt: 'Een overzicht van de beste VPN-aanbiedingen van oktober 2026. Bespaar tot 87% met onze verzamelde deals en ontdek welke VPN de beste prijs-kwaliteit biedt.',
+    title: 'De goedkoopste VPN-deals van november 2026',
+    metaTitle: 'Goedkoopste VPN-deals november 2026 | Beste Aanbiedingen & Kortingen | vpnr.nl',
+    metaDescription: 'Overzicht van de beste VPN-aanbiedingen van november 2026. Bespaar tot 87% met de juiste deal. Inclusief onze eerlijke beoordeling per budget en tips voor de laagste prijs.',
+    excerpt: 'Een overzicht van de beste VPN-aanbiedingen van november 2026. Bespaar tot 87% met onze verzamelde deals en ontdek welke VPN de beste prijs-kwaliteit biedt.',
     category: 'Deals',
     date: '10 september 2026',
     dateISO: '2026-09-10',
-    updatedISO: '2026-10-08',
+    updatedISO: '2026-11-13',
     readTime: '3 min',
     author: 'Tim Verhoeven',
     image: '/blog/goedkoopste-vpn-deals.jpg',
     imageAlt: 'Goedkope VPN deals 2026, kortingssymbolen in donkerblauwe digitale omgeving',
-    intro: 'Een goede VPN hoeft helemaal niet duur te zijn. Met de juiste deal betaal je soms minder dan €2 per maand voor premium bescherming van topmerken. Dit zijn de beste VPN-aanbiedingen van oktober 2026, van budgetvriendelijk tot premium.',
+    intro: 'Een goede VPN hoeft helemaal niet duur te zijn. Met de juiste deal betaal je soms minder dan €2 per maand voor premium bescherming van topmerken. Dit zijn de beste VPN-aanbiedingen van november 2026, van budgetvriendelijk tot premium.',
     sections: [
       {
-        heading: 'De beste VPN-aanbiedingen van oktober 2026',
+        heading: 'De beste VPN-aanbiedingen van november 2026',
         body: [
           'De grootste kortingen zitten in 2-jaarsabonnementen van gerenommeerde aanbieders. <a href="/vpn-reviews/surfshark" class="text-blue-600 hover:underline font-medium">Surfshark</a> is op dit moment de goedkoopste premium VPN: al vanaf <strong>€1,99/maand</strong> bij het 2-jaarsabonnement, inclusief 3 maanden gratis. <a href="/vpn-reviews/nordvpn" class="text-blue-600 hover:underline font-medium">NordVPN</a> start bij <strong>€3,39/maand</strong> voor 2 jaar.',
           '<a href="/vpn-reviews/cyberghost" class="text-blue-600 hover:underline font-medium">CyberGhost</a> biedt met <strong>€2,19/maand</strong> het grootste servernetwerk van 11.500+ servers én de langste geld-terug-garantie: 45 dagen. <a href="/vpn-reviews/purevpn" class="text-blue-600 hover:underline font-medium">PureVPN</a> is met €1,99/maand een goedkope tweede optie met door KPMG gecertificeerd no-logs-beleid.',
@@ -478,7 +478,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         question: 'Wat is de goedkoopste betrouwbare VPN?',
-        answer: 'Surfshark en PureVPN zijn in oktober 2026 beide de goedkoopste premium VPN\'s: vanaf €1,99/maand bij een 2-jaarsabonnement. Surfshark heeft onbeperkt apparaten; PureVPN heeft een door KPMG gecertificeerd no-logs-beleid. CyberGhost (€2,19/mnd) is een goede derde met het grootste servernetwerk.',
+        answer: 'Surfshark en PureVPN zijn in november 2026 beide de goedkoopste premium VPN\'s: vanaf €1,99/maand bij een 2-jaarsabonnement. Surfshark heeft onbeperkt apparaten; PureVPN heeft een door KPMG gecertificeerd no-logs-beleid. CyberGhost (€2,19/mnd) is een goede derde met het grootste servernetwerk.',
       },
       {
         question: 'Zijn VPN-aanbiedingen te goed om waar te zijn?',
@@ -486,7 +486,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: 'Wanneer zijn VPN-abonnementen het goedkoopst?',
-        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80–90% korting. De huidige najaarsdeals (september–oktober) zijn al sterk. Met Black Friday (27 november) in zicht komen er nog scherpere aanbiedingen aan. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
+        answer: 'Black Friday (laatste vrijdag van november) en Cyber Monday brengen de laagste prijzen van het jaar, vaak 80–90% korting. De huidige november-deals zijn al erg scherp. Met Black Friday nu vlak om de hoek kunnen er nog iets scherpere aanbiedingen aankomen. Abonneer je op de nieuwsbrief van je favoriete VPN om als eerste op de hoogte te zijn.',
       },
       {
         question: 'Is een gratis VPN veilig?',
@@ -495,7 +495,7 @@ export const posts: BlogPost[] = [
     ],
     relatedProviders: ['surfshark', 'nordvpn', 'cyberghost'],
     relatedSlugs: ['surfshark-korting', 'nordvpn-korting', 'vpn-buitenland-gebruiken'],
-    tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting oktober 2026', 'vpn black friday 2026'],
+    tags: ['goedkope VPN', 'VPN deals 2026', 'beste VPN aanbieding', 'VPN korting november 2026', 'vpn black friday 2026'],
   },
   // ─── POST 7: VPN op Android ───────────────────────────────────────────────
   {
@@ -824,31 +824,31 @@ export const posts: BlogPost[] = [
   // ─── AUTO-GEGENEREERD ────────────────────────────────────────────
   {
     slug: "nordvpn-korting",
-    title: "NordVPN korting oktober 2026: actuele deals en aanbiedingen",
-    metaTitle: "NordVPN korting oktober 2026: bespaar tot 74% vandaag",
-    metaDescription: "Actuele NordVPN korting en deals voor oktober 2026. Ontdek de beste aanbiedingen, vergelijk prijzen en bespaar tot 74% op je VPN-abonnement.",
-    excerpt: "Ontdek de actuele NordVPN kortingen voor oktober 2026 en bespaar tot 74% op je abonnement met onze exclusieve deals.",
+    title: "NordVPN korting november 2026: actuele deals en aanbiedingen",
+    metaTitle: "NordVPN korting november 2026: bespaar tot 74% vandaag",
+    metaDescription: "Actuele NordVPN korting en deals voor november 2026. Ontdek de beste aanbiedingen, vergelijk prijzen en bespaar tot 74% op je VPN-abonnement.",
+    excerpt: "Ontdek de actuele NordVPN kortingen voor november 2026 en bespaar tot 74% op je abonnement met onze exclusieve deals.",
     category: "Deals",
     date: "7 september 2026",
     dateISO: "2026-09-07",
-    updatedISO: "2026-10-08",
+    updatedISO: "2026-11-13",
     readTime: "6 min",
     author: "Tim Verhoeven",
     image: "/blog/nordvpn-korting.jpg",
     imageAlt: "NordVPN korting 2026, donkerblauw tech concept met kortingspercentage symbool",
-    intro: "Zoek je de beste NordVPN korting voor oktober 2026? Je betaalt al snel te veel als je zonder deal een VPN afsluit. In dit artikel vind je alle actuele aanbiedingen, exclusieve kortingscodes en slimme bespaartips om NordVPN voor de laagste prijs te krijgen.",
+    intro: "Zoek je de beste NordVPN korting voor november 2026? Je betaalt al snel te veel als je zonder deal een VPN afsluit. In dit artikel vind je alle actuele aanbiedingen, exclusieve kortingscodes en slimme bespaartips om NordVPN voor de laagste prijs te krijgen.",
     sections: [
       {
-        heading: "Wat is de huidige NordVPN korting in oktober 2026?",
+        heading: "Wat is de huidige NordVPN korting in november 2026?",
         body: [
-          "De huidige NordVPN korting in oktober 2026 bedraagt tot <strong>74% korting</strong> op het 2-jarig abonnement, plus 3 maanden gratis. Dit betekent dat je €2,99 per maand betaalt in plaats van de reguliere maandprijs van €11,99.",
+          "De huidige NordVPN korting in november 2026 bedraagt tot <strong>74% korting</strong> op het 2-jarig abonnement, plus 3 maanden gratis. Dit betekent dat je €2,99 per maand betaalt in plaats van de reguliere maandprijs van €11,99.",
           "NordVPN past zijn prijzen regelmatig aan op basis van seizoensgebonden acties. De beste deals verschijnen meestal rond Black Friday, Cyber Monday en de zomerperiode. Op dit moment loopt de najaarsactie, traditioneel de laatste grote campagne voor Black Friday in november.",
           "Let op: deze korting geldt alleen voor nieuwe klanten. Bestaande gebruikers kunnen soms profiteren van verlengingskortingen via de NordVPN-app of via speciale e-mailaanbiedingen."
         ],
         highlight: {
           type: "stat",
           title: "Actuele besparing",
-          text: "Met de oktober 2026-deal bespaar je €243,72 over 2 jaar vergeleken met maandelijkse betalingen."
+          text: "Met de november 2026-deal bespaar je €243,72 over 2 jaar vergeleken met maandelijkse betalingen."
         },
         cta: "nordvpn"
       },
@@ -902,7 +902,7 @@ export const posts: BlogPost[] = [
         body: [
           "De beste NordVPN-aanbiedingen verschijnen tijdens <strong>Black Friday</strong> (november), <strong>Cyber Monday</strong> en de <strong>zomeruitverkoop</strong> (juni-juli). Tijdens deze periodes stijgen kortingen soms tot 77% met extra gratis maanden.",
           "NordVPN lanceert ook regelmatig flash sales die slechts 24-48 uur duren. Deze worden aangekondigd via de nieuwsbrief en sociale media. Schrijf je in voor de NordVPN-nieuwsbrief om geen deal te missen.",
-          "Wacht je op Black Friday in november? De huidige oktober-korting van 74% zit al dicht bij de Black Friday-prijzen. Het verschil bedraagt historisch gezien slechts 2-3%, terwijl je nu al 30 dagen geld-terug-garantie hebt."
+          "Wacht je op Black Friday later deze maand? De huidige november-korting van 74% zit al dicht bij de verwachte Black Friday-prijzen. Het verschil bedraagt historisch gezien slechts 2-3%, terwijl je nu al 30 dagen geld-terug-garantie hebt."
         ],
         highlight: {
           type: "info",
@@ -922,7 +922,7 @@ export const posts: BlogPost[] = [
     ],
     faqs: [
       {
-        question: "Hoe lang is de NordVPN korting van oktober 2026 geldig?",
+        question: "Hoe lang is de NordVPN korting van november 2026 geldig?",
         answer: "De huidige NordVPN-actie met 74% korting loopt tot het begin van de Black Friday-periode in november 2026. Daarna volgt normaal een vergelijkbare of soms iets scherpere Black Friday-deal."
       },
       {
@@ -1662,31 +1662,31 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'surfshark-korting',
-    title: 'Surfshark korting oktober 2026, bespaar tot 87% op je abonnement',
-    metaTitle: 'Surfshark Korting Oktober 2026, Actuele Deals & Aanbiedingen',
-    metaDescription: 'Actuele Surfshark korting voor oktober 2026. Bespaar tot 87% op het 2-jarig abonnement + 3 maanden gratis. Vergelijk plannen en activeer de beste deal vandaag.',
-    excerpt: 'Ontdek de actuele Surfshark kortingen voor oktober 2026 en bespaar tot 87% op je abonnement, inclusief onbeperkt apparaten voor minder dan €2,50 per maand.',
+    title: 'Surfshark korting november 2026, bespaar tot 87% op je abonnement',
+    metaTitle: 'Surfshark Korting November 2026, Actuele Deals & Aanbiedingen',
+    metaDescription: 'Actuele Surfshark korting voor november 2026. Bespaar tot 87% op het 2-jarig abonnement + 3 maanden gratis. Vergelijk plannen en activeer de beste deal vandaag.',
+    excerpt: 'Ontdek de actuele Surfshark kortingen voor november 2026 en bespaar tot 87% op je abonnement, inclusief onbeperkt apparaten voor minder dan €2,50 per maand.',
     category: 'Deals',
     date: '7 september 2026',
     dateISO: '2026-09-07',
-    updatedISO: '2026-10-08',
+    updatedISO: '2026-11-13',
     readTime: '6 min',
     author: 'Tim Verhoeven',
     image: '/blog/surfshark-korting.jpg',
     imageAlt: 'Surfshark korting 2026, teal VPN app interface met kortingspercentage en schildlogo',
-    intro: 'Surfshark is al jaren een van de voordeligste premium VPN\'s, maar met de juiste korting wordt het nóg aantrekkelijker. In oktober 2026 biedt Surfshark tot 87% korting op het tweejarig abonnement, inclusief 3 extra maanden gratis. In dit artikel vind je alle actuele deals, een vergelijking van de abonnementen en praktische tips om zeker de laagste prijs te pakken.',
+    intro: 'Surfshark is al jaren een van de voordeligste premium VPN\'s, maar met de juiste korting wordt het nóg aantrekkelijker. In november 2026 biedt Surfshark tot 87% korting op het tweejarig abonnement, inclusief 3 extra maanden gratis. In dit artikel vind je alle actuele deals, een vergelijking van de abonnementen en praktische tips om zeker de laagste prijs te pakken.',
     sections: [
       {
-        heading: 'Wat is de huidige Surfshark korting in oktober 2026?',
+        heading: 'Wat is de huidige Surfshark korting in november 2026?',
         body: [
-          'De actuele Surfshark korting in oktober 2026 bedraagt tot <strong>87% op het 2-jarig abonnement</strong>, plus 3 maanden gratis. Daarmee kom je uit op <strong>€1,99 per maand</strong> (Starter-plan) voor een totaalperiode van 27 maanden.',
+          'De actuele Surfshark korting in november 2026 bedraagt tot <strong>87% op het 2-jarig abonnement</strong>, plus 3 maanden gratis. Daarmee kom je uit op <strong>€1,99 per maand</strong> (Starter-plan) voor een totaalperiode van 27 maanden.',
           'Surfshark past zijn aanbiedingen meerdere keren per jaar aan, met de grootste kortingen rond de zomer, Black Friday en Nieuwjaar. De huidige najaarsactie is historisch gezien een van de sterkste buiten Black Friday en loopt naar verwachting tot begin november 2026.',
           'Let op: de scherpe introductieprijs geldt voor de eerste abonnementsperiode. Bij automatische verlenging na 2 jaar gelden de reguliere tarieven. Plan vooruit en stap in tijdens de actieperiode om maximaal te besparen.',
         ],
         highlight: {
           type: 'stat',
           title: 'Actuele besparing',
-          text: 'Met de oktober 2026-deal betaal je €53,73 voor 27 maanden in plaats van €416,65 bij maandelijks betalen, een besparing van ruim €360.',
+          text: 'Met de november 2026-deal betaal je €53,73 voor 27 maanden in plaats van €416,65 bij maandelijks betalen, een besparing van ruim €360.',
         },
         cta: 'surfshark',
       },
@@ -1720,7 +1720,7 @@ export const posts: BlogPost[] = [
         },
       },
       {
-        heading: 'Surfshark vs. NordVPN: welke deal is beter in oktober 2026?',
+        heading: 'Surfshark vs. NordVPN: welke deal is beter in november 2026?',
         body: [
           'Surfshark en NordVPN zijn de twee populairste VPN\'s voor Nederlandse gebruikers. Op prijs wint Surfshark duidelijk: €1,99/maand tegenover €3,39/maand bij NordVPN. Maar er zijn meer verschillen om rekening mee te houden.',
           '<a href="/vpn-reviews/nordvpn">NordVPN</a> is sneller (NordLynx-protocol) en heeft een groter servernetwerk (6.400+ vs. 3.200+). Surfshark compenseert dat met onbeperkt apparaten en een lagere prijs. Ben je niet de enige gebruiker of heb je meerdere apparaten? Dan is Surfshark vrijwel altijd de slimmere keuze.',
@@ -1755,14 +1755,14 @@ export const posts: BlogPost[] = [
         body: [
           'Surfshark levert voor €1,99 per maand een volwaardige premium VPN die je complete netwerk beschermt, van laptop tot smart-tv, zonder limiet op het aantal apparaten. Dat maakt het een van de beste prijs-kwaliteitsopties op de markt.',
           'In onze tests scoort Surfshark een <strong>9.2/10 overall</strong>: uitstekend op beveiliging (AES-256, kill switch, no-logs), solide snelheden via WireGuard en betrouwbare deblokkering van Netflix, Disney+ en Videoland. Lees de volledige <a href="/vpn-reviews/surfshark">Surfshark review</a> voor alle testresultaten.',
-          'Voor gezinnen, huishoudens met veel apparaten of iedereen die op prijs let, is dit de sterkste VPN-deal in oktober 2026. Het tweejarig plan met 3 maanden gratis is het meest voordelig en dekt je tot het derde kwartaal van 2028.',
+          'Voor gezinnen, huishoudens met veel apparaten of iedereen die op prijs let, is dit de sterkste VPN-deal in november 2026. Het tweejarig plan met 3 maanden gratis is het meest voordelig en dekt je tot het derde kwartaal van 2028.',
         ],
         cta: 'surfshark',
       },
     ],
     faqs: [
       {
-        question: 'Hoe lang is de Surfshark korting van oktober 2026 geldig?',
+        question: 'Hoe lang is de Surfshark korting van november 2026 geldig?',
         answer: 'De huidige actie met 87% korting en 3 maanden gratis loopt naar verwachting tot begin november 2026, waarna de Black Friday-campagne start. Die is soms iets scherper, maar het verschil is minimaal.',
       },
       {
@@ -7118,7 +7118,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN poort forwarding uitleg: wat het is, waarvoor je het gebruikt en welke VPN's het bieden. Ontdek de beste keuze voor torrenten en gaming.",
     "excerpt": "VPN poort forwarding uitleg voor 2026: snellere torrents, thuisservers bereiken en gameservers hosten. Lees welke VPN's port forwarding ondersteunen.",
     "category": "Uitleg",
-    "date": "2 oktober 2026",
+    "date": "2 november 2026",
     "dateISO": "2026-10-02",
     "updatedISO": "2026-10-02",
     "readTime": "8 min",
@@ -7270,7 +7270,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "ProtonVPN korting aanbieding 2026: jaarabonnement vanaf ~€4,99/mnd (50% korting). Ontdek de beste deal en wanneer je het meeste bespaart.",
     "excerpt": "ProtonVPN korting 2026: bespaar tot 50% op de meest privacyvriendelijke VPN. Bekijk de actuele aanbieding, prijzen en vergelijking.",
     "category": "Deals",
-    "date": "5 oktober 2026",
+    "date": "5 november 2026",
     "dateISO": "2026-10-05",
     "updatedISO": "2026-10-05",
     "readTime": "7 min",
@@ -7416,7 +7416,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN vs Tor browser verschil uitgelegd: snelheid, anonimiteit, voor- en nadelen. Ontdek wanneer je welke tool kiest. Lees het complete overzicht.",
     "excerpt": "VPN vs Tor browser verschil: wat is sneller, wat is anoniemer en wanneer kies je wat? Een eerlijk overzicht voor Nederlandse gebruikers.",
     "category": "Uitleg",
-    "date": "7 oktober 2026",
+    "date": "7 november 2026",
     "dateISO": "2026-10-07",
     "updatedISO": "2026-10-07",
     "readTime": "8 min",
@@ -7572,7 +7572,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN kopen als beginner in 2026? Ontdek in deze gids welke criteria tellen, wat je nodig hebt en de beste VPN per budget. Lees verder.",
     "excerpt": "Een VPN kopen als beginner? Deze gids legt stap voor stap uit waar je op let en welke VPN past bij jouw budget in 2026.",
     "category": "Gids",
-    "date": "9 oktober 2026",
+    "date": "9 november 2026",
     "dateISO": "2026-10-09",
     "updatedISO": "2026-10-09",
     "readTime": "8 min",
@@ -7721,7 +7721,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN snelheid test vergelijken in 2026: ontdek welke VPN het snelst is via Nederlandse servers. Download, upload en ping getest. Bekijk de winnaar!",
     "excerpt": "VPN snelheid test vergelijken in 2026: wij testten de snelste VPN's via Nederlandse servers op download, upload en ping. Zie de resultaten.",
     "category": "Vergelijking",
-    "date": "12 oktober 2026",
+    "date": "12 november 2026",
     "dateISO": "2026-10-12",
     "updatedISO": "2026-10-12",
     "readTime": "7 min",
@@ -7871,7 +7871,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN reisrouter apparaten beveiligen in één keer? Ontdek hoe je NordVPN of Surfshark op een GL.iNet reisrouter instelt. Complete gids met tips.",
     "excerpt": "Beveilig al je apparaten tegelijk met een VPN reisrouter. Zo stel je NordVPN of Surfshark in op een GL.iNet reisrouter zonder losse apps.",
     "category": "Gids",
-    "date": "14 oktober 2026",
+    "date": "14 november 2026",
     "dateISO": "2026-10-14",
     "updatedISO": "2026-10-14",
     "readTime": "8 min",
@@ -8021,7 +8021,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN kopen checklist met tips: no-logs, AES-256, kill switch en rode vlaggen. Vergelijk slim en kies in 2026 de juiste VPN. Bekijk de checklist.",
     "excerpt": "Een complete vpn kopen checklist met tips: ontdek waar je op moet letten qua privacy, encryptie en snelheid, plus rode vlaggen die je moet vermijden.",
     "category": "Gids",
-    "date": "16 oktober 2026",
+    "date": "16 november 2026",
     "dateISO": "2026-10-16",
     "updatedISO": "2026-10-16",
     "readTime": "8 min",
@@ -8175,7 +8175,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN browser extensie verschil: beschermt alleen je browser, de app beschermt alles. Ontdek wanneer je wat nodig hebt. Lees de complete gids.",
     "excerpt": "Wat is het vpn browser extensie verschil met een volledige app? Ontdek wanneer een extensie voldoet en wanneer je echt de app nodig hebt.",
     "category": "Uitleg",
-    "date": "19 oktober 2026",
+    "date": "19 november 2026",
     "dateISO": "2026-10-19",
     "updatedISO": "2026-10-19",
     "readTime": "7 min",
@@ -8336,7 +8336,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "Een VPN houdt je kinderen en familie veilig online. Ontdek de beste gezins-VPN's van 2026, instellen op alle apparaten en bescherming tegen schadelijke content.",
     "excerpt": "Wil je je kinderen en familie veilig online houden? Ontdek hoe een VPN beschermt tegen schadelijke content en onveilige wifi, plus de beste opties voor 2026.",
     "category": "Gids",
-    "date": "21 oktober 2026",
+    "date": "21 november 2026",
     "dateISO": "2026-10-21",
     "updatedISO": "2026-10-21",
     "readTime": "8 min",
@@ -8482,7 +8482,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "VPN vs proxy verschil uitgelegd: een proxy verbergt je IP, een VPN versleutelt alles. Ontdek wanneer je wat gebruikt en wat veiliger is.",
     "excerpt": "VPN vs proxy verschil helder uitgelegd: wat doet een proxy, wat doet een VPN en wanneer kies je welke oplossing voor privacy?",
     "category": "Uitleg",
-    "date": "23 oktober 2026",
+    "date": "23 november 2026",
     "dateISO": "2026-10-23",
     "updatedISO": "2026-10-23",
     "readTime": "7 min",
@@ -8647,7 +8647,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "BBC iPlayer Nederland kijken? Met deze stap-voor-stap gids via VPN kijk je gratis Doctor Who en Sherlock. Inclusief UK-postcode truc en fixes.",
     "excerpt": "BBC iPlayer Nederland kijken lukt alleen met een Brits IP-adres. Zo stel je je VPN in, maak je een gratis account aan en los je foutmeldingen op.",
     "category": "Gids",
-    "date": "26 oktober 2026",
+    "date": "26 november 2026",
     "dateISO": "2026-10-26",
     "updatedISO": "2026-10-26",
     "readTime": "7 min",
@@ -8794,7 +8794,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "Xbox VPN instellen zonder native app? Ontdek 3 bewezen methoden via pc, router of Mac. Inclusief gaming-tips en de beste VPN-keuze voor 2026.",
     "excerpt": "Xbox VPN instellen zonder app? Met deze 3 methoden (pc-hotspot, router of Mac) stel je in 2026 eenvoudig een VPN in op je Xbox Series X/S of Xbox One.",
     "category": "Gids",
-    "date": "28 oktober 2026",
+    "date": "28 november 2026",
     "dateISO": "2026-10-28",
     "updatedISO": "2026-10-28",
     "readTime": "8 min",
@@ -8943,7 +8943,7 @@ export const posts: BlogPost[] = [
     "metaDescription": "Dedicated IP VPN uitleg: ontdek het verschil met een gedeeld IP, de voor- en nadelen en of jij deze add-on in 2026 echt nodig hebt.",
     "excerpt": "Dedicated IP VPN uitleg: wat is een vast IP-adres, wat zijn de voordelen en nadelen en heb je het echt nodig in 2026?",
     "category": "Uitleg",
-    "date": "30 oktober 2026",
+    "date": "30 november 2026",
     "dateISO": "2026-10-30",
     "updatedISO": "2026-10-30",
     "readTime": "7 min",
