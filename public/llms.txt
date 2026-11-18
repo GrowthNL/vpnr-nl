@@ -143,3 +143,4 @@ https://vpnr.nl/sitemap.xml
 - https://vpnr.nl/blog/vpn-voor-senioren — VPN voor senioren: de eenvoudigste opties uitgelegd (2026)
 - https://vpnr.nl/blog/cyberghost-black-friday — CyberGhost Black Friday 2026: de goedkoopste VPN-deal van het jaar
 - https://vpnr.nl/blog/vpn-voor-expats-buitenland — VPN voor expats: Nederlandse sites & TV kijken vanuit buitenland (2026)
+- https://vpnr.nl/blog/vpn-gedeeld-vs-dedicated-ip — Gedeeld vs dedicated IP bij VPN: het verschil uitgelegd (2026)
